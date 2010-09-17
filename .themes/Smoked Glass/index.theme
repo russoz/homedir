@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Smoked Glass
+Type=X-GNOME-Metatheme
+Comment=A dark, glossy theme.
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Smoked Glass
+MetacityTheme=Smoked Glass
+IconTheme=Industrial

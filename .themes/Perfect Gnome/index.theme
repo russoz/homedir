@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Perfect Gnome
+Type=X-GNOME-Metatheme
+Comment=
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Perfect Gnome
+MetacityTheme=Perfect Gnome
+IconTheme=Tango

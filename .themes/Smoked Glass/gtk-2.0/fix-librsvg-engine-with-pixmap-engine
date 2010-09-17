@@ -1,0 +1,5 @@
+#Written by w-Tarchalski :Creator of the Ana svg/gtk theme.
+style "fix-librsvg-engine-with-pixmap-engine"
+{
+	engine "pixmap" {}
+}

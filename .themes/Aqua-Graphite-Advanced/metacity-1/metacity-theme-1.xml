@@ -1,0 +1,614 @@
+<?xml version="1.0"?>
+<metacity_theme>
+	<info>
+	  <name>Aqua-Advanced</name>
+	  <author>bvc</author>
+	  <copyright>GPL</copyright>
+	  <date>January 2006</date>
+	  <description>null</description>
+	</info>
+
+	<frame_geometry name="normal" rounded_top_left="true" rounded_top_right="true" rounded_bottom_left="false" rounded_bottom_right="false" title_scale="medium">
+	  <distance name="left_width" value="3"/>
+	  <distance name="right_width" value="3"/>
+	  <distance name="bottom_height" value="3"/>
+	  <distance name="left_titlebar_edge" value="3"/>
+	  <distance name="right_titlebar_edge" value="5"/>
+	  <distance name="title_vertical_pad" value="0"/>
+	  <border name="title_border" left="2" right="5" top="1" bottom="0"/>
+	  <border name="button_border" left="4" right="0" top="2" bottom="2"/>
+	  <distance name="button_width" value="19"/>
+  	  <distance name="button_height" value="19"/>
+	</frame_geometry>
+
+	<frame_geometry name="shaded" rounded_top_left="true" rounded_top_right="true" rounded_bottom_left="false" rounded_bottom_right="false" title_scale="medium">
+	  <distance name="left_width" value="3"/>
+	  <distance name="right_width" value="3"/>
+	  <distance name="bottom_height" value="3"/>
+	  <distance name="left_titlebar_edge" value="3"/>
+	  <distance name="right_titlebar_edge" value="5"/>
+	  <distance name="title_vertical_pad" value="0"/>
+	  <border name="title_border" left="2" right="5" top="1" bottom="0"/>
+	  <border name="button_border" left="4" right="0" top="2" bottom="2"/>
+	  <distance name="button_width" value="19"/>
+  	  <distance name="button_height" value="19"/>
+	</frame_geometry>
+
+	<frame_geometry name="utility" rounded_top_left="true" rounded_top_right="true" rounded_bottom_left="false" rounded_bottom_right="false" title_scale="medium">
+	  <distance name="left_width" value="3"/>
+	  <distance name="right_width" value="3"/>
+	  <distance name="bottom_height" value="3"/>
+	  <distance name="left_titlebar_edge" value="3"/>
+	  <distance name="right_titlebar_edge" value="5"/>
+	  <distance name="title_vertical_pad" value="0"/>
+	  <border name="title_border" left="2" right="5" top="1" bottom="0"/>
+	  <border name="button_border" left="4" right="0" top="2" bottom="2"/>
+	  <distance name="button_width" value="19"/>
+  	  <distance name="button_height" value="19"/>
+	</frame_geometry>
+
+	<frame_geometry name="border" has_title="false">
+	  <distance name="left_width" value="3"/>
+	  <distance name="right_width" value="3"/>
+	  <distance name="bottom_height" value="3"/>
+	  <distance name="left_titlebar_edge" value="0"/>
+	  <distance name="right_titlebar_edge" value="0"/>
+	  <distance name="button_width" value="0"/>
+	  <distance name="button_height" value="0"/>
+	  <distance name="title_vertical_pad" value="3"/>
+	  <border name="title_border" left="0" right="0" top="0" bottom="0"/>
+	  <border name="button_border" left="0" right="0" top="0" bottom="0"/>
+	</frame_geometry>
+
+	<frame_geometry name="maximized" rounded_top_left="false" rounded_top_right="false" rounded_bottom_left="false" rounded_bottom_right="false" title_scale="medium">
+	  <distance name="left_width" value="0"/>
+	  <distance name="right_width" value="0"/>
+	  <distance name="bottom_height" value="0"/>
+	  <distance name="left_titlebar_edge" value="0"/>
+	  <distance name="right_titlebar_edge" value="0"/>
+	  <distance name="title_vertical_pad" value="0"/>
+	  <border name="title_border" left="2" right="5" top="1" bottom="0"/>
+	  <border name="button_border" left="4" right="0" top="2" bottom="2"/>
+	  <distance name="button_width" value="19"/>
+  	  <distance name="button_height" value="19"/>
+	</frame_geometry>
+
+	<frame_geometry name="maximized_shaded" rounded_top_left="false" rounded_top_right="false" rounded_bottom_left="false" rounded_bottom_right="false" title_scale="medium">
+	  <distance name="left_width" value="0"/>
+	  <distance name="right_width" value="0"/>
+	  <distance name="bottom_height" value="0"/>
+	  <distance name="left_titlebar_edge" value="0"/>
+	  <distance name="right_titlebar_edge" value="0"/>
+	  <distance name="title_vertical_pad" value="0"/>
+	  <border name="title_border" left="2" right="5" top="1" bottom="0"/>
+	  <border name="button_border" left="4" right="0" top="2" bottom="2"/>
+	  <distance name="button_width" value="19"/>
+  	  <distance name="button_height" value="19"/>
+	</frame_geometry>
+
+	<!-- Titlebar -->
+	<draw_ops name="bg_active">
+		<gradient type="vertical" x="0" y="0" width="width" height="height / 2">
+			<color value="blend/white/gtk:bg[NORMAL]/0.6"/>
+			<color value="blend/white/gtk:bg[NORMAL]/1.0"/>
+		</gradient>
+		 <line color="blend/black/gtk:bg[NORMAL]/0.9" width="1" x1="0" y1="0" x2="2" y2="0"/>
+		 <line color="blend/white/gtk:bg[NORMAL]/0.4" width="1" x1="2" y1="0" x2="width" y2="0"/>
+		 <line color="blend/white/gtk:bg[NORMAL]/0.6" width="1" x1="0" y1="1" x2="width" y2="1"/>
+	</draw_ops>
+
+	<draw_ops name="bg_active_shaded">
+		<gradient type="vertical" x="0" y="0" width="width" height="height / 2">
+			<color value="blend/white/gtk:bg[NORMAL]/0.6"/>
+			<color value="blend/white/gtk:bg[NORMAL]/1.0"/>
+		</gradient>
+		 <line color="blend/black/gtk:bg[NORMAL]/0.9" width="1" x1="0" y1="0" x2="2" y2="0"/>
+		  <line color="blend/white/gtk:bg[NORMAL]/0.4" width="1" x1="0" y1="height - 2" x2="width" y2="height - 2"/>
+		 <line color="blend/white/gtk:bg[NORMAL]/0.4" width="1" x1="2" y1="0" x2="width" y2="0"/>
+		 <line color="blend/white/gtk:bg[NORMAL]/0.6" width="1" x1="0" y1="1" x2="width" y2="1"/>
+	</draw_ops>
+
+	<draw_ops name="bg_active_max">
+		<gradient type="vertical" x="0" y="0" width="width" height="height / 2">
+			<color value="blend/white/gtk:bg[NORMAL]/0.6"/>
+			<color value="blend/white/gtk:bg[NORMAL]/1.0"/>
+		</gradient>
+		 <line color="blend/white/gtk:bg[NORMAL]/0.4" width="1" x1="0" y1="0" x2="width" y2="0"/>
+		 <line color="blend/white/gtk:bg[NORMAL]/0.6" width="1" x1="0" y1="1" x2="width" y2="1"/>
+	</draw_ops>
+
+	<!-- End Titlebar -->
+
+	<!-- buttons -->
+
+	<draw_ops name="minimize_button_normal">
+   		<image filename="act.svg" x="0" y="0" width="19" height="height"/>
+	</draw_ops>
+
+	<draw_ops name="minimize_button_normal_shaded">
+   		<image filename="act.svg" x="0" y="0" width="19" height="height"/>
+	</draw_ops>
+
+	<draw_ops name="minimize_button_normal_prelight">
+   		<image filename="inact.svg" x="0" y="0" width="19" height="height"/>
+	</draw_ops>
+
+	<draw_ops name="minimize_button_normal_shaded_prelight">
+   		<image filename="inact.svg" x="0" y="0" width="19" height="height"/>
+	</draw_ops>
+
+	<draw_ops name="minimize_button_pressed">
+   		<image filename="press.svg" x="0" y="0" width="19" height="height"/>
+	</draw_ops>
+
+	<draw_ops name="minimize_button_pressed_shaded">
+   		<image filename="press.svg" x="0" y="0" width="19" height="height"/>
+	</draw_ops>
+
+	<draw_ops name="minimize_button-i">
+   		<image filename="inact.svg" x="0" y="0" width="19" height="height" alpha="0.7"/>
+	</draw_ops>
+
+	<draw_ops name="minimize_button-i_shaded">
+   		<image filename="inact.svg" x="0" y="0" width="19" height="height" alpha="0.7"/>		
+	</draw_ops>
+
+	<draw_ops name="maximize_button_normal">
+   		<image filename="act.svg" x="0" y="0" width="19" height="height"/>
+	</draw_ops>
+
+	<draw_ops name="maximize_button_normal_shaded">
+   		<image filename="act.svg" x="0" y="0" width="19" height="height"/>
+	</draw_ops>
+
+	<draw_ops name="maximize_button_normal_prelight">
+   		<image filename="inact.svg" x="0" y="0" width="19" height="height"/>
+	</draw_ops>
+
+	<draw_ops name="maximize_button_normal_shaded_prelight">
+   		<image filename="inact.svg" x="0" y="0" width="19" height="height"/>
+	</draw_ops>
+
+	<draw_ops name="maximize_button_pressed">
+   		<image filename="press.svg" x="0" y="0" width="19" height="height"/>
+	</draw_ops>
+
+	<draw_ops name="maximize_button_pressed_shaded">
+   		<image filename="press.svg" x="0" y="0" width="19" height="height"/>
+	</draw_ops>
+
+	<draw_ops name="maximize_button-i">
+   		<image filename="inact.svg" x="0" y="0" width="19" height="height" alpha="0.7"/>		
+	</draw_ops>
+
+	<draw_ops name="maximize_button-i_shaded">
+   		<image filename="inact.svg" x="0" y="0" width="19" height="height" alpha="0.7"/>	
+	</draw_ops>
+
+	<draw_ops name="restore_button_normal">
+   		<image filename="act.svg" x="0" y="0" width="19" height="height"/>
+	</draw_ops>
+
+	<draw_ops name="restore_button_normal_shaded">
+   		<image filename="act.svg" x="0" y="0" width="19" height="height"/>
+	</draw_ops>
+
+	<draw_ops name="restore_button_normal_prelight">
+   		<image filename="inact.svg" x="0" y="0" width="19" height="height"/>
+	</draw_ops>
+
+	<draw_ops name="restore_button_normal_shaded_prelight">
+   		<image filename="inact.svg" x="0" y="0" width="19" height="height"/>
+	</draw_ops>
+
+	<draw_ops name="restore_button_pressed">
+   		<image filename="press.svg" x="0" y="0" width="19" height="height"/>
+	</draw_ops>
+
+	<draw_ops name="restore_button_pressed_shaded">
+   		<image filename="press.svg" x="0" y="0" width="19" height="height"/>
+	</draw_ops>
+
+	<draw_ops name="restore_button-i">
+   		<image filename="inact.svg" x="0" y="0" width="19" height="height" alpha="0.7"/>		
+	</draw_ops>
+
+	<draw_ops name="restore_button-i_shaded">
+   		<image filename="inact.svg" x="0" y="0" width="19" height="height" alpha="0.7"/>		
+	</draw_ops>
+
+	<draw_ops name="close_button_normal">
+   		<image filename="act.svg" x="0" y="0" width="19" height="height"/>
+	</draw_ops>
+
+	<draw_ops name="close_button_normal_shaded">
+   		<image filename="act.svg" x="0" y="0" width="19" height="height"/>
+	</draw_ops>
+
+	<draw_ops name="close_button_normal_prelight">
+   		<image filename="inact.svg" x="0" y="0" width="19" height="height"/>
+	</draw_ops>
+
+	<draw_ops name="close_button_normal_shaded_prelight">
+   		<image filename="inact.svg" x="0" y="0" width="19" height="height"/>
+	</draw_ops>
+
+	<draw_ops name="close_button_pressed">
+   		<image filename="press.svg" x="0" y="0" width="19" height="height"/>
+	</draw_ops>
+
+	<draw_ops name="close_button_pressed_shaded">
+   		<image filename="press.svg" x="0" y="0" width="19" height="height"/>
+	</draw_ops>
+
+	<draw_ops name="close_button-i">
+   		<image filename="inact.svg" x="0" y="0" width="19" height="height" alpha="0.7"/>		
+	</draw_ops>
+
+	<draw_ops name="close_button-i_shaded">
+   		<image filename="inact.svg" x="0" y="0" width="19" height="height" alpha="0.7"/>		
+	</draw_ops>
+
+	<draw_ops name="menu_button_normal">
+   		<image filename="menu.svg" x="0" y="0" width="19" height="height"/>
+	</draw_ops>
+
+	<draw_ops name="menu_button_normal_shaded">
+   		<image filename="menu.svg" x="0" y="0" width="19" height="height"/>
+	</draw_ops>
+
+	<draw_ops name="menu_button_normal_prelight">
+   		<image filename="menu-i.svg" x="0" y="0" width="19" height="height"/>
+	</draw_ops>
+
+	<draw_ops name="menu_button_normal_shaded_prelight">
+   		<image filename="menu-i.svg" x="0" y="0" width="19" height="height"/>
+	</draw_ops>
+
+	<draw_ops name="menu_button_pressed">
+   		<image filename="menu.svg" x="0" y="0" width="19" height="height"/>
+	</draw_ops>
+
+	<draw_ops name="menu_button-i">
+   		<image filename="menu-i.svg" x="0" y="0" width="19" height="height" alpha="0.7"/>
+	</draw_ops>
+
+	<draw_ops name="menu_button-i_shaded">
+   		<image filename="menu-i.svg" x="0" y="0" width="19" height="height" alpha="0.7"/>
+	</draw_ops>
+	<!-- end of buttons -->
+
+	<!-- Left and Right Titlbar -->
+	<draw_ops name="left_titlebar_edge">
+	  <rectangle color="blend/black/gtk:bg[NORMAL]/0.7" filled="false" x="0" y="4" width="1" height="1"/>
+		<gradient type="vertical" x="2" y="0" width="width" height="height / 2">
+			<color value="blend/white/gtk:bg[NORMAL]/0.6"/>
+			<color value="blend/white/gtk:bg[NORMAL]/1.0"/>
+		</gradient>
+	  <rectangle color="blend/white/gtk:bg[NORMAL]/0.6" filled="false" x="1" y="2" width="1" height="1"/>
+	  <rectangle color="blend/black/gtk:bg[NORMAL]/0.9" filled="false" x="1" y="0" width="width-1" height="height-1"/>
+		 <line color="blend/black/gtk:bg[NORMAL]/0.7" width="1" x1="0" y1="0" x2="width" y2="0"/>
+		 <line color="gtk:bg[NORMAL]" width="1" x1="2" y1="height - 1" x2="5" y2="height - 1"/>
+	  <rectangle color="blend/black/gtk:bg[NORMAL]/0.7" filled="false" x="1" y="0" width="1" height="1"/>
+	  <rectangle color="blend/black/gtk:bg[NORMAL]/0.7" filled="false" x="0" y="2" width="1" height="1"/>
+	</draw_ops>
+
+	<draw_ops name="left_titlebar_edge_shaded">
+	  <rectangle color="blend/black/gtk:bg[NORMAL]/0.7" filled="false" x="0" y="4" width="1" height="1"/>
+		<gradient type="vertical" x="2" y="0" width="width" height="height / 2">
+			<color value="blend/white/gtk:bg[NORMAL]/0.6"/>
+			<color value="blend/white/gtk:bg[NORMAL]/1.0"/>
+		</gradient>
+	  <rectangle color="blend/white/gtk:bg[NORMAL]/0.6" filled="false" x="1" y="2" width="1" height="1"/>
+	  <rectangle color="blend/black/gtk:bg[NORMAL]/0.9" filled="false" x="1" y="0" width="width-1" height="height-1"/>
+		    <line color="blend/black/gtk:bg[NORMAL]/0.7" width="1" x1="0" y1="0" x2="width" y2="0"/>
+		    <line color="blend/black/gtk:bg[NORMAL]/0.7" width="1" x1="0" y1="0" x2="width" y2="0"/>
+		    <line color="blend/white/gtk:bg[NORMAL]/0.4" width="1" x1="1" y1="height - 2" x2="width" y2="height - 2"/>
+		    <line color="blend/black/gtk:bg[NORMAL]/0.6" width="1" x1="0" y1="height - 1" x2="width" y2="height - 1"/>
+	  <rectangle color="blend/black/gtk:bg[NORMAL]/0.7" filled="false" x="1" y="0" width="1" height="1"/>
+	  <rectangle color="blend/black/gtk:bg[NORMAL]/0.7" filled="false" x="0" y="2" width="1" height="1"/>
+	</draw_ops>
+
+	<draw_ops name="left_titlebar_edge-i">
+		<gradient type="vertical" x="2" y="0" width="width" height="height / 2">
+			<color value="blend/white/gtk:bg[NORMAL]/0.6"/>
+			<color value="blend/white/gtk:bg[NORMAL]/1.0"/>
+		</gradient>
+		    <line color="blend/black/gtk:bg[NORMAL]/0.8" width="1" x1="0" y1="0" x2="width" y2="0"/>
+		    <line color="gtk:bg[NORMAL]" width="1" x1="2" y1="height - 1" x2="5" y2="height - 1"/>
+	  <rectangle color="blend/black/gtk:bg[NORMAL]/0.8" filled="false" x="1" y="0" width="1" height="1"/>
+	  <rectangle color="blend/black/gtk:bg[NORMAL]/0.8" filled="false" x="0" y="2" width="1" height="1"/>
+	</draw_ops>
+
+	<draw_ops name="left_titlebar_edge-i_shaded">
+		<gradient type="vertical" x="2" y="0" width="width" height="height / 2">
+			<color value="blend/white/gtk:bg[NORMAL]/0.6"/>
+			<color value="blend/white/gtk:bg[NORMAL]/1.0"/>
+		</gradient>
+		    <line color="blend/black/gtk:bg[NORMAL]/0.8" width="1" x1="0" y1="0" x2="width" y2="0"/>
+		    <line color="gtk:bg[NORMAL]" width="1" x1="2" y1="height - 1" x2="5" y2="height - 1"/>
+		    <line color="blend/black/gtk:bg[NORMAL]/0.8" width="1" x1="0" y1="0" x2="width" y2="0"/>
+		    <line color="blend/white/gtk:bg[NORMAL]/0.4" width="1" x1="1" y1="height - 2" x2="width" y2="height - 2"/>
+		    <line color="blend/black/gtk:bg[NORMAL]/0.8" width="1" x1="0" y1="height - 1" x2="width" y2="height - 1"/>
+	  <rectangle color="blend/black/gtk:bg[NORMAL]/0.8" filled="false" x="1" y="0" width="1" height="1"/>
+	  <rectangle color="blend/black/gtk:bg[NORMAL]/0.8" filled="false" x="0" y="2" width="1" height="1"/>
+	</draw_ops>
+
+	<draw_ops name="right_titlebar_edge">
+	  <rectangle color="blend/black/gtk:bg[NORMAL]/0.7" filled="false" x="4" y="4" width="1" height="1"/>
+		<gradient type="vertical" x="0" y="0" width="3" height="height / 2">
+			<color value="blend/white/gtk:bg[NORMAL]/0.6"/>
+			<color value="blend/white/gtk:bg[NORMAL]/1.0"/>
+		</gradient>
+		 <line color="blend/black/gtk:bg[NORMAL]/0.9" width="1" x1="0" y1="0" x2="width" y2="0"/>
+		 <line color="blend/white/gtk:bg[NORMAL]/0.6" width="1" x1="0" y1="1" x2="width" y2="1"/>
+	  <rectangle color="blend/black/gtk:bg[NORMAL]/0.7" filled="false" x="3" y="2" width="1" height="1"/>
+	  <rectangle color="blend/white/gtk:bg[NORMAL]/0.6" filled="false" x="2" y="2" width="1" height="1"/>
+	  <rectangle color="blend/black/gtk:bg[NORMAL]/0.7" filled="false" x="3" y="2" width="1" height="1"/>
+	  <rectangle color="blend/black/gtk:bg[NORMAL]/0.7" filled="false" x="2" y="0" width="1" height="1"/>
+	</draw_ops>
+
+	<draw_ops name="right_titlebar_edge_shaded">
+	  <rectangle color="blend/black/gtk:bg[NORMAL]/0.7" filled="false" x="4" y="4" width="1" height="1"/>
+		<gradient type="vertical" x="0" y="0" width="3" height="height / 2">
+			<color value="blend/white/gtk:bg[NORMAL]/0.6"/>
+			<color value="blend/white/gtk:bg[NORMAL]/1.0"/>
+		</gradient>
+		 <line color="blend/black/gtk:bg[NORMAL]/0.8" width="1" x1="0" y1="0" x2="width" y2="0"/>
+		 <line color="blend/white/gtk:bg[NORMAL]/0.6" width="1" x1="0" y1="1" x2="width" y2="1"/>
+	  <rectangle color="blend/black/gtk:bg[NORMAL]/0.7" filled="false" x="3" y="2" width="1" height="1"/>
+	  <rectangle color="blend/white/gtk:bg[NORMAL]/0.6" filled="false" x="2" y="2" width="1" height="1"/>
+	  <rectangle color="blend/black/gtk:bg[NORMAL]/0.7" filled="false" x="3" y="2" width="1" height="1"/>
+	  <rectangle color="blend/black/gtk:bg[NORMAL]/0.7" filled="false" x="2" y="0" width="1" height="1"/>
+		 <line color="blend/black/gtk:bg[NORMAL]/0.9" width="1" x1="0" y1="0" x2="width" y2="0"/>
+		<line color="blend/white/gtk:bg[NORMAL]/0.4" width="1" x1="0" y1="height - 2" x2="width" y2="height - 2"/>
+		<line color="blend/black/gtk:bg[NORMAL]/0.6" width="1" x1="4" y1="height - 2" x2="width" y2="height - 2"/>
+		<line color="blend/black/gtk:bg[NORMAL]/0.6" width="1" x1="0" y1="height - 1" x2="width" y2="height - 1"/>
+	</draw_ops>
+
+	<draw_ops name="right_titlebar_edge-i">
+		<gradient type="vertical" x="0" y="0" width="3" height="height / 2">
+			<color value="blend/white/gtk:bg[NORMAL]/0.6"/>
+			<color value="blend/white/gtk:bg[NORMAL]/1.0"/>
+		</gradient>
+		   <line color="blend/black/gtk:bg[NORMAL]/0.9" width="1" x1="0" y1="0" x2="width" y2="0"/>
+	  <rectangle color="blend/black/gtk:bg[NORMAL]/0.8" filled="false" x="3" y="2" width="1" height="1"/>
+	  <rectangle color="blend/black/gtk:bg[NORMAL]/0.8" filled="false" x="3" y="2" width="1" height="1"/>
+	  <rectangle color="blend/black/gtk:bg[NORMAL]/0.8" filled="false" x="2" y="0" width="1" height="1"/>
+
+	</draw_ops>
+
+	<draw_ops name="right_titlebar_edge-i_shaded">
+		<gradient type="vertical" x="0" y="0" width="3" height="height / 2">
+			<color value="blend/white/gtk:bg[NORMAL]/0.6"/>
+			<color value="blend/white/gtk:bg[NORMAL]/1.0"/>
+		</gradient>
+		 <line color="blend/black/gtk:bg[NORMAL]/0.8" width="1" x1="0" y1="0" x2="width" y2="0"/>
+	  <rectangle color="blend/black/gtk:bg[NORMAL]/0.8" filled="false" x="3" y="2" width="1" height="1"/>
+	  <rectangle color="blend/black/gtk:bg[NORMAL]/0.8" filled="false" x="3" y="2" width="1" height="1"/>
+	  <rectangle color="blend/black/gtk:bg[NORMAL]/0.8" filled="false" x="2" y="0" width="1" height="1"/>
+		<line color="blend/white/gtk:bg[NORMAL]/0.4" width="1" x1="0" y1="height - 2" x2="width" y2="height - 2"/>
+		<line color="blend/black/gtk:bg[NORMAL]/0.8" width="1" x1="4" y1="height - 2" x2="width" y2="height - 2"/>
+		 <line color="blend/black/gtk:bg[NORMAL]/0.9" width="1" x1="0" y1="0" x2="width" y2="0"/>
+		<line color="blend/black/gtk:bg[NORMAL]/0.8" width="1" x1="0" y1="height - 1" x2="width" y2="height - 1"/>
+	</draw_ops>
+	<!-- End Left and Right Titlbar -->
+
+	<draw_ops name="title_bg">
+	  <include name="bg_active"/>
+	</draw_ops>
+
+	<draw_ops name="title_bg_shaded">
+	  <include name="bg_active_shaded"/>
+	</draw_ops>
+
+	<draw_ops name="title_bg_max">
+	  <include name="bg_active_max"/>
+	</draw_ops>
+
+	<draw_ops name="title_focused">
+   		<title color="shade/gtk:bg[NORMAL]/1.2" x="5 `max` (width-title_width)/2+1" y="1 `max` ((height-title_height)/2)+1"/>
+  		<title color="shade/gtk:bg[NORMAL]/0.1" x="4 `max` (width-title_width)/2" y="0 `max` ((height-title_height)/2)"/>
+	</draw_ops>
+
+	<draw_ops name="title_unfocused">
+  		<title color="shade/gtk:bg[NORMAL]/1.1" x="5 `max` (width-title_width)/2+1" y="1 `max` ((height-title_height)/2)+1"/>
+  		<title color="shade/gtk:bg[NORMAL]/0.7" x="4 `max` (width-title_width)/2" y="0 `max` ((height-title_height)/2)"/>
+	</draw_ops>
+
+	<draw_ops name="title_focused_shaded">
+   		<title color="shade/gtk:bg[NORMAL]/1.2" x="5 `max` (width-title_width)/2+1" y="1 `max` ((height-title_height)/2)+1"/>
+  		<title color="shade/gtk:bg[NORMAL]/0.1" x="4 `max` (width-title_width)/2" y="0 `max` ((height-title_height)/2)"/>
+	</draw_ops>
+
+	<draw_ops name="title_unfocused_shaded">
+  		<title color="shade/gtk:bg[NORMAL]/1.1" x="5 `max` (width-title_width)/2+1" y="1 `max` ((height-title_height)/2)+1"/>
+  		<title color="shade/gtk:bg[NORMAL]/0.7" x="4 `max` (width-title_width)/2" y="0 `max` ((height-title_height)/2)"/>
+	</draw_ops>
+
+	<draw_ops name="outer_bevel_focused">
+	  <rectangle color="shade/gtk:bg[NORMAL]/1.0" filled="true" x="0" y="0" width="width" height="height"/>
+	  <rectangle color="blend/black/gtk:bg[NORMAL]/0.9" filled="false" x="1" y="1" width="width -2" height="height -2"/>
+	  <rectangle color="blend/black/gtk:bg[NORMAL]/0.9" filled="false" x="0" y="0" width="width-2" height="height-2"/>
+	  <rectangle color="blend/black/gtk:bg[NORMAL]/0.6" filled="false" x="0" y="0" width="width-1" height="height-1"/>
+	   	    <line color="blend/black/gtk:bg[NORMAL]/0.9" width="1" x1="0" y1="0" x2="width" y2="0"/>
+	</draw_ops>
+
+	<draw_ops name="outer_bevel_unfocused">
+	  <rectangle color="shade/gtk:bg[NORMAL]/1.0" filled="true" x="0" y="0" width="width" height="height"/>
+	  <rectangle color="blend/black/gtk:bg[NORMAL]/0.8" filled="false" x="0" y="0" width="width-1" height="height-1"/>
+	   	    <line color="blend/black/gtk:bg[NORMAL]/0.97" width="1" x1="0" y1="0" x2="width" y2="0"/>
+	   	    <line color="blend/black/gtk:bg[NORMAL]/0.8" width="1" x1="0" y1="1" x2="width" y2="1"/>
+	   	    <line color="shade/gtk:bg[NORMAL]/1.0" width="1" x1="5" y1="1" x2="width" y2="1"/>
+	</draw_ops>
+
+	<draw_ops name="blank">
+	<!-- nothing -->
+	</draw_ops>
+
+	<frame_style name="normal_unfocused" geometry="normal">
+	  <piece position="entire_background" draw_ops="outer_bevel_unfocused"/>
+	  <piece position="titlebar_middle" draw_ops="title_bg"/>
+	  <piece position="title" draw_ops="title_unfocused"/>
+   	  <piece position="left_titlebar_edge" draw_ops="left_titlebar_edge-i"/>
+   	  <piece position="right_titlebar_edge" draw_ops="right_titlebar_edge-i"/>
+	  <button function="close" state="normal" draw_ops="close_button-i"/>
+	  <button function="close" state="pressed" draw_ops="close_button_pressed"/>
+	  <button function="minimize" state="normal" draw_ops="minimize_button-i"/>
+	  <button function="minimize" state="pressed" draw_ops="minimize_button_pressed"/>
+	  <button function="maximize" state="normal" draw_ops="maximize_button-i"/>
+	  <button function="maximize" state="pressed" draw_ops="maximize_button_pressed"/>
+	  <button function="menu" state="normal" draw_ops="menu_button-i"/>
+	  <button function="menu" state="pressed" draw_ops="menu_button_pressed"/>
+	</frame_style>
+
+	<frame_style name="normal_focused" geometry="normal">
+	  <piece position="entire_background" draw_ops="outer_bevel_focused"/>
+	  <piece position="titlebar_middle" draw_ops="title_bg"/>
+	  <piece position="title" draw_ops="title_focused"/>
+   	  <piece position="left_titlebar_edge" draw_ops="left_titlebar_edge"/>
+   	  <piece position="right_titlebar_edge" draw_ops="right_titlebar_edge"/>
+	  <button function="close" state="normal" draw_ops="close_button_normal"/>
+	  <button function="close" state="prelight" draw_ops="close_button_normal_prelight"/>
+	  <button function="close" state="pressed" draw_ops="close_button_pressed"/>
+	  <button function="minimize" state="normal" draw_ops="minimize_button_normal"/>
+	  <button function="minimize" state="prelight" draw_ops="minimize_button_normal_prelight"/>
+	  <button function="minimize" state="pressed" draw_ops="minimize_button_pressed"/>
+	  <button function="maximize" state="normal" draw_ops="maximize_button_normal"/>
+	  <button function="maximize" state="prelight" draw_ops="maximize_button_normal_prelight"/>
+	  <button function="maximize" state="pressed" draw_ops="maximize_button_pressed"/>
+	  <button function="menu" state="normal" draw_ops="menu_button_normal"/>
+	  <button function="menu" state="prelight" draw_ops="menu_button_normal_prelight"/>
+	  <button function="menu" state="pressed" draw_ops="menu_button_pressed"/>
+	</frame_style>
+
+	<frame_style name="normal_unfocused_maximized" geometry="maximized" parent="normal_unfocused">
+	  <piece position="entire_background" draw_ops="blank"/>
+	  <piece position="title" draw_ops="title_unfocused"/>
+	  <button function="maximize" state="normal" draw_ops="restore_button-i"/>
+	  <button function="maximize" state="pressed" draw_ops="restore_button_pressed"/>
+	</frame_style>
+
+	<frame_style name="normal_focused_maximized" geometry="maximized" parent="normal_focused">
+	  <piece position="entire_background" draw_ops="blank"/>
+	  <piece position="title" draw_ops="title_focused"/>
+	  <piece position="titlebar_middle" draw_ops="title_bg_max"/>
+	  <button function="maximize" state="normal" draw_ops="restore_button_normal"/>
+	  <button function="maximize" state="prelight" draw_ops="restore_button_normal_prelight"/>
+	  <button function="maximize" state="pressed" draw_ops="restore_button_pressed"/>
+	</frame_style>
+
+	<frame_style name="normal_unfocused_shaded" geometry="shaded">
+	  <piece position="entire_background" draw_ops="outer_bevel_unfocused"/>
+	  <piece position="titlebar_middle" draw_ops="title_bg_shaded"/>
+	  <piece position="title" draw_ops="title_unfocused_shaded"/>
+   	  <piece position="left_titlebar_edge" draw_ops="left_titlebar_edge-i_shaded"/>
+   	  <piece position="right_titlebar_edge" draw_ops="right_titlebar_edge-i_shaded"/>
+	  <button function="close" state="normal" draw_ops="close_button-i_shaded"/>
+	  <button function="close" state="pressed" draw_ops="close_button_pressed"/>
+	  <button function="minimize" state="normal" draw_ops="minimize_button-i_shaded"/>
+	  <button function="minimize" state="pressed" draw_ops="minimize_button_pressed"/>
+	  <button function="maximize" state="normal" draw_ops="maximize_button-i_shaded"/>
+	  <button function="maximize" state="pressed" draw_ops="maximize_button_pressed"/>
+	  <button function="menu" state="normal" draw_ops="menu_button-i_shaded"/>
+	  <button function="menu" state="pressed" draw_ops="menu_button_pressed"/>
+	</frame_style>
+
+	<frame_style name="normal_focused_shaded" geometry="shaded">
+	  <piece position="entire_background" draw_ops="outer_bevel_focused"/>
+	  <piece position="titlebar_middle" draw_ops="title_bg_shaded"/>
+	  <piece position="title" draw_ops="title_focused_shaded"/>
+   	  <piece position="left_titlebar_edge" draw_ops="left_titlebar_edge_shaded"/>
+   	  <piece position="right_titlebar_edge" draw_ops="right_titlebar_edge_shaded"/>
+	  <button function="close" state="normal" draw_ops="close_button_normal_shaded"/>
+	  <button function="close" state="prelight" draw_ops="close_button_normal_shaded_prelight"/>
+	  <button function="close" state="pressed" draw_ops="close_button_pressed_shaded"/>
+	  <button function="minimize" state="normal" draw_ops="minimize_button_normal_shaded"/>
+	  <button function="minimize" state="prelight" draw_ops="minimize_button_normal_shaded_prelight"/>
+	  <button function="minimize" state="pressed" draw_ops="minimize_button_pressed_shaded"/>
+	  <button function="maximize" state="normal" draw_ops="maximize_button_normal_shaded"/>
+	  <button function="maximize" state="prelight" draw_ops="maximize_button_normal_shaded_prelight"/>
+	  <button function="maximize" state="pressed" draw_ops="maximize_button_pressed_shaded"/>
+	  <button function="menu" state="normal" draw_ops="menu_button_normal_shaded"/>
+	  <button function="menu" state="prelight" draw_ops="menu_button_normal_shaded_prelight"/>
+	  <button function="menu" state="pressed" draw_ops="menu_button_pressed"/>
+	</frame_style>
+
+	<frame_style name="normal_unfocused_maximized_shaded" geometry="maximized" parent="normal_unfocused_shaded">
+	  <button function="maximize" state="normal" draw_ops="restore_button-i_shaded"/>
+	</frame_style>
+
+	<frame_style name="normal_focused_maximized_shaded" geometry="maximized" parent="normal_focused_maximized">
+	  <button function="maximize" state="normal" draw_ops="restore_button_normal_shaded"/>
+	  <button function="maximize" state="prelight" draw_ops="restore_button_normal_shaded_prelight"/>
+	  <button function="maximize" state="pressed" draw_ops="restore_button_pressed_shaded"/>
+	</frame_style>
+
+	<frame_style name="utility_unfocused" geometry="utility" parent="normal_unfocused">
+	  <piece position="title" draw_ops="title_unfocused"/>
+	</frame_style>
+
+	<frame_style name="utility_focused" geometry="utility" parent="normal_focused">
+	  <piece position="title" draw_ops="title_focused"/>
+	</frame_style>
+
+	<frame_style name="utility_unfocused_shaded" geometry="utility" parent="normal_unfocused_shaded">
+	  <piece position="title" draw_ops="title_unfocused"/>
+	</frame_style>
+
+	<frame_style name="utility_focused_shaded" geometry="utility" parent="normal_focused_shaded">
+	  <piece position="title" draw_ops="title_focused"/>
+	</frame_style>
+
+	<frame_style name="border" geometry="border" parent="normal_focused">
+	  <piece position="entire_background" draw_ops="outer_bevel_focused"/>
+	  <piece position="titlebar_middle" draw_ops="blank"/>
+	  <piece position="title" draw_ops="blank"/>
+	</frame_style>
+
+	<frame_style_set name="normal">
+		<frame focus="yes" state="normal" resize="both" style="normal_focused"/>
+		<frame focus="no" state="normal" resize="both" style="normal_unfocused"/>
+		<frame focus="yes" state="maximized" style="normal_focused_maximized"/>
+		<frame focus="no" state="maximized" style="normal_unfocused_maximized"/>
+		<frame focus="yes" state="shaded" style="normal_focused_shaded"/>
+		<frame focus="no" state="shaded" style="normal_unfocused_shaded"/>
+		<frame focus="yes" state="maximized_and_shaded" style="normal_focused_maximized_shaded"/>
+		<frame focus="no" state="maximized_and_shaded" style="normal_unfocused_maximized_shaded"/>
+	</frame_style_set>
+
+	<frame_style_set name="utility" parent="normal">
+		<frame focus="yes" state="normal" resize="both" style="utility_focused"/>
+		<frame focus="no" state="normal" resize="both" style="utility_unfocused"/>
+		<frame focus="yes" state="maximized" style="utility_focused"/>
+		<frame focus="no" state="maximized" style="utility_unfocused"/>
+		<frame focus="yes" state="shaded" style="utility_focused_shaded"/>
+		<frame focus="no" state="shaded" style="utility_unfocused_shaded"/>
+		<frame focus="yes" state="maximized_and_shaded" style="utility_focused"/>
+		<frame focus="no" state="maximized_and_shaded" style="utility_unfocused"/>
+	</frame_style_set>
+
+	<frame_style_set name="border">
+		<frame focus="yes" state="normal" resize="both" style="border"/>
+		<frame focus="no" state="normal" resize="both" style="border"/>
+		<frame focus="yes" state="maximized" style="border"/>
+		<frame focus="no" state="maximized" style="border"/>
+		<frame focus="yes" state="shaded" style="border"/>
+		<frame focus="no" state="shaded" style="border"/>
+		<frame focus="yes" state="maximized_and_shaded" style="border"/>
+		<frame focus="no" state="maximized_and_shaded" style="border"/>
+	</frame_style_set>
+
+	<window type="normal" style_set="normal"/>
+	<window type="dialog" style_set="normal"/>
+	<window type="modal_dialog" style_set="normal"/>
+	<window type="menu" style_set="normal"/>
+	<window type="utility" style_set="utility"/>
+	<window type="border" style_set="border"/>
+
+	<menu_icon function="close" state="normal" draw_ops="close_button_normal"/>
+	<menu_icon function="maximize" state="normal" draw_ops="maximize_button_normal"/>
+	<menu_icon function="unmaximize" state="normal" draw_ops="maximize_button_normal"/>
+	<menu_icon function="minimize" state="normal" draw_ops="minimize_button_normal"/>
+
+</metacity_theme>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg1"
+   sodipodi:version="0.32"
+   inkscape:version="0.43"
+   width="23.000000pt"
+   height="23.000000pt"
+   sodipodi:docbase="/root/.themes/Aqua-Advanced-ALL_SQ/metacity-1"
+   sodipodi:docname="close-pre.svg">
+  <defs
+     id="defs3">
+    <linearGradient
+       id="linearGradient2194">
+      <stop
+         style="stop-color:#ffc1bd;stop-opacity:1;"
+         offset="0"
+         id="stop2196" />
+      <stop
+         id="stop2202"
+         offset="0.5"
+         style="stop-color:#db402e;stop-opacity:1;" />
+      <stop
+         style="stop-color:#db402e;stop-opacity:1;"
+         offset="0.5"
+         id="stop2204" />
+      <stop
+         id="stop2199"
+         offset="0.76898736"
+         style="stop-color:#ed7d72;stop-opacity:1;" />
+      <stop
+         style="stop-color:#ffd1ce;stop-opacity:1;"
+         offset="1"
+         id="stop2198" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient2201">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop2203" />
+      <stop
+         id="stop3084"
+         offset="0.25"
+         style="stop-color:#ffffff;stop-opacity:0.23857868;" />
+      <stop
+         id="stop2209"
+         offset="0.5"
+         style="stop-color:#ffffff;stop-opacity:0.16243654;" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="1"
+         id="stop2205" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1705">
+      <stop
+         style="stop-color:#e5e5e5;stop-opacity:1.0000000;"
+         offset="0.0000000"
+         id="stop1706" />
+      <stop
+         style="stop-color:#e5e5e5;stop-opacity:0.0000000;"
+         offset="1.0000000"
+         id="stop1707" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1698">
+      <stop
+         style="stop-color:#888888;stop-opacity:1.0000000;"
+         offset="0.0000000"
+         id="stop1699" />
+      <stop
+         style="stop-color:#ebebeb;stop-opacity:1.0000000;"
+         offset="0.60736197"
+         id="stop1705" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1.0000000;"
+         offset="1.0000000"
+         id="stop1702" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1698"
+       id="linearGradient1327"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.272394,0,0,1.264824,-4.461041,-3.59985)"
+       x1="14.975044"
+       y1="6.0145211"
+       x2="14.975044"
+       y2="22.738241" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2194"
+       id="linearGradient2200"
+       x1="13.975924"
+       y1="9.1369677"
+       x2="14.029738"
+       y2="19.650723"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="21.495652"
+     inkscape:cx="14.342435"
+     inkscape:cy="14.375"
+     inkscape:window-width="872"
+     inkscape:window-height="802"
+     inkscape:window-x="91"
+     inkscape:window-y="63"
+     inkscape:current-layer="svg1" />
+  <metadata
+     id="metadata1583">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <rect
+     style="fill:#c2c2c2;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.20000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1"
+     id="rect2966"
+     width="23.34952"
+     height="23.61783"
+     x="2.7467639"
+     y="2.8517497"
+     rx="0"
+     ry="0" />
+  <rect
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient1327);stroke-width:5.290452;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect2355"
+     width="18.06053"
+     height="18.127932"
+     x="5.3447351"
+     y="5.3110342"
+     ry="0"
+     rx="0" />
+  <rect
+     style="fill:url(#linearGradient2200);fill-opacity:1.0;fill-rule:evenodd;stroke:#5b5b5b;stroke-width:1.25306249;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1"
+     id="rect2353"
+     width="11.454473"
+     height="11.722481"
+     x="8.6477633"
+     y="8.5791254"
+     ry="6.2224712"
+     rx="0" />
+</svg>

@@ -1,0 +1,32 @@
+#!/bin/bash
+#
+# Inspired by the code in:
+# http://www.dicas-l.com.br/dicas-l/20090726.php
+#
+
+twit_update_url='http://twitter.com/statuses/update.xml'
+
+[[ ! -f ${HOME}/etc/twitter.conf ]] && {
+  echo "Cannot find ${HOME}/etc/twitter.conf!" >&2
+  exit 1
+}
+
+. ${HOME}/etc/twitter.conf
+
+if [[ -z "$1" ]]; then
+  read post
+else
+  post="$*"
+fi
+
+[[ ${#post} -gt 140 ]] && {
+  echo "Post is bigger than 140 char. Bailing out!" >&2
+  exit 1
+}
+
+curl -s -u $user:$pass -d status="$post" "${twit_update_url}" >/dev/null \
+  || { echo "Error while posting to twitter!" >&2; exit 1; }
+
+echo "$user: $post"
+  
+

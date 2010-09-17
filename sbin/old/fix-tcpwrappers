@@ -1,0 +1,30 @@
+#!/usr/bin/sudo /bin/sh
+#
+# $Id: fix-tcpwrappers,v 1.2 2007/12/10 01:59:12 az Exp az $
+#
+
+HOSTS_ALLOW=/etc/hosts.allow
+HOSTS_DENY=/etc/hosts.deny
+
+fix_file() {
+	F="$1"
+	S="$2"
+	L="$3"
+
+	if perl -ne "chomp; exit 1 if /$S/; " "$F"; then	
+		echo "$L" >> "$F"
+	fi
+}
+
+fix_hosts_allow() {
+	fix_file ${HOSTS_ALLOW} "localhost" "ALL: localhost"
+	fix_file ${HOSTS_ALLOW} "^sshd" "sshd: 9."
+}
+
+fix_hosts_deny() {
+	fix_file ${HOSTS_DENY} '^\s*ALL:\s+ALL\s*$' "ALL: ALL"
+}
+
+fix_hosts_allow
+fix_hosts_deny
+

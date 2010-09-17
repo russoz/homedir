@@ -1,0 +1,20 @@
+ttyUSB0 460800 crtscts
+noauth
+defaultroute
+replacedefaultroute
+usepeerdns
+local
+ipcp-accept-local
+ipcp-accept-remote
+lcp-echo-failure 0
+lcp-echo-interval 0
+login
+user 1196082861@vivozap.com.br
+password vivo
+multilink
+novj
+novjccomp
+nodetach
+persist
+passive
+connect '/home/az/etc/ppp/chatscript /etc/ppp/chat-vivozap'

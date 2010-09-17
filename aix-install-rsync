@@ -1,0 +1,10 @@
+#!/bin/sh
+
+RPMS="ftp://ftp.software.ibm.com/aix/freeSoftware/aixtoolbox/RPMS/ppc/rpm/popt-1.7-2.aix5.1.ppc.rpm ftp://ftp.software.ibm.com/aix/freeSoftware/aixtoolbox/RPMS/ppc/rsync/rsync-2.6.2-1.aix5.1.ppc.rpm"
+#RPMS="ftp://ftp.software.ibm.com/aix/freeSoftware/aixtoolbox/RPMS/ppc/sudo/sudo-1.6.9p15-2.aix5.2.ppc.rpm"
+#RPMS="$1"; shift
+
+for i in "$@"; do
+  echo "======= $i" >&2
+  ssh "$i" -t -- su - -c "rpm -Uvh $RPMS" 
+done

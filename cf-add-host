@@ -1,0 +1,28 @@
+#!/bin/sh
+
+HOST="$1"
+[ -z "$1" ] && { echo "usage: cf-add-host <host>" >&2; exit 1; }
+
+IP=`ssh root@${HOST} ifconfig -a | grep 'inet '|grep -v '127\.0\.0\.1'| awk '{ print $2 }'`
+
+echo "Configuring host $HOST ($IP)" >&2
+
+#echo "Copying master key to $HOST" >&2
+#rsync -zavP /var/lib/cfengine2/ppkeys/root-172.25.34.46.pub \
+#    root@${HOST}:/var/cfengine/ppkeys/
+
+#echo "Creating $HOST keys" >&2
+#ssh root@${HOST} -t -- sudo /usr/local/sbin/cfkey
+
+echo "Copying $host public key to root-${IP}.pub on master" >&2
+rsync -zavP root@${HOST}:/var/lib/cfengine/ppkeys/localhost.pub \
+    /var/cfengine2/ppkeys/root-${IP}.pub
+
+echo "Copying input files from master to $HOST" >&2
+rsync -zavP /var/lib/cfengine2/inputs \
+    root@${HOST}:/var/cfengine/
+
+echo "Activate cfagent on $HOST with command:" >&2
+ssh root@${HOST} -t -- /usr/local/sbin/cfagent -v >&2
+
+

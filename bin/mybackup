@@ -1,0 +1,31 @@
+#!/bin/bash
+#
+# $Id: mybackup,v 1.3 2007/11/28 19:21:25 az Exp az $
+#
+
+DATE=$(date +"%Y.%m.%d")
+GLOBIGNORE='*~'
+BKPLIST=$HOME/etc/backup.list
+BKPEXCEPT=$HOME/etc/backup.exceptions
+BKP="$HOME/tmp/backup-${DATE}"
+BKPOUT="${BKP}.out"
+BKPFILE="${BKP}.tar.gz"
+
+##############################################################################
+
+msg() {
+  echo "$@" >&2
+}
+
+##############################################################################
+
+msg "Backing up files..."
+msg "  Log file at ${BKPOUT}" 
+{
+  { cat ${BKPLIST} | perl -nle 'print unless /^\s*(#.*)?$/' \
+      | tar cvzpf ${BKPFILE} --ignore-failed-read -T - -X ${BKPEXCEPT} \
+        && msg "...done"
+  } \
+    || { msg "Backup failed!!"; exit 1; }
+} >${BKPOUT}
+

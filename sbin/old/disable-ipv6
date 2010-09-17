@@ -1,0 +1,4 @@
+#!/usr/bin/sudo /bin/bash
+
+perl -i.bak -pe 's/ipv6/off/' /etc/modprobe.d/aliases
+

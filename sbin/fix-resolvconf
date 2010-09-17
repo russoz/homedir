@@ -1,0 +1,20 @@
+#!/usr/bin/sudo /bin/bash
+#
+# $Id$
+#
+
+DOMAINS="br.ibm.com raleigh.ibm.com ihe.ibm.com innovate.ibm.com"
+
+apt-get -y install resolvconf
+
+echo ""
+echo "Setting search domains to:"
+echo "  $DOMAINS"
+echo ""
+echo -n "Confirm (y/N)?"
+read -n 1 confirm
+
+[[ "$confirm" != "y" ]] && exit 0
+
+echo "search $DOMAINS" > /etc/resolvconf/resolv.conf.d/tail
+

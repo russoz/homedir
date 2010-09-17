@@ -1,0 +1,45 @@
+#!/bin/bash
+#
+#  sun-mk-remote-me
+#
+
+. ${HOME}/.nb/load
+
+REM_USER=znamensa
+REM_UID=99920012
+REM_GECOS='Alexei Znamensky(Cognizant)'
+REM_GROUP=avoninf
+
+msg() {
+    echo "$@" >&2
+}
+
+mk_remote() {
+    host="$1"
+
+    msg "Trying to create remote user $REM_USER at host ${host}"
+    
+    msg "Accessing as root"
+    /usr/bin/ssh -t -C root@${host} \
+        "echo Creating group >&2 &&
+         groupadd ${REM_GROUP} &&
+         echo Creating user >&2 &&
+         useradd -m -d /export/home/${REM_USER} \
+           -u ${REM_UID} -c '${REM_USER}' -G ${REM_GROUP} \
+           ${REM_USER} &&
+         echo Assigning initial password 'temp4now' >&2 &&
+         /usr/bin/perl -i.bak -ple 's/^${REM_USER}:[^:]*:/${REM_USER}::/' \
+           /etc/shadow &&
+         su - ${REM_USER} -c 'passwd' &&
+         echo GREAT SUCCESS >&2" \
+    || { msg 'Error creating user'; exit 1; }
+
+    ssh-copy-id ${REM_USER}@${host}
+
+    nb_peer_add ${host}
+}
+
+h="$1"
+[ -n "$1" ] || exit 1
+mk_remote $h
+

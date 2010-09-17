@@ -1,0 +1,6 @@
+
+V='/media/tera/vuze/vuze/vuze'
+
+cd $(dirname $V)
+
+exec ./vuze

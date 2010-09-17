@@ -1,0 +1,150 @@
+#!/usr/bin/perl
+#
+#  $Id$
+#
+# TODO: implement code for the xml identification tag on the top of the doc
+# TODO: handling of CDATA values
+#
+
+use strict;
+use warnings;
+use Getopt::Std;
+use XML::Parser::PerlSAX;
+
+##############################################################################
+
+sub usage {
+    print STDERR 'usage: xml-tag-finder ', '(-t tag)? ',
+      '(-a attr-name (-v attr-value)?)* ', '(-f)? file', "\n";
+    exit 1;
+}
+
+our ( $opt_t, $opt_a, $opt_v, $opt_s );
+getopts('t:a:v:s:');
+
+#usage unless $opt_t;
+usage if $opt_v && !$opt_a;
+usage if !( $opt_t || $opt_a );
+my $file = shift || usage;
+
+my $handler = CamelHandler->new();
+my $parser  = XML::Parser::PerlSAX->new(
+    {
+        Handler           => $handler,
+        UseAttributeOrder => 1
+    }
+);
+
+$parser->parse( Source => { SystemId => $file } );
+
+#
+# local package for the handler
+#
+package CamelHandler;
+
+my @tagstack;
+
+sub new {
+    my $type = shift;
+    return bless {}, $type;
+}
+
+sub push_tag {
+    my $tag = shift;
+    my $tagref = { tag => $tag, opened => 0, has_children => 0 };
+    push @tagstack, $tagref;
+}
+
+sub top_tag {
+    return $tagstack[-1];
+}
+
+sub pop_tag {
+    my $tagref = pop @tagstack;
+    return $tagref;
+}
+
+sub num_stacked_tags {
+    return scalar(@tagstack);
+}
+
+sub print_indent {
+    my $level = shift;
+
+    print "    " x $level;
+}
+
+sub print_tag {
+    my ( $level, $tag, $has_children ) = @_;
+
+    print_indent($level);
+    print "\<$tag->{Name}";
+    foreach my $a ( @{ $tag->{AttributeOrder} } ) {
+        print " $a=\"$tag->{Attributes}->{$a}\"";
+    }
+    print "/" unless $has_children;
+    print "\>\n";
+}
+
+sub close_tag {
+    my ( $level, $tag ) = @_;
+
+    print_indent($level);
+    print "\</" . $tag->{Name} . "\>\n";
+}
+
+sub dump_open {
+    my $i;
+
+    # dump all but last
+    for ( $i = 0 ; $i < num_stacked_tags() - 1 ; $i++ ) {
+        next if $tagstack[$i]->{opened};
+
+        print_tag( $i, $tagstack[$i]->{tag} );
+        $tagstack[$i]->{opened} = 1;
+    }
+
+    # print last one, if has no children then close it already
+    print_tag( $i, $tagstack[$i]->{tag}, $tagstack[$i]->{has_children} );
+    $tagstack[$i]->{opened} = 1;
+}
+
+sub start_element {
+    my ( $self, $element ) = @_;
+
+    # mark parent node as NOT ALONE
+    $tagstack[$#tagstack]->{has_children} = 1 if num_stacked_tags();
+
+    push_tag($element);
+}
+
+sub test_open {
+    my $tag = shift;
+
+    # bail out if not the searched tag
+    return if $opt_t && $opt_t ne $tag->{Name};
+    return if $opt_a && !exists $tag->{Attributes}->{$opt_a};
+    return if $opt_v && $tag->{Attributes}->{$opt_a} ne $opt_v;
+
+    # if this is a matching element, dump the tree until this place
+    dump_open();
+}
+
+sub end_element {
+    my $tagref = top_tag();
+    my $tag    = $tagref->{tag};
+
+    # Check if it's a matching tag and print the tag
+    test_open($tag);
+
+    # if this tag has been opened and has children nodes, print
+    # the closing tag
+    close_tag( num_stacked_tags() - 1, $tag )
+      if $tagref->{opened} && $tagref->{has_children};
+
+    # removes from stack
+    pop_tag();
+}
+
+1;
+

@@ -1,0 +1,32 @@
+#!/bin/bash
+
+msg() {
+    echo "===" "$@" >&2
+}
+
+install() {
+    host="$1"
+
+    msg "Accessing as root"
+    ssh -t -C root@${host} -- \
+       "AIXVER=\$(uname -v)
+        echo ::: Installing sudo >&2
+        /usr/bin/rpm -Uvh ftp://public.dhe.ibm.com/aix/freeSoftware/aixtoolbox/RPMS/ppc/db/db-3.3.11-4.aix5.1.ppc.rpm
+        /usr/bin/rpm -Uvh ftp://public.dhe.ibm.com/aix/freeSoftware/aixtoolbox/RPMS/ppc/openldap/openldap-2.0.21-4.aix4.3.ppc.rpm
+        /usr/bin/rpm -Uvh ftp://public.dhe.ibm.com/aix/freeSoftware/aixtoolbox/RPMS/ppc/sudo/sudo-1.6.9p15-2.aix5.2.ppc.rpm
+
+        echo ::: Installing bash >&2
+        /usr/bin/rpm -Uvh ftp://public.dhe.ibm.com/aix/freeSoftware/aixtoolbox/RPMS/ppc/bash/bash-3.2-1.aix5.2.ppc.rpm
+
+        echo ::: Installing rsync >&2
+        /usr/bin/rpm -Uvh ftp://public.dhe.ibm.com/aix/freeSoftware/aixtoolbox/RPMS/ppc/rsync/rsync-3.0.6-1.aix5.3.ppc.rpm
+
+        echo ::: Installing wget >&2
+        /usr/bin/rpm -Uvh ftp://public.dhe.ibm.com/aix/freeSoftware/aixtoolbox/RPMS/ppc/wget/wget-1.9.1-1.aix5.1.ppc.rpm
+        echo ::: Installing less >&2
+        /usr/bin/rpm -Uvh ftp://public.dhe.ibm.com/aix/freeSoftware/aixtoolbox/RPMS/ppc/less/less-382-1.aix5.1.ppc.rpm
+    "
+}
+
+install "$1"
+

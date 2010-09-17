@@ -1,0 +1,13 @@
+#
+# $Id: auto.b2b,v 1.3 2008/02/28 21:15:57 az Exp $
+#
+# This is an automounter map and it has the following format
+# key [ -mount-options-separated-by-comma ] location
+# Details may be found in the autofs(5) manpage
+
+b2bpp06	-fstype=fuse,transform_symlinks,allow_other,reconnect,uid=1000,gid=1000 sshfs\#&.raleigh.ibm.com:/
+b2bpp07	-fstype=fuse,transform_symlinks,allow_other,reconnect,uid=1000,gid=1000 sshfs\#&.raleigh.ibm.com:/
+b2bpp11	-fstype=fuse,transform_symlinks,allow_other,reconnect,uid=1000,gid=1000 sshfs\#&.raleigh.ibm.com:/
+b2bpp12	-fstype=fuse,transform_symlinks,allow_other,reconnect,uid=1000,gid=1000 sshfs\#&.raleigh.ibm.com:/
+b2bpp13	-fstype=fuse,transform_symlinks,allow_other,reconnect,uid=1000,gid=1000 sshfs\#&.raleigh.ibm.com:/
+

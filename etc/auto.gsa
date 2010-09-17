@@ -1,0 +1,8 @@
+#
+# $Id: auto.gsa,v 1.3 2008/02/28 21:16:22 az Exp az $
+#
+# This is an automounter map and it has the following format
+# key [ -mount-options-separated-by-comma ] location
+# Details may be found in the autofs(5) manpage
+
+alexeiz -fstype=fuse,transform_symlinks,allow_other,reconnect,uid=1000,gid=1000 sshfs\#pokgsa.ibm.com:/home/a/l/alexeiz

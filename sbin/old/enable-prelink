@@ -1,0 +1,5 @@
+#!/usr/bin/sudo /bin/bash
+
+apt-get -qq install prelink &&
+  perl -i.bak -lpe 's/=.*$/=yes/ if /^PRELINKING/' /etc/default/prelink
+

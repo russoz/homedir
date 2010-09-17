@@ -1,0 +1,58 @@
+#!/usr/bin/sudo /bin/bash
+
+HOSTS=/etc/hosts
+
+add-or-replace() {
+	HI="$1"
+	HH="$2"
+	HS="$3"
+
+	cat $HOSTS |
+		perl -e '$found = 0; $changed = 0; while(<>) { if( /^(\d+\.d+\.\d+\.\d+).*'"$HH"'/ ) {
+			
+
+
+}
+
+add-host-from-dns() {
+	HH="$1"
+	HSHORT=`echo $HH | perl -pe 'chomp; s/\..*$//;' `
+
+	HIP=`host $HH | perl -e '$_ = <>; chomp; if( /has address/ ) { s/^.*has address //; print; }' `
+
+	[ -z "$HIP" ] && return 1
+
+	echo "$HIP $HH $HSHORT"
+	add-or-replace "$HIP" "$HH" "$HSHORT"
+}
+
+check-add() {
+	SS="$1"
+	LL="$2"
+
+	grep "$SS" $HOSTS >/dev/null 2>&1 && return 1
+
+	echo "$LL" >> $HOSTS
+	return 0
+}
+
+add-host-from-dns "messaging.ibm.com"
+add-host-from-dns "d24bml08.br.ibm.com"
+add-host-from-dns "d24bmc03.br.ibm.com"
+add-host-from-dns "wecm.ibm.com"
+
+# B2B
+add-host-from-dns "b2bpp01.raleigh.ibm.com"
+add-host-from-dns "b2bpp03.raleigh.ibm.com"
+add-host-from-dns "b2bpp04.raleigh.ibm.com"
+add-host-from-dns "b2bpp05.raleigh.ibm.com"
+add-host-from-dns "b2bpp06.raleigh.ibm.com"
+add-host-from-dns "b2bpp07.raleigh.ibm.com"
+add-host-from-dns "b2bpp11.raleigh.ibm.com"
+add-host-from-dns "b2bpp12.raleigh.ibm.com"
+add-host-from-dns "b2bpp13.raleigh.ibm.com"
+
+# OCDC
+add-host-from-dns "ocdc.hursley.ibm.com"
+
+

@@ -1,0 +1,7 @@
+#
+# $Id$
+#
+# From: http://w3.opensource.ibm.com/forum/forum.php?thread_id=6192&forum_id=5357&group_id=2146
+#
+
+sudo perl -i -p -e 's|^#!/bin/sh$|#!/bin/bash|' ~/.sametime-base/native/playsound.sh

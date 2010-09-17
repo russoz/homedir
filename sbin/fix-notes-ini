@@ -1,0 +1,27 @@
+#!/bin/bash
+#
+# $Id: fix-notes-ini,v 1.1 2007/11/27 03:00:50 az Exp az $
+#
+# http://w3.webahead.ibm.com/w3ki/display/Linux/Notes+-+Format+of+Date+and+Time
+#
+
+updateprop() {
+  file="$1"
+  prop="$2"
+  value="$3"
+  perl -i.$(timestamp) -le \
+    '$p = shift; $v = shift;
+     while(<>) { chomp; $found=1 if s/^\s*$p(\s*=\s*).*$/$p$1$v/; print }
+     print "\n" . $p . "=" . $v . "\n" if ! $found' ${prop} ${value} ${file}
+}
+
+NOTES_INI=${HOME}/lotus/notes/data/notes.ini
+
+mkbkp $NOTES_INI
+updateprop ${NOTES_INI} DateOrder DMY
+updateprop ${NOTES_INI} DateSeparator '/'
+updateprop ${NOTES_INI} TimeSeparator ':'
+updateprop ${NOTES_INI} ClockType 24_HOUR
+updateprop ${NOTES_INI} CHECK_QUOTA_ON_MAIL_CREATE 0
+updateprop ${NOTES_INI} OptimizeImagePasteSize 1
+

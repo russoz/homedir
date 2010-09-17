@@ -1,0 +1,12 @@
+#!/usr/bin/perl
+
+use MIME::Base64;
+
+my $orig = $ARGV[0];
+
+if ( $orig =~ s/{xor}(.*)/$1/ ) {
+    $orig = decode_base64($orig);
+    my @chars = unpack( 'C*', $orig );
+    for my $cnt ( 0 .. $#chars ) { $chars[$cnt] ^= 0x5f; }
+    print pack( 'C*', @chars ) . "\n";
+}

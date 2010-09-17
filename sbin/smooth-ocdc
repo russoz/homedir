@@ -1,0 +1,484 @@
+#!/usr/bin/sudo /bin/bash
+#
+#  smooth-ocdc
+#
+#  This script installs and configures many convenient features in Ubuntu.
+#  Many of these settings come from tips fround elsewhere, but many of the
+#  sources have been forgotten, and I apologize for that. If you find out
+#  that I should give credit to you or someone else for any part of it,
+#  please do get in touch with me directly:
+#
+#    Alexei Znamensky <alexeiz@br.ibm.com>
+#
+#  The most recent version of this script can always be found at:
+#
+#    http://pokgsa.ibm.com/~alexeiz/public/scripts/
+#
+#  Many tips have been added from the Ubuntu Acceleration Guide
+#    http://cattail.boulder.ibm.com/cattail/?source=v#view=frank.heimes@de.ibm.com/files/653179001BA43DD89FE88CAB7F000001
+#
+# and will be marked 'UAG'
+#
+
+CINFO="\033[0;32m"
+CWARN="\033[1;31m"
+CITEM="\033[0;34m"
+GRAY="\033[0;37m"
+NO_COLOUR="\033[0m"
+
+colour_clear() {
+  msg -ne "$NO_COLOUR"
+}
+__time=$(date +%Y%m%d%H%M%S)
+timestamp() {
+  echo ${__time}
+}
+
+mkbkp() {
+  for i in "$@"; do
+    cp -pr $i $i.$(timestamp)
+  done
+}
+
+msg() {
+  echo "$@" >&2
+}
+
+info() {
+  [[ -z "$1" ]] && return
+  msg -ne "$CINFO"
+  msg -e "$@"
+  msg -ne "$NO_COLOUR"
+}
+
+warn() {
+  [[ -z "$1" ]] && return
+  msg -ne "$CWARN"
+  msg -e "$@"
+  msg -ne "$NO_COLOUR"
+}
+
+item() {
+  [[ -z "$1" ]] && return
+  msg -ne "$CITEM"
+  msg -e "$@"
+  msg -ne "$NO_COLOUR"
+}
+
+die() {
+  [ -n "$1" ] && warn "$@"
+  exit 1
+}
+
+__installpkg() {
+  dpkg-query -s "$1" 2>/dev/null | grep -q "install ok installed" && {
+    info -e "  already installed!"
+    return 0
+  }
+  [[ "$opt_yes" == 1 ]] && msg ""
+  apt-get -qq install "$1" || {
+    warn -e "**Cannot install $1"
+    return 1
+  }
+}
+
+installpkg() {
+  confirm -n "Installing package $1" && {
+    __installpkg "$@"
+  }
+}
+
+updateprop() {
+  file="$1"
+  prop="$2"
+  value="$3"
+  info "$( {
+    perl -i.$(timestamp) -le '
+      $p = shift; $v = shift;
+      while(<>) { 
+        chomp;
+        if( /^\s*#?\s*$p(\s*=\s*).*$/ ) {
+          s/^\s*#?\s*$p(\s*=\s*).*$/$p$1$v/; 
+          $found=$_;
+        }
+        print; 
+      }
+      if( !$found ) {
+        $found=$p."=".$v;
+        print $found;
+      }
+      print STDERR "  ".$found
+    ' "${prop}" "${value}" "${file}" >/dev/null 
+  } 2>&1 )"
+}
+
+if [ "$1" = "-y" ]; then
+  shift
+  opt_yes=1
+
+confirm() {
+  item "$@"
+}
+
+else
+
+confirm() {
+  item -n "$@" '[Y/n]: '
+  read -sn 1 c
+  msg ""
+
+  case "$c" in
+    Y|y|"") return 0 ;;
+    *) return 1 ;;
+  esac
+}
+
+fi
+
+#############################################################################
+
+fix_sh() {
+  if [ $(readlink -f /bin/sh) = "/bin/dash" ]; then
+    mv /bin/sh /bin/sh.$(timestamp) && ln -s /bin/bash /bin/sh
+  else
+    info "  /bin/sh not pointing to /bin/dash"
+  fi
+}
+
+fix_ntp_cron() {
+  TMPFILE=${HOME}/crontab.fix-ntp.$$
+  NTPDATE="/usr/sbin/ntpdate"
+
+  # For a complete list of GSA servers (which provide NTP service), refer to
+  #
+  #       http://pokgsa.ibm.com/gsadoc/gsa_celltable.html
+  #
+  SERVERS="pokgsa.ibm.com"
+  MIN=$(($RANDOM % 60))
+
+  info "  Peeking at root crontab"
+  crontab -l > ${TMPFILE}
+  grep 'ntpdate' ${TMPFILE} >/dev/null && {
+    rm ${TMPFILE}
+    info "    crontab already contains an entry for ntpdate"
+    return 0
+  }
+
+  info "  Sync'ing clock now with ${SERVERS}"
+  /usr/sbin/ntpdate -u ${SERVERS}
+  echo $MIN '* * * * /usr/sbin/ntpdate -u ' ${SERVERS} '>/dev/null 2>&1' \
+    >> ${TMPFILE}
+  info "  Adding ntpdate line to root crontab: "
+  info "  " "$(tail -1 ${TMPFILE})"
+  info "  =="
+
+  crontab ${TMPFILE}
+  rm ${TMPFILE}
+}
+
+fix_font_user() {
+  f="${HOME}/.fonts.conf"
+  [ -f $f ] && mkbkp $f
+  cat >$f <<EOM
+<?xml version="1.0"?>
+<!DOCTYPE fontconfig SYSTEM "fonts.dtd">
+<fontconfig>
+  <match target="font">
+    <edit name="autohint" mode="assign">
+      <bool>true</bool>
+    </edit>
+  </match>
+</fontconfig>
+EOM
+  info "  configured at ${f}"
+}
+
+HOSTS_ALLOW=/etc/hosts.allow
+HOSTS_DENY=/etc/hosts.deny
+
+fix_file() {
+  F="$1"
+  S="$2"
+  L="$3"
+
+  if perl -nle "exit 1 if /$S/" "$F"; then    
+    mkbkp $F
+    echo "$L" >> "$F"
+  else
+    info "  Already found setting ($S) in file $F"
+    return 0
+  fi
+}
+
+fix_hosts_allow() {
+  fix_file ${HOSTS_ALLOW} "localhost" "ALL: localhost"
+  fix_file ${HOSTS_ALLOW} "^sshd" "sshd: 9."
+}
+
+fix_hosts_deny() {
+  fix_file ${HOSTS_DENY} '^\s*ALL:\s+ALL\s*$' "ALL: ALL"
+}
+
+#
+# UAG, Section 2.4, page 205
+# 
+autopw_gnome_keyring() {
+  local PAMF=/etc/pam.d/common-password
+  gk=$(cat $PAMF | perl -nle 'next if /^\s*#/; print if /gnome_keyring/')
+  [ -n "$gk" ] && {
+    info "  gnome_keyring found in ${PAMF}, not touching"
+    return
+  }
+  echo "password optional pam_gnome_keyring.so" >> ${PAMF}
+}
+
+fix_dhclient_conf() {
+  local h=$(hostname -f)
+  local f=/etc/dhcp3/dhclient.conf
+  local hn
+  hn=$(grep $h $f | perl -nle 'print if /^\s*send\s+host-name/')
+  [ -n "$hn" ] && {
+    info "  It seems you're sending your hostname already in ${f}"
+    info "  $hn"
+    return
+  }
+  perl -i.$(timestamp) \
+    -ple 's|\".*\"\s*\;|\"'"$h"'\"\;| if /^\s*send\s+host-name/;' $f
+}
+
+fix_pam_access() {
+  local PAMFILE="$1"
+
+  item "  Enabling pam_access in file $PAMFILE"
+  local e=$(perl -nle 'print if /^\s*account\s+required\s+pam_access\.so/' \
+    $PAMFILE)
+  [ -n "$e" ] && {
+    info "    pam_access already found enabled in $PAMFILE"
+    return 0
+  }
+  perl -i.$(timestamp) \
+    -ple 's|^\s*#\s+|| if /account\s+required\s+pam_access\.so/' \
+    $PAMFILE
+}
+
+fix_root_access() {
+  local ACCESSCONF=/etc/security/access.conf
+
+  fix_pam_access /etc/pam.d/login
+  fix_pam_access /etc/pam.d/sshd
+  grep -q 'root:ALL' ${ACCESSCONF} && {
+    info "  ${ACCESSCONF} already contains an entry for root:ALL"
+    return 0
+  }
+  mkbkp $ACCESSCONF
+  echo '-:root:ALL EXCEPT LOCAL' >> $ACCESSCONF
+}
+
+#
+# http://www.dicas-l.com.br/dicas-l/20090718.php
+#
+install_color_man() {
+  msg -n "  "
+  installpkg most || {
+    warn "**Skipping color man installation"
+    return 1
+  }
+  grep -q 'MANPAGER' ${HOME}/.bashrc && {
+    info "  The MANPAGER variable is set in ${HOME}/.bashrc. Not touching."
+    return 0
+  }
+  mkbkp ${HOME}/.bashrc
+  echo 'export MANPAGER="/usr/bin/most -s"' >> ${HOME}/.bashrc
+  info "  Setting MANPAGER in ${HOME}/.bashrc"
+}
+
+#
+# https://help.ubuntu.com/community/Medibuntu
+#
+install_medibuntu() {
+  [ -f /etc/apt/sources.list.d/medibuntu.list ] && { 
+    info "  File /etc/apt/sources.list.d/medibuntu.list exists. Skipping."
+    return 0
+  }
+  {
+    sudo wget http://www.medibuntu.org/sources.list.d/$(lsb_release -cs).list \
+      --output-document=/etc/apt/sources.list.d/medibuntu.list \
+        && sudo apt-get -q update \
+        && sudo apt-get --yes -q --allow-unauthenticated \
+          install medibuntu-keyring \
+        && sudo apt-get -q update
+  } >/dev/null 2>&1
+}
+
+#
+# UAG, Section 2.4, page 32
+# 
+config_apt_http() {
+  local file="/etc/apt/apt.conf.d/80http"
+
+  [ -f "$file" ] && {
+    info "  Already found a file ${file}. Not touching."
+    return 0
+  }
+  info "  Creating file ${file} ..."
+  cat >${file} <<'EOM'
+Acquire::http::Pipeline-Depth "0";
+Acquire::http::No-Cache "true";
+Acquire::http::Max-Age "0";
+EOM
+}
+
+#############################################################################
+
+confirm "Fixing /bin/sh link from dash to bash" && {
+  fix_sh \
+    || warn "**Cannot fix /bin/sh from dash to bash"
+}
+
+installpkg lsb-release
+installpkg nautilus-image-converter
+installpkg msttcorefonts
+installpkg tpb
+installpkg tofrodos
+installpkg galternatives
+
+confirm "Adding Medibuntu package repositories to the system" \
+  && install_medibuntu
+
+confirm "Installing & Configuring prelink" && {
+  msg -n "  "
+  installpkg prelink \
+    && updateprop /etc/default/prelink PRELINKING yes \
+      || warn "**Cannot configure prelink"
+}
+
+confirm "Enabling concurrency at boot" && {
+  updateprop /etc/init.d/rc CONCURRENCY shell \
+    || warn "**Cannot set boot concurrency"
+}
+
+confirm "Configuring clock synchronization" && {
+  msg -n "  "
+  installpkg ntpdate \
+    && fix_ntp_cron || warn "**Cannot configure clock synchronization"
+}
+
+confirm "Configuring TCP Wrappers" && {
+  fix_hosts_allow && fix_hosts_deny && {
+    warn \
+      "  If you use NFS, inetd, or other services that link with TCP Wrappers,"
+    warn "  you may need to manually customize the ${HOSTS_ALLOW} file."
+  }
+}
+
+confirm "Enabling automatic GNOME Keyring password change" \
+  && autopw_gnome_keyring
+
+confirm "Enabling screensaver, by default, to all users" && {
+  gconftool-2 -s -t bool /apps/gnome-screensaver/lock_enabled true
+}
+
+confirm "Configuring to notify of updates as soon as they appear" && {
+  gconftool-2 -s -t bool /apps/update-notifier/auto_launch true
+  gconftool-2 -s -t int /apps/update-notifier/regular_auto_launch_interval 0
+}
+
+#
+# As seen in the OCDC Forum, posted by Mark A. Moore
+# http://ibmforums.ibm.com/forums/message.jspa?messageID=1656134#1656134
+#
+confirm "Enabling plugin customization in Notes 8.5 UI" && {
+  f='/opt/ibm/lotus/notes/framework/rcp/plugin_customization.ini' \
+    && updateprop ${f} com.ibm.notes.branding/enable.update.ui true \
+      || warn "**Cannot enable plugin customization in Notes"
+}
+
+confirm "Fixing playsound.sh script in Notes installation in background" && {
+  ( find /opt/ibm/lotus/notes -name '*.sh' -print | xargs dos2unix ) &
+  warn "  Started background job"
+}
+
+confirm "Fixing tcp_syncookies setting in /etc/sysctl.conf" && {
+  updateprop /etc/sysctl.conf net.ipv4.tcp_syncookies 1 \
+    || warn "**Cannot set tcp_syncookies"
+}
+
+#
+# UAG, Section 2.6.1.3, page 49
+# 
+confirm "Install UAG recommended fonts" && {
+  info -n "  t1-xfree86-nonfree"  && __installpkg t1-xfree86-nonfree
+  info -n "  ttf-xfree86-nonfree" && __installpkg ttf-xfree86-nonfree
+  info -n "  ttf-freefont"        && __installpkg ttf-freefont
+  info -n "  ttf-bitstream-vera"  && __installpkg ttf-bitstream-vera
+  info -n "  ttf-dejavu"          && __installpkg ttf-dejavu
+  info -n "  ttf-liberation"      && __installpkg ttf-liberation
+}
+
+#
+# UAG, Section 2.6.1.3, page 49
+# 
+#installpkg acroread
+#installpkg acroread-escript
+#installpkg acroread-plugins
+
+#
+# UAG, Section 2.6.1.3, page 58
+# 
+confirm "Configuring font rendering" && fix_font_user
+
+#
+# UAG, Section 4.2.3, page 155
+# 
+installpkg ubuntu-restricted-extras 
+
+#
+# UAG, Section 4.3.3, page 171
+# 
+installpkg cups-pdf 
+
+confirm "Install some basic low-level Linux doc" && {
+  info -n "  manpages-dev" && __installpkg manpages-dev
+  info -n "  linux-doc"    && __installpkg linux-doc
+}
+installpkg libmotif3
+installpkg fusion-icon
+confirm "Extra office clipart" && {
+  info -n "  openclient-symphony-templates" \
+    && __installpkg openclient-symphony-templates
+  info -n "  openclipart-openoffice.org"    \
+    && __installpkg openclipart-openoffice.org
+}
+
+confirm "Configuring fancy, colorful man-pages" && install_color_man
+
+confirm "Fixing 'send host-name' in dhclient.conf" && fix_dhclient_conf
+confirm "Disabling networked login for root" && fix_root_access
+
+confirm "Enhancing repository updating performance" && config_apt_http
+
+confirm "Disabling GNOME Terminal confirmation" && {
+  gconftool-2 \
+    --type bool \
+    -s /apps/gnome-terminal/global/confirm_window_close false
+}
+
+confirm "Disable IPv6 (karmic)" && {
+  updateprop /etc/default/grub \
+    GRUB_CMDLINE_LINUX_DEFAULT \"quiet splash ipv6.disable=1\"
+}
+
+msg ""
+item "Waiting for background jobs to complete"
+wait
+info "  completed!"
+
+msg ""
+msg "-=&=- THE END -=&=-                                 [timestamp: $(timestamp)]"
+msg ""
+warn "Although not strictly necessary, a reboot is advisable at this point"
+msg ""
+
+#colour_clear
+
+

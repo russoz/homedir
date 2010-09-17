@@ -1,0 +1,103 @@
+#!/usr/bin/perl
+#
+# $Id: mkbkp,v 1.3 2008/01/27 02:21:44 az Exp az $
+#
+
+use strict;
+use warnings;
+use Carp;
+
+use Getopt::Std;
+use File::Copy;
+use Pod::Usage;
+
+sub datestamp {
+    my $time = shift;
+
+    my ( $sec, $min, $hour, $mday, $mon, $year, $wday, $yday, $isdst ) =
+      localtime($time);
+
+    $year += 1900;
+    $mon++;
+
+    my $today = sprintf( "%4d%02d%02d", $year, $mon, $mday );
+
+    return $today;
+}
+
+sub mkBackupName {
+    my $file  = shift;
+    my $today = datestamp(time);
+
+    my @suf  = ( 'a' ... 'z' );
+    my $iSuf = 0;
+
+    my $new  = $file . '.' . $today;
+    while ( -f "$new" ) {
+        $new = $file . '.' . $today . $suf[$iSuf++];
+    }
+
+    return $new;
+}
+
+our ( $opt_d, $opt_n, $opt_h );
+getopts('dnh') or pod2usage(2);
+pod2usage(1) if $opt_h;
+pod2usage("$0: No files given.") if @ARGV == 0;
+
+while ( my $file = shift ) {
+    if ($opt_n) {
+        print mkBackupName($file) . "\n";
+        next;
+    }
+
+    pod2usage("$0: Cannot read file $file") if !-r $file;
+    copy( $file, mkBackupName($file) );
+    unlink($file) if $opt_d;
+}
+
+__END__
+
+=head1 NAME
+
+mkbkp - Make quick backups of files
+
+=head1 SYNOPSIS
+
+mkbkp [options] [file ...]
+
+
+=head1 OPTIONS
+
+=over 8
+
+=item B<-d>
+
+Deletes the original file, leaving only the backup file.
+
+=item B<-n>
+
+Do not create a backup copy, but prints the backup filename.
+
+=back
+
+=head1 DESCRIPTION
+
+The B<mkbkp> program will create a backup copy for each of the 
+file(s) passed in the command line. The backup files will have a
+suffix of the form B<.YYYYMMDD> where YYYY, MM and DD are, respectively
+the year, month and day. If a previous backup file exists with that
+name, letters ranging from I<a> to I<z> will be appended to the suffix.
+
+Use the B<-d> flag to create a backup copy and delete the original file
+afterwards. Useful for file rotation.
+
+If you use the B<-n> flag, B<mkbkp> will not create any backup copy, as
+a matter of fact it will not even verify the files' existence. It will
+only print the file names with the backup suffix appended to them.
+
+=cut
+
+ Options:
+    -d      Deletes the original file
+    -n      No action. Just prints the backup filename

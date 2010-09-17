@@ -1,0 +1,51 @@
+#!/bin/bash
+#
+# $Id$
+#
+
+export LIBXCB_ALLOW_SLOPPY_LOCK=1
+#export JAVA_HOME="/usr/lib/j2sdk1.6-ibm/"
+export JAVA_HOME="/usr/lib/jvm/java-6-sun" 
+#export JAVA_HOME="/usr/lib/jvm/java-1.5.0-sun"
+export PATH=${JAVA_HOME}/bin:${PATH}
+JAR="${HOME}/ii/WSPluginAnalyzer/wspa*.jar"
+heaps="900m"
+heapm="1200m"
+heapl="1500m"
+
+usage() {
+  cat >&2 <<EOM
+usage: ha [-s|-m|-l|-u <value>] file
+
+  -s small
+     sets JVM max heap to $heaps
+
+  -m medium
+     sets JVM max heap to $heapm
+
+  -l large
+     sets JVM max heap to $heapl
+
+  -u <user-value>
+     sets JVM max heap to the user specified value.
+
+EOM
+  exit 1
+}
+
+while getopts ":lmshu:" opt; do
+  case "$opt" in
+    l) HEAP="$heapl"; shift ;;
+    m) HEAP="$heapm"; shift ;;
+    s) HEAP="$heaps"; shift ;;
+    u) HEAP="$OPTARG"; shift 2 ;;
+    h|?) usage ;;
+  esac
+done
+
+[ -z "$HEAP" ] && HEAP="$heapm"
+
+# echo "Using max heap size = $HEAP" >&2
+
+exec ${JAVA_HOME}/bin/java "-Xmx${HEAP}" -jar ${JAR} "$@"
+

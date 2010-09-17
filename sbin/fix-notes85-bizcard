@@ -1,0 +1,11 @@
+#!/usr/bin/sudo /bin/sh
+#
+# $Id: fix-tcpwrappers,v 1.2 2007/12/10 01:59:12 az Exp az $
+#
+
+FILE="/opt/ibm/lotus/notes/framework/shared/eclipse/plugins/com.ibm.openactivities.client.common.service_3.5.0.20081211-1925/plugin.properties"
+
+timestamp=$(date +%Y%m%d%H%M%S)
+
+perl -i.${timestamp} -pe 's/false/true/ if /^bizcard\.show/' $FILE
+

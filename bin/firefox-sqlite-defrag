@@ -1,0 +1,3 @@
+#!/bin/bash
+
+find $HOME/.mozilla/firefox -type f -name *.sqlite -exec sqlite3 {} vacuum \; 

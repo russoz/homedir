@@ -1,0 +1,89 @@
+#!/bin/bash
+#
+# avon-user - search users in AVON LDAP (AD)
+#
+# Alexei Znamensky <alexei.znamensy@cognizant.com>
+#
+
+msg() {
+    echo "$@" >&2
+}
+
+usage() {
+    cat >&2 <<EOM
+usage: avon-user [-U <bind-user>] [-P <bind-pw>] search-option
+
+where search-option can be:
+
+    -u <user>   User to search for
+
+    -c <chapa>  Employee ID to search for
+
+    -n <name>   Display name to search for
+
+    -N <name>   Exact display name to search for
+
+EOM
+    exit 1
+}
+
+make_filter() {
+    stype="$1"; shift
+    sparm="$1"; shift
+
+    case ${stype} in
+        user) sretr="(&(objectClass=person)(sAMAccountName=${sparm}))" ;;
+        chap) sretr="(&(objectClass=person)(|(description=${sparm})(employeeID=${parm})))" ;;
+        name) sretr="(&(objectClass=person)(displayName=${sparm}))" ;;
+    esac
+
+    echo "${sretr}"
+}
+
+while getopts ":hP:U:u:c:N:n:" opt; do
+    #msg opt=$opt
+    case "$opt" in
+        U) user="$OPTARG"; ;;
+        P) pass="$OPTARG"; ;;
+        u) search_type="user"; search_param="$OPTARG"; ;;
+        c) search_type="chap"; search_param="$OPTARG"; ;;
+        n) search_type="name"; search_param="*${OPTARG}*"; ;;
+        N) search_type="name"; search_param="$OPTARG"; ;;
+        h|?) usage ;;
+    esac
+done
+shift $((OPTIND - 1))
+
+[ -z "${search_type}" ] && usage
+#msg user=$user pass=$pass search_type=$search_type search_param=$search_param
+
+#host='ryemsroot1.avonet.net'
+#base='DC=avonet,DC=net'
+host='spomssadc1.sa.avonet.net'
+base='DC=sa,DC=avonet,DC=net'
+
+if [ -z "${pass}" ]; then
+    P='-W'
+else
+    P="-w \"${pass}\""
+fi
+
+##############################################################################
+
+filter=$(make_filter ${search_type} ${search_param})
+#echo make_filter ${search_type} ${search_param}
+#make_filter ${search_type} ${search_param}
+#exit 0
+#msg filter=$filter
+[ -z "${filter}" ] && exit 1
+
+attrs=""
+[ -n "$1" ] && attrs="dn $@"
+
+#msg ldapsearch -a always -x -LLL \
+#    -h "${host}" -D "${user}" ${P} -b "${base}" \
+#    "${filter}" ${attrs}
+ldapsearch -a always -x -LLL \
+    -h "${host}" -D "${user}" ${P} -b "${base}" \
+    "${filter}" ${attrs}
+

@@ -1,0 +1,17 @@
+#
+# $Id: auto.odwn,v 1.3 2008/02/28 21:16:22 az Exp az $
+#
+# This is an automounter map and it has the following format
+# key [ -mount-options-separated-by-comma ] location
+# Details may be found in the autofs(5) manpage
+
+odwwpsn1	-fstype=fuse,transform_symlinks,allow_other,reconnect,uid=1000,gid=1000 sshfs\#&.ihe.ibm.com:/
+odwwpsn2	-fstype=fuse,transform_symlinks,allow_other,reconnect,uid=1000,gid=1000 sshfs\#&.ihe.ibm.com:/
+odwwpsn3	-fstype=fuse,transform_symlinks,allow_other,reconnect,uid=1000,gid=1000 sshfs\#&.ihe.ibm.com:/
+odwwpscl1	-fstype=fuse,transform_symlinks,allow_other,reconnect,uid=1000,gid=1000 sshfs\#&.ihe.ibm.com:/
+odwdb2n1	-fstype=fuse,transform_symlinks,allow_other,reconnect,uid=1000,gid=1000 sshfs\#&.ihe.ibm.com:/
+
+dpep009	-fstype=fuse,transform_symlinks,allow_other,reconnect,uid=1000,gid=1000 sshfs\#&.innovate.ibm.com:/
+dpep010	-fstype=fuse,transform_symlinks,allow_other,reconnect,uid=1000,gid=1000 sshfs\#&.innovate.ibm.com:/
+dpep011	-fstype=fuse,transform_symlinks,allow_other,reconnect,uid=1000,gid=1000 sshfs\#&.innovate.ibm.com:/
+dpep012	-fstype=fuse,transform_symlinks,allow_other,reconnect,uid=1000,gid=1000 sshfs\#&.innovate.ibm.com:/

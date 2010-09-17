@@ -1,0 +1,57 @@
+#!/bin/bash
+#
+#  ax-mk-remote-me
+#
+
+. ${HOME}/.nb/load
+
+REM_USER=znamensa
+REM_UID=99920012
+REM_GECOS='Alexei Znamensky(Cognizant)'
+REM_GROUP=avoninf
+REM_HOME=/home
+
+msg() {
+    echo "===" "$@" >&2
+}
+
+mk_remote() {
+    host="$1"
+
+    msg "Trying to create remote user $REM_USER at host ${host}"
+
+    [ ! -f $HOME/.ssh/id_dsa.pub ] && {
+        msg "Cannot find ~/.ssh/id_dsa.pub"
+        exit 1
+    }
+    SSH_KEY="$(cat $HOME/.ssh/id_dsa.pub)"
+    
+    msg "Accessing as root"
+    /usr/bin/ssh -t -C root@${host} \
+        "echo Installing rsync, if needed >&2 &&
+         /usr/bin/rpm -q rsync || /usr/bin/rpm -Uvh ftp://ftp.software.ibm.com/aix/freeSoftware/aixtoolbox/RPMS/ppc/rsync/rsync-3.0.6-1.aix5.3.ppc.rpm
+
+         REM_HOME=${REM_HOME}
+         [ ! -w /home ] && REM_HOME=/export/home
+         echo Creating group ${REM_GROUP} >&2 &&
+         /usr/bin/mkgroup ${REM_GROUP} &&
+         echo Creating user >&2 &&
+         /usr/bin/mkuser \
+           id=${REM_UID} \
+           gecos='${REM_USER}' \
+           groups='staff,${REM_GROUP}' \
+           home=\${REM_HOME}/${REM_USER} \
+           ${REM_USER} &&
+         echo Assigning initial password 'temp4now' >&2 &&
+         echo '${REM_USER}:temp4now' | chpasswd &&
+         su - ${REM_USER} -c 'passwd' &&
+         mkdir -p .ssh &&
+         chmod 700 .ssh &&
+         echo '${SSH_KEY}' >> .ssh/authorized_keys &&
+         echo GREAT SUCCESS >&2"
+}
+
+h="$1"
+mk_remote $h || { msg 'Error creating user'; exit 1; }
+nb_peer_add $h
+

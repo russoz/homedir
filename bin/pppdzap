@@ -1,0 +1,24 @@
+#!/usr/bin/sudo /bin/bash
+#
+# $Id: pppdzap,v 1.1 2008/02/05 13:26:00 az Exp az $
+#
+
+while true; do
+	echo "pppdzap: unloading airprime"
+	rmmod airprime
+	sleep 3
+	echo "pppdzap: unloading usbserial"
+	rmmod usbserial
+	sleep 3
+	echo "pppdzap: cleared"
+	echo "pppdzap: loading usbserial"
+	modprobe usbserial vendor=0c88 product=17da
+	sleep 2
+	echo "pppdzap: loading airprime"
+	modprobe airprime
+	sleep 2
+	#echo "-------------------------------------------- $(date)"
+	echo "pppdzap: starting pppd $(date)"
+	/usr/sbin/pppd call vivozap
+	sleep 2
+done

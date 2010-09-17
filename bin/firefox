@@ -1,0 +1,12 @@
+#!/bin/bash
+#
+# $Id$
+#
+
+FF="/usr/bin/firefox"
+
+# preload profile for faster in-memory access
+tar cf /dev/null $HOME/.mozilla/firefox --exclude '*/Cache/*' >/dev/null 2>&1
+  
+exec "$FF" "$@"
+

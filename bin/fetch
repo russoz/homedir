@@ -1,0 +1,43 @@
+#!/bin/bash
+
+WGET_CMD="wget"
+WGET_OPT="-c --"
+FETCH_CMD="./.fetchcmd"
+
+# if there is no file, there's gotta be a parameter
+[ -z "$1" -a ! -r "$FETCH_CMD" ] && {
+    echo "usage: ${0##*/} <URL>" >&2 
+    exit 1
+}
+
+LIST=""
+
+# if there is a file, load the URLs in it to LIST variable
+[ -r "$FETCH_CMD" ] \
+    && LIST=$(cat "$FETCH_CMD" | perl -pe "s/^\s*$WGET_CMD\s+$WGET_OPT\s+//;")
+
+addURL() {
+	URL="$1"
+	# if there is a new URL, try to add it to the list
+	if [ -n "$URL" ]; then
+
+		# add it only if it's not there yet
+		if echo "$LIST" | grep -v -q "$URL"; then
+			LIST="$LIST $URL"
+			echo "$WGET_CMD $WGET_OPT $LIST" > $FETCH_CMD
+
+			chmod 755 $FETCH_CMD
+		else
+			echo ""
+			echo "*** URL already in the list" >&2
+			echo ""
+		fi
+	fi
+}
+
+for u in $*; do
+	addURL "$u"
+done
+
+exec $FETCH_CMD
+

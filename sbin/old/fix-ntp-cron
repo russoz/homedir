@@ -1,0 +1,28 @@
+#!/usr/bin/sudo /bin/bash
+#
+# $Id: fix-ntp-cron,v 1.2 2007/12/10 02:00:27 az Exp az $
+#
+
+TMPFILE=${HOME}/crontab.fix-ntp.$$
+NTPDATE="/usr/sbin/ntpdate"
+
+# For a complete list of GSA servers (which provide NTP service), refer to
+#
+#   http://pokgsa.ibm.com/gsadoc/gsa_celltable.html
+#
+SERVERS="pokgsa.ibm.com hurgsa.ibm.com"
+
+MIN=$(($RANDOM % 60))
+
+sudo crontab -l > ${TMPFILE}
+grep 'ntpdate' ${TMPFILE} >/dev/null && {
+    echo "crontab already contains an entry for ntpdate" >&2
+    rm ${TMPFILE}
+    exit 1
+}
+
+/usr/sbin/ntpdate -u ${SERVERS}
+echo $MIN '* * * * /usr/sbin/ntpdate -u ' ${SERVERS} '>/dev/null 2>&1' >> ${TMPFILE}
+sudo crontab ${TMPFILE}
+rm ${TMPFILE}
+

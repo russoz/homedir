@@ -1,0 +1,13 @@
+#!/usr/bin/sudo /bin/bash
+#
+# $Id: fix-notes-zap,v 1.1 2007/11/27 03:00:50 az Exp az $
+#
+
+ZAP=/usr/bin/ibm-notes8-zap
+
+cat $ZAP | perl -pe 's#Notes/Data#lotus/notes/data#;' >$ZAP.tmp.$$
+
+cp $ZAP $ZAP.old
+mv $ZAP.tmp.$$ $ZAP
+
+

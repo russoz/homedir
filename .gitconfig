@@ -5,3 +5,7 @@
 	diff = auto
 	status = auto
 	branch = auto
+[core]
+	excludesfile = *~
+	excludesfile = *.swp
+	excludesfile = *.bak

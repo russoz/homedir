@@ -71,3 +71,5 @@ workspace*
 .dropbox-dist
 .cpanplus
 .gstreamer-0.10
+.cpanreporter/reports-sent.db
+.cpan/FTPstats.yml

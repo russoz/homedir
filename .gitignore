@@ -1,6 +1,3 @@
-*~
-*.bkp
-*.swp
 .adobe
 avon
 .broffice.org
@@ -73,3 +70,4 @@ workspace*
 .gstreamer-0.10
 .cpanreporter/reports-sent.db
 .cpan/FTPstats.yml
+.rnd

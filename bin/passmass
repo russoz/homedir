@@ -89,7 +89,7 @@ if ![string match $password(new) $password(newcheck)] {
 #	if ![string match "y" [lindex $expect_match 0 c]] exit
 #}
 
-set timeout 30
+set timeout 90
 set badhosts {}
 for {set i 0} {$i<$argc} {incr i} {
     set arg [lindex $argv $i]
@@ -184,9 +184,9 @@ for {set i 0} {$i<$argc} {incr i} {
 	send "$program\r"
     }
 
-    expect "Old password*" {
+    expect -re "(Old|current.*) password.*:" {
 	send "$password(old)\r"
-	expect "Sorry*" {
+	expect -re "Sorry.*|does not match|error" {
 	    badhost $host "old password is bad?"
 	    continue
 	} "password:"

@@ -1,6 +1,3 @@
-*~
-*.bkp
-*.swp
 .adobe
 avon
 .broffice.org
@@ -117,3 +114,4 @@ etc/root.crontab
 .mp3diags*
 .openoffice.org
 .openastro.org
+.rnd

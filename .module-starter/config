@@ -1,0 +1,5 @@
+author:  Alexei Znamensky
+email:   russoz@cpan.org
+builder: ExtUtils::MakeMaker Module::Build
+plugins: Module::Starter::PBP
+template_dir: /home/az/.module-starter/PBP

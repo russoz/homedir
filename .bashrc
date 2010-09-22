@@ -102,7 +102,7 @@ export MANPAGER="/usr/bin/most -s"
 
 eval $(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib)
 
-source /home/az/perl5/perlbrew/etc/bashrc
+#source /home/az/perl5/perlbrew/etc/bashrc
 
 . ${HOME}/.nb/load
 . ${HOME}/.profile-avon

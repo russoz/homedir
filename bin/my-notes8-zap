@@ -1,0 +1,88 @@
+#!/usr/bin/python
+import os,sys,re,shutil
+import pygtk
+pygtk.require('2.0')
+
+# For M5
+
+#
+##
+## I18N
+##
+from gettext import gettext as _
+from gettext import bindtextdomain, textdomain
+from locale import setlocale, LC_ALL
+
+EXIT = 0
+try:
+  import gtk
+  warnin_01 = (_("Do you wish to destroy all current ibm notes 8\n processes?"))
+  titlew_01 = (_("ibm notes 8 Zapper"))
+  dialog = gtk.MessageDialog(
+	parent         = None,
+	flags          = gtk.DIALOG_DESTROY_WITH_PARENT,
+	type           = gtk.MESSAGE_QUESTION,
+	buttons        = gtk.BUTTONS_YES_NO,
+	message_format = warnin_01)
+  dialog.set_title(titlew_01)
+  dialog.show_all()
+  result = dialog.run()
+  dialog.destroy()
+  if result != -8:
+    print "exit"
+    EXIT = 1
+except:
+  answer = raw_input("Would you like to zap notes 8(y/n)?")
+  if answer.lower() != "y":
+    print "bye"
+    sys.exit(1)
+
+if EXIT == 1:
+  sys.exit(0)
+
+home = os.getenv("HOME")
+
+# Routine to zap all workplace processes, lists the directory and kills any notes processes it fines
+line = os.popen("id -un")
+user = line.readline().rstrip('\n')
+
+# zap notes
+if os.path.isdir( '/opt/ibm/lotus/notes'):
+  for process in os.listdir( '/opt/ibm/lotus/notes' ):
+    matchobj = re.search('.so|.ini|.res|.txt|.dcx', process)
+    if not matchobj:
+      #print process
+      os.system("/usr/bin/pgrep -u %s -f \"%s\" | xargs kill -9  >/dev/null 2>&1" % (user,( '/opt/ibm/lotus/notes/' + process)))
+
+# zap Framework
+list = [ '/opt/ibm/lotus/notes/framework/rcp/','/opt/ibm/lotus/notes/framework/rcp/' ]
+for dir in list:
+  if os.path.isdir( dir ):
+    for process in os.listdir( dir ):
+      matchobj = re.search('.so|.ini|.res|.txt|.dcx', process)
+      if not matchobj:
+        #print process
+        os.system("/usr/bin/pgrep -u %s -f \"%s\" | xargs kill -9  >/dev/null 2>&1" % (user,(dir + process)))
+
+# Javasharedresources
+if os.path.isdir( home + '/lotus/notes/data/workspace/javasharedresources' ):
+  shutil.rmtree( home + '/lotus/notes/data/workspace/javasharedresources' ) 
+
+# Clean up any locks
+if os.path.isfile( home + '/lotus/notes/data/~notes.lck' ):
+  os.remove( home + '/lotus/notes/data/~notes.lck' )
+if os.path.isfile( home + '/lotus/notes/data/workspace/.sid' ):
+  os.remove( home + '/lotus/notes/data/workspace/.sid' )
+if os.path.isfile( home + '/lotus/notes/data/workspace/.rcp.lock' ):
+  os.remove( home + '/lotus/notes/data/workspace/.rcp.lock' )
+if os.path.isfile( home + '/lotus/notes/data/workspace/.sid' ):
+  os.remove( home + '/lotus/notes/data/workspace/.sid' )
+
+# A few extras
+os.system("/usr/bin/pgrep -u %s -f \"notes*.*xwatchidle-bin\" | xargs kill -9  >/dev/null 2>&1" % user)
+os.system("/usr/bin/pgrep -u %s -f \"notes*.*soffice.bin\" | xargs kill -9  >/dev/null 2>&1" % user)
+
+# Added from S Dague, 20060821 ibm Tech list
+os.system("ipcs -a | grep 0xf8 | cut -d ' ' -f 2 | xargs ipcrm msg >/dev/null 2>&1")
+os.system("ipcs -a | grep 0xf8 | cut -d ' ' -f 2 | xargs ipcrm sem >/dev/null 2>&1")
+os.system("ipcs -a | grep 0xf8 | cut -d ' ' -f 2 | xargs ipcrm shm >/dev/null 2>&1")

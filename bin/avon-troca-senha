@@ -1,0 +1,6 @@
+#!/bin/bash
+
+. ${HOME}/.profile-avon
+
+${HOME}/bin/passmass $(echo $ALL_SERVERS | perl -ple 's|\S+modce\S+||g')
+

@@ -1,0 +1,57 @@
+2010-09-18T12:14:59
+Linux version 2.6.32-24-generic (buildd@yellow) (gcc version 4.4.3 (Ubuntu 4.4.3-4ubuntu5) ) #43-Ubuntu SMP Thu Sep 16 14:58:24 UTC 2010
+Compiled with GCC 4.4.3
+Qt runtime version: 4.6.2
+Qt compilation version: 4.6.2
+Addressing mode: 64-bit
+MemTotal:        3052088 kB
+MemFree:         1267428 kB
+SwapTotal:       8940132 kB
+model name	: Intel(R) Core(TM)2 Duo CPU     T6600  @ 2.20GHz
+cpu MHz		: 1200.000
+model name	: Intel(R) Core(TM)2 Duo CPU     T6600  @ 2.20GHz
+cpu MHz		: 1200.000
+00:02.0 VGA compatible controller: Intel Corporation Mobile 4 Series Chipset Integrated Graphics Controller (rev 07)
+Kernel driver in use: i915
+Kernel modules: i915
+stellarium 
+ ------------------------------------------------------- 
+[ This is Stellarium 0.10.4 - http://www.stellarium.org ] 
+[ Copyright (C) 2000-2010 Fabien Chereau et al          ] 
+ ------------------------------------------------------- 
+Writing log file to: "/home/az/.stellarium/log.txt" 
+File search paths: 
+  0 .  "/home/az/.stellarium" 
+  1 .  "/usr/share/stellarium" 
+Attempting to use an existing older config file. 
+Config file is:  "/home/az/.stellarium/config.ini" 
+Qt GL paint engine is:  "OpenGL2" 
+QFileSystemWatcher: failed to add paths: /home/az/.config/ibus/bus
+Bus::open: Can not get ibus-daemon's address. 
+IBusInputContext::createInputContext: no connection to ibus-daemon 
+Cache directory is:  "/home/az/.cache/stellarium/stellarium" 
+Sky language is  "en_US" 
+Application language is  "en_US" 
+Loading Solar System data ... 
+Loaded 38 / 38 planet orbits 
+Loading star data ... 
+"Loading "/usr/share/stellarium/stars/default/stars_0_0v0_1.cat": 0_0v0_1; 5013" 
+"Loading "/usr/share/stellarium/stars/default/stars_1_0v0_1.cat": 1_0v0_1; 21999" 
+"Loading "/usr/share/stellarium/stars/default/stars_2_0v0_1.cat": 2_0v0_1; 151416" 
+"Loading "/usr/share/stellarium/stars/default/stars_3_1v0_0.cat": 3_1v0_0; 434064" 
+Finished loading star catalogue data, max_geodesic_level:  3 
+navigation/preset_sky_time is a double - treating as jday: 2.45151e+06 
+Loaded 10051 NGC records 
+Loading NGC name data ... 
+Loaded 222 / 222 NGC name records successfully 
+Loaded 88 / 88 constellation records successfully for culture "western" 
+Loaded 85 / 85 constellation art records successfully for culture "western" 
+Loaded 89 / 89 constellation names 
+Loading constellation boundary data ...  
+Loaded 782 constellation boundary segments 
+Loading star names from "/usr/share/stellarium/skycultures/western/star_names.fab" 
+Loaded 230 / 230 common star names 
+Loading star names from "/usr/share/stellarium/stars/default/name.fab" 
+Loaded 3215 / 4359 scientific star names 
+Creating GUI ... 
+Downloaded 0 files (0 kbytes) in a session of 631.029 sec (average of 0 kB/s + 0 files from cache (0 kB)). 

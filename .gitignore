@@ -112,4 +112,5 @@ etc/root.crontab
 .ies4linux
 .installjammerinfo
 .wapi
+.mplayer
 !.mplayer/config

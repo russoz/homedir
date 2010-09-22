@@ -1,0 +1,31 @@
+#!/bin/bash
+#
+# $Id: listBlueGroupMembers,v 1.1 2006/04/26 16:56:37 az Exp az $
+#
+# This script is also available at the intranet address:
+# http://pokgsa.ibm.com/~alexeiz/public/bin/listBlueGroupMembers
+#
+# This script requires ldapsearch from openldap package and perl.
+#
+# It has been tested on Linux, but it should work fine on other systems
+# with minor modifications.
+#
+
+BLUEGROUP=$1
+[ -z "$BLUEGROUP" ] && {
+  echo "usage: listBlueGroupMembers <blue group name>" >&2
+  exit 1
+}
+
+IBMUIDS=$(ldapsearch -x -LL -h bluepages.ibm.com -b ou=memberlist,ou=ibmgroups,o=ibm.com cn="$BLUEGROUP" uniquemember | perl -ne 'next if ! /^uniquemember/; s/^.*uid=//; s/,.*$//; print;' )
+
+for i in $IBMUIDS; do
+  # need to run thru eval echo to get rid of '\' characters
+  ii=$(eval echo "$i")
+
+  # if anything goes wrong, it will print the offending uid on stderr
+  { ldapsearch -x -LL -h bluepages.ibm.com -b ou=bluepages,o=ibm.com \
+      "(uid=$ii)" mail 2>/dev/null || echo "OFFENDING: $ii" >&2
+  } | perl -ne 'next if ! /^mail/; s/^mail: //; print;'
+done
+

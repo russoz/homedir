@@ -1,0 +1,23 @@
+style "handle"
+{
+engine "pixmap"
+  {
+    image
+    {
+      function = HANDLE
+      file               = "ish-handle.png"
+      border            = { 0, 0, 0, 0 }
+      stretch            = TRUE
+      orientation = VERTICAL
+    }
+    image
+    {
+      function = HANDLE
+      file              = "ish-handle.png"
+      border            = { 0, 0, 0, 0 }
+      stretch            = TRUE
+      orientation = HORIZONTAL
+    }
+  }
+}
+class "PanelAppletFrame" style "handle"

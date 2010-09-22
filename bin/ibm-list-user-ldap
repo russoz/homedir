@@ -1,0 +1,21 @@
+#!/bin/sh
+#
+# $Id: listBlueGroups,v 1.1 2006/04/26 16:56:37 az Exp az $
+#
+# This script requires ldapsearch from openldap package and perl.
+#
+# It has been tested on Linux, but it should work fine on other systems
+# with minor modifications.
+#
+
+
+IBMEMAIL=$1
+[ -z "$IBMEMAIL" ] && {
+  echo "usage: ${0##*/} <intranet id>" >&2
+  exit 1
+}
+
+ldapsearch -x -LL -h bluepages.ibm.com -b ou=bluepages,o=ibm.com "(mail=$IBMEMAIL)" 
+# automate b64 decoding with 'base64 -d' ?
+# colorize? hehe
+

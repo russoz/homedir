@@ -1,0 +1,8 @@
+To use the top panel uncomment the first line of the gtkrc
+#include "panelrc"
+to
+include "panelrc"
+
+All that does is cover the bug in the PanelAppletFrame when using an image for the entire panel.
+
+Now, right-click the panel>properties>Background tab>tick Background image>and drag and drop ish-panel-24-1280.png in the Clearlooks_Cairo-ish directory to the Background image button.

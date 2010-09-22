@@ -73,3 +73,17 @@ workspace*
 .gstreamer-0.10
 .cpanreporter/reports-sent.db
 .cpan/FTPstats.yml
+ppgd.log
+ProgramasRFB
+vpd.properties
+vuze
+Azureus*
+.update*
+.rnd
+.wine*
+.gnucash
+.receitanet
+.gvfs
+.gnome*
+.dvdcss
+.azureus

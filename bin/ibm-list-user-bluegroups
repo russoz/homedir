@@ -1,0 +1,26 @@
+#!/bin/sh
+#
+# $Id: listBlueGroups,v 1.1 2006/04/26 16:56:37 az Exp az $
+#
+# This script will return the list of the BlueGroups to which a user
+# (specified by his intranet ID) belongs.
+#
+# This script is also available at the intranet address:
+# http://pokgsa.ibm.com/~alexeiz/public/bin/listBlueGroups
+#
+# This script requires ldapsearch from openldap package and perl.
+#
+# It has been tested on Linux, but it should work fine on other systems
+# with minor modifications.
+#
+
+
+IBMEMAIL=$1
+[ -z "$IBMEMAIL" ] &&
+  echo "usage: listBlueGroups <intranet id>" >&2 && exit 1
+
+
+IBMUID=$(ldapsearch -x -LL -h bluepages.ibm.com -b ou=bluepages,o=ibm.com "(mail=$IBMEMAIL)" dn | perl -ne 'if( /^dn/ ) { s/^dn: //; print; }' )
+
+ldapsearch -x -LL -h bluepages.ibm.com -b ou=memberlist,ou=ibmgroups,o=ibm.com uniquemember="$IBMUID" cn | perl -ne 'if( /^cn/ ) { s/^cn: //; print; }'
+

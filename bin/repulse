@@ -1,0 +1,8 @@
+#!/bin/bash
+sudo -v
+echo ===== Programs using sound devices
+sudo fuser -uv /dev/snd/*
+echo ===== Clearing locks on devices
+sudo flock -u /dev/snd/*
+echo ===== Restarting pulseaudio
+pkill -9 pulseaudio; sleep 3; pulse-session

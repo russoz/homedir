@@ -1,0 +1,7 @@
+#!/bin/bash
+
+F="$1"
+[ ! -r "$F" ] && echo "Cannot find file $F">&2 && exit 1
+
+#rsync -e ssh -avP "$F" alexeiz@pokgsa.ibm.com:backups/
+rsync -zavP --partial "$F" /auto/gsa/alexeiz/backups/

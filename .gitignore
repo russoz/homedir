@@ -114,3 +114,6 @@ etc/root.crontab
 .wapi
 .mplayer
 !.mplayer/config
+.mp3diags*
+.openoffice.org
+.openastro.org

@@ -24,6 +24,10 @@
 #
 #    Other options may be added, like used below.
 #
+#  The --timeout option was found in the this documentation:
+#
+#    http://freespace.sourceforge.net/guidod/howto/autofs.html
+#
 
 *	-fstype=iso9660,loop,noatime,ro     :/local/iso/files/&
 

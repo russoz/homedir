@@ -1,0 +1,29 @@
+#
+#  auto.iso - accessing the contents of your iso files easily
+#
+#  for this to work, you need to set 2 directories:
+#
+#  1) one for the ISO files (you may use symbolic links to the REAL iso files)
+#
+#  2) other for accessing the images
+#
+#  We'll call them FILES and IMAGES, respectively, and this configuration file
+#  will be called {AUTOISO} for documentation purposes.
+#  
+#  STEPS
+#  - Install autofs, you haven't done that yet.
+#  - Add a line to the /etc/auto.master with:
+#
+#    {MASTER}   {AUTOISO}   --timeout=10
+#
+#    (for a 10 seconds timeout).
+#
+#  - In the {AUTOISO} file, such as this, add a line like:
+#
+#    *  -fstype=iso9660,loop    :{FILES}/&
+#
+#    Other options may be added, like used below.
+#
+
+*	-fstype=iso9660,loop,noatime,ro     :/local/iso/files/&
+

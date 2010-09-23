@@ -1,0 +1,4 @@
+#!/bin/bash
+
+git add ${HOME}/.workrave
+git commit -m workrave ${HOME}/.workrave

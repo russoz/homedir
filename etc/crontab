@@ -1,6 +1,7 @@
 #
-# $Id: crontab,v 1.2 2007/10/05 12:43:44 az Exp az $
+# crontab
 #
 
-# m  h  dom mon dow command
-0/10 *  *   *   *   ${HOME}/bin/ibm-mydyn.pl >${HOME}/tmp/ibm-mydyn.log 2>&1
+# m   h   dom  mon  dow  command
+#0/10 *   *    *    *    ${HOME}/bin/ibm-mydyn.pl >${HOME}/tmp/ibm-mydyn.log 2>&1
+00    *   *    *    *    ${HOME}/bin/cron.git-workrave >/dev/null 2>&1

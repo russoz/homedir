@@ -1,6 +1,12 @@
 [user]
 	name = Alexei Znamensky
 	email = russoz@cpan.org
+[alias]
+    co = checkout
+    br = branch
+    ci = commit
+    st = status
+    unstage = reset HEAD --
 [color]
 	diff = auto
 	status = auto

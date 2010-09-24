@@ -1,0 +1,9 @@
+#
+# gitignore.global
+#
+# to set, run:
+#   git config --global add core.excludesfile = {path}/gitignore.global
+#
+*~
+*.bkp
+*.swp

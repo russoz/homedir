@@ -6,6 +6,4 @@
 	status = auto
 	branch = auto
 [core]
-	excludesfile = *~
-	excludesfile = *.swp
-	excludesfile = *.bak
+	excludesfile = /home/az/etc/gitignore.global

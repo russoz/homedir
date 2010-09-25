@@ -29,5 +29,5 @@
 #    http://freespace.sourceforge.net/guidod/howto/autofs.html
 #
 
-*	-fstype=iso9660,loop,noatime,ro     :/local/iso/files/&
+*	-fstype=iso9660,loop,noatime,ro     :/local/iso/files/&.iso
 

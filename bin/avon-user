@@ -11,7 +11,7 @@ msg() {
 
 usage() {
     cat >&2 <<EOM
-usage: avon-user [-U <bind-user>] [-P <bind-pw>] search-option
+usage: avon-user [-U <bind-user>] [-P <bind-pw>] [-b] search-option
 
 where search-option can be:
 
@@ -40,11 +40,12 @@ make_filter() {
     echo "${sretr}"
 }
 
-while getopts ":hP:U:u:c:N:n:" opt; do
+while getopts ":hP:U:u:c:N:n:b" opt; do
     #msg opt=$opt
     case "$opt" in
         U) user="$OPTARG"; ;;
         P) pass="$OPTARG"; ;;
+        b) basic_results="1"; ;;
         u) search_type="user"; search_param="$OPTARG"; ;;
         c) search_type="chap"; search_param="$OPTARG"; ;;
         n) search_type="name"; search_param="*${OPTARG}*"; ;;
@@ -58,7 +59,7 @@ shift $((OPTIND - 1))
 #msg user=$user pass=$pass search_type=$search_type search_param=$search_param
 
 #host='ryemsroot1.avonet.net'
-#base='DC=avonet,DC=net'
+#base='DC=na,DC=avonet,DC=net'
 host='spomssadc1.sa.avonet.net'
 base='DC=sa,DC=avonet,DC=net'
 
@@ -78,6 +79,8 @@ filter=$(make_filter ${search_type} ${search_param})
 [ -z "${filter}" ] && exit 1
 
 attrs=""
+[ -n "$basic_results" ] &&
+    attrs="dn cn name employeeNumber employeeID description sAMAccountName mail"
 [ -n "$1" ] && attrs="dn $@"
 
 #msg ldapsearch -a always -x -LLL \

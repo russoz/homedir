@@ -130,7 +130,8 @@ make_foreach_func br-linux-qa-foreach-server $BR_LINUX_QA_SERVERS
 make_ssh_aliases                             $BR_LINUX_QA_SERVERS
 
 BR_LINUX_PROD_SERVERS="spolxpmon.sa.avonet.net
-  spolxpdst.sa.avonet.net"
+  spolxpdst.sa.avonet.net
+  spolxlgto.sa.avonet.net"
 make_foreach_func br-linux-prod-foreach-server $BR_LINUX_PROD_SERVERS
 make_ssh_aliases                               $BR_LINUX_PROD_SERVERS
 

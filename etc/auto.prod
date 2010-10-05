@@ -1,0 +1,24 @@
+#
+# Mounting on /auto/ssh - for that, add to /etc/auto.master
+#
+#    /auto/ssh  {HOME}/etc/auto.prod [--timeout=N]
+#
+# with N given in seconds. Default is usually 60.
+#
+# Format:
+#
+#    directory   options   origin
+#
+# where options are:
+#
+#    -fstype=fuse        # don't touch
+#    ro                  # read-only
+#    transform_symlinks  # makes symlinks to absolute paths relative
+#    allow_other         # allow other users (non-root) to access
+#    reconnect           # name says it all
+#    uid=99              # user  (99 is nobody in RHEL)
+#    gid=99              # group (99 is nobody in RHEL)
+#
+
+# example: /auto/ssh/blabla
+blabla   -fstype=fuse,ro,transform_symlinks,allow_other,reconnect,uid=99,gid=99  :sshfs\#user\@some.server.com\:/export/blabla

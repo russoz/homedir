@@ -1,5 +1,9 @@
 "
-" $Id$
+" {HOME}/etc/vimrc
+"
+" to use, add to ${HOME}/.vimrc:
+"
+"     source {HOME}/etc/vimrc
 "
 
 syntax on

@@ -4,4 +4,4 @@
 
 # m   h   dom  mon  dow  command
 #0/10 *   *    *    *    ${HOME}/bin/ibm-mydyn.pl >${HOME}/tmp/ibm-mydyn.log 2>&1
-00-55/10 *   *    *    *    ${HOME}/bin/cron.git-workrave >/dev/null 2>&1
+00,30 *   *    *    *    ${HOME}/bin/cron.git-workrave >/dev/null 2>&1

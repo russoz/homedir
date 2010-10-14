@@ -1,0 +1,21 @@
+#!/bin/bash
+
+msg() {
+    echo "$@" >&2
+}
+
+msg '==== Stopping networking services'
+sudo service networking stop
+
+msg '==== Unloading net adapter module'
+sudo rmmod r8169
+
+msg '==== Sleeping 10 seconds over it'
+sleep 10
+
+msg '==== Loading net adapter module'
+sudo modprobe r8169
+
+msg '==== Starting networking services'
+sudo service networking start
+

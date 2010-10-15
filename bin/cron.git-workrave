@@ -1,4 +1,4 @@
 #!/bin/bash
 
 git add ${HOME}/.workrave
-git commit -m workrave ${HOME}/.workrave
+git commit -m "workrave $(date +%Y.%m.%d-%H.%M)" ${HOME}/.workrave

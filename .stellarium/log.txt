@@ -1,22 +1,22 @@
-2010-09-18T12:14:59
-Linux version 2.6.32-24-generic (buildd@yellow) (gcc version 4.4.3 (Ubuntu 4.4.3-4ubuntu5) ) #43-Ubuntu SMP Thu Sep 16 14:58:24 UTC 2010
-Compiled with GCC 4.4.3
-Qt runtime version: 4.6.2
-Qt compilation version: 4.6.2
+2010-10-16T11:37:46
+Linux version 2.6.35-22-generic (buildd@crested) (gcc version 4.4.5 (Ubuntu/Linaro 4.4.4-14ubuntu5) ) #34-Ubuntu SMP Sun Oct 10 09:26:05 UTC 2010
+Compiled with GCC 4.4.5
+Qt runtime version: 4.7.0
+Qt compilation version: 4.7.0
 Addressing mode: 64-bit
-MemTotal:        3052088 kB
-MemFree:         1267428 kB
-SwapTotal:       8940132 kB
+MemTotal:        3051188 kB
+MemFree:         2041108 kB
+SwapTotal:       8940136 kB
 model name	: Intel(R) Core(TM)2 Duo CPU     T6600  @ 2.20GHz
-cpu MHz		: 1200.000
+cpu MHz		: 1600.000
 model name	: Intel(R) Core(TM)2 Duo CPU     T6600  @ 2.20GHz
-cpu MHz		: 1200.000
-00:02.0 VGA compatible controller: Intel Corporation Mobile 4 Series Chipset Integrated Graphics Controller (rev 07)
+cpu MHz		: 2200.000
+00:02.0 VGA compatible controller: Intel Corporation Mobile 4 Series Chipset Integrated Graphics Controller (rev 07) (prog-if 00 [VGA controller])
 Kernel driver in use: i915
 Kernel modules: i915
 stellarium 
  ------------------------------------------------------- 
-[ This is Stellarium 0.10.4 - http://www.stellarium.org ] 
+[ This is Stellarium 0.10.5 - http://www.stellarium.org ] 
 [ Copyright (C) 2000-2010 Fabien Chereau et al          ] 
  ------------------------------------------------------- 
 Writing log file to: "/home/az/.stellarium/log.txt" 
@@ -26,7 +26,6 @@ File search paths:
 Attempting to use an existing older config file. 
 Config file is:  "/home/az/.stellarium/config.ini" 
 Qt GL paint engine is:  "OpenGL2" 
-QFileSystemWatcher: failed to add paths: /home/az/.config/ibus/bus
 Bus::open: Can not get ibus-daemon's address. 
 IBusInputContext::createInputContext: no connection to ibus-daemon 
 Cache directory is:  "/home/az/.cache/stellarium/stellarium" 
@@ -54,4 +53,7 @@ Loaded 230 / 230 common star names
 Loading star names from "/usr/share/stellarium/stars/default/name.fab" 
 Loaded 3215 / 4359 scientific star names 
 Creating GUI ... 
-Downloaded 0 files (0 kbytes) in a session of 631.029 sec (average of 0 kB/s + 0 files from cache (0 kB)). 
+Found file  "/home/az/.stellarium/stars/default/stars_4_1v0_0.cat" , checking md5sum.. 
+MD5 sum correct! 
+"Loading "/home/az/.stellarium/stars/default/stars_4_1v0_0.cat": 4_1v0_0; 1725497" 
+Downloaded 3 files (0 kbytes) in a session of 474.064 sec (average of 0 kB/s + 0 files from cache (0 kB)). 

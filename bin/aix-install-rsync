@@ -6,5 +6,5 @@ RPMS="ftp://ftp.software.ibm.com/aix/freeSoftware/aixtoolbox/RPMS/ppc/rpm/popt-1
 
 for i in "$@"; do
   echo "======= $i" >&2
-  ssh "$i" -t -- su - -c "rpm -Uvh $RPMS" 
+  ssh "$i" -t -- su - -c "rpm -Uvh $RPMS"
 done

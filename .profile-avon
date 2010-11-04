@@ -254,4 +254,5 @@ alias spomswasnd="rdesktop -z -g 1024x768 -u alexeiz -d AVONSA -E spomswasnd.sa.
 alias spomsclbpm1="rdesktop -z -g 1024x768 -u backup_spo -d AVONSA -E spomsclbpm1"
 alias spomsclbpm2="rdesktop -z -g 1024x768 -u backup_spo -d AVONSA -E spomsclbpm2"
 alias spomsrepdst="rdesktop -z -g 1024x768 -u backup_spo -d AVONSA -E spomsrepdst"
+alias spomonitor="vinagre spomonitor.sa.avonet.net"
 

@@ -102,3 +102,29 @@ st
 Date: Sun Nov  7 17:55:27 BRST 2010
 st
 Date: Sun Nov  7 17:56:44 BRST 2010
+add .git-achievements-action.log .git-achievements.log
+Date: Sun Nov  7 17:56:54 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 17:56:59 BRST 2010
+commit -m adding achievements logs
+Date: Sun Nov  7 17:58:44 BRST 2010
+st
+Date: Sun Nov  7 17:58:46 BRST 2010
+push
+Date: Sun Nov  7 17:59:05 BRST 2010
+st
+Date: Sun Nov  7 17:59:17 BRST 2010
+mv cron.git-workrave cron.git-periodic
+Date: Sun Nov  7 18:00:42 BRST 2010
+st
+Date: Sun Nov  7 18:00:49 BRST 2010
+commit -m renamed script
+Date: Sun Nov  7 18:01:04 BRST 2010
+add crontab
+Date: Sun Nov  7 18:01:37 BRST 2010
+commit -m renamed script
+Date: Sun Nov  7 18:01:40 BRST 2010
+push
+Date: Sun Nov  7 18:01:54 BRST 2010
+st
+Date: Sun Nov  7 18:02:52 BRST 2010

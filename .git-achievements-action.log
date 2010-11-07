@@ -1,0 +1,58 @@
+help
+Date: Sun Nov  7 01:02:36 BRST 2010
+st
+Date: Sun Nov  7 16:39:34 BRST 2010
+st
+Date: Sun Nov  7 16:39:43 BRST 2010
+st
+Date: Sun Nov  7 16:40:06 BRST 2010
+pull
+Date: Sun Nov  7 16:40:20 BRST 2010
+push
+Date: Sun Nov  7 16:40:32 BRST 2010
+st
+Date: Sun Nov  7 16:40:52 BRST 2010
+diff Build
+Date: Sun Nov  7 16:40:57 BRST 2010
+diff Build.PL
+Date: Sun Nov  7 16:40:59 BRST 2010
+st
+Date: Sun Nov  7 16:41:08 BRST 2010
+diff lib/WAS/
+Date: Sun Nov  7 16:42:33 BRST 2010
+diff
+Date: Sun Nov  7 17:08:37 BRST 2010
+diff
+Date: Sun Nov  7 17:09:26 BRST 2010
+st
+Date: Sun Nov  7 17:11:38 BRST 2010
+add .
+Date: Sun Nov  7 17:11:43 BRST 2010
+help -a
+Date: Sun Nov  7 17:11:46 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 17:11:46 BRST 2010
+commit -m testing different timezones handling in perl
+Date: Sun Nov  7 17:12:18 BRST 2010
+push
+Date: Sun Nov  7 17:12:32 BRST 2010
+st
+Date: Sun Nov  7 17:13:23 BRST 2010
+diff .gitconfig
+Date: Sun Nov  7 17:13:33 BRST 2010
+add .gitconfig
+Date: Sun Nov  7 17:13:42 BRST 2010
+commit -m added git-achievements config
+Date: Sun Nov  7 17:14:08 BRST 2010
+st
+Date: Sun Nov  7 17:14:18 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 17:14:21 BRST 2010
+diff .bashrc
+Date: Sun Nov  7 17:14:25 BRST 2010
+add .bashrc
+Date: Sun Nov  7 17:14:33 BRST 2010
+commit -m added git-achievements config
+Date: Sun Nov  7 17:14:42 BRST 2010
+st
+Date: Sun Nov  7 17:15:20 BRST 2010

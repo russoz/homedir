@@ -1,20 +1,24 @@
 #!/bin/bash
 
+modlist='r8169|b43'
+
 msg() {
     echo "$@" >&2
 }
+
+existing=$(lsmod|grep -E "^($modlist) "|awk '{ print $1 }')
 
 msg '==== Stopping networking services'
 sudo service networking stop
 
 msg '==== Unloading net adapter module'
-sudo rmmod r8169
+sudo rmmod $existing
 
 msg '==== Sleeping 10 seconds over it'
 sleep 10
 
 msg '==== Loading net adapter module'
-sudo modprobe r8169
+sudo modprobe $existing
 
 msg '==== Starting networking services'
 sudo service networking start

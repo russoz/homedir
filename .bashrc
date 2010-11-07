@@ -107,6 +107,6 @@ eval $(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib)
 . ${HOME}/.nb/load
 . ${HOME}/.profile-avon
 
-export PATH="${PATH}:${HOME}/tmp/git/git-achievements"
+export PATH="${PATH}:${HOME}/git/git-achievements"
 alias git="git-achievements"
 

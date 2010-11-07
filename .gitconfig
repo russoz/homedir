@@ -13,3 +13,5 @@
 	branch = auto
 [core]
 	excludesfile = /home/az/etc/gitignore.global
+[achievement]
+	upload = true

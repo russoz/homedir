@@ -128,3 +128,9 @@ push
 Date: Sun Nov  7 18:01:54 BRST 2010
 st
 Date: Sun Nov  7 18:02:52 BRST 2010
+add bin/cron.git-periodic
+Date: Sun Nov  7 18:04:08 BRST 2010
+commit -m added git achievements to cron job
+Date: Sun Nov  7 18:04:23 BRST 2010
+st
+Date: Sun Nov  7 18:04:26 BRST 2010

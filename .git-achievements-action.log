@@ -494,3 +494,39 @@ st
 Date: Sun Nov  7 22:03:49 BRST 2010
 st
 Date: Sun Nov  7 22:03:52 BRST 2010
+push
+Date: Sun Nov  7 22:05:38 BRST 2010
+st
+Date: Sun Nov  7 22:09:43 BRST 2010
+diff dev/
+Date: Sun Nov  7 22:14:06 BRST 2010
+add dev/
+Date: Sun Nov  7 22:14:45 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 22:14:48 BRST 2010
+commit -m improved mkdist
+Date: Sun Nov  7 22:14:55 BRST 2010
+st
+Date: Sun Nov  7 22:15:00 BRST 2010
+diff
+Date: Sun Nov  7 22:15:05 BRST 2010
+add t/
+Date: Sun Nov  7 22:15:11 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 22:15:14 BRST 2010
+diff MANIFEST
+Date: Sun Nov  7 22:19:11 BRST 2010
+st
+Date: Sun Nov  7 22:22:02 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 22:22:09 BRST 2010
+diff lib/
+Date: Sun Nov  7 22:22:10 BRST 2010
+add lib/
+Date: Sun Nov  7 22:22:16 BRST 2010
+commit -m bumped version to 0.0.10
+Date: Sun Nov  7 22:22:27 BRST 2010
+st
+Date: Sun Nov  7 22:22:30 BRST 2010
+diff
+Date: Sun Nov  7 22:22:41 BRST 2010

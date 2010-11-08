@@ -134,3 +134,363 @@ commit -m added git achievements to cron job
 Date: Sun Nov  7 18:04:23 BRST 2010
 st
 Date: Sun Nov  7 18:04:26 BRST 2010
+st
+Date: Sun Nov  7 18:04:38 BRST 2010
+push
+Date: Sun Nov  7 18:04:56 BRST 2010
+st
+Date: Sun Nov  7 18:05:02 BRST 2010
+status
+Date: Sun Nov  7 18:28:11 BRST 2010
+status
+Date: Sun Nov  7 18:28:16 BRST 2010
+status
+Date: Sun Nov  7 18:28:17 BRST 2010
+status
+Date: Sun Nov  7 18:28:18 BRST 2010
+st
+Date: Sun Nov  7 18:47:25 BRST 2010
+pull
+Date: Sun Nov  7 18:52:31 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 18:52:54 BRST 2010
+pull
+Date: Sun Nov  7 18:52:59 BRST 2010
+pull
+Date: Sun Nov  7 18:56:01 BRST 2010
+st
+Date: Sun Nov  7 19:24:46 BRST 2010
+pull
+Date: Sun Nov  7 19:25:41 BRST 2010
+log
+Date: Sun Nov  7 19:26:48 BRST 2010
+help -a
+Date: Sun Nov  7 19:26:55 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 19:26:55 BRST 2010
+format-patch
+Date: Sun Nov  7 19:26:56 BRST 2010
+format-patch --help
+Date: Sun Nov  7 19:27:13 BRST 2010
+format-patch b7044b4a960b4c083b4f0e98f918842d51b5d686
+Date: Sun Nov  7 19:27:23 BRST 2010
+format-patch --help
+Date: Sun Nov  7 19:28:22 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 19:32:22 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 19:32:22 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 19:32:23 BRST 2010
+var -l
+Date: Sun Nov  7 19:32:26 BRST 2010
+var --help
+Date: Sun Nov  7 19:32:57 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 19:33:01 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 19:33:01 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 19:33:10 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 19:33:11 BRST 2010
+cpan-format-patch --help
+Date: Sun Nov  7 19:33:33 BRST 2010
+cpan-format-patch --help
+Date: Sun Nov  7 19:33:48 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 19:34:18 BRST 2010
+stash --help
+Date: Sun Nov  7 19:34:30 BRST 2010
+rebase --help
+Date: Sun Nov  7 19:35:09 BRST 2010
+bundle --help
+Date: Sun Nov  7 19:35:36 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 19:35:57 BRST 2010
+achievements
+Date: Sun Nov  7 19:35:58 BRST 2010
+achievements -l
+Date: Sun Nov  7 19:36:02 BRST 2010
+format-patch b7044b4a960b4c083b4f0e98f918842d51b5d686
+Date: Sun Nov  7 19:36:31 BRST 2010
+am --help
+Date: Sun Nov  7 19:36:49 BRST 2010
+apply --help
+Date: Sun Nov  7 19:37:13 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 19:37:26 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 19:37:26 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 19:37:27 BRST 2010
+fsck
+Date: Sun Nov  7 19:37:29 BRST 2010
+gc
+Date: Sun Nov  7 19:37:34 BRST 2010
+fsck
+Date: Sun Nov  7 19:37:37 BRST 2010
+gc
+Date: Sun Nov  7 19:37:39 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 19:37:58 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 19:37:59 BRST 2010
+difftool --help
+Date: Sun Nov  7 19:38:07 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 19:38:19 BRST 2010
+format-patch --help
+Date: Sun Nov  7 19:40:17 BRST 2010
+format-patch --root b7044b4a960b4c083b4f0e98f918842d51b5d686
+Date: Sun Nov  7 19:40:25 BRST 2010
+format-patch b7044b4a960b4c083b4f0e98f918842d51b5d686
+Date: Sun Nov  7 19:40:50 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 19:41:31 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 19:41:31 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 19:41:35 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 19:41:38 BRST 2010
+stage --help
+Date: Sun Nov  7 19:41:45 BRST 2010
+shortlog
+Date: Sun Nov  7 19:41:50 BRST 2010
+rebase --help
+Date: Sun Nov  7 19:43:17 BRST 2010
+tag
+Date: Sun Nov  7 19:43:43 BRST 2010
+tag
+Date: Sun Nov  7 19:44:02 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 19:44:11 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 19:44:12 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 19:44:12 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 19:44:15 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 19:44:31 BRST 2010
+cherry --help
+Date: Sun Nov  7 19:44:52 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 19:44:55 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 19:44:55 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 19:44:55 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 19:44:56 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 19:44:58 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 19:44:59 BRST 2010
+patch-id --help
+Date: Sun Nov  7 19:45:20 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 19:45:22 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 19:45:22 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 19:45:22 BRST 2010
+diff --help
+Date: Sun Nov  7 19:45:56 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 19:45:59 BRST 2010
+format-patch
+Date: Sun Nov  7 19:46:00 BRST 2010
+format-patch 0.42
+Date: Sun Nov  7 19:46:06 BRST 2010
+format-patch 0.42 -o ../patches-net-ldap-server/
+Date: Sun Nov  7 19:46:53 BRST 2010
+format-patch 0.42 -o ../patches-net-ldap-server/ --attach
+Date: Sun Nov  7 19:47:41 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 19:47:50 BRST 2010
+format-patch --help
+Date: Sun Nov  7 19:47:55 BRST 2010
+format-patch 0.42 -o ../patches-net-ldap-server/ --attach --to=russoz@gmail.com
+Date: Sun Nov  7 19:48:12 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 20:02:07 BRST 2010
+achievements
+Date: Sun Nov  7 20:02:07 BRST 2010
+achievements -l
+Date: Sun Nov  7 20:02:10 BRST 2010
+achievements
+Date: Sun Nov  7 20:02:17 BRST 2010
+st
+Date: Sun Nov  7 20:02:38 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 20:02:41 BRST 2010
+diff lib/
+Date: Sun Nov  7 20:02:42 BRST 2010
+st
+Date: Sun Nov  7 20:05:07 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 20:05:14 BRST 2010
+clean -fd
+Date: Sun Nov  7 20:05:15 BRST 2010
+st
+Date: Sun Nov  7 20:05:18 BRST 2010
+st
+Date: Sun Nov  7 20:08:56 BRST 2010
+diff
+Date: Sun Nov  7 20:09:03 BRST 2010
+st
+Date: Sun Nov  7 20:10:20 BRST 2010
+diff dev/
+Date: Sun Nov  7 20:11:57 BRST 2010
+diff dev/
+Date: Sun Nov  7 20:13:03 BRST 2010
+diff dev/
+Date: Sun Nov  7 20:14:06 BRST 2010
+add dev/
+Date: Sun Nov  7 20:14:09 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 20:14:25 BRST 2010
+commit -m improved mkdist further still
+Date: Sun Nov  7 20:14:35 BRST 2010
+st
+Date: Sun Nov  7 20:14:38 BRST 2010
+add dev/
+Date: Sun Nov  7 20:15:30 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 20:15:34 BRST 2010
+commit -m mkdist output formatting
+Date: Sun Nov  7 20:15:54 BRST 2010
+st
+Date: Sun Nov  7 20:16:01 BRST 2010
+diff
+Date: Sun Nov  7 20:16:32 BRST 2010
+diff
+Date: Sun Nov  7 20:20:20 BRST 2010
+diff
+Date: Sun Nov  7 20:23:00 BRST 2010
+diff
+Date: Sun Nov  7 20:31:24 BRST 2010
+diff
+Date: Sun Nov  7 20:35:08 BRST 2010
+diff
+Date: Sun Nov  7 20:57:19 BRST 2010
+diff
+Date: Sun Nov  7 20:58:37 BRST 2010
+st
+Date: Sun Nov  7 20:58:59 BRST 2010
+add .
+Date: Sun Nov  7 20:59:06 BRST 2010
+commit
+Date: Sun Nov  7 20:59:51 BRST 2010
+rm -r META.yml MYMETA.yml __changes __readme _build/
+Date: Sun Nov  7 21:00:22 BRST 2010
+st
+Date: Sun Nov  7 21:00:29 BRST 2010
+commit
+Date: Sun Nov  7 21:00:51 BRST 2010
+st
+Date: Sun Nov  7 21:00:53 BRST 2010
+log
+Date: Sun Nov  7 21:01:01 BRST 2010
+push
+Date: Sun Nov  7 21:01:27 BRST 2010
+push
+Date: Sun Nov  7 21:01:49 BRST 2010
+st
+Date: Sun Nov  7 21:34:53 BRST 2010
+diff
+Date: Sun Nov  7 21:38:48 BRST 2010
+st
+Date: Sun Nov  7 21:38:58 BRST 2010
+help -a
+Date: Sun Nov  7 21:39:02 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 21:39:02 BRST 2010
+diff bin/
+Date: Sun Nov  7 21:39:03 BRST 2010
+add bin/
+Date: Sun Nov  7 21:39:08 BRST 2010
+commit -m made script more generic
+Date: Sun Nov  7 21:39:26 BRST 2010
+push
+Date: Sun Nov  7 21:39:41 BRST 2010
+--git-dir=/home/az/.git config --get-regexp alias\..*
+Date: Sun Nov  7 21:48:52 BRST 2010
+achievements
+Date: Sun Nov  7 21:48:53 BRST 2010
+st
+Date: Sun Nov  7 21:49:43 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 21:49:59 BRST 2010
+diff Build
+Date: Sun Nov  7 21:50:01 BRST 2010
+rm -f Build
+Date: Sun Nov  7 21:50:11 BRST 2010
+st
+Date: Sun Nov  7 21:50:14 BRST 2010
+st
+Date: Sun Nov  7 21:50:22 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 21:50:25 BRST 2010
+rm Net-Squid-Auth-Plugin-SimpleLDAP-v0.1.81.tar.gz
+Date: Sun Nov  7 21:50:33 BRST 2010
+st
+Date: Sun Nov  7 21:50:39 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 21:50:41 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 21:50:56 BRST 2010
+shortlog
+Date: Sun Nov  7 21:50:59 BRST 2010
+log
+Date: Sun Nov  7 21:51:04 BRST 2010
+log --oneline
+Date: Sun Nov  7 21:51:25 BRST 2010
+commit --help
+Date: Sun Nov  7 21:51:49 BRST 2010
+st
+Date: Sun Nov  7 21:51:51 BRST 2010
+commit -C bb91025
+Date: Sun Nov  7 21:51:56 BRST 2010
+log
+Date: Sun Nov  7 21:52:03 BRST 2010
+st
+Date: Sun Nov  7 21:52:14 BRST 2010
+push
+Date: Sun Nov  7 21:52:25 BRST 2010
+pull
+Date: Sun Nov  7 21:52:33 BRST 2010
+push
+Date: Sun Nov  7 21:52:59 BRST 2010
+clean -fd
+Date: Sun Nov  7 21:53:38 BRST 2010
+clone git@github.com:russoz/Net-Squid-Auth-Plugin-SimpleLDAP.git
+Date: Sun Nov  7 21:54:39 BRST 2010
+st
+Date: Sun Nov  7 21:56:45 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 22:01:04 BRST 2010
+achievements
+Date: Sun Nov  7 22:01:04 BRST 2010
+help -a
+Date: Sun Nov  7 22:02:34 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov  7 22:02:34 BRST 2010
+achievements
+Date: Sun Nov  7 22:02:34 BRST 2010
+st
+Date: Sun Nov  7 22:02:39 BRST 2010
+add .bashrc
+Date: Sun Nov  7 22:02:44 BRST 2010
+commit -m only use git-achievements if ~/git/git-achievements is found
+Date: Sun Nov  7 22:03:04 BRST 2010
+push
+Date: Sun Nov  7 22:03:27 BRST 2010
+st
+Date: Sun Nov  7 22:03:47 BRST 2010
+st
+Date: Sun Nov  7 22:03:49 BRST 2010
+st
+Date: Sun Nov  7 22:03:52 BRST 2010

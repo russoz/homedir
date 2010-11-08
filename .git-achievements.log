@@ -78,3 +78,59 @@
                      Made 2^Level commits using git commit.                     
 ********************************************************************************
 
+
+********************************************************************************
+                            Git Achievement Unlocked!                            
+
+                                     Student                                     
+       Accessed the documentation for a command with git [command] --help       
+********************************************************************************
+
+
+********************************************************************************
+                            Git Achievement Unlocked!                            
+
+                      Apprentice Chimney Sweeper (Level 1)                      
+  Used git gc to run a number of housekeeping tasks on the current repository.  
+********************************************************************************
+
+
+********************************************************************************
+                            Git Achievement Unlocked!                            
+
+                           Apprentice Gipsy (Level 1)                           
+            Create, list, delete a tag signed with GPG using git tag            
+********************************************************************************
+
+
+********************************************************************************
+                            Git Achievement Unlocked!                            
+
+                               Archivist (Level 4)                               
+ Prepare each commit with its patch in one file per commit with git format-patch 
+********************************************************************************
+
+
+********************************************************************************
+                            Git Achievement Unlocked!                            
+
+                              Stone Mason (Level 4)                              
+   Added files to the index area for inclusion in the next commit with git add   
+********************************************************************************
+
+
+********************************************************************************
+                            Git Achievement Unlocked!                            
+
+                         Apprentice Socialite (Level 3)                         
+              pushed a branch to a remote repository using git push              
+********************************************************************************
+
+
+********************************************************************************
+                            Git Achievement Unlocked!                            
+
+                       Apprentice Cleaning lady (Level 1)                       
+           Remove untracked files from the working tree with git clean           
+********************************************************************************
+

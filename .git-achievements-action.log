@@ -530,3 +530,7 @@ st
 Date: Sun Nov  7 22:22:30 BRST 2010
 diff
 Date: Sun Nov  7 22:22:41 BRST 2010
+st
+Date: Mon Nov  8 07:44:32 BRST 2010
+commit -a -m refrained from using op //. using plain || instead, and allowing older perls
+Date: Mon Nov  8 07:45:28 BRST 2010

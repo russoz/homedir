@@ -588,3 +588,149 @@ st
 Date: Mon Nov  8 11:48:40 BRST 2010
 mv test1.ldif single-entry.ldif
 Date: Mon Nov  8 11:49:08 BRST 2010
+st
+Date: Mon Nov  8 16:33:29 BRST 2010
+diff lib/
+Date: Mon Nov  8 16:33:50 BRST 2010
+diff lib/
+Date: Mon Nov  8 17:03:27 BRST 2010
+st
+Date: Mon Nov  8 17:03:31 BRST 2010
+diff Build.PL
+Date: Mon Nov  8 17:03:43 BRST 2010
+st
+Date: Mon Nov  8 17:04:01 BRST 2010
+diff MANIFEST
+Date: Mon Nov  8 17:04:06 BRST 2010
+st
+Date: Mon Nov  8 17:04:31 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Nov  8 17:04:36 BRST 2010
+diff dev/
+Date: Mon Nov  8 17:04:37 BRST 2010
+add dev/
+Date: Mon Nov  8 18:54:27 BRST 2010
+commit -m checking for (and sorting) MANIFEST file
+Date: Mon Nov  8 18:54:50 BRST 2010
+st
+Date: Mon Nov  8 18:54:53 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Nov  8 18:54:56 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Nov  8 18:55:00 BRST 2010
+diff MANIFEST
+Date: Mon Nov  8 18:55:01 BRST 2010
+add MANIFEST
+Date: Mon Nov  8 18:55:09 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Nov  8 18:55:11 BRST 2010
+commit -m new exaqmple and test files
+Date: Mon Nov  8 18:55:23 BRST 2010
+status
+Date: Mon Nov  8 18:55:29 BRST 2010
+add examples/
+Date: Mon Nov  8 18:55:53 BRST 2010
+commit -m new example files
+Date: Mon Nov  8 18:56:04 BRST 2010
+st
+Date: Mon Nov  8 18:56:10 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Nov  8 18:56:19 BRST 2010
+diff t/02.handler.t
+Date: Mon Nov  8 18:56:24 BRST 2010
+add t/02.handler.t
+Date: Mon Nov  8 18:56:44 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Nov  8 18:57:10 BRST 2010
+commit -m added test for non-existent ldif file as well
+Date: Mon Nov  8 18:57:33 BRST 2010
+diff t/02.store.t
+Date: Mon Nov  8 18:57:47 BRST 2010
+add t/02.store.t
+Date: Mon Nov  8 18:58:13 BRST 2010
+commit -m added a test for empty params on constructor
+Date: Mon Nov  8 18:58:50 BRST 2010
+st
+Date: Mon Nov  8 19:00:27 BRST 2010
+diff t/03.param.t
+Date: Mon Nov  8 19:01:48 BRST 2010
+add t/03.param.t
+Date: Mon Nov  8 19:01:51 BRST 2010
+commit -m added some tests for SimpleServer constructor
+Date: Mon Nov  8 19:02:17 BRST 2010
+st
+Date: Mon Nov  8 19:02:21 BRST 2010
+diff lib/
+Date: Mon Nov  8 19:02:40 BRST 2010
+add lib/Net/LDAP/SimpleServer/LDIFStore.pm lib/Net/LDAP/SimpleServer/ProtocolHandler.pm
+Date: Mon Nov  8 19:02:52 BRST 2010
+commit -m better param checking in the constructors
+Date: Mon Nov  8 19:03:07 BRST 2010
+st
+Date: Mon Nov  8 19:03:10 BRST 2010
+diff Build
+Date: Mon Nov  8 19:03:14 BRST 2010
+diff Build.PL
+Date: Mon Nov  8 19:03:17 BRST 2010
+add Build.PL
+Date: Mon Nov  8 19:03:32 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Nov  8 19:03:35 BRST 2010
+commit -m added min version to Net::Server, added File::Path
+Date: Mon Nov  8 19:03:59 BRST 2010
+st
+Date: Mon Nov  8 19:04:13 BRST 2010
+status
+Date: Mon Nov  8 19:04:18 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Nov  8 19:04:25 BRST 2010
+add lib/
+Date: Mon Nov  8 19:04:57 BRST 2010
+help -a
+Date: Mon Nov  8 19:04:59 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Nov  8 19:04:59 BRST 2010
+commit
+Date: Mon Nov  8 19:10:50 BRST 2010
+diff lib/
+Date: Mon Nov  8 19:10:53 BRST 2010
+help -a
+Date: Mon Nov  8 19:18:38 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Nov  8 19:18:38 BRST 2010
+achievements
+Date: Mon Nov  8 19:18:38 BRST 2010
+diff lib/
+Date: Mon Nov  8 19:25:10 BRST 2010
+diff lib/
+Date: Mon Nov  8 19:28:54 BRST 2010
+diff
+Date: Mon Nov  8 19:30:06 BRST 2010
+st
+Date: Mon Nov  8 19:30:12 BRST 2010
+add Build.PL lib/
+Date: Mon Nov  8 19:30:24 BRST 2010
+commit -m if needed creates directory for log_file and pid_file
+Date: Mon Nov  8 19:30:56 BRST 2010
+st
+Date: Mon Nov  8 19:30:58 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Nov  8 19:32:21 BRST 2010
+log
+Date: Mon Nov  8 19:32:46 BRST 2010
+log --oneline
+Date: Mon Nov  8 19:32:56 BRST 2010
+push
+Date: Mon Nov  8 19:35:52 BRST 2010
+st
+Date: Mon Nov  8 19:55:41 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Nov  8 19:55:44 BRST 2010
+diff
+Date: Mon Nov  8 19:55:44 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Nov  8 19:55:51 BRST 2010
+commit -a
+Date: Mon Nov  8 19:56:09 BRST 2010
+status
+Date: Mon Nov  8 19:56:15 BRST 2010

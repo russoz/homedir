@@ -534,3 +534,57 @@ st
 Date: Mon Nov  8 07:44:32 BRST 2010
 commit -a -m refrained from using op //. using plain || instead, and allowing older perls
 Date: Mon Nov  8 07:45:28 BRST 2010
+st
+Date: Mon Nov  8 09:02:57 BRST 2010
+st
+Date: Mon Nov  8 09:03:11 BRST 2010
+diff test123
+Date: Mon Nov  8 09:03:21 BRST 2010
+diff t/
+Date: Mon Nov  8 09:03:29 BRST 2010
+st
+Date: Mon Nov  8 09:29:09 BRST 2010
+commit -a -m improved output of test
+Date: Mon Nov  8 09:29:27 BRST 2010
+push
+Date: Mon Nov  8 09:29:42 BRST 2010
+st
+Date: Mon Nov  8 09:56:56 BRST 2010
+help -a
+Date: Mon Nov  8 09:57:02 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Nov  8 09:57:02 BRST 2010
+add .profile-perl
+Date: Mon Nov  8 09:57:06 BRST 2010
+add .bashrc
+Date: Mon Nov  8 09:57:14 BRST 2010
+commit
+Date: Mon Nov  8 09:57:37 BRST 2010
+st
+Date: Mon Nov  8 09:57:39 BRST 2010
+st
+Date: Mon Nov  8 10:07:43 BRST 2010
+st
+Date: Mon Nov  8 10:11:33 BRST 2010
+st
+Date: Mon Nov  8 10:26:48 BRST 2010
+achievements
+Date: Mon Nov  8 10:48:28 BRST 2010
+st
+Date: Mon Nov  8 10:59:52 BRST 2010
+st
+Date: Mon Nov  8 10:59:55 BRST 2010
+push
+Date: Mon Nov  8 11:00:06 BRST 2010
+diff lib/
+Date: Mon Nov  8 11:05:28 BRST 2010
+add lib/
+Date: Mon Nov  8 11:05:41 BRST 2010
+commit -m minor cosmetic change
+Date: Mon Nov  8 11:05:50 BRST 2010
+st
+Date: Mon Nov  8 11:05:59 BRST 2010
+st
+Date: Mon Nov  8 11:48:40 BRST 2010
+mv test1.ldif single-entry.ldif
+Date: Mon Nov  8 11:49:08 BRST 2010

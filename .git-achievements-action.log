@@ -796,3 +796,19 @@ st
 Date: Tue Nov  9 10:17:45 BRST 2010
 status
 Date: Tue Nov  9 13:38:29 BRST 2010
+status
+Date: Tue Nov  9 18:46:57 BRST 2010
+status
+Date: Tue Nov  9 18:57:23 BRST 2010
+add .
+Date: Tue Nov  9 18:57:31 BRST 2010
+st
+Date: Tue Nov  9 18:57:34 BRST 2010
+help -a
+Date: Tue Nov  9 18:57:37 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov  9 18:57:37 BRST 2010
+commit
+Date: Tue Nov  9 18:58:12 BRST 2010
+push
+Date: Tue Nov  9 18:58:26 BRST 2010

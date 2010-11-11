@@ -834,3 +834,11 @@ commit -m first test on how moose handles things
 Date: Tue Nov  9 22:39:20 BRST 2010
 push
 Date: Tue Nov  9 22:39:34 BRST 2010
+help -a
+Date: Thu Nov 11 20:20:12 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Nov 11 20:20:12 BRST 2010
+achievements
+Date: Thu Nov 11 20:20:13 BRST 2010
+st
+Date: Thu Nov 11 20:20:36 BRST 2010

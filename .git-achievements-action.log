@@ -850,3 +850,15 @@ st
 Date: Thu Nov 11 20:22:22 BRST 2010
 push
 Date: Fri Nov 12 11:12:12 BRST 2010
+st
+Date: Sat Nov 13 14:17:25 BRST 2010
+st
+Date: Sat Nov 13 14:17:47 BRST 2010
+st
+Date: Sat Nov 13 14:18:03 BRST 2010
+add .gitignore
+Date: Sat Nov 13 14:18:26 BRST 2010
+commit .gitignore -m added .lftp
+Date: Sat Nov 13 14:18:26 BRST 2010
+st
+Date: Sat Nov 13 14:21:18 BRST 2010

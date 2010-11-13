@@ -862,3 +862,35 @@ commit .gitignore -m added .lftp
 Date: Sat Nov 13 14:18:26 BRST 2010
 st
 Date: Sat Nov 13 14:21:18 BRST 2010
+st
+Date: Sat Nov 13 14:21:41 BRST 2010
+push
+Date: Sat Nov 13 14:21:59 BRST 2010
+clone git@github.com:russoz/SPPM-Web.git
+Date: Sat Nov 13 14:24:51 BRST 2010
+st
+Date: Sat Nov 13 14:29:58 BRST 2010
+help -a
+Date: Sat Nov 13 14:31:28 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Nov 13 14:31:28 BRST 2010
+st
+Date: Sat Nov 13 14:31:28 BRST 2010
+add test-autosplit.pl
+Date: Sat Nov 13 14:31:36 BRST 2010
+commit -m testing autosplit
+Date: Sat Nov 13 14:31:46 BRST 2010
+add test-camelhump.pl
+Date: Sat Nov 13 14:32:19 BRST 2010
+commit -m camelhump, from www.irc.perl.org
+Date: Sat Nov 13 14:32:34 BRST 2010
+st
+Date: Sat Nov 13 14:36:32 BRST 2010
+add
+Date: Sat Nov 13 14:36:45 BRST 2010
+add .
+Date: Sat Nov 13 14:36:47 BRST 2010
+commit -m du -ks output parsing
+Date: Sat Nov 13 14:36:59 BRST 2010
+push
+Date: Sat Nov 13 14:37:13 BRST 2010

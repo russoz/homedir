@@ -894,3 +894,63 @@ commit -m du -ks output parsing
 Date: Sat Nov 13 14:36:59 BRST 2010
 push
 Date: Sat Nov 13 14:37:13 BRST 2010
+st
+Date: Sat Nov 13 17:09:03 BRST 2010
+pull
+Date: Sat Nov 13 17:17:31 BRST 2010
+st
+Date: Sat Nov 13 17:17:41 BRST 2010
+diff Build.PL
+Date: Sat Nov 13 17:37:19 BRST 2010
+add Build.PL
+Date: Sat Nov 13 17:37:26 BRST 2010
+help -a
+Date: Sat Nov 13 17:37:30 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Nov 13 17:37:30 BRST 2010
+commit -m removed DateTime::TimeZone from deps. Over dependency hurts, man.
+Date: Sat Nov 13 17:38:41 BRST 2010
+st
+Date: Sat Nov 13 17:38:43 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Nov 13 17:38:47 BRST 2010
+diff t/
+Date: Sat Nov 13 17:39:09 BRST 2010
+add t/
+Date: Sat Nov 13 17:39:24 BRST 2010
+commit -m update in pod-coverage test
+Date: Sat Nov 13 17:39:38 BRST 2010
+st
+Date: Sat Nov 13 17:45:13 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Nov 13 17:45:16 BRST 2010
+diff lib/
+Date: Sat Nov 13 17:45:44 BRST 2010
+diff lib/
+Date: Sat Nov 13 17:46:36 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Nov 13 18:12:33 BRST 2010
+add lib/
+Date: Sat Nov 13 18:12:57 BRST 2010
+help -a
+Date: Sat Nov 13 18:13:01 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Nov 13 18:13:01 BRST 2010
+rm -f lib/WAS/Remote/.App.pm.swo
+Date: Sat Nov 13 18:13:35 BRST 2010
+st
+Date: Sat Nov 13 18:13:41 BRST 2010
+commit
+Date: Sat Nov 13 18:24:54 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Nov 13 18:24:58 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Nov 13 18:25:00 BRST 2010
+st
+Date: Sat Nov 13 18:25:14 BRST 2010
+status
+Date: Sat Nov 13 18:25:21 BRST 2010
+diff lib/
+Date: Sat Nov 13 18:25:44 BRST 2010
+st
+Date: Sat Nov 13 18:26:14 BRST 2010

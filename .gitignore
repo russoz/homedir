@@ -121,3 +121,4 @@ etc/root.crontab
 .vim
 .azpltw.store
 git
+.lftp

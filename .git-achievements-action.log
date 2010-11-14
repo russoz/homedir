@@ -1262,3 +1262,53 @@ log
 Date: Sun Nov 14 14:17:25 BRST 2010
 st
 Date: Sun Nov 14 14:53:08 BRST 2010
+st
+Date: Sun Nov 14 17:27:22 BRST 2010
+st
+Date: Sun Nov 14 17:37:53 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov 14 17:38:41 BRST 2010
+checkout lib/
+Date: Sun Nov 14 17:38:43 BRST 2010
+st
+Date: Sun Nov 14 17:38:44 BRST 2010
+st
+Date: Sun Nov 14 18:02:51 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov 14 18:02:53 BRST 2010
+diff t/04.bind.t
+Date: Sun Nov 14 18:03:14 BRST 2010
+diff t/04.bind.t
+Date: Sun Nov 14 18:03:54 BRST 2010
+add t/04.bind.t
+Date: Sun Nov 14 18:04:01 BRST 2010
+commit -m added authenticated and authenticated-wrong-pw tests
+Date: Sun Nov 14 18:04:49 BRST 2010
+st
+Date: Sun Nov 14 18:04:51 BRST 2010
+diff lib/
+Date: Sun Nov 14 18:05:04 BRST 2010
+diff t/04.bind.t
+Date: Sun Nov 14 18:24:29 BRST 2010
+st
+Date: Sun Nov 14 18:24:32 BRST 2010
+add t/04.bind.t
+Date: Sun Nov 14 18:26:24 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov 14 18:26:25 BRST 2010
+commit t/04.bind.t -m added test for different case in bind dn
+Date: Sun Nov 14 18:26:46 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov 14 18:47:10 BRST 2010
+diff lib/Net/LDAP/SimpleServer.pm
+Date: Sun Nov 14 18:47:11 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov 14 18:47:16 BRST 2010
+checkout lib/Net/LDAP/SimpleServer.pm
+Date: Sun Nov 14 18:47:18 BRST 2010
+checkout lib/Net/LDAP/SimpleServer.pm
+Date: Sun Nov 14 18:48:53 BRST 2010
+checkout lib/Net/LDAP/SimpleServer.pm
+Date: Sun Nov 14 18:51:44 BRST 2010
+checkout lib/Net/LDAP/SimpleServer.pm
+Date: Sun Nov 14 18:52:49 BRST 2010

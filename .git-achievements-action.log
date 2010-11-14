@@ -954,3 +954,23 @@ diff lib/
 Date: Sat Nov 13 18:25:44 BRST 2010
 st
 Date: Sat Nov 13 18:26:14 BRST 2010
+st
+Date: Sat Nov 13 23:48:43 BRST 2010
+log
+Date: Sat Nov 13 23:49:06 BRST 2010
+log
+Date: Sat Nov 13 23:55:19 BRST 2010
+log
+Date: Sat Nov 13 23:55:36 BRST 2010
+st
+Date: Sat Nov 13 23:59:13 BRST 2010
+help -a
+Date: Sat Nov 13 23:59:19 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Nov 13 23:59:19 BRST 2010
+diff MANIFEST
+Date: Sat Nov 13 23:59:22 BRST 2010
+add MANIFEST t/04.bind.t
+Date: Sat Nov 13 23:59:41 BRST 2010
+commit -m added t/04.bind.t
+Date: Sat Nov 13 23:59:57 BRST 2010

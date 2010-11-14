@@ -974,3 +974,81 @@ add MANIFEST t/04.bind.t
 Date: Sat Nov 13 23:59:41 BRST 2010
 commit -m added t/04.bind.t
 Date: Sat Nov 13 23:59:57 BRST 2010
+st
+Date: Sun Nov 14 00:00:08 BRST 2010
+log
+Date: Sun Nov 14 00:00:25 BRST 2010
+st
+Date: Sun Nov 14 00:00:53 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov 14 00:00:56 BRST 2010
+diff Build.PL
+Date: Sun Nov 14 00:01:00 BRST 2010
+--git-dir=.git config --get alias.st
+Date: Sun Nov 14 00:01:14 BRST 2010
+st lib/
+Date: Sun Nov 14 00:01:14 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov 14 00:01:16 BRST 2010
+diff lib/Net/LDAP/SimpleServer/LDIFStore.pm lib/Net/LDAP/SimpleServer/LDIFStore.pm.bak lib/Net/LDAP/SimpleServer/ProtocolHandler.pm lib/Net/LDAP/SimpleServer/ProtocolHandler.pm.bak
+Date: Sun Nov 14 00:01:24 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov 14 00:01:40 BRST 2010
+add lib/Net/LDAP/SimpleServer/LDIFStore.pm lib/Net/LDAP/SimpleServer/ProtocolHandler.pm
+Date: Sun Nov 14 00:02:10 BRST 2010
+commit -m Bumped version to 0.0.11
+Date: Sun Nov 14 00:02:12 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov 14 00:02:21 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov 14 00:02:22 BRST 2010
+diff examples/
+Date: Sun Nov 14 00:02:24 BRST 2010
+add examples/
+Date: Sun Nov 14 00:02:32 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov 14 00:02:34 BRST 2010
+commit -m Added configuration for port 20389, to allow non-root tests
+Date: Sun Nov 14 00:02:53 BRST 2010
+st
+Date: Sun Nov 14 00:03:08 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov 14 00:03:10 BRST 2010
+diff ./t/03.param.t
+Date: Sun Nov 14 00:03:50 BRST 2010
+st
+Date: Sun Nov 14 01:47:22 BRST 2010
+help -a
+Date: Sun Nov 14 01:47:27 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov 14 01:47:27 BRST 2010
+diff Build.PL
+Date: Sun Nov 14 01:47:31 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov 14 01:47:36 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov 14 01:47:38 BRST 2010
+add Build.PL
+Date: Sun Nov 14 01:47:41 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov 14 01:47:45 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov 14 01:47:47 BRST 2010
+commit -m added common::sense and IO::Pipe
+Date: Sun Nov 14 01:48:03 BRST 2010
+st
+Date: Sun Nov 14 01:48:08 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov 14 01:48:13 BRST 2010
+diff t/03.param.t
+Date: Sun Nov 14 01:48:47 BRST 2010
+add t/03.param.t
+Date: Sun Nov 14 01:48:55 BRST 2010
+commit -m t/03.param.t revamped now it is a forking test, with an alarm signal
+Date: Sun Nov 14 01:49:54 BRST 2010
+st
+Date: Sun Nov 14 01:49:58 BRST 2010
+st
+Date: Sun Nov 14 01:50:12 BRST 2010
+log
+Date: Sun Nov 14 01:50:25 BRST 2010

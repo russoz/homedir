@@ -1312,3 +1312,135 @@ checkout lib/Net/LDAP/SimpleServer.pm
 Date: Sun Nov 14 18:51:44 BRST 2010
 checkout lib/Net/LDAP/SimpleServer.pm
 Date: Sun Nov 14 18:52:49 BRST 2010
+st
+Date: Mon Nov 15 12:13:12 BRST 2010
+add .
+Date: Mon Nov 15 12:13:15 BRST 2010
+commit -m playing around with 'map' and hashrefs
+Date: Mon Nov 15 12:13:41 BRST 2010
+push
+Date: Mon Nov 15 12:13:55 BRST 2010
+mv test-map2hashref.pl test-hashrefs.pl
+Date: Mon Nov 15 12:22:13 BRST 2010
+st
+Date: Mon Nov 15 12:22:17 BRST 2010
+add .
+Date: Mon Nov 15 12:22:20 BRST 2010
+st
+Date: Mon Nov 15 12:22:21 BRST 2010
+help -a
+Date: Mon Nov 15 12:22:24 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Nov 15 12:22:24 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Nov 15 12:22:40 BRST 2010
+commit -m renamed: test-map2hashref.pl -> test-hashrefs.pl
+Date: Mon Nov 15 12:22:46 BRST 2010
+st
+Date: Mon Nov 15 13:32:49 BRST 2010
+help -a
+Date: Mon Nov 15 13:32:52 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Nov 15 13:32:52 BRST 2010
+diff
+Date: Mon Nov 15 13:32:53 BRST 2010
+add .
+Date: Mon Nov 15 13:32:58 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Nov 15 13:33:00 BRST 2010
+commit -m added slice test, by edenc
+Date: Mon Nov 15 13:33:11 BRST 2010
+push
+Date: Mon Nov 15 13:33:27 BRST 2010
+add .
+Date: Mon Nov 15 13:44:59 BRST 2010
+commit -m added test for Net::LDAP::Constant
+Date: Mon Nov 15 13:45:13 BRST 2010
+push
+Date: Mon Nov 15 13:45:26 BRST 2010
+st
+Date: Mon Nov 15 14:22:46 BRST 2010
+diff t/02.handler.t
+Date: Mon Nov 15 14:23:03 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Nov 15 14:23:07 BRST 2010
+diff lib/Net/LDAP/SimpleServer.pm
+Date: Mon Nov 15 14:23:12 BRST 2010
+diff
+Date: Mon Nov 15 14:27:05 BRST 2010
+st
+Date: Mon Nov 15 15:06:39 BRST 2010
+diff t/02.handler.t
+Date: Mon Nov 15 15:06:50 BRST 2010
+add .
+Date: Mon Nov 15 15:07:03 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Nov 15 15:07:05 BRST 2010
+commit
+Date: Mon Nov 15 15:18:48 BRST 2010
+st
+Date: Mon Nov 15 15:18:51 BRST 2010
+rebase -i HEAD~5
+Date: Mon Nov 15 15:19:38 BRST 2010
+st
+Date: Mon Nov 15 15:19:41 BRST 2010
+revert --help
+Date: Mon Nov 15 15:22:45 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Nov 15 15:22:48 BRST 2010
+branch revert-alldir
+Date: Mon Nov 15 15:22:57 BRST 2010
+branch
+Date: Mon Nov 15 15:23:01 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Nov 15 15:23:29 BRST 2010
+log --oneline
+Date: Mon Nov 15 15:23:41 BRST 2010
+rm __changes __readme Build
+Date: Mon Nov 15 15:24:13 BRST 2010
+rm -r _build
+Date: Mon Nov 15 15:24:29 BRST 2010
+st
+Date: Mon Nov 15 15:24:32 BRST 2010
+rm META.yml MYMETA.yml Net-LDAP-SimpleServer-v0.0.12.tar.gz
+Date: Mon Nov 15 15:24:58 BRST 2010
+st
+Date: Mon Nov 15 15:25:01 BRST 2010
+st
+Date: Mon Nov 15 15:25:26 BRST 2010
+diff
+Date: Mon Nov 15 15:26:00 BRST 2010
+st
+Date: Mon Nov 15 15:27:06 BRST 2010
+commit -a -m removed the temporary files that were added by mistake
+Date: Mon Nov 15 15:27:32 BRST 2010
+st
+Date: Mon Nov 15 15:27:37 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Nov 15 15:27:41 BRST 2010
+rebase -i HEAD~3
+Date: Mon Nov 15 15:27:58 BRST 2010
+st
+Date: Mon Nov 15 15:38:57 BRST 2010
+add lib/
+Date: Mon Nov 15 15:39:02 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Nov 15 15:39:04 BRST 2010
+commit -m Updated documentation for ProtocolHandler
+Date: Mon Nov 15 15:39:20 BRST 2010
+rebase -i HEAD~3
+Date: Mon Nov 15 15:39:48 BRST 2010
+st
+Date: Mon Nov 15 15:39:51 BRST 2010
+st
+Date: Mon Nov 15 15:43:55 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Nov 15 15:44:06 BRST 2010
+rebase -i HEAD~3
+Date: Mon Nov 15 15:44:32 BRST 2010
+st
+Date: Mon Nov 15 15:44:34 BRST 2010
+log
+Date: Mon Nov 15 15:44:53 BRST 2010
+push
+Date: Mon Nov 15 15:45:09 BRST 2010

@@ -1444,3 +1444,41 @@ log
 Date: Mon Nov 15 15:44:53 BRST 2010
 push
 Date: Mon Nov 15 15:45:09 BRST 2010
+st
+Date: Mon Nov 15 17:24:19 BRST 2010
+add
+Date: Mon Nov 15 17:24:26 BRST 2010
+add .
+Date: Mon Nov 15 17:24:27 BRST 2010
+commit -m added some silly tests
+Date: Mon Nov 15 17:24:35 BRST 2010
+push
+Date: Mon Nov 15 17:24:48 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Nov 15 17:24:56 BRST 2010
+achievements
+Date: Mon Nov 15 17:24:57 BRST 2010
+achievements -l
+Date: Mon Nov 15 17:25:00 BRST 2010
+achievements
+Date: Mon Nov 15 17:25:03 BRST 2010
+st
+Date: Mon Nov 15 17:28:06 BRST 2010
+clone git@github.com:russoz/net-ldap-filter-sql.git
+Date: Mon Nov 15 17:32:58 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Nov 15 19:16:11 BRST 2010
+branch
+Date: Mon Nov 15 19:16:12 BRST 2010
+branch --help
+Date: Mon Nov 15 19:16:36 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Nov 15 19:16:39 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Nov 15 19:16:41 BRST 2010
+branch -D revert-alldir
+Date: Mon Nov 15 19:16:54 BRST 2010
+branch
+Date: Mon Nov 15 19:16:58 BRST 2010
+st
+Date: Mon Nov 15 19:17:00 BRST 2010

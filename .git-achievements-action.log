@@ -1494,3 +1494,53 @@ diff
 Date: Mon Nov 15 23:17:50 BRST 2010
 commit -a -m no need for shebang in a module
 Date: Mon Nov 15 23:18:15 BRST 2010
+st
+Date: Tue Nov 16 08:33:10 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 16 08:33:13 BRST 2010
+diff Build.PL
+Date: Tue Nov 16 08:33:16 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 16 08:33:25 BRST 2010
+diff lib/
+Date: Tue Nov 16 08:33:59 BRST 2010
+add Build.PL
+Date: Tue Nov 16 09:41:15 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 16 09:41:17 BRST 2010
+commit
+Date: Tue Nov 16 09:42:16 BRST 2010
+st
+Date: Tue Nov 16 09:42:17 BRST 2010
+commit -a
+Date: Tue Nov 16 09:52:51 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 16 09:53:20 BRST 2010
+commit -a -m removed Try::Tiny from the deps
+Date: Tue Nov 16 09:53:36 BRST 2010
+st
+Date: Tue Nov 16 09:53:38 BRST 2010
+log
+Date: Tue Nov 16 09:58:42 BRST 2010
+st
+Date: Tue Nov 16 09:59:04 BRST 2010
+rebase -i HEAD~3
+Date: Tue Nov 16 09:59:37 BRST 2010
+rebase -i HEAD~4
+Date: Tue Nov 16 10:00:03 BRST 2010
+st
+Date: Tue Nov 16 10:00:08 BRST 2010
+log
+Date: Tue Nov 16 10:00:15 BRST 2010
+diff
+Date: Tue Nov 16 10:10:41 BRST 2010
+st
+Date: Tue Nov 16 10:11:40 BRST 2010
+st
+Date: Tue Nov 16 10:13:00 BRST 2010
+st
+Date: Tue Nov 16 10:13:28 BRST 2010
+st
+Date: Tue Nov 16 10:13:39 BRST 2010
+st
+Date: Tue Nov 16 10:14:19 BRST 2010

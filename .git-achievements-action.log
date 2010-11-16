@@ -1544,3 +1544,35 @@ st
 Date: Tue Nov 16 10:13:39 BRST 2010
 st
 Date: Tue Nov 16 10:14:19 BRST 2010
+help -a
+Date: Tue Nov 16 10:14:38 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 16 10:14:38 BRST 2010
+push
+Date: Tue Nov 16 10:14:53 BRST 2010
+st
+Date: Tue Nov 16 10:16:27 BRST 2010
+diff
+Date: Tue Nov 16 10:21:39 BRST 2010
+diff
+Date: Tue Nov 16 10:22:05 BRST 2010
+st
+Date: Tue Nov 16 10:22:19 BRST 2010
+st
+Date: Tue Nov 16 10:29:54 BRST 2010
+diff
+Date: Tue Nov 16 10:31:09 BRST 2010
+diff
+Date: Tue Nov 16 10:31:23 BRST 2010
+add lib/WAS/
+Date: Tue Nov 16 10:31:34 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 16 10:31:38 BRST 2010
+commit
+Date: Tue Nov 16 10:31:58 BRST 2010
+diff
+Date: Tue Nov 16 10:32:00 BRST 2010
+diff
+Date: Tue Nov 16 10:32:01 BRST 2010
+st
+Date: Tue Nov 16 10:32:06 BRST 2010

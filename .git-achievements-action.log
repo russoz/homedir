@@ -1578,3 +1578,23 @@ st
 Date: Tue Nov 16 10:32:06 BRST 2010
 st
 Date: Tue Nov 16 15:45:52 BRST 2010
+st
+Date: Tue Nov 16 17:51:49 BRST 2010
+help -a
+Date: Tue Nov 16 17:51:51 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 16 17:51:51 BRST 2010
+add .
+Date: Tue Nov 16 17:51:52 BRST 2010
+commit -m added a test for Net::SSH::Perl
+Date: Tue Nov 16 17:52:04 BRST 2010
+push
+Date: Tue Nov 16 17:52:17 BRST 2010
+st
+Date: Tue Nov 16 18:13:34 BRST 2010
+log
+Date: Tue Nov 16 18:13:40 BRST 2010
+st
+Date: Tue Nov 16 18:14:20 BRST 2010
+st
+Date: Tue Nov 16 19:13:49 BRST 2010

@@ -1598,3 +1598,27 @@ st
 Date: Tue Nov 16 18:14:20 BRST 2010
 st
 Date: Tue Nov 16 19:13:49 BRST 2010
+st
+Date: Tue Nov 16 20:29:11 BRST 2010
+st
+Date: Tue Nov 16 20:30:22 BRST 2010
+log
+Date: Tue Nov 16 21:10:58 BRST 2010
+st
+Date: Tue Nov 16 21:11:30 BRST 2010
+diff
+Date: Tue Nov 16 21:11:37 BRST 2010
+add MANIFEST
+Date: Tue Nov 16 21:11:42 BRST 2010
+commit -m added pod file to the manifest
+Date: Tue Nov 16 21:11:53 BRST 2010
+diff
+Date: Tue Nov 16 21:11:57 BRST 2010
+st
+Date: Tue Nov 16 21:12:00 BRST 2010
+st
+Date: Tue Nov 16 21:34:06 BRST 2010
+commit -a -m checking for .pod file - not only .pm
+Date: Tue Nov 16 21:34:22 BRST 2010
+st
+Date: Tue Nov 16 22:05:33 BRST 2010

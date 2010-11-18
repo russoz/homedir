@@ -1622,3 +1622,53 @@ commit -a -m checking for .pod file - not only .pm
 Date: Tue Nov 16 21:34:22 BRST 2010
 st
 Date: Tue Nov 16 22:05:33 BRST 2010
+st
+Date: Thu Nov 18 08:16:52 BRST 2010
+add lib/WAS/Remote/App.pod
+Date: Thu Nov 18 08:17:06 BRST 2010
+commit -m added pod file
+Date: Thu Nov 18 08:17:15 BRST 2010
+st
+Date: Thu Nov 18 08:17:18 BRST 2010
+clean -fd
+Date: Thu Nov 18 08:17:35 BRST 2010
+st
+Date: Thu Nov 18 08:17:38 BRST 2010
+add App
+Date: Thu Nov 18 08:18:04 BRST 2010
+mv App.pm App/Install.pm
+Date: Thu Nov 18 08:18:16 BRST 2010
+mv App.pod App/Install.pod
+Date: Thu Nov 18 08:18:27 BRST 2010
+st
+Date: Thu Nov 18 08:18:38 BRST 2010
+st
+Date: Thu Nov 18 08:26:51 BRST 2010
+mv Remote/App/ .
+Date: Thu Nov 18 08:30:15 BRST 2010
+st
+Date: Thu Nov 18 08:30:18 BRST 2010
+rm --help
+Date: Thu Nov 18 08:30:50 BRST 2010
+st
+Date: Thu Nov 18 08:34:11 BRST 2010
+st
+Date: Thu Nov 18 08:34:37 BRST 2010
+add .
+Date: Thu Nov 18 08:34:49 BRST 2010
+st
+Date: Thu Nov 18 08:34:54 BRST 2010
+st
+Date: Thu Nov 18 08:35:21 BRST 2010
+commit -m renamed to WAS::App::Install, bumped version to 0.0.5
+Date: Thu Nov 18 08:35:51 BRST 2010
+st
+Date: Thu Nov 18 08:35:55 BRST 2010
+st
+Date: Thu Nov 18 08:51:00 BRST 2010
+commit -a -m renamed some attributes to support local installations
+Date: Thu Nov 18 08:51:38 BRST 2010
+st
+Date: Thu Nov 18 08:51:42 BRST 2010
+st
+Date: Thu Nov 18 09:02:51 BRST 2010

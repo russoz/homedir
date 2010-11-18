@@ -45,6 +45,7 @@ mk_remote() {
 }
 
 h="$1"
+[ -z "$h" ] && { msg 'usage: lx-mk-remote-me <host>'; exit 1; }
 mk_remote $h || { msg 'Error creating user'; exit 1; }
 nb_peer_add $h
 

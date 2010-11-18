@@ -1672,3 +1672,15 @@ st
 Date: Thu Nov 18 08:51:42 BRST 2010
 st
 Date: Thu Nov 18 09:02:51 BRST 2010
+st
+Date: Thu Nov 18 15:29:26 BRST 2010
+help -a
+Date: Thu Nov 18 15:29:32 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Nov 18 15:29:32 BRST 2010
+diff sbin/lx-mk-remote-me
+Date: Thu Nov 18 15:29:37 BRST 2010
+add sbin/lx-mk-remote-me
+Date: Thu Nov 18 15:33:01 BRST 2010
+commit sbin/lx-mk-remote-me -m added check for parameter
+Date: Thu Nov 18 15:33:16 BRST 2010

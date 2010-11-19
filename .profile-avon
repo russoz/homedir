@@ -113,7 +113,7 @@ BR_SUN_SERVERS="sposunap1.brazil.avon.com
 
 alias sposunap1="telnet sposunap1.brazil.avon.com"
 alias sposunor1="telnet sposunor1.brazil.avon.com"
-alias sposunor2="ssh sposunor2.brazil.avon.com"
+alias sposunor2="telnet sposunor2.brazil.avon.com"
 alias sposundev="telnet sposundev.brazil.avon.com"
 
 ##############################################################################
@@ -130,6 +130,7 @@ make_foreach_func br-linux-qa-foreach-server $BR_LINUX_QA_SERVERS
 make_ssh_aliases                             $BR_LINUX_QA_SERVERS
 
 BR_LINUX_PROD_SERVERS="spolxpmon.sa.avonet.net
+  spolxviewer.sa.avonet.net
   spolxpdst.sa.avonet.net
   spolxlgto.sa.avonet.net"
 make_foreach_func br-linux-prod-foreach-server $BR_LINUX_PROD_SERVERS

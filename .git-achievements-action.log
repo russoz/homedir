@@ -1754,3 +1754,21 @@ diff
 Date: Thu Nov 18 23:38:40 BRST 2010
 commit -a -m no longer using Try::Tiny
 Date: Thu Nov 18 23:39:18 BRST 2010
+commit -a
+Date: Fri Nov 19 00:07:22 BRST 2010
+diff
+Date: Fri Nov 19 00:07:28 BRST 2010
+commit lib/WAS/App/Install.pm -m cosmetic change
+Date: Fri Nov 19 00:17:20 BRST 2010
+st
+Date: Fri Nov 19 00:17:30 BRST 2010
+add TODO
+Date: Fri Nov 19 00:17:42 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Nov 19 00:17:45 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Nov 19 00:17:46 BRST 2010
+commit
+Date: Fri Nov 19 00:17:55 BRST 2010
+push
+Date: Fri Nov 19 00:18:07 BRST 2010

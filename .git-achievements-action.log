@@ -1684,3 +1684,73 @@ add sbin/lx-mk-remote-me
 Date: Thu Nov 18 15:33:01 BRST 2010
 commit sbin/lx-mk-remote-me -m added check for parameter
 Date: Thu Nov 18 15:33:16 BRST 2010
+st
+Date: Thu Nov 18 21:01:11 BRST 2010
+clean -fd
+Date: Thu Nov 18 21:01:36 BRST 2010
+clean -fd
+Date: Thu Nov 18 21:02:04 BRST 2010
+help -a
+Date: Thu Nov 18 21:02:31 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Nov 18 21:02:31 BRST 2010
+achievements
+Date: Thu Nov 18 21:02:31 BRST 2010
+diff
+Date: Thu Nov 18 21:57:00 BRST 2010
+st
+Date: Thu Nov 18 21:57:07 BRST 2010
+commit -a
+Date: Thu Nov 18 21:58:16 BRST 2010
+st
+Date: Thu Nov 18 21:58:22 BRST 2010
+log
+Date: Thu Nov 18 21:58:50 BRST 2010
+remote add origin git@github.com:russoz/WAS-App-Install.git
+Date: Thu Nov 18 22:01:16 BRST 2010
+--git-dir=.git config --get-regexp remote\..*\.url
+Date: Thu Nov 18 22:01:22 BRST 2010
+branch
+Date: Thu Nov 18 22:01:29 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Nov 18 22:01:33 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Nov 18 22:01:34 BRST 2010
+push origin master
+Date: Thu Nov 18 22:01:51 BRST 2010
+st
+Date: Thu Nov 18 22:04:50 BRST 2010
+add examples/ MANIFEST
+Date: Thu Nov 18 22:05:02 BRST 2010
+commit -m added example script
+Date: Thu Nov 18 22:05:11 BRST 2010
+log
+Date: Thu Nov 18 22:05:22 BRST 2010
+st
+Date: Thu Nov 18 22:47:02 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Nov 18 22:47:05 BRST 2010
+add lib/
+Date: Thu Nov 18 22:47:22 BRST 2010
+help -a
+Date: Thu Nov 18 22:47:24 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Nov 18 22:47:24 BRST 2010
+commit
+Date: Thu Nov 18 22:50:38 BRST 2010
+diff
+Date: Thu Nov 18 22:51:04 BRST 2010
+diff
+Date: Thu Nov 18 22:51:06 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Nov 18 22:51:09 BRST 2010
+st
+Date: Thu Nov 18 22:51:09 BRST 2010
+st
+Date: Thu Nov 18 23:33:03 BRST 2010
+commit -a
+Date: Thu Nov 18 23:38:39 BRST 2010
+diff
+Date: Thu Nov 18 23:38:40 BRST 2010
+commit -a -m no longer using Try::Tiny
+Date: Thu Nov 18 23:39:18 BRST 2010

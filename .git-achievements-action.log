@@ -1810,3 +1810,39 @@ log
 Date: Fri Nov 19 23:30:55 BRST 2010
 st
 Date: Fri Nov 19 23:59:30 BRST 2010
+init
+Date: Sat Nov 20 00:00:54 BRST 2010
+init
+Date: Sat Nov 20 00:02:26 BRST 2010
+st
+Date: Sat Nov 20 00:03:13 BRST 2010
+help -a
+Date: Sat Nov 20 00:03:19 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Nov 20 00:03:19 BRST 2010
+branch
+Date: Sat Nov 20 00:03:30 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Nov 20 00:04:15 BRST 2010
+init
+Date: Sat Nov 20 00:04:24 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Nov 20 00:04:49 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Nov 20 00:04:49 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Nov 20 00:04:49 BRST 2010
+st
+Date: Sat Nov 20 00:05:07 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Nov 20 00:05:20 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Nov 20 00:05:20 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Nov 20 00:05:20 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Nov 20 00:05:21 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Nov 20 00:05:22 BRST 2010
+help
+Date: Sat Nov 20 00:05:22 BRST 2010

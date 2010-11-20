@@ -1772,3 +1772,41 @@ commit
 Date: Fri Nov 19 00:17:55 BRST 2010
 push
 Date: Fri Nov 19 00:18:07 BRST 2010
+st
+Date: Fri Nov 19 21:40:33 BRST 2010
+st
+Date: Fri Nov 19 21:41:56 BRST 2010
+help -a
+Date: Fri Nov 19 21:42:03 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Nov 19 21:42:03 BRST 2010
+diff .profile-avon
+Date: Fri Nov 19 21:42:11 BRST 2010
+add .profile-avon
+Date: Fri Nov 19 21:42:17 BRST 2010
+commit .profile-avon
+Date: Fri Nov 19 21:42:44 BRST 2010
+st
+Date: Fri Nov 19 22:55:37 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Nov 19 22:55:44 BRST 2010
+diff bin/avon-user
+Date: Fri Nov 19 22:55:50 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Nov 19 22:55:56 BRST 2010
+checkout bin/
+Date: Fri Nov 19 22:55:59 BRST 2010
+diff bin/avon-user
+Date: Fri Nov 19 22:56:01 BRST 2010
+st
+Date: Fri Nov 19 22:56:03 BRST 2010
+push
+Date: Fri Nov 19 22:56:26 BRST 2010
+st
+Date: Fri Nov 19 22:56:51 BRST 2010
+st
+Date: Fri Nov 19 23:30:47 BRST 2010
+log
+Date: Fri Nov 19 23:30:55 BRST 2010
+st
+Date: Fri Nov 19 23:59:30 BRST 2010

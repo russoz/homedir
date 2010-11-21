@@ -2022,3 +2022,61 @@ st
 Date: Sat Nov 20 22:27:09 BRST 2010
 st
 Date: Sat Nov 20 22:30:41 BRST 2010
+st
+Date: Sat Nov 20 22:30:46 BRST 2010
+st
+Date: Sat Nov 20 22:31:37 BRST 2010
+st
+Date: Sat Nov 20 22:33:14 BRST 2010
+add .cpan/CPAN/MyConfig.pm .gitignore etc/crontab
+Date: Sat Nov 20 22:33:28 BRST 2010
+st
+Date: Sat Nov 20 22:33:31 BRST 2010
+commit
+Date: Sat Nov 20 22:35:27 BRST 2010
+st
+Date: Sat Nov 20 22:35:40 BRST 2010
+st
+Date: Sat Nov 20 22:36:20 BRST 2010
+add .minicpanrc
+Date: Sat Nov 20 22:36:54 BRST 2010
+commit --help
+Date: Sat Nov 20 22:37:16 BRST 2010
+commit -C HEAD~1
+Date: Sat Nov 20 22:37:23 BRST 2010
+commit --help
+Date: Sat Nov 20 22:39:29 BRST 2010
+reset --help
+Date: Sat Nov 20 22:39:52 BRST 2010
+reset
+Date: Sat Nov 20 22:40:00 BRST 2010
+st
+Date: Sat Nov 20 22:40:06 BRST 2010
+reset --help
+Date: Sat Nov 20 22:40:22 BRST 2010
+reset --soft HEAD~1
+Date: Sat Nov 20 22:40:31 BRST 2010
+st
+Date: Sat Nov 20 22:40:37 BRST 2010
+commit -C HEAD
+Date: Sat Nov 20 22:41:02 BRST 2010
+shortlog
+Date: Sat Nov 20 22:42:25 BRST 2010
+rev-parse --git-dir
+Date: Sat Nov 20 22:42:56 BRST 2010
+log --oneline
+Date: Sat Nov 20 22:42:58 BRST 2010
+st
+Date: Sat Nov 20 22:43:04 BRST 2010
+diff .mission-control/accounts/accounts.cfg
+Date: Sat Nov 20 22:43:22 BRST 2010
+st
+Date: Sat Nov 20 22:43:39 BRST 2010
+help -a
+Date: Sat Nov 20 22:43:45 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Nov 20 22:43:45 BRST 2010
+checkout .mission-control/accounts/accounts.cfg
+Date: Sat Nov 20 22:43:47 BRST 2010
+st
+Date: Sat Nov 20 22:43:49 BRST 2010

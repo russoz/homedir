@@ -2142,3 +2142,35 @@ st
 Date: Sat Nov 20 23:58:50 BRST 2010
 st
 Date: Sat Nov 20 23:59:33 BRST 2010
+diff .cpan/CPAN/MyConfig.pm
+Date: Sun Nov 21 00:04:49 BRST 2010
+st
+Date: Sun Nov 21 00:28:41 BRST 2010
+st
+Date: Sun Nov 21 00:30:20 BRST 2010
+commit -a -m ran through perltidy
+Date: Sun Nov 21 00:30:37 BRST 2010
+st
+Date: Sun Nov 21 00:31:38 BRST 2010
+log
+Date: Sun Nov 21 00:32:05 BRST 2010
+push
+Date: Sun Nov 21 00:32:17 BRST 2010
+st
+Date: Sun Nov 21 00:35:37 BRST 2010
+log --oneline
+Date: Sun Nov 21 00:35:52 BRST 2010
+commit -a -C 0530415
+Date: Sun Nov 21 00:36:12 BRST 2010
+st
+Date: Sun Nov 21 00:38:39 BRST 2010
+diff root/templates/src/calendario/year.tt
+Date: Sun Nov 21 00:39:28 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov 21 00:39:32 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov 21 00:39:40 BRST 2010
+checkout root/templates/src/
+Date: Sun Nov 21 00:39:44 BRST 2010
+st
+Date: Sun Nov 21 00:39:46 BRST 2010

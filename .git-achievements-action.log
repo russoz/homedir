@@ -2278,3 +2278,27 @@ st
 Date: Sun Nov 21 15:27:06 BRST 2010
 push
 Date: Sun Nov 21 15:28:04 BRST 2010
+st
+Date: Sun Nov 21 17:33:22 BRST 2010
+log
+Date: Sun Nov 21 17:42:35 BRST 2010
+st
+Date: Sun Nov 21 17:58:47 BRST 2010
+help -a
+Date: Sun Nov 21 17:58:50 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov 21 17:58:50 BRST 2010
+diff lib/
+Date: Sun Nov 21 17:58:51 BRST 2010
+add etc/crontab
+Date: Sun Nov 21 18:05:32 BRST 2010
+help -a
+Date: Sun Nov 21 18:05:34 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov 21 18:05:34 BRST 2010
+commit -m fixed typo in crontab
+Date: Sun Nov 21 18:05:41 BRST 2010
+diff
+Date: Sun Nov 21 18:08:48 BRST 2010
+diff
+Date: Sun Nov 21 18:11:22 BRST 2010

@@ -1966,3 +1966,59 @@ Date: Sat Nov 20 19:03:22 BRST 2010
 Date: Sat Nov 20 19:03:24 BRST 2010
 checkout root/templates/lib/site/site_base/html.tt
 Date: Sat Nov 20 19:03:27 BRST 2010
+st
+Date: Sat Nov 20 20:01:50 BRST 2010
+diff
+Date: Sat Nov 20 20:02:51 BRST 2010
+st
+Date: Sat Nov 20 21:54:09 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Nov 20 21:54:12 BRST 2010
+diff root/templates/src/local/contato.tt
+Date: Sat Nov 20 21:54:47 BRST 2010
+diff root/templates/src/local/contato.tt
+Date: Sat Nov 20 21:55:17 BRST 2010
+add root/templates/src/local/contato.tt
+Date: Sat Nov 20 21:55:20 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Nov 20 21:55:24 BRST 2010
+commit -m faltando um </i>, colocado link do github
+Date: Sat Nov 20 21:56:06 BRST 2010
+diff
+Date: Sat Nov 20 21:56:13 BRST 2010
+diff
+Date: Sat Nov 20 21:57:04 BRST 2010
+diff
+Date: Sat Nov 20 21:57:10 BRST 2010
+diff
+Date: Sat Nov 20 21:58:01 BRST 2010
+diff
+Date: Sat Nov 20 21:58:16 BRST 2010
+commit -a -m lista.tt re-escrito
+Date: Sat Nov 20 22:01:35 BRST 2010
+st
+Date: Sat Nov 20 22:01:40 BRST 2010
+push
+Date: Sat Nov 20 22:02:00 BRST 2010
+push --help
+Date: Sat Nov 20 22:02:49 BRST 2010
+pull --help
+Date: Sat Nov 20 22:03:00 BRST 2010
+branch
+Date: Sat Nov 20 22:03:13 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Nov 20 22:03:17 BRST 2010
+checkout master
+Date: Sat Nov 20 22:03:19 BRST 2010
+pull . russoz
+Date: Sat Nov 20 22:03:41 BRST 2010
+push
+Date: Sat Nov 20 22:03:59 BRST 2010
+st
+Date: Sat Nov 20 22:19:40 BRST 2010
+st
+Date: Sat Nov 20 22:24:58 BRST 2010
+st
+Date: Sat Nov 20 22:27:09 BRST 2010
+st
+Date: Sat Nov 20 22:30:41 BRST 2010

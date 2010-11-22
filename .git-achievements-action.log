@@ -2302,3 +2302,41 @@ diff
 Date: Sun Nov 21 18:08:48 BRST 2010
 diff
 Date: Sun Nov 21 18:11:22 BRST 2010
+st
+Date: Sun Nov 21 21:11:23 BRST 2010
+diff
+Date: Sun Nov 21 21:11:29 BRST 2010
+commit -a -m principal.tt: fix typo
+Date: Sun Nov 21 21:11:58 BRST 2010
+log
+Date: Sun Nov 21 21:12:06 BRST 2010
+rebase -i HEAD~4
+Date: Sun Nov 21 21:12:43 BRST 2010
+rebase -i HEAD~5
+Date: Sun Nov 21 21:15:05 BRST 2010
+log
+Date: Sun Nov 21 21:15:15 BRST 2010
+st
+Date: Sun Nov 21 21:15:52 BRST 2010
+push --help
+Date: Sun Nov 21 21:16:46 BRST 2010
+push -f
+Date: Sun Nov 21 21:16:55 BRST 2010
+st
+Date: Sun Nov 21 21:43:28 BRST 2010
+add test-bool.pl
+Date: Sun Nov 21 21:43:38 BRST 2010
+commit -m added a simple test for booleans with Moose
+Date: Sun Nov 21 21:43:56 BRST 2010
+push
+Date: Sun Nov 21 21:44:10 BRST 2010
+diff lib/
+Date: Sun Nov 21 21:45:24 BRST 2010
+st
+Date: Sun Nov 21 21:58:47 BRST 2010
+clean -fd
+Date: Sun Nov 21 21:58:50 BRST 2010
+diff
+Date: Sun Nov 21 23:20:09 BRST 2010
+diff
+Date: Sun Nov 21 23:21:06 BRST 2010

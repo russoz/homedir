@@ -2344,3 +2344,5 @@ status
 Date: Tue Nov 23 15:00:17 BRST 2010
 commit -a -m ran through perltidy
 Date: Tue Nov 23 15:00:36 BRST 2010
+clone git@github.com:russoz/OpenData-BR.git
+Date: Tue Nov 23 17:06:11 BRST 2010

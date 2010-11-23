@@ -2340,3 +2340,7 @@ diff
 Date: Sun Nov 21 23:20:09 BRST 2010
 diff
 Date: Sun Nov 21 23:21:06 BRST 2010
+status
+Date: Tue Nov 23 15:00:17 BRST 2010
+commit -a -m ran through perltidy
+Date: Tue Nov 23 15:00:36 BRST 2010

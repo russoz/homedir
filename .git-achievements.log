@@ -270,3 +270,35 @@
            Remove untracked files from the working tree with git clean           
 ********************************************************************************
 
+
+********************************************************************************
+                            Git Achievement Unlocked!                            
+
+                          Apprentice Merchant (Level 2)                          
+                Added an external repository with git remote add.                
+********************************************************************************
+
+
+********************************************************************************
+                            Git Achievement Unlocked!                            
+
+                         Apprentice Collector (Level 1)                         
+       Fetches named heads or tags from another repository with git fetch       
+********************************************************************************
+
+
+********************************************************************************
+                            Git Achievement Unlocked!                            
+
+                           Apprentice Banker (Level 1)                           
+         Join two or more development histories together with git merge.         
+********************************************************************************
+
+
+********************************************************************************
+                            Git Achievement Unlocked!                            
+
+                          Master Stone Mason (Level 7)                          
+   Added files to the index area for inclusion in the next commit with git add   
+********************************************************************************
+

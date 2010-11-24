@@ -2372,3 +2372,77 @@ st
 Date: Tue Nov 23 22:18:19 BRST 2010
 push
 Date: Tue Nov 23 22:19:26 BRST 2010
+remote add upstream https://github.com/maluco/SPPM-Web.git
+Date: Wed Nov 24 08:38:07 BRST 2010
+st
+Date: Wed Nov 24 08:39:05 BRST 2010
+--git-dir=.git config --get-regexp remote\..*\.url
+Date: Wed Nov 24 08:39:22 BRST 2010
+fetch upstream
+Date: Wed Nov 24 08:39:39 BRST 2010
+merge upstream/master
+Date: Wed Nov 24 08:39:57 BRST 2010
+st
+Date: Wed Nov 24 08:40:16 BRST 2010
+st
+Date: Wed Nov 24 08:41:01 BRST 2010
+pull origin master
+Date: Wed Nov 24 08:42:30 BRST 2010
+st
+Date: Wed Nov 24 08:42:33 BRST 2010
+fetch upstream
+Date: Wed Nov 24 08:42:46 BRST 2010
+merge upstream/master
+Date: Wed Nov 24 08:43:04 BRST 2010
+push origin master
+Date: Wed Nov 24 08:43:47 BRST 2010
+st
+Date: Wed Nov 24 09:35:17 BRST 2010
+st
+Date: Wed Nov 24 09:35:42 BRST 2010
+st
+Date: Wed Nov 24 09:36:53 BRST 2010
+add bin/cron.git-periodic
+Date: Wed Nov 24 09:36:59 BRST 2010
+help -a
+Date: Wed Nov 24 09:37:53 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Nov 24 09:37:53 BRST 2010
+checkout bin/cron.git-periodic
+Date: Wed Nov 24 09:37:56 BRST 2010
+st
+Date: Wed Nov 24 09:37:58 BRST 2010
+status
+Date: Wed Nov 24 09:38:46 BRST 2010
+st
+Date: Wed Nov 24 09:39:49 BRST 2010
+add bin/cron.git-periodic
+Date: Wed Nov 24 09:40:02 BRST 2010
+st
+Date: Wed Nov 24 09:40:06 BRST 2010
+pull --help
+Date: Wed Nov 24 09:41:28 BRST 2010
+st
+Date: Wed Nov 24 09:41:59 BRST 2010
+add .dia/
+Date: Wed Nov 24 09:42:20 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Nov 24 09:42:22 BRST 2010
+commit .dia/
+Date: Wed Nov 24 09:42:34 BRST 2010
+st
+Date: Wed Nov 24 09:42:37 BRST 2010
+st
+Date: Wed Nov 24 09:42:54 BRST 2010
+diff bin/cron.git-periodic
+Date: Wed Nov 24 09:43:01 BRST 2010
+add bin/cron.git-periodic
+Date: Wed Nov 24 09:43:08 BRST 2010
+st
+Date: Wed Nov 24 09:43:16 BRST 2010
+add .gitignore
+Date: Wed Nov 24 09:43:43 BRST 2010
+commit .gitignore
+Date: Wed Nov 24 09:44:01 BRST 2010
+st
+Date: Wed Nov 24 09:44:03 BRST 2010

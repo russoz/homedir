@@ -2446,3 +2446,33 @@ commit .gitignore
 Date: Wed Nov 24 09:44:01 BRST 2010
 st
 Date: Wed Nov 24 09:44:03 BRST 2010
+status
+Date: Wed Nov 24 12:29:54 BRST 2010
+--help
+Date: Wed Nov 24 12:30:14 BRST 2010
+help status
+Date: Wed Nov 24 12:30:27 BRST 2010
+status
+Date: Wed Nov 24 12:31:03 BRST 2010
+rm --help
+Date: Wed Nov 24 12:31:20 BRST 2010
+rm --cached blueproximity.log
+Date: Wed Nov 24 12:31:25 BRST 2010
+status
+Date: Wed Nov 24 12:31:29 BRST 2010
+commit -m removed blueproximity. log from the git index
+Date: Wed Nov 24 12:31:51 BRST 2010
+status
+Date: Wed Nov 24 12:31:56 BRST 2010
+help -a
+Date: Wed Nov 24 12:32:13 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Nov 24 12:32:13 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Nov 24 12:32:15 BRST 2010
+status
+Date: Wed Nov 24 12:32:16 BRST 2010
+add .gitignore
+Date: Wed Nov 24 12:32:26 BRST 2010
+commit .gitignore
+Date: Wed Nov 24 12:32:46 BRST 2010

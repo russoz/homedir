@@ -2476,3 +2476,61 @@ add .gitignore
 Date: Wed Nov 24 12:32:26 BRST 2010
 commit .gitignore
 Date: Wed Nov 24 12:32:46 BRST 2010
+push
+Date: Wed Nov 24 12:33:14 BRST 2010
+st
+Date: Wed Nov 24 12:36:04 BRST 2010
+remote --help
+Date: Wed Nov 24 13:39:54 BRST 2010
+remote show
+Date: Wed Nov 24 13:39:58 BRST 2010
+remote show upstream
+Date: Wed Nov 24 13:40:15 BRST 2010
+remote show
+Date: Wed Nov 24 13:40:57 BRST 2010
+help -a
+Date: Wed Nov 24 13:43:18 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Nov 24 13:43:18 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Nov 24 13:43:18 BRST 2010
+remote show
+Date: Wed Nov 24 13:46:29 BRST 2010
+remote show
+Date: Wed Nov 24 13:47:06 BRST 2010
+remote show
+Date: Wed Nov 24 13:47:14 BRST 2010
+remote show
+Date: Wed Nov 24 13:47:19 BRST 2010
+--help
+Date: Wed Nov 24 13:47:49 BRST 2010
+show
+Date: Wed Nov 24 13:47:59 BRST 2010
+show
+Date: Wed Nov 24 13:48:06 BRST 2010
+show --help
+Date: Wed Nov 24 13:48:36 BRST 2010
+help -a
+Date: Wed Nov 24 13:48:37 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Nov 24 13:48:37 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Nov 24 13:48:37 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Nov 24 13:48:47 BRST 2010
+config --help
+Date: Wed Nov 24 13:51:00 BRST 2010
+remote --help
+Date: Wed Nov 24 13:53:48 BRST 2010
+pull origin master
+Date: Wed Nov 24 14:02:23 BRST 2010
+merge --help
+Date: Wed Nov 24 14:08:04 BRST 2010
+st
+Date: Wed Nov 24 14:11:50 BRST 2010
+add .
+Date: Wed Nov 24 14:11:55 BRST 2010
+commit
+Date: Wed Nov 24 14:18:25 BRST 2010
+push --help
+Date: Wed Nov 24 14:18:38 BRST 2010

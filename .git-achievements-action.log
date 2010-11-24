@@ -2534,3 +2534,39 @@ commit
 Date: Wed Nov 24 14:18:25 BRST 2010
 push --help
 Date: Wed Nov 24 14:18:38 BRST 2010
+log
+Date: Wed Nov 24 17:42:22 BRST 2010
+branch
+Date: Wed Nov 24 17:42:25 BRST 2010
+help -a
+Date: Wed Nov 24 17:49:02 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Nov 24 17:49:02 BRST 2010
+status
+Date: Wed Nov 24 17:50:08 BRST 2010
+diff
+Date: Wed Nov 24 17:50:14 BRST 2010
+diff
+Date: Wed Nov 24 17:50:47 BRST 2010
+diff
+Date: Wed Nov 24 17:52:48 BRST 2010
+st
+Date: Wed Nov 24 17:52:50 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Nov 24 17:52:53 BRST 2010
+commit -a -m improved git-sync with some sanity checks
+Date: Wed Nov 24 17:53:26 BRST 2010
+commit -a -m due credit to github help page on forking
+Date: Wed Nov 24 18:02:57 BRST 2010
+st
+Date: Wed Nov 24 19:55:49 BRST 2010
+branch refactor1
+Date: Wed Nov 24 19:56:02 BRST 2010
+help -a
+Date: Wed Nov 24 19:56:04 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Nov 24 19:56:04 BRST 2010
+checkout refactor1
+Date: Wed Nov 24 19:56:06 BRST 2010
+branch
+Date: Wed Nov 24 19:56:11 BRST 2010

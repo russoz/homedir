@@ -123,3 +123,4 @@ etc/root.crontab
 git
 .lftp
 mirrors
+blueproximity.log

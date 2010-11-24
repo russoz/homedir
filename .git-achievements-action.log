@@ -2346,3 +2346,29 @@ commit -a -m ran through perltidy
 Date: Tue Nov 23 15:00:36 BRST 2010
 clone git@github.com:russoz/OpenData-BR.git
 Date: Tue Nov 23 17:06:11 BRST 2010
+status
+Date: Tue Nov 23 22:09:49 BRST 2010
+help -a
+Date: Tue Nov 23 22:09:58 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 23 22:09:58 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 23 22:09:58 BRST 2010
+checkout scripts/
+Date: Tue Nov 23 22:10:00 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 23 22:10:03 BRST 2010
+pull
+Date: Tue Nov 23 22:11:07 BRST 2010
+st
+Date: Tue Nov 23 22:14:03 BRST 2010
+clean -fd
+Date: Tue Nov 23 22:14:13 BRST 2010
+st
+Date: Tue Nov 23 22:15:23 BRST 2010
+commit -a -m faltando o git push na sequencia do desenvolvedor
+Date: Tue Nov 23 22:15:46 BRST 2010
+st
+Date: Tue Nov 23 22:18:19 BRST 2010
+push
+Date: Tue Nov 23 22:19:26 BRST 2010

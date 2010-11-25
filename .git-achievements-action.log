@@ -2570,3 +2570,85 @@ checkout refactor1
 Date: Wed Nov 24 19:56:06 BRST 2010
 branch
 Date: Wed Nov 24 19:56:11 BRST 2010
+st
+Date: Wed Nov 24 20:04:07 BRST 2010
+diff
+Date: Wed Nov 24 20:08:54 BRST 2010
+st
+Date: Wed Nov 24 20:09:38 BRST 2010
+st
+Date: Wed Nov 24 21:32:19 BRST 2010
+diff CEIS.pm
+Date: Wed Nov 24 21:35:11 BRST 2010
+st
+Date: Wed Nov 24 21:35:20 BRST 2010
+--git-dir=/home/az/tmp/perl/transparent/openserver-db/OpenData-BR/.git config --get-regexp alias\..*
+Date: Wed Nov 24 21:35:22 BRST 2010
+--git-dir=/home/az/tmp/perl/transparent/openserver-db/OpenData-BR/.git config --get-regexp alias\..*
+Date: Wed Nov 24 21:35:23 BRST 2010
+checkout CEIS.pm Convenios.pm Servidores.pm
+Date: Wed Nov 24 21:35:30 BRST 2010
+diff
+Date: Wed Nov 24 21:36:44 BRST 2010
+st
+Date: Wed Nov 24 23:02:45 BRST 2010
+st
+Date: Wed Nov 24 23:04:15 BRST 2010
+branch
+Date: Wed Nov 24 23:08:27 BRST 2010
+status
+Date: Wed Nov 24 23:09:24 BRST 2010
+diff lib/OpenData/BR/Federal/PortalTransparencia/CEIS.pm
+Date: Wed Nov 24 23:10:00 BRST 2010
+diff lib/OpenData/BR/Federal/PortalTransparencia/Base.pm~ lib/OpenData/BR/Federal/PortalTransparencia/CEIS.pm lib/OpenData/BR/Federal/PortalTransparencia/Convenios.pm lib/OpenData/BR/Federal/PortalTransparencia/Despesas.pm lib/OpenData/BR/Federal/PortalTransparencia/Page.pm lib/OpenData/BR/Federal/PortalTransparencia/Receitas.pm lib/OpenData/BR/Federal/PortalTransparencia/Servidores.pm
+Date: Wed Nov 24 23:10:11 BRST 2010
+status
+Date: Wed Nov 24 23:10:21 BRST 2010
+st
+Date: Wed Nov 24 23:11:34 BRST 2010
+diff lib/OpenData/BR/Federal/PortalTransparencia.pm
+Date: Wed Nov 24 23:19:26 BRST 2010
+commit -a
+Date: Wed Nov 24 23:21:19 BRST 2010
+status
+Date: Wed Nov 24 23:21:22 BRST 2010
+fetch upstream
+Date: Wed Nov 24 23:22:31 BRST 2010
+help -a
+Date: Wed Nov 24 23:22:36 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Nov 24 23:22:36 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Nov 24 23:22:36 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Nov 24 23:22:36 BRST 2010
+merge upstream/master
+Date: Wed Nov 24 23:22:45 BRST 2010
+merge --help
+Date: Wed Nov 24 23:23:17 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Nov 24 23:23:20 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Nov 24 23:23:21 BRST 2010
+mergetool
+Date: Wed Nov 24 23:23:21 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Nov 24 23:23:54 BRST 2010
+achievements
+Date: Wed Nov 24 23:23:54 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Nov 24 23:24:13 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Nov 24 23:24:14 BRST 2010
+checkout master
+Date: Wed Nov 24 23:24:16 BRST 2010
+--git-dir=.git config --get-regexp remote\..*\.url
+Date: Wed Nov 24 23:24:33 BRST 2010
+--git-dir=.git config --get-regexp remote\..*\.url
+Date: Wed Nov 24 23:24:35 BRST 2010
+pull . refactor1
+Date: Wed Nov 24 23:24:38 BRST 2010
+status
+Date: Wed Nov 24 23:24:43 BRST 2010
+clean -fd
+Date: Wed Nov 24 23:25:49 BRST 2010

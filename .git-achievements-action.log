@@ -2652,3 +2652,25 @@ status
 Date: Wed Nov 24 23:24:43 BRST 2010
 clean -fd
 Date: Wed Nov 24 23:25:49 BRST 2010
+st
+Date: Thu Nov 25 14:15:16 BRST 2010
+checkout .
+Date: Thu Nov 25 14:16:18 BRST 2010
+st
+Date: Thu Nov 25 14:16:20 BRST 2010
+st
+Date: Thu Nov 25 14:16:34 BRST 2010
+branch
+Date: Thu Nov 25 14:16:39 BRST 2010
+branch rearch
+Date: Thu Nov 25 14:17:18 BRST 2010
+help -a
+Date: Thu Nov 25 14:17:21 BRST 2010
+--git-dir=/home/az/tmp/perl/transparent/OpenData-BR/.git config --get-regexp alias\..*
+Date: Thu Nov 25 14:17:21 BRST 2010
+checkout rearch
+Date: Thu Nov 25 14:17:23 BRST 2010
+st
+Date: Thu Nov 25 14:17:36 BRST 2010
+st
+Date: Thu Nov 25 15:18:53 BRST 2010

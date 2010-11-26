@@ -2782,3 +2782,13 @@ commit -a -m CEIS: começando adaptação
 Date: Thu Nov 25 22:16:29 BRST 2010
 branch
 Date: Thu Nov 25 22:17:09 BRST 2010
+clone https://russoz@github.com/russoz/OpenData-BR.git
+Date: Fri Nov 26 08:47:26 BRST 2010
+status
+Date: Fri Nov 26 08:48:31 BRST 2010
+status
+Date: Fri Nov 26 08:51:54 BRST 2010
+diff
+Date: Fri Nov 26 08:51:57 BRST 2010
+commit -a -m fixed variable name
+Date: Fri Nov 26 08:52:08 BRST 2010

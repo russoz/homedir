@@ -2674,3 +2674,111 @@ st
 Date: Thu Nov 25 14:17:36 BRST 2010
 st
 Date: Thu Nov 25 15:18:53 BRST 2010
+add ./test-arrayref.pl
+Date: Thu Nov 25 18:13:01 BRST 2010
+commit -m added test-arrayref.pl
+Date: Thu Nov 25 18:13:19 BRST 2010
+push
+Date: Thu Nov 25 18:13:37 BRST 2010
+help -a
+Date: Thu Nov 25 18:17:19 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Nov 25 18:17:19 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Nov 25 18:17:19 BRST 2010
+stage --help
+Date: Thu Nov 25 18:17:51 BRST 2010
+unstage --help
+Date: Thu Nov 25 18:17:57 BRST 2010
+notes --help
+Date: Thu Nov 25 18:18:57 BRST 2010
+fetch --help
+Date: Thu Nov 25 18:19:44 BRST 2010
+push --help
+Date: Thu Nov 25 18:21:14 BRST 2010
+push -u
+Date: Thu Nov 25 18:21:30 BRST 2010
+st
+Date: Thu Nov 25 18:23:11 BRST 2010
+st
+Date: Thu Nov 25 18:23:31 BRST 2010
+status
+Date: Thu Nov 25 18:28:42 BRST 2010
+status
+Date: Thu Nov 25 18:31:08 BRST 2010
+status
+Date: Thu Nov 25 18:34:59 BRST 2010
+add .
+Date: Thu Nov 25 18:35:05 BRST 2010
+commit -m idea for refactoring
+Date: Thu Nov 25 18:35:17 BRST 2010
+--git-dir=/home/az/tmp/perl/transparent/OpenData-BR/.git config --get-regexp remote\..*\.url
+Date: Thu Nov 25 18:35:26 BRST 2010
+branch
+Date: Thu Nov 25 18:35:32 BRST 2010
+push --help
+Date: Thu Nov 25 18:35:59 BRST 2010
+push --all
+Date: Thu Nov 25 18:36:10 BRST 2010
+st
+Date: Thu Nov 25 19:12:43 BRST 2010
+status
+Date: Thu Nov 25 21:54:11 BRST 2010
+add ../../
+Date: Thu Nov 25 21:54:23 BRST 2010
+status
+Date: Thu Nov 25 21:54:25 BRST 2010
+commit -m work in progress
+Date: Thu Nov 25 21:54:40 BRST 2010
+push
+Date: Thu Nov 25 21:54:50 BRST 2010
+branch
+Date: Thu Nov 25 22:04:58 BRST 2010
+status
+Date: Thu Nov 25 22:05:01 BRST 2010
+help -a
+Date: Thu Nov 25 22:05:03 BRST 2010
+--git-dir=/home/az/tmp/perl/transparent/OpenData-BR/.git config --get-regexp alias\..*
+Date: Thu Nov 25 22:05:03 BRST 2010
+checkout master
+Date: Thu Nov 25 22:05:05 BRST 2010
+branch
+Date: Thu Nov 25 22:05:31 BRST 2010
+st
+Date: Thu Nov 25 22:13:48 BRST 2010
+--git-dir=/home/az/tmp/perl/transparent/OpenData-BR/.git config --get-regexp alias\..*
+Date: Thu Nov 25 22:13:51 BRST 2010
+diff
+Date: Thu Nov 25 22:13:58 BRST 2010
+branch
+Date: Thu Nov 25 22:14:03 BRST 2010
+branch
+Date: Thu Nov 25 22:14:18 BRST 2010
+--git-dir=/home/az/tmp/perl/transparent/OpenData-BR/.git config --get-regexp alias\..*
+Date: Thu Nov 25 22:14:30 BRST 2010
+checkout BR/Federal/PortalTransparencia/CEIS.pm
+Date: Thu Nov 25 22:14:47 BRST 2010
+status
+Date: Thu Nov 25 22:14:50 BRST 2010
+status
+Date: Thu Nov 25 22:15:14 BRST 2010
+help -a
+Date: Thu Nov 25 22:15:16 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Nov 25 22:15:16 BRST 2010
+branch
+Date: Thu Nov 25 22:15:17 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Nov 25 22:15:19 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Nov 25 22:15:19 BRST 2010
+checkout rearch
+Date: Thu Nov 25 22:15:25 BRST 2010
+status
+Date: Thu Nov 25 22:15:37 BRST 2010
+branch
+Date: Thu Nov 25 22:15:49 BRST 2010
+commit -a -m CEIS: começando adaptação
+Date: Thu Nov 25 22:16:29 BRST 2010
+branch
+Date: Thu Nov 25 22:17:09 BRST 2010

@@ -2796,3 +2796,53 @@ branch
 Date: Fri Nov 26 19:58:54 BRST 2010
 branch
 Date: Fri Nov 26 19:58:57 BRST 2010
+st
+Date: Fri Nov 26 20:00:21 BRST 2010
+st
+Date: Fri Nov 26 20:01:54 BRST 2010
+status
+Date: Fri Nov 26 20:01:56 BRST 2010
+add lib/OpenData/BR/Federal/PortalTransparencia.pm
+Date: Fri Nov 26 20:02:06 BRST 2010
+help -a
+Date: Fri Nov 26 20:02:09 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Nov 26 20:02:09 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Nov 26 20:02:24 BRST 2010
+commit -m Merge branch master of https://github.com/maluco/OpenData-BR
+Date: Fri Nov 26 20:03:54 BRST 2010
+branch
+Date: Fri Nov 26 20:06:45 BRST 2010
+--git-dir=.git config --get-regexp remote\..*\.url
+Date: Fri Nov 26 20:06:55 BRST 2010
+push --force
+Date: Fri Nov 26 20:07:01 BRST 2010
+log
+Date: Fri Nov 26 20:07:32 BRST 2010
+branch
+Date: Fri Nov 26 21:18:12 BRST 2010
+status
+Date: Fri Nov 26 21:18:14 BRST 2010
+diff
+Date: Fri Nov 26 21:18:27 BRST 2010
+status
+Date: Fri Nov 26 21:50:39 BRST 2010
+help -a
+Date: Fri Nov 26 21:51:27 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Nov 26 21:51:27 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Nov 26 21:51:28 BRST 2010
+status
+Date: Fri Nov 26 21:51:28 BRST 2010
+status
+Date: Fri Nov 26 23:32:51 BRST 2010
+help -a
+Date: Fri Nov 26 23:33:05 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Nov 26 23:33:05 BRST 2010
+diff
+Date: Fri Nov 26 23:33:52 BRST 2010
+status
+Date: Fri Nov 26 23:37:54 BRST 2010

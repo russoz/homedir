@@ -2860,3 +2860,37 @@ diff
 Date: Sat Nov 27 00:09:37 BRST 2010
 rm ./lib/OpenData/BR/Federal/PortalTransparencia/Page.pm
 Date: Sat Nov 27 17:00:45 BRST 2010
+st
+Date: Sun Nov 28 10:54:29 BRST 2010
+help -a
+Date: Sun Nov 28 10:54:32 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov 28 10:54:32 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov 28 10:54:32 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov 28 10:54:33 BRST 2010
+reset
+Date: Sun Nov 28 10:54:34 BRST 2010
+reset --hard HEAD
+Date: Sun Nov 28 10:54:49 BRST 2010
+st
+Date: Sun Nov 28 10:54:54 BRST 2010
+rm ../lib/OpenData/BR/Federal/PortalTransparencia/Page.pm
+Date: Sun Nov 28 11:16:45 BRST 2010
+status
+Date: Sun Nov 28 11:16:50 BRST 2010
+status
+Date: Sun Nov 28 11:17:02 BRST 2010
+add .
+Date: Sun Nov 28 11:17:11 BRST 2010
+help -a
+Date: Sun Nov 28 11:17:40 BRST 2010
+--git-dir=/home/az/tmp/perl/transparent/opendata-br-rearch/.git config --get-regexp alias\..*
+Date: Sun Nov 28 11:17:40 BRST 2010
+st
+Date: Sun Nov 28 11:17:50 BRST 2010
+status
+Date: Sun Nov 28 11:46:51 BRST 2010
+status
+Date: Sun Nov 28 11:52:04 BRST 2010

@@ -2954,3 +2954,139 @@ Date: Sun Nov 28 12:17:50 BRST 2010
 Date: Sun Nov 28 12:18:00 BRST 2010
 push origin rearch
 Date: Sun Nov 28 12:18:31 BRST 2010
+status
+Date: Sun Nov 28 16:18:06 BRST 2010
+diff
+Date: Sun Nov 28 16:18:16 BRST 2010
+commit -a
+Date: Sun Nov 28 16:18:35 BRST 2010
+--git-dir=.git config --get-regexp remote\..*\.url
+Date: Sun Nov 28 16:18:53 BRST 2010
+push origin rearch
+Date: Sun Nov 28 16:19:01 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov 28 16:21:05 BRST 2010
+commit -a
+Date: Sun Nov 28 16:21:24 BRST 2010
+status
+Date: Sun Nov 28 17:04:52 BRST 2010
+diff
+Date: Sun Nov 28 17:10:03 BRST 2010
+status
+Date: Sun Nov 28 18:52:05 BRST 2010
+diff
+Date: Sun Nov 28 18:53:04 BRST 2010
+status
+Date: Sun Nov 28 18:54:36 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov 28 18:54:44 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov 28 18:54:45 BRST 2010
+diff lib/OpenData/Output/Dumper.pm
+Date: Sun Nov 28 18:54:50 BRST 2010
+add lib/OpenData/Output/Dumper.pm
+Date: Sun Nov 28 18:54:58 BRST 2010
+commit lib/OpenData/Output/Dumper.pm -m addded load method delegating to add()
+Date: Sun Nov 28 18:55:14 BRST 2010
+diff lib/OpenData/Debug.pm
+Date: Sun Nov 28 18:55:32 BRST 2010
+add lib/OpenData/Debug.pm
+Date: Sun Nov 28 18:55:42 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov 28 18:55:46 BRST 2010
+commit lib/OpenData/Debug.pm -m Debugs go to STDERR
+Date: Sun Nov 28 18:56:00 BRST 2010
+status
+Date: Sun Nov 28 18:56:07 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov 28 18:56:23 BRST 2010
+checkout lib/OpenData/BR/Federal/PortalTransparencia/Convenios.pm
+Date: Sun Nov 28 18:56:27 BRST 2010
+status
+Date: Sun Nov 28 18:56:29 BRST 2010
+diff
+Date: Sun Nov 28 19:02:28 BRST 2010
+diff lib/OpenData/Provider.pm
+Date: Sun Nov 28 19:02:37 BRST 2010
+add lib/OpenData/Provider.pm
+Date: Sun Nov 28 19:02:53 BRST 2010
+commit lib/OpenData/Provider.pm -m erros de inicializacao e codigo velho - collections tem de ser inicializada com uma hashref vazia - nao ha tipo OpenData::Loade ainda, usando Object por enquanto - extract_chunk foi refatorado para extract(), corrigindo referencia errada que ainda estava no codigo
+Date: Sun Nov 28 19:04:38 BRST 2010
+diff lib/OpenData/Provider/Collection.pm
+Date: Sun Nov 28 19:05:08 BRST 2010
+add lib/OpenData/Provider/Collection.pm
+Date: Sun Nov 28 19:05:18 BRST 2010
+status
+Date: Sun Nov 28 19:07:30 BRST 2010
+diff lib/OpenData/Provider/Collection.pm
+Date: Sun Nov 28 19:07:42 BRST 2010
+diff --help
+Date: Sun Nov 28 19:08:34 BRST 2010
+rev-parse --git-dir
+Date: Sun Nov 28 19:08:41 BRST 2010
+log --oneline
+Date: Sun Nov 28 19:08:48 BRST 2010
+diff 6e0e9f2
+Date: Sun Nov 28 19:09:03 BRST 2010
+st
+Date: Sun Nov 28 19:09:08 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov 28 19:09:11 BRST 2010
+--git-dir=.git config --get alias.unstage
+Date: Sun Nov 28 19:09:13 BRST 2010
+--git-dir=.git config --get alias.unstage
+Date: Sun Nov 28 19:09:15 BRST 2010
+--git-dir=.git config --get alias.unstage
+Date: Sun Nov 28 19:09:15 BRST 2010
+diff lib/OpenData/Provider/Collection.pm
+Date: Sun Nov 28 19:11:22 BRST 2010
+add lib/OpenData/Provider/Collection.pm
+Date: Sun Nov 28 19:11:35 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov 28 19:11:38 BRST 2010
+commit lib/OpenData/Provider/Collection.pm -m multiplas modificacoes - id passa a ser o atributo obrigatorio, name passa a ser opcional - incorporado codigo de browser - temporariamente, isso tem de sair - perltidying
+Date: Sun Nov 28 19:13:45 BRST 2010
+status
+Date: Sun Nov 28 19:13:53 BRST 2010
+diff lib/OpenData/BR/Federal/PortalTransparencia.pm
+Date: Sun Nov 28 19:14:24 BRST 2010
+add lib/OpenData/BR/Federal/PortalTransparencia.pm
+Date: Sun Nov 28 19:14:30 BRST 2010
+commit lib/OpenData/BR/Federal/PortalTransparencia.pm -m usando o novo CEIS.pm e mandando resultados para Dumper
+Date: Sun Nov 28 19:15:13 BRST 2010
+diff lib/OpenData/BR/Federal/PortalTransparencia/Base.pm
+Date: Sun Nov 28 19:15:27 BRST 2010
+add lib/OpenData/BR/Federal/PortalTransparencia/Base.pm
+Date: Sun Nov 28 19:15:31 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov 28 19:15:35 BRST 2010
+commit lib/OpenData/BR/Federal/PortalTransparencia/Base.pm -m incorporou os metodos _extract() e _load() que devem ser iguais Todas as coleções do provedor PortalTransparencia podem utilziar esses métodos comuns
+Date: Sun Nov 28 19:16:47 BRST 2010
+status
+Date: Sun Nov 28 19:16:55 BRST 2010
+add lib/
+Date: Sun Nov 28 19:17:34 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov 28 19:17:36 BRST 2010
+commit
+Date: Sun Nov 28 19:20:43 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov 28 19:20:46 BRST 2010
+status
+Date: Sun Nov 28 19:20:46 BRST 2010
+diff
+Date: Sun Nov 28 19:20:48 BRST 2010
+diff lib/OpenData/BR/Federal/PortalTransparencia/CEIS.pm
+Date: Sun Nov 28 19:21:33 BRST 2010
+status
+Date: Sun Nov 28 19:21:35 BRST 2010
+commit -a
+Date: Sun Nov 28 19:23:00 BRST 2010
+status
+Date: Sun Nov 28 19:23:03 BRST 2010
+--git-dir=.git config --get-regexp remote\..*\.url
+Date: Sun Nov 28 19:23:07 BRST 2010
+push origin rearch
+Date: Sun Nov 28 19:23:15 BRST 2010
+st
+Date: Sun Nov 28 19:49:24 BRST 2010

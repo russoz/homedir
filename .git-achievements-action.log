@@ -3090,3 +3090,15 @@ push origin rearch
 Date: Sun Nov 28 19:23:15 BRST 2010
 st
 Date: Sun Nov 28 19:49:24 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Nov 28 20:28:50 BRST 2010
+status
+Date: Sun Nov 28 20:28:51 BRST 2010
+diff
+Date: Sun Nov 28 20:29:26 BRST 2010
+commit -a -m mapeia colunas diretamente para hash usando List::MoreUtils::mesh
+Date: Sun Nov 28 20:30:16 BRST 2010
+--git-dir=.git config --get-regexp remote\..*\.url
+Date: Sun Nov 28 20:30:22 BRST 2010
+status
+Date: Sun Nov 28 20:37:15 BRST 2010

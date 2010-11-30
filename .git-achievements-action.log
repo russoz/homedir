@@ -3294,3 +3294,187 @@ Date: Tue Nov 30 13:17:46 BRST 2010
 Date: Tue Nov 30 13:17:49 BRST 2010
 diff
 Date: Tue Nov 30 13:18:00 BRST 2010
+st
+Date: Tue Nov 30 17:26:21 BRST 2010
+diff lib/OpenData/BR/Federal/PortalTransparencia/Convenios.pm
+Date: Tue Nov 30 17:26:31 BRST 2010
+diff lib/OpenData/BR/Federal/PortalTransparencia/CEIS.pm
+Date: Tue Nov 30 17:26:43 BRST 2010
+st
+Date: Tue Nov 30 17:30:10 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 17:30:39 BRST 2010
+branch
+Date: Tue Nov 30 17:30:39 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 17:30:59 BRST 2010
+checkout t
+Date: Tue Nov 30 17:31:00 BRST 2010
+st
+Date: Tue Nov 30 17:31:05 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 17:31:21 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 17:31:22 BRST 2010
+checkout bin/opendatabr.pl lib/OpenData/App/Getopt.pm lib/OpenData/Get/Base.pm lib/OpenData/Get/Mechanize.pm scripts/portaltransparencia/ceis-mongo2csv.pl scripts/portaltransparencia/convenios-mongo2csv.pl
+Date: Tue Nov 30 17:31:33 BRST 2010
+st
+Date: Tue Nov 30 17:31:35 BRST 2010
+add scripts/tidy
+Date: Tue Nov 30 17:31:53 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 17:31:55 BRST 2010
+commit scripts/tidy
+Date: Tue Nov 30 17:32:10 BRST 2010
+diff
+Date: Tue Nov 30 17:33:19 BRST 2010
+st
+Date: Tue Nov 30 17:33:21 BRST 2010
+diff lib/OpenData/BR/Federal/PortalTransparencia.pm
+Date: Tue Nov 30 17:33:31 BRST 2010
+add lib/OpenData/BR/Federal/PortalTransparencia.pm
+Date: Tue Nov 30 17:33:36 BRST 2010
+commit lib/OpenData/BR/Federal/PortalTransparencia.pm
+Date: Tue Nov 30 17:34:04 BRST 2010
+diff
+Date: Tue Nov 30 17:34:23 BRST 2010
+diff lib/OpenData/BR/Federal/PortalTransparencia/Base.pm
+Date: Tue Nov 30 17:35:44 BRST 2010
+add lib/OpenData/BR/Federal/PortalTransparencia/Base.pm
+Date: Tue Nov 30 17:35:50 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 17:35:53 BRST 2010
+commit lib/OpenData/BR/Federal/PortalTransparencia/Base.pm -m url sem barra no final, _extract retorna ArrayRef
+Date: Tue Nov 30 17:36:14 BRST 2010
+st
+Date: Tue Nov 30 17:36:19 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 17:36:23 BRST 2010
+diff scripts/portaltransparencia.pl
+Date: Tue Nov 30 17:36:27 BRST 2010
+add scripts/portaltransparencia.pl
+Date: Tue Nov 30 17:36:34 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 17:36:38 BRST 2010
+commit -m chamando listagem de convenios
+Date: Tue Nov 30 17:36:47 BRST 2010
+st
+Date: Tue Nov 30 17:36:52 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 17:36:56 BRST 2010
+diff lib/OpenData/BR/Federal/PortalTransparencia/CEIS.pm
+Date: Tue Nov 30 17:38:25 BRST 2010
+st
+Date: Tue Nov 30 17:38:28 BRST 2010
+diff lib/OpenData/BR/Federal/PortalTransparencia/Convenios.pm
+Date: Tue Nov 30 17:38:39 BRST 2010
+diff lib/OpenData/BR/Federal/PortalTransparencia/CEIS.pm
+Date: Tue Nov 30 17:40:18 BRST 2010
+st
+Date: Tue Nov 30 17:42:32 BRST 2010
+diff lib/OpenData/BR/Federal/PortalTransparencia/CEIS.pm
+Date: Tue Nov 30 17:42:47 BRST 2010
+add lib/OpenData/BR/Federal/PortalTransparencia/CEIS.pm
+Date: Tue Nov 30 17:42:52 BRST 2010
+commit lib/OpenData/BR/Federal/PortalTransparencia/CEIS.pm -m parametro para _transform() é ArrayRef, e usa caminho XPath melhor para localizar tabela
+Date: Tue Nov 30 17:45:20 BRST 2010
+st
+Date: Tue Nov 30 17:45:23 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 17:45:26 BRST 2010
+diff lib/OpenData/BR/Federal/PortalTransparencia/Convenios.pm
+Date: Tue Nov 30 18:43:23 BRST 2010
+diff lib/OpenData/BR/Federal/PortalTransparencia/Convenios.pm
+Date: Tue Nov 30 18:43:28 BRST 2010
+add lib/OpenData/BR/Federal/PortalTransparencia/Convenios.pm
+Date: Tue Nov 30 18:43:31 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 18:43:34 BRST 2010
+commit lib/OpenData/BR/Federal/PortalTransparencia/Convenios.pm
+Date: Tue Nov 30 18:43:48 BRST 2010
+st
+Date: Tue Nov 30 18:43:50 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 18:43:52 BRST 2010
+diff
+Date: Tue Nov 30 18:43:57 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 18:44:11 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 18:44:12 BRST 2010
+st
+Date: Tue Nov 30 18:44:22 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 18:44:24 BRST 2010
+checkout lib/OpenData/BR/Federal/PortalTransparencia/Despesas.pm
+Date: Tue Nov 30 18:44:27 BRST 2010
+st
+Date: Tue Nov 30 18:49:45 BRST 2010
+st
+Date: Tue Nov 30 19:18:39 BRST 2010
+diff
+Date: Tue Nov 30 19:19:00 BRST 2010
+commit -a -m classe Servidores refatorada
+Date: Tue Nov 30 19:19:22 BRST 2010
+st
+Date: Tue Nov 30 19:19:46 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 19:19:51 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 19:19:52 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 19:19:59 BRST 2010
+checkout
+Date: Tue Nov 30 19:19:59 BRST 2010
+st
+Date: Tue Nov 30 19:20:01 BRST 2010
+checkout .
+Date: Tue Nov 30 19:20:03 BRST 2010
+st
+Date: Tue Nov 30 19:20:04 BRST 2010
+log
+Date: Tue Nov 30 19:20:10 BRST 2010
+branch
+Date: Tue Nov 30 19:20:29 BRST 2010
+push origin rearch
+Date: Tue Nov 30 19:20:41 BRST 2010
+branch
+Date: Tue Nov 30 19:26:03 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 19:26:08 BRST 2010
+branch
+Date: Tue Nov 30 19:26:09 BRST 2010
+push
+Date: Tue Nov 30 19:26:19 BRST 2010
+branch loader_role
+Date: Tue Nov 30 19:26:41 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 19:26:50 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 19:26:50 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 19:26:51 BRST 2010
+checkout loader_role
+Date: Tue Nov 30 19:26:54 BRST 2010
+branch
+Date: Tue Nov 30 19:27:01 BRST 2010
+st
+Date: Tue Nov 30 19:33:27 BRST 2010
+st
+Date: Tue Nov 30 19:36:59 BRST 2010
+st
+Date: Tue Nov 30 19:59:30 BRST 2010
+add Array.pm Config.pm Debug.pm Extractor.pm Get.pm Glue.pm Loader.pm Output.pm Provider.pm Runtime.pm Transformer.pm
+Date: Tue Nov 30 19:59:37 BRST 2010
+help -a
+Date: Tue Nov 30 19:59:41 BRST 2010
+--git-dir=/home/az/tmp/perl/transparent/opendata-br-rearch/.git config --get-regexp alias\..*
+Date: Tue Nov 30 19:59:41 BRST 2010
+unstage Extractor.pm Loader.pm Transformer.pm
+Date: Tue Nov 30 19:59:48 BRST 2010
+st
+Date: Tue Nov 30 19:59:52 BRST 2010
+add Array.pm Config.pm Debug.pm Extractor.pm Get.pm Glue.pm Loader.pm Output.pm Provider.pm Runtime.pm Transformer.pm
+Date: Tue Nov 30 19:59:56 BRST 2010
+--git-dir=/home/az/tmp/perl/transparent/opendata-br-rearch/.git config --get-regexp alias\..*
+Date: Tue Nov 30 20:00:00 BRST 2010

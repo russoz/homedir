@@ -3110,3 +3110,159 @@ commit -m passou pelo perltidy
 Date: Mon Nov 29 00:20:57 BRST 2010
 push origin rearch
 Date: Mon Nov 29 00:21:21 BRST 2010
+clone ../opendata-br-rearch
+Date: Tue Nov 30 09:19:49 BRST 2010
+status
+Date: Tue Nov 30 09:20:04 BRST 2010
+help -a
+Date: Tue Nov 30 09:20:47 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 09:20:47 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 09:20:47 BRST 2010
+branch
+Date: Tue Nov 30 09:20:48 BRST 2010
+help -a
+Date: Tue Nov 30 09:21:28 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 09:21:28 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 09:21:29 BRST 2010
+branch
+Date: Tue Nov 30 09:21:29 BRST 2010
+branch integra
+Date: Tue Nov 30 09:21:45 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 09:21:49 BRST 2010
+checkout integra
+Date: Tue Nov 30 09:21:51 BRST 2010
+checkout rearch
+Date: Tue Nov 30 09:22:00 BRST 2010
+status
+Date: Tue Nov 30 09:22:04 BRST 2010
+diff
+Date: Tue Nov 30 09:22:15 BRST 2010
+commit -a -m conta se a quantidade de colunas extraidas bate com as esperadas
+Date: Tue Nov 30 09:22:47 BRST 2010
+push origin rearch
+Date: Tue Nov 30 09:24:14 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 09:24:21 BRST 2010
+branch
+Date: Tue Nov 30 09:24:22 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 09:24:28 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 09:24:29 BRST 2010
+checkout integra
+Date: Tue Nov 30 09:24:31 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 09:24:37 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 09:24:43 BRST 2010
+checkout master
+Date: Tue Nov 30 09:24:46 BRST 2010
+pull origin master
+Date: Tue Nov 30 09:25:18 BRST 2010
+--git-dir=.git config --get-regexp remote\..*\.url
+Date: Tue Nov 30 09:26:14 BRST 2010
+status
+Date: Tue Nov 30 09:26:19 BRST 2010
+branch
+Date: Tue Nov 30 09:26:27 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 09:26:34 BRST 2010
+checkout integra
+Date: Tue Nov 30 09:26:35 BRST 2010
+status
+Date: Tue Nov 30 09:33:00 BRST 2010
+add
+Date: Tue Nov 30 09:33:09 BRST 2010
+add .
+Date: Tue Nov 30 09:33:12 BRST 2010
+commit -m merged with master branch from origin
+Date: Tue Nov 30 09:33:32 BRST 2010
+pull . master
+Date: Tue Nov 30 09:33:41 BRST 2010
+pull . rearch
+Date: Tue Nov 30 09:33:46 BRST 2010
+pull . master
+Date: Tue Nov 30 09:39:08 BRST 2010
+pull . rearch
+Date: Tue Nov 30 09:39:10 BRST 2010
+status
+Date: Tue Nov 30 09:39:15 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 09:39:22 BRST 2010
+diff
+Date: Tue Nov 30 09:39:44 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 10:36:20 BRST 2010
+branch
+Date: Tue Nov 30 10:36:20 BRST 2010
+st
+Date: Tue Nov 30 10:36:44 BRST 2010
+diff
+Date: Tue Nov 30 10:36:57 BRST 2010
+commit -a -m fixes para teste do CEIS
+Date: Tue Nov 30 10:37:09 BRST 2010
+status
+Date: Tue Nov 30 10:37:12 BRST 2010
+mv t/30-br/federal/portaltransparencia/page.t t/30-br/federal/portaltransparencia/base.t
+Date: Tue Nov 30 10:38:30 BRST 2010
+branch
+Date: Tue Nov 30 10:51:57 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 10:52:04 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 10:52:05 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 10:52:06 BRST 2010
+st
+Date: Tue Nov 30 10:52:14 BRST 2010
+diff
+Date: Tue Nov 30 10:52:24 BRST 2010
+st
+Date: Tue Nov 30 10:52:29 BRST 2010
+commit -a -m fixed tests for page and base
+Date: Tue Nov 30 10:52:53 BRST 2010
+st
+Date: Tue Nov 30 10:52:57 BRST 2010
+checkout rearch
+Date: Tue Nov 30 10:53:02 BRST 2010
+pull . integra
+Date: Tue Nov 30 10:53:08 BRST 2010
+--git-dir=.git config --get-regexp remote\..*\.url
+Date: Tue Nov 30 10:53:17 BRST 2010
+push origin rearch
+Date: Tue Nov 30 10:53:27 BRST 2010
+st
+Date: Tue Nov 30 11:11:41 BRST 2010
+diff
+Date: Tue Nov 30 11:11:46 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 11:11:51 BRST 2010
+checkout lib/OpenData/BR/Federal/PortalTransparencia/CEIS.pm
+Date: Tue Nov 30 11:11:57 BRST 2010
+diff
+Date: Tue Nov 30 11:12:01 BRST 2010
+pull origin rearch
+Date: Tue Nov 30 11:12:08 BRST 2010
+st
+Date: Tue Nov 30 11:12:20 BRST 2010
+status
+Date: Tue Nov 30 11:15:45 BRST 2010
+--git-dir=/home/az/tmp/perl/transparent/opendata-br-rearch/.git config --get-regexp alias\..*
+Date: Tue Nov 30 11:15:48 BRST 2010
+--git-dir=/home/az/tmp/perl/transparent/opendata-br-rearch/.git config --get-regexp alias\..*
+Date: Tue Nov 30 11:15:48 BRST 2010
+checkout .
+Date: Tue Nov 30 11:15:49 BRST 2010
+status
+Date: Tue Nov 30 11:15:51 BRST 2010
+st
+Date: Tue Nov 30 11:32:25 BRST 2010
+add scripts/
+Date: Tue Nov 30 11:32:29 BRST 2010
+commit -m fixed execution permissions
+Date: Tue Nov 30 11:32:44 BRST 2010

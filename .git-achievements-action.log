@@ -3266,3 +3266,31 @@ add scripts/
 Date: Tue Nov 30 11:32:29 BRST 2010
 commit -m fixed execution permissions
 Date: Tue Nov 30 11:32:44 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 12:02:21 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 12:02:22 BRST 2010
+branch
+Date: Tue Nov 30 12:02:23 BRST 2010
+st
+Date: Tue Nov 30 12:02:55 BRST 2010
+st
+Date: Tue Nov 30 12:03:01 BRST 2010
+st
+Date: Tue Nov 30 12:35:05 BRST 2010
+st
+Date: Tue Nov 30 13:17:24 BRST 2010
+add TODO
+Date: Tue Nov 30 13:17:28 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 13:17:30 BRST 2010
+commit
+Date: Tue Nov 30 13:17:41 BRST 2010
+st
+Date: Tue Nov 30 13:17:43 BRST 2010
+st
+Date: Tue Nov 30 13:17:46 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 13:17:49 BRST 2010
+diff
+Date: Tue Nov 30 13:18:00 BRST 2010

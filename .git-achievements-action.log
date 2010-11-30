@@ -3102,3 +3102,11 @@ Date: Sun Nov 28 20:30:16 BRST 2010
 Date: Sun Nov 28 20:30:22 BRST 2010
 status
 Date: Sun Nov 28 20:37:15 BRST 2010
+status
+Date: Mon Nov 29 00:20:37 BRST 2010
+add lib
+Date: Mon Nov 29 00:20:48 BRST 2010
+commit -m passou pelo perltidy
+Date: Mon Nov 29 00:20:57 BRST 2010
+push origin rearch
+Date: Mon Nov 29 00:21:21 BRST 2010

@@ -3688,3 +3688,27 @@ Date: Wed Dec  1 10:50:43 BRST 2010
 Date: Wed Dec  1 10:50:43 BRST 2010
 push
 Date: Wed Dec  1 10:51:00 BRST 2010
+st
+Date: Wed Dec  1 15:43:11 BRST 2010
+add lib/OpenData/BR/Federal/PortalTransparencia/CEIS/ lib/OpenData/BR/Federal/PortalTransparencia/PageExtractor.pm lib/OpenData/Extractor/
+Date: Wed Dec  1 15:44:14 BRST 2010
+st
+Date: Wed Dec  1 15:44:18 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Dec  1 15:44:23 BRST 2010
+add .gitignore
+Date: Wed Dec  1 15:44:50 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Dec  1 15:44:53 BRST 2010
+commit .gitignore
+Date: Wed Dec  1 15:45:11 BRST 2010
+st
+Date: Wed Dec  1 15:45:14 BRST 2010
+add lib/ scripts/
+Date: Wed Dec  1 15:45:33 BRST 2010
+st
+Date: Wed Dec  1 15:45:35 BRST 2010
+--git-dir=/home/az/tmp/perl/transparent/opendata-br-master/.git config --get-regexp alias\..*
+Date: Wed Dec  1 15:45:47 BRST 2010
+commit
+Date: Wed Dec  1 15:49:23 BRST 2010

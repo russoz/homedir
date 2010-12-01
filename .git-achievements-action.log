@@ -3478,3 +3478,59 @@ add Array.pm Config.pm Debug.pm Extractor.pm Get.pm Glue.pm Loader.pm Output.pm 
 Date: Tue Nov 30 19:59:56 BRST 2010
 --git-dir=/home/az/tmp/perl/transparent/opendata-br-rearch/.git config --get-regexp alias\..*
 Date: Tue Nov 30 20:00:00 BRST 2010
+commit -m adicionados extractor, transformer e loader
+Date: Tue Nov 30 20:00:17 BRST 2010
+st
+Date: Tue Nov 30 20:00:46 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 20:02:21 BRST 2010
+checkout .
+Date: Tue Nov 30 20:02:22 BRST 2010
+st
+Date: Tue Nov 30 20:02:24 BRST 2010
+log
+Date: Tue Nov 30 20:02:40 BRST 2010
+st
+Date: Tue Nov 30 20:18:57 BRST 2010
+st
+Date: Tue Nov 30 20:19:03 BRST 2010
+status
+Date: Tue Nov 30 20:38:50 BRST 2010
+add lib
+Date: Tue Nov 30 20:39:05 BRST 2010
+status
+Date: Tue Nov 30 20:39:08 BRST 2010
+add t
+Date: Tue Nov 30 20:39:17 BRST 2010
+status
+Date: Tue Nov 30 20:39:19 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 20:39:23 BRST 2010
+commit -m created first transformers modified OpenData::Output to use Loader
+Date: Tue Nov 30 20:40:01 BRST 2010
+diff
+Date: Tue Nov 30 20:41:23 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 20:41:27 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 20:41:29 BRST 2010
+--git-dir=.git config --get-regexp remote\..*\.url
+Date: Tue Nov 30 20:41:30 BRST 2010
+branch
+Date: Tue Nov 30 20:41:35 BRST 2010
+--git-dir=.git config --get-regexp remote\..*\.url
+Date: Tue Nov 30 20:41:40 BRST 2010
+push origin rearch
+Date: Tue Nov 30 20:41:49 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 21:29:12 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Nov 30 21:29:13 BRST 2010
+branch
+Date: Tue Nov 30 21:29:13 BRST 2010
+st
+Date: Tue Nov 30 21:29:17 BRST 2010
+st
+Date: Tue Nov 30 22:35:53 BRST 2010
+status
+Date: Tue Nov 30 22:46:29 BRST 2010

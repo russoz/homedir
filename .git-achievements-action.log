@@ -3534,3 +3534,93 @@ st
 Date: Tue Nov 30 22:35:53 BRST 2010
 status
 Date: Tue Nov 30 22:46:29 BRST 2010
+status
+Date: Wed Dec  1 07:32:19 BRST 2010
+status
+Date: Wed Dec  1 07:33:47 BRST 2010
+branch
+Date: Wed Dec  1 07:33:51 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Dec  1 07:33:56 BRST 2010
+checkout master
+Date: Wed Dec  1 07:33:58 BRST 2010
+pull origin master
+Date: Wed Dec  1 07:34:11 BRST 2010
+status
+Date: Wed Dec  1 07:34:34 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Dec  1 07:34:44 BRST 2010
+branch
+Date: Wed Dec  1 07:34:44 BRST 2010
+push
+Date: Wed Dec  1 07:34:52 BRST 2010
+--git-dir=/home/az/tmp/perl/transparent/opendata-br-rearch/.git config --get-regexp alias\..*
+Date: Wed Dec  1 07:37:36 BRST 2010
+checkout .
+Date: Wed Dec  1 07:37:37 BRST 2010
+branch
+Date: Wed Dec  1 07:37:47 BRST 2010
+checkout rearch
+Date: Wed Dec  1 07:38:05 BRST 2010
+status
+Date: Wed Dec  1 07:38:19 BRST 2010
+clone https://github.com/maluco/OpenData-BR.git
+Date: Wed Dec  1 07:38:59 BRST 2010
+branch
+Date: Wed Dec  1 07:39:16 BRST 2010
+--git-dir=/home/az/tmp/perl/transparent/opendata-br-rearch/.git config --get-regexp alias\..*
+Date: Wed Dec  1 07:39:20 BRST 2010
+checkout master
+Date: Wed Dec  1 07:39:22 BRST 2010
+pull origin master
+Date: Wed Dec  1 07:39:58 BRST 2010
+pull . master
+Date: Wed Dec  1 07:40:11 BRST 2010
+commit -a -m tidy'em up
+Date: Wed Dec  1 07:41:50 BRST 2010
+push origin master
+Date: Wed Dec  1 07:42:55 BRST 2010
+log
+Date: Wed Dec  1 07:43:06 BRST 2010
+status
+Date: Wed Dec  1 07:46:06 BRST 2010
+diff ../BR/Federal/PortalTransparencia/Servidores.pm
+Date: Wed Dec  1 07:46:32 BRST 2010
+add ../BR/Federal/PortalTransparencia/Servidores.pm
+Date: Wed Dec  1 07:46:35 BRST 2010
+commit -m further tidy?
+Date: Wed Dec  1 07:46:53 BRST 2010
+st
+Date: Wed Dec  1 07:46:56 BRST 2010
+diff ../../../scripts/tidy
+Date: Wed Dec  1 07:47:05 BRST 2010
+add ../../../scripts/tidy
+Date: Wed Dec  1 07:47:07 BRST 2010
+commit -m remove .bak files afterwards
+Date: Wed Dec  1 07:47:18 BRST 2010
+diff
+Date: Wed Dec  1 07:47:28 BRST 2010
+commit -a -m renamed attribute to "links". makes more sense ina chain
+Date: Wed Dec  1 07:47:54 BRST 2010
+st
+Date: Wed Dec  1 07:48:01 BRST 2010
+branch
+Date: Wed Dec  1 07:54:00 BRST 2010
+pull --help
+Date: Wed Dec  1 07:54:13 BRST 2010
+ls-remote origin
+Date: Wed Dec  1 07:54:38 BRST 2010
+ls-remote origin
+Date: Wed Dec  1 07:54:43 BRST 2010
+pull --help
+Date: Wed Dec  1 07:55:22 BRST 2010
+--git-dir=/home/az/tmp/perl/transparent/opendata-br-rearch/.git config --get-regexp remote\..*\.url
+Date: Wed Dec  1 07:55:26 BRST 2010
+branch
+Date: Wed Dec  1 07:56:14 BRST 2010
+help -a
+Date: Wed Dec  1 07:56:38 BRST 2010
+--git-dir=/home/az/tmp/perl/transparent/opendata-br-rearch/.git config --get-regexp alias\..*
+Date: Wed Dec  1 07:56:38 BRST 2010
+status
+Date: Wed Dec  1 07:56:39 BRST 2010

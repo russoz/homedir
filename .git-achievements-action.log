@@ -3712,3 +3712,73 @@ Date: Wed Dec  1 15:45:35 BRST 2010
 Date: Wed Dec  1 15:45:47 BRST 2010
 commit
 Date: Wed Dec  1 15:49:23 BRST 2010
+st
+Date: Wed Dec  1 16:13:23 BRST 2010
+add lib/OpenData/Identifiable.pm
+Date: Wed Dec  1 16:13:34 BRST 2010
+add lib/OpenData/BR/Federal/PortalTransparencia/CEIS.pm lib/OpenData/Extractor.pm lib/OpenData/Loader.pm lib/OpenData/Provider.pm lib/OpenData/Provider/Collection.pm lib/OpenData/Provider/Collection/Item.pm lib/OpenData/Transformer.pm
+Date: Wed Dec  1 16:13:48 BRST 2010
+commit -m factored identification out of classes and roles
+Date: Wed Dec  1 16:14:04 BRST 2010
+st
+Date: Wed Dec  1 16:14:06 BRST 2010
+st
+Date: Wed Dec  1 16:45:03 BRST 2010
+add lib/OpenData/BR/Federal/PortalTransparencia/Convenios/
+Date: Wed Dec  1 16:45:09 BRST 2010
+st
+Date: Wed Dec  1 16:45:23 BRST 2010
+add lib/OpenData/BR/Federal/PortalTransparencia.pm lib/OpenData/BR/Federal/PortalTransparencia/CEIS.pm lib/OpenData/BR/Federal/PortalTransparencia/CEIS/CEISItem.pm lib/OpenData/BR/Federal/PortalTransparencia/Convenios.pm scripts/portaltransparencia.pl
+Date: Wed Dec  1 16:45:35 BRST 2010
+st
+Date: Wed Dec  1 16:45:37 BRST 2010
+commit -m Convenios adaptado a transformers
+Date: Wed Dec  1 16:45:49 BRST 2010
+st
+Date: Wed Dec  1 17:03:08 BRST 2010
+add lib/OpenData/BR/Federal/PortalTransparencia/Servidores/
+Date: Wed Dec  1 17:03:13 BRST 2010
+add lib/OpenData/BR/Federal/PortalTransparencia.pm lib/OpenData/BR/Federal/PortalTransparencia/CEIS.pm lib/OpenData/BR/Federal/PortalTransparencia/Servidores.pm scripts/portaltransparencia.pl
+Date: Wed Dec  1 17:03:25 BRST 2010
+commit -m Servidores adaptado a transformers
+Date: Wed Dec  1 17:03:51 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Dec  1 17:04:25 BRST 2010
+branch
+Date: Wed Dec  1 17:04:25 BRST 2010
+add scripts/tidy
+Date: Wed Dec  1 17:06:45 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Dec  1 17:06:47 BRST 2010
+add scripts/tidy
+Date: Wed Dec  1 17:07:16 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Dec  1 17:07:21 BRST 2010
+commit scripts/tidy -m scripts/tidy: improved output
+Date: Wed Dec  1 17:07:44 BRST 2010
+log
+Date: Wed Dec  1 17:08:03 BRST 2010
+rev-parse --git-dir
+Date: Wed Dec  1 17:08:05 BRST 2010
+log --oneline
+Date: Wed Dec  1 17:08:07 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Dec  1 17:08:17 BRST 2010
+rebase -i HEAD~6
+Date: Wed Dec  1 17:08:27 BRST 2010
+rebase -i HEAD~7
+Date: Wed Dec  1 17:10:12 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Dec  1 17:12:40 BRST 2010
+st
+Date: Wed Dec  1 17:13:30 BRST 2010
+add lib/OpenData/BR/Federal/PortalTransparencia/Servidores.pm lib/OpenData/Transformer/HTML.pm scripts/tidy
+Date: Wed Dec  1 17:13:37 BRST 2010
+commit -m merging origin HEAD with master changes
+Date: Wed Dec  1 17:13:39 BRST 2010
+st
+Date: Wed Dec  1 19:00:22 BRST 2010
+commit -a -m implementação default para OpenData::Extractor::HTTP::extract()
+Date: Wed Dec  1 19:00:46 BRST 2010
+st
+Date: Wed Dec  1 19:13:03 BRST 2010

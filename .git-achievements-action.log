@@ -3782,3 +3782,105 @@ commit -a -m implementação default para OpenData::Extractor::HTTP::extract()
 Date: Wed Dec  1 19:00:46 BRST 2010
 st
 Date: Wed Dec  1 19:13:03 BRST 2010
+st
+Date: Wed Dec  1 20:12:38 BRST 2010
+help -a
+Date: Wed Dec  1 20:12:44 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Dec  1 20:12:44 BRST 2010
+diff lib/OpenData/Transformer.pm
+Date: Wed Dec  1 20:12:47 BRST 2010
+st
+Date: Wed Dec  1 20:51:12 BRST 2010
+diff lib/OpenData/Identifiable.pm
+Date: Wed Dec  1 20:51:19 BRST 2010
+diff lib/OpenData/Provider.pm
+Date: Wed Dec  1 20:51:36 BRST 2010
+diff
+Date: Wed Dec  1 21:35:12 BRST 2010
+status
+Date: Wed Dec  1 21:38:27 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Dec  1 21:38:31 BRST 2010
+diff
+Date: Wed Dec  1 21:38:35 BRST 2010
+status --help
+Date: Wed Dec  1 21:38:46 BRST 2010
+status --s
+Date: Wed Dec  1 21:38:50 BRST 2010
+status --s
+Date: Wed Dec  1 21:39:10 BRST 2010
+diff
+Date: Wed Dec  1 21:42:54 BRST 2010
+diff
+Date: Wed Dec  1 21:43:29 BRST 2010
+diff
+Date: Wed Dec  1 21:44:26 BRST 2010
+st
+Date: Wed Dec  1 21:44:35 BRST 2010
+commit -a -m added some documentation
+Date: Wed Dec  1 21:44:43 BRST 2010
+st
+Date: Wed Dec  1 21:53:29 BRST 2010
+push
+Date: Wed Dec  1 21:53:47 BRST 2010
+mv extractor.t 10-extractor/
+Date: Wed Dec  1 21:55:35 BRST 2010
+diff
+Date: Wed Dec  1 21:55:42 BRST 2010
+st
+Date: Wed Dec  1 21:55:50 BRST 2010
+add 10-extractor/extractor.t
+Date: Wed Dec  1 21:55:56 BRST 2010
+st
+Date: Wed Dec  1 21:55:57 BRST 2010
+help -a
+Date: Wed Dec  1 21:56:06 BRST 2010
+--git-dir=/home/az/tmp/perl/opendata/master/.git config --get-regexp alias\..*
+Date: Wed Dec  1 21:56:06 BRST 2010
+commit -m added one extractor test, moved into directory
+Date: Wed Dec  1 21:56:27 BRST 2010
+mv 10-extractor/ 08-extractor
+Date: Wed Dec  1 21:57:18 BRST 2010
+st
+Date: Wed Dec  1 22:04:44 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Dec  1 22:04:51 BRST 2010
+diff
+Date: Wed Dec  1 22:07:56 BRST 2010
+st
+Date: Wed Dec  1 22:07:59 BRST 2010
+add lib/OpenData/Extractor.pm t/08-extractor/extractor.t
+Date: Wed Dec  1 22:08:06 BRST 2010
+commit -m added some tests and documentation to Extractor
+Date: Wed Dec  1 22:08:17 BRST 2010
+log
+Date: Wed Dec  1 22:08:34 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Dec  1 22:08:38 BRST 2010
+rebase -i HEAD~4
+Date: Wed Dec  1 22:09:30 BRST 2010
+log
+Date: Wed Dec  1 22:09:36 BRST 2010
+st
+Date: Wed Dec  1 22:20:53 BRST 2010
+pull
+Date: Wed Dec  1 22:21:15 BRST 2010
+push
+Date: Wed Dec  1 22:21:31 BRST 2010
+st
+Date: Wed Dec  1 22:21:36 BRST 2010
+st
+Date: Wed Dec  1 22:21:50 BRST 2010
+st
+Date: Wed Dec  1 22:23:08 BRST 2010
+commit -a -m merge between origin and master
+Date: Wed Dec  1 22:23:20 BRST 2010
+pull
+Date: Wed Dec  1 22:23:32 BRST 2010
+push
+Date: Wed Dec  1 22:23:48 BRST 2010
+st
+Date: Wed Dec  1 22:29:53 BRST 2010
+st .
+Date: Wed Dec  1 23:16:36 BRST 2010

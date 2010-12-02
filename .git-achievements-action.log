@@ -3924,3 +3924,161 @@ commit -a -m fixed test
 Date: Thu Dec  2 00:12:40 BRST 2010
 st
 Date: Thu Dec  2 00:12:43 BRST 2010
+st
+Date: Thu Dec  2 08:22:57 BRST 2010
+mv lib/OpenData/Transformer/Null.pm lib/OpenData/Transformer/Noop.pm
+Date: Thu Dec  2 08:37:00 BRST 2010
+st
+Date: Thu Dec  2 09:00:09 BRST 2010
+mv --help
+Date: Thu Dec  2 09:00:44 BRST 2010
+mv -f t/09-transformer/02-html.t t/09-transformer/03-html.t
+Date: Thu Dec  2 09:01:10 BRST 2010
+st
+Date: Thu Dec  2 09:01:12 BRST 2010
+add t/09-transformer/
+Date: Thu Dec  2 09:01:53 BRST 2010
+st
+Date: Thu Dec  2 09:01:55 BRST 2010
+mv t/09-transformer/01-noop.t t/09-transformer/02-noop.t
+Date: Thu Dec  2 09:02:04 BRST 2010
+add lib/OpenData/Transformer/Null.pm
+Date: Thu Dec  2 09:03:00 BRST 2010
+st
+Date: Thu Dec  2 09:04:41 BRST 2010
+add examples/
+Date: Thu Dec  2 09:04:48 BRST 2010
+add .
+Date: Thu Dec  2 09:04:53 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  2 09:04:56 BRST 2010
+commit -m mais testes, e alguma correções em Transformers e Extractor
+Date: Thu Dec  2 09:05:21 BRST 2010
+mv Get Get.pm Extractor/HTTP/
+Date: Thu Dec  2 09:13:02 BRST 2010
+st
+Date: Thu Dec  2 09:17:13 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  2 09:17:17 BRST 2010
+checkout .
+Date: Thu Dec  2 09:17:18 BRST 2010
+mv git-sync git-sync-origin
+Date: Thu Dec  2 09:21:46 BRST 2010
+st
+Date: Thu Dec  2 09:49:04 BRST 2010
+--git-dir=/home/az/tmp/perl/opendata/master/.git config --get-regexp alias\..*
+Date: Thu Dec  2 09:49:16 BRST 2010
+--git-dir=/home/az/tmp/perl/opendata/master/.git config --get-regexp alias\..*
+Date: Thu Dec  2 09:49:17 BRST 2010
+checkout lib
+Date: Thu Dec  2 09:49:23 BRST 2010
+st
+Date: Thu Dec  2 09:49:25 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  2 09:49:29 BRST 2010
+--git-dir=.git config --get alias.unstage
+Date: Thu Dec  2 09:49:31 BRST 2010
+st
+Date: Thu Dec  2 09:49:39 BRST 2010
+add scripts/
+Date: Thu Dec  2 09:50:08 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  2 09:50:11 BRST 2010
+commit -m two scripts: git-sync-local e git-sync-origin
+Date: Thu Dec  2 09:50:26 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  2 09:51:13 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  2 09:51:15 BRST 2010
+checkout lib/
+Date: Thu Dec  2 09:51:16 BRST 2010
+st
+Date: Thu Dec  2 09:51:18 BRST 2010
+st
+Date: Thu Dec  2 09:51:31 BRST 2010
+st
+Date: Thu Dec  2 09:54:15 BRST 2010
+rm 10-extractor.t
+Date: Thu Dec  2 09:55:02 BRST 2010
+st
+Date: Thu Dec  2 09:55:07 BRST 2010
+--git-dir=/home/az/tmp/perl/opendata/master/.git config --get-regexp alias\..*
+Date: Thu Dec  2 09:55:11 BRST 2010
+commit -m teste de extrator mais completo em t/08-extrator/extrator.t
+Date: Thu Dec  2 09:55:31 BRST 2010
+rm 10-transformer.t
+Date: Thu Dec  2 09:55:52 BRST 2010
+commit -m teste de transformer mais completo em t/09-transformer/transformer.t
+Date: Thu Dec  2 09:56:14 BRST 2010
+mv 10-array.t 12-array.t
+Date: Thu Dec  2 09:58:26 BRST 2010
+mv 10-get 12-get
+Date: Thu Dec  2 09:58:35 BRST 2010
+mv 10-get.t 12-get.t
+Date: Thu Dec  2 09:58:41 BRST 2010
+mv 10-identifiable.t 12-identifiable.t
+Date: Thu Dec  2 09:59:02 BRST 2010
+mv 10-output 13-output
+Date: Thu Dec  2 09:59:17 BRST 2010
+mv 10-output.t 13-output.t
+Date: Thu Dec  2 09:59:27 BRST 2010
+st
+Date: Thu Dec  2 10:10:03 BRST 2010
+st
+Date: Thu Dec  2 10:10:44 BRST 2010
+add t/10-loader/
+Date: Thu Dec  2 10:10:51 BRST 2010
+st
+Date: Thu Dec  2 10:10:53 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  2 10:10:56 BRST 2010
+commit -m teste simples de loader, rename em alguns testes e delete em outros obsoletos
+Date: Thu Dec  2 10:11:28 BRST 2010
+st
+Date: Thu Dec  2 10:18:36 BRST 2010
+commit --help
+Date: Thu Dec  2 10:19:24 BRST 2010
+help -a
+Date: Thu Dec  2 10:19:27 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  2 10:19:27 BRST 2010
+config --help
+Date: Thu Dec  2 10:21:53 BRST 2010
+commit --help
+Date: Thu Dec  2 10:21:55 BRST 2010
+config --help
+Date: Thu Dec  2 10:22:23 BRST 2010
+config --add format.signoff true
+Date: Thu Dec  2 10:22:46 BRST 2010
+st
+Date: Thu Dec  2 10:23:07 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  2 10:23:38 BRST 2010
+commit -a -m removed extra-verbose TODO
+Date: Thu Dec  2 10:23:49 BRST 2010
+log
+Date: Thu Dec  2 10:23:56 BRST 2010
+log
+Date: Thu Dec  2 10:24:59 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  2 10:25:02 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  2 10:25:02 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  2 10:25:03 BRST 2010
+reset --soft 76162714e6afa547af3247451a1ea2a26cc505df
+Date: Thu Dec  2 10:25:17 BRST 2010
+log
+Date: Thu Dec  2 10:25:38 BRST 2010
+st
+Date: Thu Dec  2 10:25:41 BRST 2010
+commit -a -s -m removed extra-verbose TODO
+Date: Thu Dec  2 10:25:48 BRST 2010
+log
+Date: Thu Dec  2 10:26:02 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  2 10:26:13 BRST 2010
+achievements
+Date: Thu Dec  2 10:26:13 BRST 2010
+st
+Date: Thu Dec  2 10:28:28 BRST 2010

@@ -3884,3 +3884,43 @@ st
 Date: Wed Dec  1 22:29:53 BRST 2010
 st .
 Date: Wed Dec  1 23:16:36 BRST 2010
+pull origin master
+Date: Thu Dec  2 00:07:46 BRST 2010
+fetch upstream
+Date: Thu Dec  2 00:07:57 BRST 2010
+st
+Date: Thu Dec  2 00:08:23 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  2 00:08:27 BRST 2010
+diff lib/OpenData.pm
+Date: Thu Dec  2 00:08:31 BRST 2010
+commit lib/OpenData.pm -m fixed version numbering
+Date: Thu Dec  2 00:08:53 BRST 2010
+add lib/OpenData.pm
+Date: Thu Dec  2 00:10:32 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  2 00:10:34 BRST 2010
+st
+Date: Thu Dec  2 00:10:38 BRST 2010
+add t/10-extractor.t
+Date: Thu Dec  2 00:11:00 BRST 2010
+add Makefile.PL examples/ceis-page.html t/08-extractor/extractor.t
+Date: Thu Dec  2 00:11:13 BRST 2010
+st
+Date: Thu Dec  2 00:11:16 BRST 2010
+add t/09-transformer/
+Date: Thu Dec  2 00:11:23 BRST 2010
+st
+Date: Thu Dec  2 00:11:24 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  2 00:11:37 BRST 2010
+commit -m merged with upstream
+Date: Thu Dec  2 00:12:21 BRST 2010
+st
+Date: Thu Dec  2 00:12:24 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  2 00:12:32 BRST 2010
+commit -a -m fixed test
+Date: Thu Dec  2 00:12:40 BRST 2010
+st
+Date: Thu Dec  2 00:12:43 BRST 2010

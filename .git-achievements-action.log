@@ -4082,3 +4082,59 @@ achievements
 Date: Thu Dec  2 10:26:13 BRST 2010
 st
 Date: Thu Dec  2 10:28:28 BRST 2010
+st
+Date: Thu Dec  2 13:21:37 BRST 2010
+mv pageextractor.pm pageextractor.t
+Date: Thu Dec  2 13:40:15 BRST 2010
+st
+Date: Thu Dec  2 13:52:06 BRST 2010
+mv t/08-extractor/extractor.t t/08-extractor/00-extractor.t
+Date: Thu Dec  2 13:52:26 BRST 2010
+mv t/08-extractor/http.t t/08-extractor/01-http.t
+Date: Thu Dec  2 13:52:51 BRST 2010
+st
+Date: Thu Dec  2 14:24:11 BRST 2010
+st
+Date: Thu Dec  2 14:27:10 BRST 2010
+diff
+Date: Thu Dec  2 14:27:12 BRST 2010
+add ceis.t convenios.t despesas.t pageextractor.t receitas.t servidores.t ../../../../lib/OpenData/BR/Federal/PortalTransparencia/Servidores.pm
+Date: Thu Dec  2 14:27:25 BRST 2010
+--git-dir=/home/az/tmp/perl/opendata/master/.git config --get-regexp alias\..*
+Date: Thu Dec  2 14:27:29 BRST 2010
+commit
+Date: Thu Dec  2 14:28:08 BRST 2010
+diff
+Date: Thu Dec  2 14:28:14 BRST 2010
+st
+Date: Thu Dec  2 14:28:16 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  2 14:41:40 BRST 2010
+clean -fd
+Date: Thu Dec  2 14:41:41 BRST 2010
+clean -fd
+Date: Thu Dec  2 14:41:43 BRST 2010
+st
+Date: Thu Dec  2 14:58:03 BRST 2010
+st
+Date: Thu Dec  2 15:04:45 BRST 2010
+add test-accessors.pl
+Date: Thu Dec  2 15:04:53 BRST 2010
+help -a
+Date: Thu Dec  2 15:04:56 BRST 2010
+--git-dir=/home/az/tmp/perl/perltests/.git config --get-regexp alias\..*
+Date: Thu Dec  2 15:04:56 BRST 2010
+st
+Date: Thu Dec  2 15:05:03 BRST 2010
+--git-dir=/home/az/tmp/perl/perltests/.git config --get-regexp alias\..*
+Date: Thu Dec  2 15:05:07 BRST 2010
+commit -m dumb accessor test for moose
+Date: Thu Dec  2 15:05:20 BRST 2010
+push
+Date: Thu Dec  2 15:05:34 BRST 2010
+st
+Date: Thu Dec  2 15:25:44 BRST 2010
+st
+Date: Thu Dec  2 15:30:18 BRST 2010
+commit -a -m adicionados testes a pageextractor.t
+Date: Thu Dec  2 15:30:35 BRST 2010

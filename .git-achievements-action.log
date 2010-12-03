@@ -4254,3 +4254,83 @@ Date: Fri Dec  3 00:08:25 BRST 2010
 Date: Fri Dec  3 00:08:45 BRST 2010
 clean -fd
 Date: Fri Dec  3 00:08:46 BRST 2010
+st
+Date: Fri Dec  3 10:32:39 BRST 2010
+ci -a
+Date: Fri Dec  3 10:33:15 BRST 2010
+st
+Date: Fri Dec  3 10:42:48 BRST 2010
+pull origin master
+Date: Fri Dec  3 10:43:16 BRST 2010
+st
+Date: Fri Dec  3 11:38:45 BRST 2010
+add dev/
+Date: Fri Dec  3 11:38:59 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec  3 11:39:04 BRST 2010
+diff MANIFEST
+Date: Fri Dec  3 11:39:06 BRST 2010
+st
+Date: Fri Dec  3 11:39:58 BRST 2010
+add lib/WAS/App.pm lib/WAS/App/Server.pm lib/WAS/Suite.pm
+Date: Fri Dec  3 11:40:11 BRST 2010
+add .
+Date: Fri Dec  3 11:40:30 BRST 2010
+st
+Date: Fri Dec  3 11:40:34 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec  3 11:41:01 BRST 2010
+checkout .gitignore
+Date: Fri Dec  3 11:41:07 BRST 2010
+st
+Date: Fri Dec  3 11:41:09 BRST 2010
+ci -m refactoring, rethinking
+Date: Fri Dec  3 11:41:36 BRST 2010
+st
+Date: Fri Dec  3 11:41:44 BRST 2010
+pull origin master
+Date: Fri Dec  3 11:42:03 BRST 2010
+st
+Date: Fri Dec  3 11:42:05 BRST 2010
+push origin master
+Date: Fri Dec  3 11:42:17 BRST 2010
+st
+Date: Fri Dec  3 11:53:44 BRST 2010
+mv App/Install.pm App/Install.pod App/Server.pm .
+Date: Fri Dec  3 11:54:05 BRST 2010
+st
+Date: Fri Dec  3 11:55:47 BRST 2010
+add .
+Date: Fri Dec  3 11:55:51 BRST 2010
+ci -m moving things around
+Date: Fri Dec  3 11:56:02 BRST 2010
+ci --help
+Date: Fri Dec  3 11:56:54 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec  3 11:56:57 BRST 2010
+commit --help
+Date: Fri Dec  3 11:57:01 BRST 2010
+ci -a -c HEAD
+Date: Fri Dec  3 11:57:17 BRST 2010
+commit --help
+Date: Fri Dec  3 11:57:34 BRST 2010
+rebase -i HEAD~2
+Date: Fri Dec  3 11:57:56 BRST 2010
+st
+Date: Fri Dec  3 11:57:59 BRST 2010
+push
+Date: Fri Dec  3 11:58:09 BRST 2010
+st
+Date: Fri Dec  3 11:59:06 BRST 2010
+diff .gitconfig
+Date: Fri Dec  3 11:59:17 BRST 2010
+add .gitconfig
+Date: Fri Dec  3 11:59:24 BRST 2010
+help -a
+Date: Fri Dec  3 11:59:26 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec  3 11:59:26 BRST 2010
+commit .gitconfig
+Date: Fri Dec  3 11:59:50 BRST 2010
+st
+Date: Fri Dec  3 11:59:53 BRST 2010

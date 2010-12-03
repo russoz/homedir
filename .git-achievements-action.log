@@ -4246,3 +4246,11 @@ push origin master
 Date: Thu Dec  2 23:56:36 BRST 2010
 log
 Date: Thu Dec  2 23:57:02 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec  3 00:08:23 BRST 2010
+clean -fd
+Date: Fri Dec  3 00:08:25 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec  3 00:08:45 BRST 2010
+clean -fd
+Date: Fri Dec  3 00:08:46 BRST 2010

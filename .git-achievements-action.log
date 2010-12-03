@@ -4338,3 +4338,69 @@ diff .mission-control/accounts/accounts.cfg
 Date: Fri Dec  3 12:00:18 BRST 2010
 push
 Date: Fri Dec  3 12:01:09 BRST 2010
+st
+Date: Fri Dec  3 16:43:53 BRST 2010
+push
+Date: Fri Dec  3 16:44:11 BRST 2010
+st
+Date: Fri Dec  3 16:44:18 BRST 2010
+push
+Date: Fri Dec  3 16:44:52 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec  3 16:48:08 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec  3 16:48:08 BRST 2010
+help -a
+Date: Fri Dec  3 16:48:28 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec  3 16:48:28 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec  3 16:48:28 BRST 2010
+help -a
+Date: Fri Dec  3 17:08:12 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec  3 17:08:12 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec  3 17:08:12 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec  3 17:08:12 BRST 2010
+upstream-merge
+Date: Fri Dec  3 17:08:21 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec  3 19:15:51 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec  3 19:15:51 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec  3 19:15:51 BRST 2010
+upstream-merge
+Date: Fri Dec  3 19:15:59 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec  3 19:17:02 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec  3 19:17:02 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec  3 19:17:14 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec  3 19:17:14 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec  3 19:17:19 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec  3 19:17:35 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec  3 19:17:35 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec  3 19:17:39 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec  3 19:18:00 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec  3 19:18:08 BRST 2010
+upstream-merge
+Date: Fri Dec  3 19:18:17 BRST 2010
+help -a
+Date: Fri Dec  3 19:18:17 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec  3 19:18:18 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec  3 19:18:19 BRST 2010
+upstream-mergeto-origin
+Date: Fri Dec  3 19:18:33 BRST 2010

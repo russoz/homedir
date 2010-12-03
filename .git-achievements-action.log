@@ -4138,3 +4138,111 @@ st
 Date: Thu Dec  2 15:30:18 BRST 2010
 commit -a -m adicionados testes a pageextractor.t
 Date: Thu Dec  2 15:30:35 BRST 2010
+help -a
+Date: Thu Dec  2 20:35:27 BRST 2010
+--git-dir=/home/az/tmp/perl/modules/WAS-App-Install/.git config --get-regexp alias\..*
+Date: Thu Dec  2 20:35:27 BRST 2010
+--git-dir=/home/az/tmp/perl/modules/WAS-App-Install/.git config --get-regexp alias\..*
+Date: Thu Dec  2 20:35:27 BRST 2010
+--git-dir=/home/az/tmp/perl/modules/WAS-App-Install/.git config --get-regexp alias\..*
+Date: Thu Dec  2 20:35:27 BRST 2010
+--git-dir=/home/az/tmp/perl/modules/WAS-App-Install/.git config --get-regexp alias\..*
+Date: Thu Dec  2 20:35:28 BRST 2010
+--git-dir=/home/az/tmp/perl/modules/WAS-App-Install/.git config --get-regexp alias\..*
+Date: Thu Dec  2 20:35:29 BRST 2010
+--git-dir=/home/az/tmp/perl/modules/WAS-App-Install/.git config --get-regexp alias\..*
+Date: Thu Dec  2 20:35:29 BRST 2010
+config --help
+Date: Thu Dec  2 20:47:57 BRST 2010
+--git-dir=/home/az/tmp/perl/modules/WAS-App-Install/.git config --get-regexp alias\..*
+Date: Thu Dec  2 20:48:03 BRST 2010
+--git-dir=/home/az/tmp/perl/modules/WAS-App-Install/.git config --get-regexp alias\..*
+Date: Thu Dec  2 20:48:03 BRST 2010
+--git-dir=/home/az/tmp/perl/modules/WAS-App-Install/.git config --get-regexp alias\..*
+Date: Thu Dec  2 20:48:03 BRST 2010
+--git-dir=/home/az/tmp/perl/modules/WAS-App-Install/.git config --get-regexp alias\..*
+Date: Thu Dec  2 20:48:03 BRST 2010
+--help
+Date: Thu Dec  2 20:48:07 BRST 2010
+help
+Date: Thu Dec  2 20:48:18 BRST 2010
+--git-dir=/home/az/tmp/perl/modules/WAS-App-Install/.git config --get-regexp alias\..*
+Date: Thu Dec  2 20:48:21 BRST 2010
+--git-dir=/home/az/tmp/perl/modules/WAS-App-Install/.git config --get-regexp alias\..*
+Date: Thu Dec  2 20:48:21 BRST 2010
+--git-dir=/home/az/tmp/perl/modules/WAS-App-Install/.git config --get-regexp alias\..*
+Date: Thu Dec  2 20:49:04 BRST 2010
+config --help
+Date: Thu Dec  2 20:51:12 BRST 2010
+st
+Date: Thu Dec  2 20:54:56 BRST 2010
+st
+Date: Thu Dec  2 20:55:01 BRST 2010
+st
+Date: Thu Dec  2 20:55:07 BRST 2010
+st
+Date: Thu Dec  2 20:55:42 BRST 2010
+st
+Date: Thu Dec  2 20:56:38 BRST 2010
+st
+Date: Thu Dec  2 20:57:41 BRST 2010
+add dev/
+Date: Thu Dec  2 20:57:50 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  2 20:57:52 BRST 2010
+commit dev -m adicionados scripts de git, para reserva
+Date: Thu Dec  2 20:58:06 BRST 2010
+add .gitignore
+Date: Thu Dec  2 20:58:12 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  2 20:58:14 BRST 2010
+commit .gitignore
+Date: Thu Dec  2 20:58:26 BRST 2010
+pull origin master
+Date: Thu Dec  2 20:59:25 BRST 2010
+st
+Date: Thu Dec  2 20:59:30 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  2 20:59:36 BRST 2010
+diff TODO
+Date: Thu Dec  2 20:59:38 BRST 2010
+diff t/
+Date: Thu Dec  2 20:59:52 BRST 2010
+st
+Date: Thu Dec  2 21:01:05 BRST 2010
+st
+Date: Thu Dec  2 21:01:47 BRST 2010
+diff lib/WAS/App/Install.pm
+Date: Thu Dec  2 21:03:19 BRST 2010
+log
+Date: Thu Dec  2 21:04:57 BRST 2010
+st
+Date: Thu Dec  2 21:05:15 BRST 2010
+add Build.PL dev/mkdist t/00.load.t
+Date: Thu Dec  2 21:05:29 BRST 2010
+commit -m rename WAS::App::Install => WAS::App
+Date: Thu Dec  2 21:05:57 BRST 2010
+st
+Date: Thu Dec  2 21:06:03 BRST 2010
+add TODO
+Date: Thu Dec  2 21:06:09 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  2 21:06:12 BRST 2010
+commit -m coisas a fazer
+Date: Thu Dec  2 21:06:17 BRST 2010
+diff lib/WAS/App/Install.pod
+Date: Thu Dec  2 21:06:27 BRST 2010
+log
+Date: Thu Dec  2 23:46:42 BRST 2010
+st
+Date: Thu Dec  2 23:54:52 BRST 2010
+--git-dir=.git config --get-regexp remote\..*\.url
+Date: Thu Dec  2 23:56:09 BRST 2010
+ls-remote origin
+Date: Thu Dec  2 23:56:15 BRST 2010
+pull origin master
+Date: Thu Dec  2 23:56:26 BRST 2010
+push origin master
+Date: Thu Dec  2 23:56:36 BRST 2010
+log
+Date: Thu Dec  2 23:57:02 BRST 2010

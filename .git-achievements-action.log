@@ -4404,3 +4404,37 @@ Date: Fri Dec  3 19:18:18 BRST 2010
 Date: Fri Dec  3 19:18:19 BRST 2010
 upstream-mergeto-origin
 Date: Fri Dec  3 19:18:33 BRST 2010
+clone https://github.com/codebutler/firesheep.git
+Date: Fri Dec  3 21:57:45 BRST 2010
+submodule update --init
+Date: Fri Dec  3 21:58:09 BRST 2010
+help -a
+Date: Fri Dec  3 23:40:08 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec  3 23:40:08 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec  3 23:40:08 BRST 2010
+upstream-merge
+Date: Fri Dec  3 23:40:20 BRST 2010
+st
+Date: Fri Dec  3 23:46:52 BRST 2010
+add script/tidy
+Date: Fri Dec  3 23:47:00 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec  3 23:47:03 BRST 2010
+commit -m added tidy script
+Date: Fri Dec  3 23:47:08 BRST 2010
+st
+Date: Fri Dec  3 23:47:11 BRST 2010
+commit -a -m ran through perltidy
+Date: Fri Dec  3 23:47:27 BRST 2010
+st
+Date: Fri Dec  3 23:47:30 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec  3 23:47:44 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec  3 23:47:45 BRST 2010
+upstream-mergeto-origin
+Date: Fri Dec  3 23:48:10 BRST 2010
+st
+Date: Fri Dec  3 23:51:54 BRST 2010

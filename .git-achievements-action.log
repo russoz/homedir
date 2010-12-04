@@ -4438,3 +4438,113 @@ upstream-mergeto-origin
 Date: Fri Dec  3 23:48:10 BRST 2010
 st
 Date: Fri Dec  3 23:51:54 BRST 2010
+st
+Date: Sat Dec  4 00:21:44 BRST 2010
+--git-dir=/home/az/tmp/perl/SPPM-Web/.git config --get-regexp alias\..*
+Date: Sat Dec  4 00:21:50 BRST 2010
+diff ../../../../script/tidy
+Date: Sat Dec  4 00:21:52 BRST 2010
+add ../../../../script/tidy
+Date: Sat Dec  4 00:21:57 BRST 2010
+commit ../../../../script/tidy -m limpando ./root/ tambem
+Date: Sat Dec  4 00:22:21 BRST 2010
+diff
+Date: Sat Dec  4 00:22:35 BRST 2010
+st
+Date: Sat Dec  4 00:22:40 BRST 2010
+commit -a
+Date: Sat Dec  4 00:24:11 BRST 2010
+st
+Date: Sat Dec  4 00:25:09 BRST 2010
+st
+Date: Sat Dec  4 00:26:09 BRST 2010
+st
+Date: Sat Dec  4 00:26:20 BRST 2010
+--git-dir=/home/az/tmp/perl/SPPM-Web/.git config --get-regexp alias\..*
+Date: Sat Dec  4 00:26:22 BRST 2010
+--git-dir=/home/az/tmp/perl/SPPM-Web/.git config --get-regexp alias\..*
+Date: Sat Dec  4 00:26:22 BRST 2010
+--git-dir=/home/az/tmp/perl/SPPM-Web/.git config --get-regexp alias\..*
+Date: Sat Dec  4 00:26:23 BRST 2010
+--git-dir=/home/az/tmp/perl/SPPM-Web/.git config --get-regexp alias\..*
+Date: Sat Dec  4 00:26:23 BRST 2010
+--git-dir=/home/az/tmp/perl/SPPM-Web/.git config --get-regexp alias\..*
+Date: Sat Dec  4 00:26:24 BRST 2010
+upstream-mergeto-origin
+Date: Sat Dec  4 00:26:47 BRST 2010
+rm Install.pod
+Date: Sat Dec  4 00:46:07 BRST 2010
+st
+Date: Sat Dec  4 00:46:10 BRST 2010
+add etc/
+Date: Sat Dec  4 00:46:25 BRST 2010
+st
+Date: Sat Dec  4 00:46:32 BRST 2010
+commit -a -m Installer no longer carries the beast in its belly Rather, we keep in a different hidden place until the last minute
+Date: Sat Dec  4 00:48:11 BRST 2010
+st
+Date: Sat Dec  4 00:48:14 BRST 2010
+--git-dir=/home/az/tmp/perl/modules/WAS-Suite/.git config --get-regexp alias\..*
+Date: Sat Dec  4 00:48:17 BRST 2010
+--git-dir=/home/az/tmp/perl/modules/WAS-Suite/.git config --get-regexp alias\..*
+Date: Sat Dec  4 00:48:17 BRST 2010
+--git-dir=/home/az/tmp/perl/modules/WAS-Suite/.git config --get-regexp alias\..*
+Date: Sat Dec  4 00:48:17 BRST 2010
+--git-dir=/home/az/tmp/perl/modules/WAS-Suite/.git config --get-regexp alias\..*
+Date: Sat Dec  4 00:48:19 BRST 2010
+--git-dir=/home/az/tmp/perl/modules/WAS-Suite/.git config --get-regexp alias\..*
+Date: Sat Dec  4 00:48:19 BRST 2010
+--git-dir=/home/az/tmp/perl/modules/WAS-Suite/.git config --get-regexp alias\..*
+Date: Sat Dec  4 00:48:20 BRST 2010
+help -a
+Date: Sat Dec  4 00:48:27 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Dec  4 00:48:27 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Dec  4 00:48:27 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Dec  4 00:48:28 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Dec  4 00:48:28 BRST 2010
+st
+Date: Sat Dec  4 00:48:33 BRST 2010
+push
+Date: Sat Dec  4 00:48:43 BRST 2010
+diff
+Date: Sat Dec  4 01:53:49 BRST 2010
+commit -a -m acrescentado links para gmane, formatacao perl code
+Date: Sat Dec  4 01:54:07 BRST 2010
+help -a
+Date: Sat Dec  4 01:54:11 BRST 2010
+--git-dir=/home/az/tmp/perl/SPPM-Web/.git config --get-regexp alias\..*
+Date: Sat Dec  4 01:54:11 BRST 2010
+--git-dir=/home/az/tmp/perl/SPPM-Web/.git config --get-regexp alias\..*
+Date: Sat Dec  4 01:54:12 BRST 2010
+upstream-mergeto-origin
+Date: Sat Dec  4 01:54:35 BRST 2010
+help -a
+Date: Sat Dec  4 02:16:00 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Dec  4 02:16:00 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Dec  4 02:16:02 BRST 2010
+config --help
+Date: Sat Dec  4 02:18:05 BRST 2010
+push --help
+Date: Sat Dec  4 02:20:55 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Dec  4 02:21:48 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Dec  4 02:21:49 BRST 2010
+upstream-mergeto-origin
+Date: Sat Dec  4 02:22:04 BRST 2010
+st
+Date: Sat Dec  4 02:22:12 BRST 2010
+diff
+Date: Sat Dec  4 02:22:21 BRST 2010
+commit -a -m minor fixes
+Date: Sat Dec  4 02:22:35 BRST 2010
+upstream-mergeto-origin
+Date: Sat Dec  4 02:22:50 BRST 2010
+--version
+Date: Sat Dec  4 02:25:59 BRST 2010

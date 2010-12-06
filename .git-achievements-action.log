@@ -4578,3 +4578,11 @@ upstream-mergeto-origin
 Date: Sun Dec  5 11:13:25 BRST 2010
 st
 Date: Sun Dec  5 21:34:48 BRST 2010
+help -a
+Date: Mon Dec  6 11:47:27 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Dec  6 11:47:27 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Dec  6 11:47:27 BRST 2010
+upstream-merge
+Date: Mon Dec  6 11:47:45 BRST 2010

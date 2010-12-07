@@ -4604,3 +4604,25 @@ upstream-mergeto-origin
 Date: Mon Dec  6 14:46:30 BRST 2010
 st
 Date: Mon Dec  6 15:30:50 BRST 2010
+help -a
+Date: Mon Dec  6 23:31:17 BRST 2010
+--git-dir=/home/az/.git config --get-regexp alias\..*
+Date: Mon Dec  6 23:31:17 BRST 2010
+clone git@github.com:russoz/artigos.git
+Date: Mon Dec  6 23:31:29 BRST 2010
+st
+Date: Mon Dec  6 23:32:07 BRST 2010
+st
+Date: Mon Dec  6 23:32:11 BRST 2010
+add ldap-simpleserver/
+Date: Mon Dec  6 23:32:15 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Dec  6 23:32:24 BRST 2010
+push
+Date: Mon Dec  6 23:32:30 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Dec  6 23:32:35 BRST 2010
+commit -m palestra do ldap simpleserver
+Date: Mon Dec  6 23:32:49 BRST 2010
+push
+Date: Mon Dec  6 23:33:04 BRST 2010

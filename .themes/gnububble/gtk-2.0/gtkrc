@@ -1,0 +1,398 @@
+style "user-font"
+{
+  font="Utopia 12"
+}
+widget_class "*" style "user-font"
+
+style "gb-default"{
+  fg[NORMAL] = "#111122"
+  fg[PRELIGHT] = "#222244"
+  fg[ACTIVE] = "#000088"
+  fg[INSENSITIVE] = "#888898"
+  fg[SELECTED]	= "#222244"
+  bg[NORMAL]	= "#BBBBBB"
+  bg[PRELIGHT]	= "#BBBBFF"
+  bg[ACTIVE]	= "#AAAADD"
+  bg[SELECTED]	= "#CFEFFF"
+  base[NORMAL]	= "#F8F8FF"
+  base[PRELIGHT]= "#BBDDFF"
+  bg_pixmap[NORMAL]	= "lines_background.png"
+  bg_pixmap[PRELIGHT]	= "lines_background.png"
+  bg_pixmap[ACTIVE]	= "lines_background.png"
+  bg_pixmap[INSENSITIVE]= "lines_background.png"
+  engine "pixmap" {
+    image {
+	function	= BOX
+        recolorable     = TRUE
+	file		= "bubble-blue.png"
+	state		= PRELIGHT
+	border		= {8,8,8,8}
+	stretch		= TRUE
+    }
+    image {
+        function        = BOX
+        recolorable     = FALSE
+        detail          = "handlebox_bin"
+        file            = "ntbubble-grey.png"
+        border          = {8,8,8,8}
+        stretch         = TRUE
+    }
+    image {
+        function        = BOX
+        recolorable     = TRUE
+        file            = "bubble-blue-pressed.png"
+        state           = ACTIVE
+        border          = {8,8,8,8}
+        stretch         = TRUE
+    }
+    image {
+        function        = BOX
+	recolorable	= TRUE
+        file            = "bubble-grey.png"
+        border          = {8,8,8,8}
+        stretch         = TRUE
+    }
+    image {
+        function        = FLAT_BOX
+	recolorable     = TRUE
+        detail          = "tooltip"
+        file		= "bubble-blue.png"
+        border		= {8,8,8,8}
+        stretch		= TRUE
+    }
+#    image {
+#	function	= SHADOW
+#	recolorable	= TRUE
+#	file		= "bubble-grey.png"
+#	border		= {8,8,8,8}
+#	stretch		= TRUE
+#    }
+    image {
+	function	= FLAT_BOX
+	recolorable	= TRUE
+	detail		= "selected"
+	file		= "bubble-blue.png"
+	border		= {8,8,8,8}
+	stretch		= TRUE
+    }
+    image {
+        function        = HANDLE
+        recolorable     = TRUE
+        file            = "bubble-grey.png"
+        border          = {8,8,8,8}
+        stretch         = TRUE
+        overlay_file    = "handle.png"
+        overlay_stretch = FALSE
+    }
+  }
+}class "GtkWidget" style "gb-default"
+
+style "gb-checkradio"{
+  engine "pixmap" {
+    image{
+	function	= FLAT_BOX
+	recolorable	= TRUE
+	file		= "bubble-blue.png"
+	border		= {8,8,8,8}
+	stretch		= TRUE
+    }
+  }
+}class "GtkCheckButton" style "gb-checkradio"
+class "GtkRadioButton" style "gb-checkradio"
+
+style "gb-item"{
+  fg[NORMAL] = "#000000"
+  bg[NORMAL] = "#FFFFFF"
+#TODO:  fix this...items should have a blue
+  engine "pixmap" {
+    image {
+	function	= FLAT_BOX
+	recolorable	= TRUE
+	file		= "bubble-blue.png"
+	border		= {8,8,8,8}
+	stretch		= TRUE
+    }
+  }
+}class "GtkTreeItem" style "gb-item"
+class "GtkCTreeRow" style "gb-item"
+class "GtkListItem" style "gb-item"
+class "GtkCListItem" style "gb-item"
+
+style "gb-button"{
+  engine "pixmap" {
+    image {
+        function        = BOX
+	recolorable     = TRUE
+	file            = "bubble-grey.png"
+	state		= NORMAL
+	border          = {8,8,8,8}
+	stretch         = TRUE
+    }
+    image {
+        function        = BOX
+	recolorable     = TRUE
+	file            = "bubble-grey.png"
+	state		= INSENSITIVE
+	border          = {8,8,8,8}
+	stretch         = TRUE
+    }
+    image {
+        function        = BOX
+	recolorable     = TRUE
+	file            = "bubble-blue-prelight.png"
+	state		= PRELIGHT
+	border          = {8,8,8,8}
+	stretch         = TRUE
+    }
+    image {
+        function        = BOX
+	recolorable     = TRUE
+	file            = "bubble-blue-pressed.png"
+	state		= ACTIVE
+	border          = {8,8,8,8}
+	stretch         = TRUE
+    }
+  }
+}class "blaGtkButton" style "gb-button"
+
+style "gb-range"{
+  GtkRange::slider_width = 16
+  GtkRange::stepper_size = 16
+  engine "pixmap" {
+    image {
+	function        = BOX
+	recolorable     = TRUE
+	file            = "bubble-grey.png"
+	detail		= "trough"
+	border          = {8,8,8,8}
+	stretch         = TRUE
+    }
+    image {
+	function        = BOX
+	recolorable     = TRUE
+	file            = "bubble-blue.png"
+	state		= NORMAL
+	border          = {8,8,8,8}
+	stretch         = TRUE
+    }
+    image {
+	function	= BOX
+	recolorable     = TRUE
+	file		= "bubble-grey.png"
+	state		= INSENSITIVE
+	border		= {8,8,8,8}
+	stretch		= TRUE
+    }
+    image {
+	function	= BOX
+	recolorable     = TRUE
+	file		= "bubble-blue-prelight.png"
+	state		= PRELIGHT
+	border		= {8,8,8,8}
+	stretch		= TRUE
+    }
+    image {
+	function	= BOX
+	recolorable     = TRUE
+	file		= "bubble-blue-pressed.png"
+	state		= ACTIVE
+	border		= {8,8,8,8}
+	stretch		= TRUE
+    }
+    image {
+	function        = SLIDER
+	recolorable     = TRUE
+	file            = "bubble-blue.png"
+	border          = {2,2,5,5}
+	state		= NORMAL
+	stretch         = TRUE
+	orientation	= VERTICAL
+    }
+    image {
+	function        = SLIDER
+	recolorable     = TRUE
+	file            = "bubble-blue-prelight.png"
+	state		= PRELIGHT
+	border          = {2,2,5,5}
+	stretch         = TRUE
+	orientation	= VERTICAL
+    }
+    image {
+	function        = SLIDER
+	recolorable     = TRUE
+	file            = "bubble-blue.png"
+	border          = {5,5,2,2}
+	state		= NORMAL
+	stretch         = TRUE
+	orientation	= HORIZONTAL
+    }
+    image {
+	function        = SLIDER
+	recolorable     = TRUE
+	file            = "bubble-blue-prelight.png"
+	state		= PRELIGHT
+	border          = {5,5,2,2}
+	stretch         = TRUE
+	orientation	= HORIZONTAL
+    }
+  }
+}class "GtkRange" style "gb-range"
+
+style "gb-progress"{
+  engine "pixmap"{
+    image{
+	function	= BOX
+	recolorable	= TRUE
+	detail		= "bar"
+	file		= "bubble-blue.png"
+	border		= {8,8,8,8}
+	stretch		= TRUE
+    }
+    image{
+	function	= BOX
+	recolorable	= TRUE
+	file		= "ntbubble-grey.png"
+	border		= {8,8,8,8}
+	stretch		= TRUE
+    }
+  }
+}class "GtkProgressBar" style "gb-progress"
+class "GtkBar" style "gb-progress"
+
+style "gb-notebook"{
+  engine "pixmap" {
+    image {
+        function        = EXTENSION
+	recolorable     = TRUE
+        state           = ACTIVE
+        file            = "halfbubble-top-grey.png"
+        border          = {8,8,8,8}
+        stretch         = TRUE
+        gap_side        = BOTTOM
+    }
+    image {
+        function        = EXTENSION
+	recolorable     = TRUE
+        state           = ACTIVE
+        file            = "halfbubble-bottom-grey.png"
+        border          = {8,8,8,8}
+        stretch         = TRUE
+        gap_side        = TOP
+    }
+    image {
+        function        = EXTENSION
+	recolorable     = TRUE
+        state           = ACTIVE
+        file            = "halfbubble-right-grey.png"
+        border          = {8,8,8,8}
+        stretch         = TRUE
+        gap_side        = RIGHT
+    }
+    image {
+        function        = EXTENSION
+	recolorable     = TRUE
+        state           = ACTIVE
+        file            = "halfbubble-left-grey.png"
+        border          = {8,8,8,8}
+        stretch         = TRUE
+        gap_side        = LEFT
+    }
+    image {
+        function        = EXTENSION
+	recolorable     = TRUE
+        file            = "halfbubble-top-blue.png"
+        border          = {8,8,8,8}
+        stretch         = TRUE
+        gap_side        = BOTTOM
+    }
+    image {
+        function        = EXTENSION
+	recolorable     = TRUE
+        file            = "halfbubble-bottom-blue.png"
+        border          = {8,8,8,8}
+        stretch         = TRUE
+        gap_side        = TOP
+    }
+    image {
+        function        = EXTENSION
+	recolorable     = TRUE
+        file            = "halfbubble-right-blue.png"
+        border          = {8,8,8,8}
+        stretch         = TRUE
+        gap_side        = RIGHT
+    }
+    image {
+        function        = EXTENSION
+	recolorable     = TRUE
+        file            = "halfbubble-left-blue.png"
+        border          = {8,8,8,8}
+        stretch         = TRUE
+        gap_side        = LEFT
+    }
+#
+# How to draw boxes with a gap on one side (ie the page of a notebook)
+#
+#    image {
+#        function        = BOX_GAP
+#        file            = "button5.png"
+#        border          = {4,3,3,4}
+#        stretch         = TRUE
+#        gap_file        = "gap_top.png"
+#        gap_border      = { 0, 0, 0, 0 }
+#        gap_start_file  = "gap_top_start.png"
+#        gap_start_border= { 2, 0, 0, 0 }
+#        gap_end_file    = "gap_top_end.png"
+#        gap_end_border  = { 0, 2, 0, 0 }
+#        gap_side        = TOP
+#    }
+#    image {
+#        function        = BOX_GAP
+#        file            = "button5.png"
+#        border          = {4,3,3,4}
+#        stretch         = TRUE
+#        gap_file        = "gap_bottom.png"
+#        gap_border      = { 0, 0, 0, 0 }
+#        gap_start_file  = "gap_bottom_start.png"
+#        gap_start_border= { 2, 0, 0, 0 }
+#        gap_end_file    = "gap_bottom_end.png"
+#        gap_end_border  = { 0, 2, 0, 0 }
+#        gap_side        = BOTTOM
+#    }
+#    image {
+#        function        = BOX_GAP
+#        file            = "button5.png"
+#        border          = {4,3,3,4}
+#        stretch         = TRUE
+#        gap_file        = "gap_left.png"
+#        gap_border      = { 0, 0, 0, 0 }
+#        gap_start_file  = "gap_left_start.png"
+#        gap_start_border= { 0, 0, 2, 0 }
+#        gap_end_file    = "gap_left_end.png"
+#        gap_end_border  = { 0, 0, 0, 2 }
+#        gap_side        = LEFT
+#    }
+#    image {
+#        function        = BOX_GAP
+#        file            = "button5.png"
+#        border          = {4,3,3,4}
+#        stretch         = TRUE
+#        gap_file        = "gap_right.png"
+#        gap_border      = { 0, 0, 0, 0 }
+#        gap_start_file  = "gap_right_start.png"
+#        gap_start_border= { 0, 0, 2, 0 }
+#        gap_end_file    = "gap_right_end.png"
+#        gap_end_border  = { 0, 0, 0, 2 }
+#        gap_side        = RIGHT
+#    }
+#
+# How to draw the box of a notebook when it isnt attached to a tab
+#
+    image {
+        function        = FLAT_BOX
+	recolorable     = TRUE
+        file            = "bubble-grey.png"
+        border          = {8,8,8,8}
+        stretch         = TRUE
+    }
+  }
+}class "GtkNotebook" style "gb-notebook"

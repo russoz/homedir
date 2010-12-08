@@ -1,0 +1,40 @@
+[Icon Theme]
+Name=Office Yellow
+Name[am]=Office Yellow
+Name[bg]=Office Yellow
+Name[ca]=Office Yellow
+Name[cs]=Office Yellow
+Name[da]=Office Yellow
+Name[de]=Office Yellow
+Name[el]=Office Yellow
+Name[es]=Office Yellow
+Name[fi]=Office Yellow
+Name[fr]=Office Yellow
+Name[he]=Office Yellow
+Name[hu]=Office Yellow
+Name[it]=Office Yellow
+Name[ko]=Office Yellow
+Name[lv]=Office Yellow
+Name[nl]=Office Yellow
+Name[no]=Office Yellow
+Name[pl]=Office Yellow
+Name[pt_BR]=Office Yellow
+Name[ro]=Office Yellow
+Name[ru]=Office Yellow
+Name[sl]=Office Yellow
+Name[sq]=Office Yellow
+Name[sv]=Office Yellow
+Name[tr]=Office Yellow
+Name[vi]=Office Yellow
+Name[zh_CN]=Office Yellow
+Name[zh_TW]=Office Yellow
+Inherits=gnome
+Directories=scalable/filesystems
+Example=gnome-theme-preview.svg
+
+[scalable/filesystems]
+MinSize=1
+Size=48
+MaxSize=128
+Context=FileSystems
+Type=Scalable

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=MetaTivo
+Type=X-GNOME-Metatheme
+Comment=
+Name[en_US]=MetaTivo
+
+[X-GNOME-Metatheme]
+GtkTheme=Aquativo-1.5
+MetacityTheme=MetaTivo

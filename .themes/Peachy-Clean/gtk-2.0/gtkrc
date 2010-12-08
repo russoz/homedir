@@ -1,0 +1,27 @@
+style "default" {
+	fg[NORMAL]              = "#0f0f0f"
+	fg[ACTIVE]              = "#0f0f0f"
+	fg[INSENSITIVE]         = "#909090"
+	fg[PRELIGHT]            = "#0f0f0f"
+	fg[SELECTED]            = "#0f0f0f"
+
+	bg[ACTIVE]              = "#d0d0d0"
+	bg[NORMAL]              = "#e0e0e0"
+	bg[INSENSITIVE]         = "#d2d2d2"
+	bg[PRELIGHT]            = "#efcd6a"
+	bg[SELECTED]            = "#efcd6a"
+
+	base[NORMAL]            = "#fdfdfd"
+	base[ACTIVE]            = "#ffdd76"
+	base[INSENSITIVE]       = "#fdfdfd"
+	base[PRELIGHT]          = "#ffffff"
+	base[SELECTED]          = "#ffdd7a"
+
+	text[NORMAL]            = "#0f0f0f"
+	text[ACTIVE]            = "#0d0d0d"
+	text[PRELIGHT]          = "#0f0f0f"
+	text[SELECTED]          = "#0f0f0f"
+	text[INSENSITIVE]       = "#a0a0a0"
+
+	engine "cleanice" {}
+} widget_class "*" 	style "default"

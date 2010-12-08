@@ -4638,3 +4638,87 @@ commit -m silly grep test
 Date: Tue Dec  7 21:45:29 BRST 2010
 push
 Date: Tue Dec  7 21:45:42 BRST 2010
+st
+Date: Wed Dec  8 08:28:06 BRST 2010
+st ./test-file-basename.pl
+Date: Wed Dec  8 08:28:16 BRST 2010
+add ./test-file-basename.pl
+Date: Wed Dec  8 08:28:27 BRST 2010
+help -a
+Date: Wed Dec  8 08:28:30 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Dec  8 08:28:30 BRST 2010
+commit ./test-file-basename.pl -m simple test for File::Basename
+Date: Wed Dec  8 08:28:39 BRST 2010
+push
+Date: Wed Dec  8 08:28:53 BRST 2010
+st
+Date: Wed Dec  8 08:40:32 BRST 2010
+st
+Date: Wed Dec  8 08:40:43 BRST 2010
+add .icons/ .themes/
+Date: Wed Dec  8 08:41:08 BRST 2010
+help -a
+Date: Wed Dec  8 08:41:10 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Dec  8 08:41:10 BRST 2010
+commit .icons/ .themes/ -m temas para gnome
+Date: Wed Dec  8 08:41:28 BRST 2010
+push
+Date: Wed Dec  8 08:43:04 BRST 2010
+st
+Date: Wed Dec  8 08:47:03 BRST 2010
+st
+Date: Wed Dec  8 08:49:55 BRST 2010
+add bin/revolve
+Date: Wed Dec  8 08:50:01 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Dec  8 08:50:03 BRST 2010
+commit -m evolution. again.
+Date: Wed Dec  8 08:50:14 BRST 2010
+st
+Date: Wed Dec  8 08:50:21 BRST 2010
+st
+Date: Wed Dec  8 08:50:27 BRST 2010
+st
+Date: Wed Dec  8 08:58:57 BRST 2010
+add lib/WAS/App/ MANIFEST examples/test.zip examples/test2.zip t/80.expander/
+Date: Wed Dec  8 08:59:23 BRST 2010
+commit lib/WAS/App/ MANIFEST examples/test.zip examples/test2.zip t/80.expander/ -m added Expander.pm and its friends
+Date: Wed Dec  8 08:59:47 BRST 2010
+st
+Date: Wed Dec  8 08:59:51 BRST 2010
+add t lib
+Date: Wed Dec  8 09:14:12 BRST 2010
+help -a
+Date: Wed Dec  8 09:14:14 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Dec  8 09:14:14 BRST 2010
+commit -m partial commit, work in progress
+Date: Wed Dec  8 09:14:33 BRST 2010
+st
+Date: Wed Dec  8 09:18:45 BRST 2010
+add bin/revolve
+Date: Wed Dec  8 09:34:41 BRST 2010
+help -a
+Date: Wed Dec  8 09:34:43 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Dec  8 09:34:43 BRST 2010
+commit -m revolve: new Joke Edition
+Date: Wed Dec  8 09:35:06 BRST 2010
+push
+Date: Wed Dec  8 09:35:15 BRST 2010
+st
+Date: Wed Dec  8 09:47:09 BRST 2010
+add .icons/
+Date: Wed Dec  8 09:47:21 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Dec  8 09:47:25 BRST 2010
+commit .icons/ -m more gnome icons
+Date: Wed Dec  8 09:47:35 BRST 2010
+st
+Date: Wed Dec  8 09:47:41 BRST 2010
+st
+Date: Wed Dec  8 10:44:44 BRST 2010
+push
+Date: Wed Dec  8 10:44:57 BRST 2010

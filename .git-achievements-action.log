@@ -4626,3 +4626,15 @@ commit -m palestra do ldap simpleserver
 Date: Mon Dec  6 23:32:49 BRST 2010
 push
 Date: Mon Dec  6 23:33:04 BRST 2010
+st
+Date: Tue Dec  7 21:45:10 BRST 2010
+add test-grep.pl
+Date: Tue Dec  7 21:45:16 BRST 2010
+help -a
+Date: Tue Dec  7 21:45:21 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Dec  7 21:45:21 BRST 2010
+commit -m silly grep test
+Date: Tue Dec  7 21:45:29 BRST 2010
+push
+Date: Tue Dec  7 21:45:42 BRST 2010

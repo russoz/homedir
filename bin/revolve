@@ -1,0 +1,6 @@
+#!/bin/sh
+
+pkill -f evolution
+sleep 10
+nohup evolution >/dev/null 2>&1 &
+

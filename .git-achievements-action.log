@@ -4740,3 +4740,103 @@ mv 80.expander.02.expand.t 82.expander.expand.t
 Date: Wed Dec  8 13:39:20 BRST 2010
 mv 80.expander.03.expand-within.t 83.expander.expand-within.t
 Date: Wed Dec  8 13:39:33 BRST 2010
+help -a
+Date: Wed Dec  8 17:44:18 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Dec  8 17:44:18 BRST 2010
+upstream-merge
+Date: Wed Dec  8 17:44:31 BRST 2010
+init
+Date: Wed Dec  8 18:19:46 BRST 2010
+st
+Date: Wed Dec  8 18:19:59 BRST 2010
+add .
+Date: Wed Dec  8 18:20:11 BRST 2010
+st
+Date: Wed Dec  8 18:20:13 BRST 2010
+mv src/alexei-english.odt src/alexei.odt .
+Date: Wed Dec  8 18:20:50 BRST 2010
+st
+Date: Wed Dec  8 18:40:49 BRST 2010
+add --help
+Date: Wed Dec  8 18:41:46 BRST 2010
+commit --help
+Date: Wed Dec  8 18:42:38 BRST 2010
+commit --help
+Date: Wed Dec  8 18:46:23 BRST 2010
+status --help
+Date: Wed Dec  8 18:46:40 BRST 2010
+st -s
+Date: Wed Dec  8 18:46:42 BRST 2010
+status
+Date: Wed Dec  8 18:49:13 BRST 2010
+status -s
+Date: Wed Dec  8 18:49:29 BRST 2010
+status --porcelain
+Date: Wed Dec  8 18:49:51 BRST 2010
+rev-parse --show-cdup
+Date: Wed Dec  8 19:01:51 BRST 2010
+rev-parse --git-dir
+Date: Wed Dec  8 19:02:19 BRST 2010
+rev-parse --git-dir
+Date: Wed Dec  8 19:02:25 BRST 2010
+rev-parse --help
+Date: Wed Dec  8 19:03:15 BRST 2010
+help -a
+Date: Wed Dec  8 19:03:21 BRST 2010
+--git-dir=/home/az/.git config --get-regexp alias\..*
+Date: Wed Dec  8 19:03:21 BRST 2010
+commit --help
+Date: Wed Dec  8 19:04:43 BRST 2010
+--git-dir=/home/az/.git config --get-regexp alias\..*
+Date: Wed Dec  8 19:04:46 BRST 2010
+commit-tree --help
+Date: Wed Dec  8 19:05:05 BRST 2010
+--git-dir=/home/az/.git config --get-regexp alias\..*
+Date: Wed Dec  8 19:05:29 BRST 2010
+commit --help
+Date: Wed Dec  8 19:05:46 BRST 2010
+init
+Date: Wed Dec  8 19:07:33 BRST 2010
+log
+Date: Wed Dec  8 19:08:23 BRST 2010
+st
+Date: Wed Dec  8 19:09:01 BRST 2010
+log
+Date: Wed Dec  8 19:09:07 BRST 2010
+remote add origin git@github.com:russoz/CV.git
+Date: Wed Dec  8 19:11:41 BRST 2010
+push origin master
+Date: Wed Dec  8 19:12:34 BRST 2010
+status
+Date: Wed Dec  8 19:13:34 BRST 2010
+status
+Date: Wed Dec  8 19:13:40 BRST 2010
+status
+Date: Wed Dec  8 19:13:47 BRST 2010
+status -s
+Date: Wed Dec  8 19:13:53 BRST 2010
+status -s
+Date: Wed Dec  8 19:14:22 BRST 2010
+add .
+Date: Wed Dec  8 19:16:40 BRST 2010
+status -s
+Date: Wed Dec  8 19:16:43 BRST 2010
+rm -r out/
+Date: Wed Dec  8 19:28:46 BRST 2010
+st
+Date: Wed Dec  8 19:29:47 BRST 2010
+add Makefile
+Date: Wed Dec  8 19:29:53 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Dec  8 19:29:55 BRST 2010
+commit
+Date: Wed Dec  8 19:30:23 BRST 2010
+add Makefile
+Date: Wed Dec  8 19:31:48 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Dec  8 19:31:50 BRST 2010
+commit -m ok ok, output files go up too
+Date: Wed Dec  8 19:32:00 BRST 2010
+st
+Date: Wed Dec  8 19:32:02 BRST 2010

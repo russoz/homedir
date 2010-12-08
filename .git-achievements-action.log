@@ -4722,3 +4722,21 @@ st
 Date: Wed Dec  8 10:44:44 BRST 2010
 push
 Date: Wed Dec  8 10:44:57 BRST 2010
+st
+Date: Wed Dec  8 13:37:42 BRST 2010
+st .
+Date: Wed Dec  8 13:37:44 BRST 2010
+add .
+Date: Wed Dec  8 13:37:47 BRST 2010
+mv 80.expander.load.t 80.expander.00.load.t
+Date: Wed Dec  8 13:37:59 BRST 2010
+st
+Date: Wed Dec  8 13:38:18 BRST 2010
+mv 80.expander.00.load.t 80.expander.load.t
+Date: Wed Dec  8 13:38:33 BRST 2010
+mv 80.expander.01.load.t 81.expander.new.t
+Date: Wed Dec  8 13:38:57 BRST 2010
+mv 80.expander.02.expand.t 82.expander.expand.t
+Date: Wed Dec  8 13:39:20 BRST 2010
+mv 80.expander.03.expand-within.t 83.expander.expand-within.t
+Date: Wed Dec  8 13:39:33 BRST 2010

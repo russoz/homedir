@@ -41,7 +41,8 @@ $(OUT_EN): $(SRC_EN)
 
 git:
 	$(GIT) status --porcelain | grep -q 'CV/' && \
-    	$(GIT) add . ; \
+    	$(GIT) add .
+	$(GIT) status --porcelain | grep -q 'CV/' && \
     	$(GIT) commit . -q -m "Semi-automated commit at `date +%Y.%m.%d-%H.%M`"
 
 dropbox: $(DBOX_OUT)

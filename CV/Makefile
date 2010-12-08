@@ -40,8 +40,9 @@ $(OUT_EN): $(SRC_EN)
 	$(UNOCONV) pdf $(SRC_EN) >out/`basename $(SRC_EN) .odt`.pdf
 
 git:
-	$(GIT) add .
-	$(GIT) commit . -q -m "Semi-automated commit at `date +%Y.%m.%d-%H.%M`" && exit 0
+	$(GIT) status --porcelain | grep -q 'CV/' && \
+    	$(GIT) add . && \
+    	$(GIT) commit . -q -m "Semi-automated commit at `date +%Y.%m.%d-%H.%M`"
 
 dropbox: $(DBOX_OUT)
 

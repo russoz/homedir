@@ -3,7 +3,7 @@
 #
 
 UNOCONV = /usr/bin/unoconv --stdout -vf
-CP_P = /bin/cp -p
+CP_P = /bin/cp -u
 GIT = /usr/bin/git
 
 SRC_PT = alexei.odt
@@ -31,7 +31,6 @@ $(OUT_PT): $(SRC_PT)
 	$(CP_P) $(SRC_PT) out/$(SRC_PT)
 	$(UNOCONV) doc $(SRC_PT) >out/`basename $(SRC_PT) .odt`.doc
 	$(UNOCONV) pdf $(SRC_PT) >out/`basename $(SRC_PT) .odt`.pdf
-	$(MAKE) git
 
 cv_en: $(OUT_EN)
 
@@ -39,11 +38,10 @@ $(OUT_EN): $(SRC_EN)
 	$(CP_P) $(SRC_EN) out/$(SRC_EN)
 	$(UNOCONV) doc $(SRC_EN) >out/`basename $(SRC_EN) .odt`.doc
 	$(UNOCONV) pdf $(SRC_EN) >out/`basename $(SRC_EN) .odt`.pdf
-	$(MAKE) git
 
 git:
 	$(GIT) add .
-	$(GIT) commit . -q -m "Semi-automated commit at `date +%Y.%m.%d-%H.%M`"
+	$(GIT) commit . -o -m "Semi-automated commit at `date +%Y.%m.%d-%H.%M`"
 
 dropbox: $(DBOX_OUT)
 

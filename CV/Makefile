@@ -21,7 +21,7 @@ DBOX_OUT = $(DBOX_DIR)/alexei.odt \
 	$(DBOX_DIR)/alexei-english.pdf \
 	$(DBOX_DIR)/alexei-english.doc
 
-all: cv git dropbox
+all: cv dropbox
 
 cv: cv_pt cv_en
 
@@ -31,6 +31,7 @@ $(OUT_PT): $(SRC_PT)
 	$(CP_P) $(SRC_PT) out/$(SRC_PT)
 	$(UNOCONV) doc $(SRC_PT) >out/`basename $(SRC_PT) .odt`.doc
 	$(UNOCONV) pdf $(SRC_PT) >out/`basename $(SRC_PT) .odt`.pdf
+	$(MAKE) git
 
 cv_en: $(OUT_EN)
 
@@ -38,12 +39,11 @@ $(OUT_EN): $(SRC_EN)
 	$(CP_P) $(SRC_EN) out/$(SRC_EN)
 	$(UNOCONV) doc $(SRC_EN) >out/`basename $(SRC_EN) .odt`.doc
 	$(UNOCONV) pdf $(SRC_EN) >out/`basename $(SRC_EN) .odt`.pdf
+	$(MAKE) git
 
 git:
-	$(GIT) status --porcelain | grep -q 'CV/' && \
-    	$(GIT) add .
-	$(GIT) status --porcelain | grep -q 'CV/' && \
-    	$(GIT) commit . -q -m "Semi-automated commit at `date +%Y.%m.%d-%H.%M`"
+	$(GIT) add .
+	$(GIT) commit . -q -m "Semi-automated commit at `date +%Y.%m.%d-%H.%M`"
 
 dropbox: $(DBOX_OUT)
 

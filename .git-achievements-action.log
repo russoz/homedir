@@ -4840,3 +4840,51 @@ commit -m ok ok, output files go up too
 Date: Wed Dec  8 19:32:00 BRST 2010
 st
 Date: Wed Dec  8 19:32:02 BRST 2010
+st
+Date: Wed Dec  8 22:39:57 BRST 2010
+rm -r --cached CV
+Date: Wed Dec  8 22:40:23 BRST 2010
+add .gitignore
+Date: Wed Dec  8 22:40:36 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Dec  8 22:40:38 BRST 2010
+commit .gitignore -m gitignore CV, thats an order
+Date: Wed Dec  8 22:40:54 BRST 2010
+st
+Date: Wed Dec  8 22:40:59 BRST 2010
+st
+Date: Wed Dec  8 22:57:47 BRST 2010
+st
+Date: Wed Dec  8 22:58:07 BRST 2010
+st
+Date: Wed Dec  8 22:58:42 BRST 2010
+--git-dir=/home/az/.git config --get-regexp alias\..*
+Date: Wed Dec  8 23:04:29 BRST 2010
+--git-dir=/home/az/.git config --get-regexp alias\..*
+Date: Wed Dec  8 23:04:31 BRST 2010
+--git-dir=/home/az/.git config --get-regexp alias\..*
+Date: Wed Dec  8 23:04:31 BRST 2010
+--git-dir=/home/az/.git config --get-regexp alias\..*
+Date: Wed Dec  8 23:04:32 BRST 2010
+--git-dir=/home/az/.git config --get-regexp alias\..*
+Date: Wed Dec  8 23:07:45 BRST 2010
+--git-dir=/home/az/.git config --get-regexp alias\..*
+Date: Wed Dec  8 23:07:45 BRST 2010
+--git-dir=/home/az/.git config --get-regexp alias\..*
+Date: Wed Dec  8 23:07:45 BRST 2010
+st
+Date: Wed Dec  8 23:16:47 BRST 2010
+add bin/
+Date: Wed Dec  8 23:16:55 BRST 2010
+help -a
+Date: Wed Dec  8 23:16:58 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Dec  8 23:16:58 BRST 2010
+commit bin/ -m bin now got two scripts for git. crap.
+Date: Wed Dec  8 23:17:26 BRST 2010
+push
+Date: Wed Dec  8 23:17:38 BRST 2010
+st
+Date: Wed Dec  8 23:17:43 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Dec  8 23:17:47 BRST 2010

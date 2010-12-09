@@ -4888,3 +4888,15 @@ st
 Date: Wed Dec  8 23:17:43 BRST 2010
 --git-dir=.git config --get-regexp alias\..*
 Date: Wed Dec  8 23:17:47 BRST 2010
+add .
+Date: Wed Dec  8 23:17:54 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Dec  8 23:17:56 BRST 2010
+commit -m snapshot
+Date: Wed Dec  8 23:18:16 BRST 2010
+push
+Date: Wed Dec  8 23:18:25 BRST 2010
+st
+Date: Wed Dec  8 23:18:28 BRST 2010
+st
+Date: Wed Dec  8 23:41:20 BRST 2010

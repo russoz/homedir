@@ -4934,3 +4934,83 @@ Date: Thu Dec  9 00:08:34 BRST 2010
 Date: Thu Dec  9 00:08:36 BRST 2010
 checkout workflow
 Date: Thu Dec  9 00:08:39 BRST 2010
+st
+Date: Thu Dec  9 06:35:37 BRST 2010
+help -a
+Date: Thu Dec  9 06:35:46 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  9 06:35:46 BRST 2010
+commit -a -m more more more
+Date: Thu Dec  9 06:35:53 BRST 2010
+pull
+Date: Thu Dec  9 06:36:43 BRST 2010
+st
+Date: Thu Dec  9 06:37:09 BRST 2010
+pull
+Date: Thu Dec  9 06:38:00 BRST 2010
+tag
+Date: Thu Dec  9 06:43:30 BRST 2010
+--version
+Date: Thu Dec  9 06:45:15 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  9 06:46:37 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  9 06:46:37 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  9 06:46:37 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  9 06:46:39 BRST 2010
+sync-master-upstream
+Date: Thu Dec  9 06:46:54 BRST 2010
+sync-master-upstream
+Date: Thu Dec  9 06:47:10 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  9 06:47:14 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  9 06:47:14 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  9 06:47:15 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  9 06:47:16 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  9 06:47:19 BRST 2010
+sync-origin-upstream
+Date: Thu Dec  9 06:47:42 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  9 06:50:16 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  9 06:50:17 BRST 2010
+sync-master-upstream https://github.com/maluco/OpenData-BR.git/
+Date: Thu Dec  9 06:50:53 BRST 2010
+branch
+Date: Thu Dec  9 06:51:57 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  9 06:52:22 BRST 2010
+--git-dir=.git config --get-regexp remote\..*\.url
+Date: Thu Dec  9 06:52:22 BRST 2010
+--git-dir=.git config --get-regexp remote\..*\.url
+Date: Thu Dec  9 06:52:23 BRST 2010
+fetch --all
+Date: Thu Dec  9 06:52:30 BRST 2010
+fetch --help
+Date: Thu Dec  9 06:53:48 BRST 2010
+--git-dir=.git config --get-regexp remote\..*\.url
+Date: Thu Dec  9 06:54:30 BRST 2010
+--git-dir=.git config --get-regexp remote\..*\.url
+Date: Thu Dec  9 06:54:30 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  9 06:54:41 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  9 06:54:42 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  9 06:54:42 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  9 06:54:43 BRST 2010
+sync-master-upstream
+Date: Thu Dec  9 06:54:47 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  9 06:54:58 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  9 06:54:59 BRST 2010
+sync-origin-upstream
+Date: Thu Dec  9 06:55:14 BRST 2010

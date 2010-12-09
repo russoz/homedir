@@ -5040,3 +5040,75 @@ commit .icons/ -m yet more icons
 Date: Thu Dec  9 10:21:44 BRST 2010
 st
 Date: Thu Dec  9 10:21:48 BRST 2010
+add test-reftype.pl
+Date: Thu Dec  9 14:10:08 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  9 14:10:12 BRST 2010
+st
+Date: Thu Dec  9 14:10:14 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  9 14:10:17 BRST 2010
+commit -m test for Scalar::Util blessed and reftype
+Date: Thu Dec  9 14:10:33 BRST 2010
+st
+Date: Thu Dec  9 14:10:55 BRST 2010
+commit -a -m tidy
+Date: Thu Dec  9 14:11:03 BRST 2010
+st
+Date: Thu Dec  9 15:06:26 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  9 15:07:15 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  9 15:07:15 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  9 15:07:15 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  9 15:07:17 BRST 2010
+sync-master-upstream
+Date: Thu Dec  9 15:07:22 BRST 2010
+st
+Date: Thu Dec  9 15:08:42 BRST 2010
+help -a
+Date: Thu Dec  9 15:08:47 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  9 15:08:47 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  9 15:08:49 BRST 2010
+sync-origin-upstream
+Date: Thu Dec  9 15:09:04 BRST 2010
+sync-origin-upstream
+Date: Thu Dec  9 15:12:02 BRST 2010
+st
+Date: Thu Dec  9 15:12:40 BRST 2010
+commit -a -m corrigiu o namespace das classes nos testes
+Date: Thu Dec  9 15:13:01 BRST 2010
+sync-origin-upstream
+Date: Thu Dec  9 15:13:20 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  9 15:13:23 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  9 15:13:23 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  9 15:13:24 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  9 15:13:25 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  9 15:13:34 BRST 2010
+checkout t/
+Date: Thu Dec  9 15:13:35 BRST 2010
+sync-master-upstream
+Date: Thu Dec  9 15:13:40 BRST 2010
+help -a
+Date: Thu Dec  9 15:21:58 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  9 15:21:58 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  9 15:21:59 BRST 2010
+sync-master-upstream
+Date: Thu Dec  9 15:22:16 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  9 15:22:23 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  9 15:22:24 BRST 2010
+sync-origin-upstream
+Date: Thu Dec  9 15:22:41 BRST 2010

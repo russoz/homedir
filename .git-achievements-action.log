@@ -4900,3 +4900,37 @@ st
 Date: Wed Dec  8 23:18:28 BRST 2010
 st
 Date: Wed Dec  8 23:41:20 BRST 2010
+help -a
+Date: Thu Dec  9 00:06:38 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  9 00:06:39 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  9 00:06:39 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  9 00:06:39 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  9 00:06:43 BRST 2010
+help -a
+Date: Thu Dec  9 00:06:53 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  9 00:06:53 BRST 2010
+sync-master-upstream
+Date: Thu Dec  9 00:06:53 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  9 00:06:54 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  9 00:06:54 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec  9 00:07:03 BRST 2010
+clone ../master
+Date: Thu Dec  9 00:07:18 BRST 2010
+st
+Date: Thu Dec  9 00:08:05 BRST 2010
+branch
+Date: Thu Dec  9 00:08:28 BRST 2010
+branch workflow
+Date: Thu Dec  9 00:08:34 BRST 2010
+--git-dir=/home/az/tmp/perl/opendata/workflow/.git config --get-regexp alias\..*
+Date: Thu Dec  9 00:08:36 BRST 2010
+checkout workflow
+Date: Thu Dec  9 00:08:39 BRST 2010

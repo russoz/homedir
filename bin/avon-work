@@ -1,0 +1,8 @@
+#!/bin/bash
+
+{
+    nohup pidgin &
+    nohup evolution &
+    google-chrome http://webmail.na.avon.com/
+    google-chrome http://itsm.na.avon.com/
+} >/dev/null 2>&1

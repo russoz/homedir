@@ -5114,3 +5114,23 @@ sync-origin-upstream
 Date: Thu Dec  9 15:22:41 BRST 2010
 --version
 Date: Thu Dec  9 16:21:49 BRST 2010
+st
+Date: Fri Dec 10 07:05:29 BRST 2010
+add bin/avon-work
+Date: Fri Dec 10 07:05:35 BRST 2010
+help -a
+Date: Fri Dec 10 07:05:37 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec 10 07:05:37 BRST 2010
+commit bin/avon-work -m working mode shortcut
+Date: Fri Dec 10 07:05:53 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec 10 07:21:29 BRST 2010
+branch
+Date: Fri Dec 10 07:21:30 BRST 2010
+st
+Date: Fri Dec 10 07:38:57 BRST 2010
+add .
+Date: Fri Dec 10 07:39:10 BRST 2010
+commit -m implementation of OpenData::AZ::Box - a primer for a simple data flow system
+Date: Fri Dec 10 07:39:46 BRST 2010

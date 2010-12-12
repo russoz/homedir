@@ -5142,3 +5142,9 @@ diff
 Date: Sat Dec 11 08:46:29 BRST 2010
 diff
 Date: Sat Dec 11 08:49:13 BRST 2010
+add ./test-predicate.pl
+Date: Sun Dec 12 19:38:18 BRST 2010
+commit ./test-predicate.pl -m simple test with predicates and layz attributes
+Date: Sun Dec 12 19:38:41 BRST 2010
+push
+Date: Sun Dec 12 19:38:55 BRST 2010

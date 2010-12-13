@@ -5148,3 +5148,33 @@ commit ./test-predicate.pl -m simple test with predicates and layz attributes
 Date: Sun Dec 12 19:38:41 BRST 2010
 push
 Date: Sun Dec 12 19:38:55 BRST 2010
+add ./test-uri.pl
+Date: Sun Dec 12 20:27:05 BRST 2010
+commit ./test-uri.pl -m testing URI->new_abs
+Date: Sun Dec 12 20:27:31 BRST 2010
+push
+Date: Sun Dec 12 20:27:45 BRST 2010
+st
+Date: Sun Dec 12 20:28:59 BRST 2010
+diff ../Box.pm
+Date: Sun Dec 12 20:30:01 BRST 2010
+st
+Date: Sun Dec 12 20:33:32 BRST 2010
+st
+Date: Sun Dec 12 20:44:49 BRST 2010
+add examples/convenios-page.html
+Date: Sun Dec 12 20:44:55 BRST 2010
+help -a
+Date: Sun Dec 12 20:44:59 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Dec 12 20:44:59 BRST 2010
+commit -m exemplo de saida da pagina de convenios do portal transparencia
+Date: Sun Dec 12 20:45:22 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Dec 12 20:45:27 BRST 2010
+diff t/99-az/01-box.t
+Date: Sun Dec 12 20:45:36 BRST 2010
+status
+Date: Sun Dec 12 20:45:44 BRST 2010
+clone git://git.shadowcat.co.uk/dbsrgits/DBIx-Class.git
+Date: Sun Dec 12 21:35:08 BRST 2010

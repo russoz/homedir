@@ -5280,3 +5280,21 @@ push --all
 Date: Tue Dec 14 19:37:51 BRST 2010
 branch
 Date: Tue Dec 14 19:44:58 BRST 2010
+mv ./lib/OpenData/AZ/Box/URLRetrieverMultiPage.pm ./lib/OpenData/AZ/Box/MultiPageURLGenerator.pm
+Date: Tue Dec 14 20:27:44 BRST 2010
+st
+Date: Wed Dec 15 07:44:44 BRST 2010
+st
+Date: Wed Dec 15 07:45:13 BRST 2010
+st
+Date: Wed Dec 15 07:45:28 BRST 2010
+add .podbrowserrc
+Date: Wed Dec 15 07:45:39 BRST 2010
+add bin/avon-troca-senha
+Date: Wed Dec 15 07:45:56 BRST 2010
+commit bin/avon-troca-senha -m troca senha
+Date: Wed Dec 15 07:46:19 BRST 2010
+add sbin/lx-mk-remote-me
+Date: Wed Dec 15 07:46:34 BRST 2010
+commit sbin/lx-mk-remote-me -m update
+Date: Wed Dec 15 07:47:17 BRST 2010

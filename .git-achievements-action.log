@@ -5298,3 +5298,101 @@ add sbin/lx-mk-remote-me
 Date: Wed Dec 15 07:46:34 BRST 2010
 commit sbin/lx-mk-remote-me -m update
 Date: Wed Dec 15 07:47:17 BRST 2010
+st
+Date: Wed Dec 15 08:50:34 BRST 2010
+st
+Date: Wed Dec 15 08:50:38 BRST 2010
+diff
+Date: Wed Dec 15 08:51:34 BRST 2010
+help -a
+Date: Wed Dec 15 08:53:49 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Dec 15 08:53:49 BRST 2010
+diff lib/OpenData/AZ/Box.pm
+Date: Wed Dec 15 08:53:59 BRST 2010
+st
+Date: Wed Dec 15 08:57:27 BRST 2010
+st
+Date: Wed Dec 15 09:26:48 BRST 2010
+diff Box.pm
+Date: Wed Dec 15 09:27:05 BRST 2010
+add Box.pm
+Date: Wed Dec 15 09:27:13 BRST 2010
+help -a
+Date: Wed Dec 15 09:27:17 BRST 2010
+--git-dir=/home/az/tmp/perl/opendata/workflow/.git config --get-regexp alias\..*
+Date: Wed Dec 15 09:27:17 BRST 2010
+commit Box.pm -m metodo has_input() que output() usa para checar se tem entrada
+Date: Wed Dec 15 09:28:03 BRST 2010
+st
+Date: Wed Dec 15 09:28:06 BRST 2010
+diff Box/HTMLFilter.pm
+Date: Wed Dec 15 09:28:13 BRST 2010
+diff Box/LiteralData.pm
+Date: Wed Dec 15 09:28:22 BRST 2010
+add Box/LiteralData.pm
+Date: Wed Dec 15 09:28:27 BRST 2010
+commit Box/LiteralData.pm -m cosmetic change
+Date: Wed Dec 15 09:28:40 BRST 2010
+st
+Date: Wed Dec 15 09:31:40 BRST 2010
+diff Box/HTMLFilter.pm
+Date: Wed Dec 15 09:31:48 BRST 2010
+diff Box/MultiPageURLGenerator.pm
+Date: Wed Dec 15 09:32:36 BRST 2010
+st
+Date: Wed Dec 15 09:32:58 BRST 2010
+diff Box/URLRetriever.pm
+Date: Wed Dec 15 09:33:04 BRST 2010
+diff ChainBox.pm
+Date: Wed Dec 15 09:33:19 BRST 2010
+st
+Date: Wed Dec 15 09:33:22 BRST 2010
+diff Box/URLRetriever.pm
+Date: Wed Dec 15 09:33:30 BRST 2010
+add Box/HTMLFilter.pm Box/URLRetriever.pm
+Date: Wed Dec 15 09:33:37 BRST 2010
+commit Box/HTMLFilter.pm Box/URLRetriever.pm -m nao precisa mais fazer check pelo segundo parametro no process_item
+Date: Wed Dec 15 09:34:08 BRST 2010
+st
+Date: Wed Dec 15 09:34:14 BRST 2010
+diff Box/MultiPageURLGenerator.pm
+Date: Wed Dec 15 09:34:28 BRST 2010
+diff
+Date: Wed Dec 15 09:47:52 BRST 2010
+st
+Date: Wed Dec 15 09:47:59 BRST 2010
+st
+Date: Wed Dec 15 09:57:14 BRST 2010
+diff Box/MultiPageURLGenerator.pm
+Date: Wed Dec 15 09:57:39 BRST 2010
+add Box/MultiPageURLGenerator.pm
+Date: Wed Dec 15 09:57:42 BRST 2010
+commit Box/MultiPageURLGenerator.pm
+Date: Wed Dec 15 09:57:53 BRST 2010
+st
+Date: Wed Dec 15 09:57:56 BRST 2010
+--git-dir=/home/az/tmp/perl/opendata/workflow/.git config --get alias.st
+Date: Wed Dec 15 09:58:00 BRST 2010
+st ChainBox.pm
+Date: Wed Dec 15 09:58:01 BRST 2010
+diff ChainBox.pm
+Date: Wed Dec 15 09:58:23 BRST 2010
+add ChainBox.pm
+Date: Wed Dec 15 09:58:27 BRST 2010
+--git-dir=/home/az/tmp/perl/opendata/workflow/.git config --get-regexp alias\..*
+Date: Wed Dec 15 09:58:57 BRST 2010
+--git-dir=/home/az/tmp/perl/opendata/workflow/.git config --get alias.unstage
+Date: Wed Dec 15 09:59:01 BRST 2010
+st
+Date: Wed Dec 15 10:00:07 BRST 2010
+diff ChainBox.pm
+Date: Wed Dec 15 10:00:19 BRST 2010
+add ChainBox.pm
+Date: Wed Dec 15 10:00:21 BRST 2010
+commit ChainBox.pm -m metodo has_input() busca dados em todas as filas, e output() usa
+Date: Wed Dec 15 10:06:13 BRST 2010
+st
+Date: Wed Dec 15 10:06:16 BRST 2010
+st
+Date: Wed Dec 15 10:10:48 BRST 2010

@@ -5396,3 +5396,137 @@ st
 Date: Wed Dec 15 10:06:16 BRST 2010
 st
 Date: Wed Dec 15 10:10:48 BRST 2010
+help -a
+Date: Wed Dec 15 12:30:22 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Dec 15 12:30:22 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Dec 15 12:30:22 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Dec 15 12:30:23 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Dec 15 12:30:25 BRST 2010
+sync-master-upstream
+Date: Wed Dec 15 12:30:43 BRST 2010
+diff ../../../scripts/wf-portaltransparencia.pl
+Date: Wed Dec 15 12:30:45 BRST 2010
+diff ../../../scripts/wf-portaltransparencia.pl
+Date: Wed Dec 15 12:30:48 BRST 2010
+st
+Date: Wed Dec 15 12:30:49 BRST 2010
+diff ../../../scripts/wf-portaltransparencia.pl
+Date: Wed Dec 15 12:31:12 BRST 2010
+add ../../../scripts/wf-portaltransparencia.pl
+Date: Wed Dec 15 12:31:18 BRST 2010
+--git-dir=/home/az/tmp/perl/opendata/workflow/.git config --get-regexp alias\..*
+Date: Wed Dec 15 12:31:22 BRST 2010
+commit ../../../scripts/wf-portaltransparencia.pl -m exemplo implementado
+Date: Wed Dec 15 12:31:39 BRST 2010
+st
+Date: Wed Dec 15 12:31:42 BRST 2010
+push
+Date: Wed Dec 15 12:31:52 BRST 2010
+push
+Date: Wed Dec 15 12:32:34 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Dec 15 12:43:49 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Dec 15 12:43:50 BRST 2010
+st
+Date: Wed Dec 15 12:44:05 BRST 2010
+sync-origin-upstream
+Date: Wed Dec 15 12:44:32 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Dec 15 12:44:38 BRST 2010
+sync-master-upstream
+Date: Wed Dec 15 12:44:53 BRST 2010
+st
+Date: Wed Dec 15 13:00:49 BRST 2010
+commit -a -m default value for first_page is now 1 rather than 0
+Date: Wed Dec 15 13:01:08 BRST 2010
+--git-dir=/home/az/tmp/perl/opendata/workflow/.git config --get-regexp alias\..*
+Date: Wed Dec 15 13:01:16 BRST 2010
+--git-dir=/home/az/tmp/perl/opendata/workflow/.git config --get-regexp alias\..*
+Date: Wed Dec 15 13:01:19 BRST 2010
+--git-dir=/home/az/tmp/perl/opendata/workflow/.git config --get-regexp alias\..*
+Date: Wed Dec 15 13:01:34 BRST 2010
+--git-dir=/home/az/tmp/perl/opendata/workflow/.git config --get-regexp alias\..*
+Date: Wed Dec 15 13:01:35 BRST 2010
+--git-dir=/home/az/tmp/perl/opendata/workflow/.git config --get-regexp alias\..*
+Date: Wed Dec 15 13:01:35 BRST 2010
+sync-master-upstream
+Date: Wed Dec 15 13:01:40 BRST 2010
+pull origin master
+Date: Wed Dec 15 13:01:47 BRST 2010
+pull origin master
+Date: Wed Dec 15 13:02:21 BRST 2010
+pull origin master
+Date: Wed Dec 15 13:03:15 BRST 2010
+st
+Date: Wed Dec 15 13:03:51 BRST 2010
+branch
+Date: Wed Dec 15 13:04:09 BRST 2010
+checkout master
+Date: Wed Dec 15 13:04:22 BRST 2010
+pull origin master
+Date: Wed Dec 15 13:04:32 BRST 2010
+push origin master
+Date: Wed Dec 15 13:04:44 BRST 2010
+--git-dir=/home/az/tmp/perl/opendata/workflow/.git config --get-regexp alias\..*
+Date: Wed Dec 15 13:04:47 BRST 2010
+checkout workflow
+Date: Wed Dec 15 13:04:49 BRST 2010
+push origin master
+Date: Wed Dec 15 13:04:55 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Dec 15 13:05:33 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Dec 15 13:05:34 BRST 2010
+sync-origin-upstream
+Date: Wed Dec 15 13:06:22 BRST 2010
+push origin master
+Date: Wed Dec 15 13:58:18 BRST 2010
+branch
+Date: Wed Dec 15 13:58:28 BRST 2010
+log
+Date: Wed Dec 15 14:05:26 BRST 2010
+--git-dir=/home/az/tmp/perl/opendata/workflow/.git config --get-regexp alias\..*
+Date: Wed Dec 15 14:05:28 BRST 2010
+checkout master
+Date: Wed Dec 15 14:05:30 BRST 2010
+checkout workflow
+Date: Wed Dec 15 14:05:37 BRST 2010
+--git-dir=/home/az/tmp/perl/opendata/workflow/.git config --get-regexp alias\..*
+Date: Wed Dec 15 14:05:40 BRST 2010
+--git-dir=/home/az/tmp/perl/opendata/workflow/.git config --get-regexp alias\..*
+Date: Wed Dec 15 14:05:41 BRST 2010
+sync-origin-upstream
+Date: Wed Dec 15 14:05:49 BRST 2010
+checkout master
+Date: Wed Dec 15 14:05:53 BRST 2010
+--git-dir=/home/az/tmp/perl/opendata/workflow/.git config --get-regexp alias\..*
+Date: Wed Dec 15 14:05:57 BRST 2010
+--git-dir=/home/az/tmp/perl/opendata/workflow/.git config --get-regexp alias\..*
+Date: Wed Dec 15 14:05:58 BRST 2010
+sync-origin-upstream
+Date: Wed Dec 15 14:06:03 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Dec 15 14:06:08 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Dec 15 14:06:09 BRST 2010
+sync-origin-upstream
+Date: Wed Dec 15 14:06:33 BRST 2010
+push
+Date: Wed Dec 15 14:06:51 BRST 2010
+st
+Date: Wed Dec 15 17:12:52 BRST 2010
+branch
+Date: Wed Dec 15 17:13:01 BRST 2010
+help -a
+Date: Wed Dec 15 17:13:03 BRST 2010
+--git-dir=/home/az/tmp/perl/opendata/workflow/.git config --get-regexp alias\..*
+Date: Wed Dec 15 17:13:04 BRST 2010
+--git-dir=/home/az/tmp/perl/opendata/workflow/.git config --get-regexp alias\..*
+Date: Wed Dec 15 17:13:04 BRST 2010
+checkout workflow
+Date: Wed Dec 15 17:13:09 BRST 2010

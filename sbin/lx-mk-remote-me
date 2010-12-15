@@ -9,8 +9,8 @@ REM_USER=znamensa
 REM_UID=99920012
 REM_GECOS='Alexei Znamensky(Cognizant)'
 REM_GROUP=avoninf
-REM_HOME=/home
-#REM_HOME=/export/home
+#REM_HOME=/home
+REM_HOME=/export/home
 
 msg() {
     echo "$@" >&2
@@ -32,7 +32,7 @@ mk_remote() {
         "REM_HOME=${REM_HOME};
          [ ! -w /home ] && REM_HOME=/export/home;
          echo Creating group ${REM_GROUP} >&2 &&
-         groupadd ${REM_GROUP} &&
+         groupadd ${REM_GROUP} ;
          echo Creating user ${REM_UID} >&2 &&
          adduser -u ${REM_UID} -c '${REM_USER}' -G ${REM_GROUP} \
              --home \${REM_HOME}/${REM_USER} ${REM_USER} &&

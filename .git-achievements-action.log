@@ -5610,3 +5610,11 @@ add bin/cron.git-periodic
 Date: Fri Dec 17 09:27:46 BRST 2010
 commit bin/cron.git-periodic
 Date: Fri Dec 17 09:28:11 BRST 2010
+help -a
+Date: Fri Dec 17 19:51:01 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec 17 19:51:01 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec 17 19:51:03 BRST 2010
+sync-master-upstream
+Date: Fri Dec 17 19:51:07 BRST 2010

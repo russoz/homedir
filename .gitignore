@@ -4,7 +4,7 @@
 .adobe
 avon
 .broffice.org
-.cache
+.*cache*
 .compiz
 .config
 .cups
@@ -126,3 +126,4 @@ mirrors
 blueproximity.log
 .ldapsimpleserver
 CV
+.stella

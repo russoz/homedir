@@ -5556,3 +5556,39 @@ sync-master-upstream
 Date: Thu Dec 16 07:29:38 BRST 2010
 mv Base.pm Role.pm
 Date: Thu Dec 16 08:48:23 BRST 2010
+st
+Date: Fri Dec 17 09:12:12 BRST 2010
+diff .gitignore
+Date: Fri Dec 17 09:12:24 BRST 2010
+add .gitignore
+Date: Fri Dec 17 09:13:05 BRST 2010
+help -a
+Date: Fri Dec 17 09:13:07 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec 17 09:13:07 BRST 2010
+commit .gitignore
+Date: Fri Dec 17 09:13:20 BRST 2010
+st
+Date: Fri Dec 17 09:13:22 BRST 2010
+diff .podbrowserrc
+Date: Fri Dec 17 09:13:46 BRST 2010
+st
+Date: Fri Dec 17 09:13:57 BRST 2010
+add .podbrowserrc
+Date: Fri Dec 17 09:14:01 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec 17 09:14:04 BRST 2010
+commit .podbrowserrc -m ...
+Date: Fri Dec 17 09:14:10 BRST 2010
+diff bin/avon-troca-senha
+Date: Fri Dec 17 09:14:15 BRST 2010
+add bin/avon-troca-senha
+Date: Fri Dec 17 09:14:21 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec 17 09:14:23 BRST 2010
+commit bin/avon-troca-senha
+Date: Fri Dec 17 09:14:34 BRST 2010
+st
+Date: Fri Dec 17 09:14:39 BRST 2010
+st
+Date: Fri Dec 17 09:15:34 BRST 2010

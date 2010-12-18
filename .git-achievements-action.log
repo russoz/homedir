@@ -5618,3 +5618,99 @@ Date: Fri Dec 17 19:51:01 BRST 2010
 Date: Fri Dec 17 19:51:03 BRST 2010
 sync-master-upstream
 Date: Fri Dec 17 19:51:07 BRST 2010
+st
+Date: Fri Dec 17 20:03:55 BRST 2010
+add lib/OpenData/Get/Role.pm
+Date: Fri Dec 17 20:04:11 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec 17 20:04:27 BRST 2010
+commit lib/OpenData/Get/Role.pm -m get base -> rename
+Date: Fri Dec 17 20:04:40 BRST 2010
+rm lib/OpenData/Get/Role.pm
+Date: Fri Dec 17 20:04:46 BRST 2010
+st
+Date: Fri Dec 17 20:04:54 BRST 2010
+commit -m get base/role deleted
+Date: Fri Dec 17 20:05:05 BRST 2010
+rm t/12-get/base.t
+Date: Fri Dec 17 20:05:54 BRST 2010
+commit -m get base -> deleted
+Date: Fri Dec 17 20:06:06 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec 17 20:06:41 BRST 2010
+achievements
+Date: Fri Dec 17 20:06:41 BRST 2010
+st
+Date: Fri Dec 17 23:01:07 BRST 2010
+diff lib/OpenData/AZ/Box/LiteralData.pm
+Date: Fri Dec 17 23:01:21 BRST 2010
+diff t/99-az/03-literaldata.t
+Date: Fri Dec 17 23:01:32 BRST 2010
+add lib/OpenData/AZ/Box/LiteralData.pm t/99-az/03-literaldata.t
+Date: Fri Dec 17 23:01:41 BRST 2010
+commit lib/OpenData/AZ/Box/LiteralData.pm t/99-az/03-literaldata.t -m small changes and tests for literal data
+Date: Fri Dec 17 23:02:00 BRST 2010
+st
+Date: Fri Dec 17 23:02:02 BRST 2010
+diff
+Date: Fri Dec 17 23:08:11 BRST 2010
+st
+Date: Fri Dec 17 23:08:13 BRST 2010
+commit -a -m duas filas (entrada e saida), e OpenData::Get auto-contido
+Date: Fri Dec 17 23:09:04 BRST 2010
+st
+Date: Fri Dec 17 23:09:07 BRST 2010
+help -a
+Date: Fri Dec 17 23:09:11 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec 17 23:09:11 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec 17 23:09:13 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec 17 23:09:13 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec 17 23:09:14 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec 17 23:09:14 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec 17 23:09:15 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec 17 23:09:15 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec 17 23:09:18 BRST 2010
+sync-origin-upstream
+Date: Fri Dec 17 23:09:22 BRST 2010
+branch
+Date: Fri Dec 17 23:09:29 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec 17 23:09:32 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec 17 23:09:32 BRST 2010
+checkout master
+Date: Fri Dec 17 23:09:34 BRST 2010
+sync-origin-upstream
+Date: Fri Dec 17 23:09:40 BRST 2010
+branch
+Date: Fri Dec 17 23:10:07 BRST 2010
+push --all
+Date: Fri Dec 17 23:10:11 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec 17 23:10:33 BRST 2010
+checkout workflow
+Date: Fri Dec 17 23:10:35 BRST 2010
+push --all
+Date: Fri Dec 17 23:10:36 BRST 2010
+checkout master
+Date: Fri Dec 17 23:10:40 BRST 2010
+push --all
+Date: Fri Dec 17 23:10:41 BRST 2010
+sync-origin-upstream
+Date: Fri Dec 17 23:10:48 BRST 2010
+checkout workflow
+Date: Fri Dec 17 23:12:28 BRST 2010
+checkout workflow
+Date: Fri Dec 17 23:12:30 BRST 2010
+st
+Date: Fri Dec 17 23:13:20 BRST 2010
+log
+Date: Fri Dec 17 23:16:52 BRST 2010

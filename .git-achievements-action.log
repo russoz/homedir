@@ -5778,3 +5778,199 @@ push --all
 Date: Sat Dec 18 01:28:08 BRST 2010
 diff
 Date: Sat Dec 18 01:35:04 BRST 2010
+st
+Date: Sat Dec 18 08:26:46 BRST 2010
+mv AZ Flow
+Date: Sat Dec 18 08:27:25 BRST 2010
+rm -f Box/URLRetrieverMultiPage.pm
+Date: Sat Dec 18 08:32:31 BRST 2010
+st
+Date: Sat Dec 18 08:32:34 BRST 2010
+mv t/99-az t40-flow
+Date: Sat Dec 18 08:34:01 BRST 2010
+mv t40-flow/ t/40-flow
+Date: Sat Dec 18 08:34:19 BRST 2010
+mv scripts/wf-portaltransparencia.pl scripts/df-portaltransparencia.pl
+Date: Sat Dec 18 08:39:17 BRST 2010
+st
+Date: Sat Dec 18 09:16:25 BRST 2010
+commit -a
+Date: Sat Dec 18 09:17:07 BRST 2010
+st
+Date: Sat Dec 18 09:17:09 BRST 2010
+br
+Date: Sat Dec 18 09:17:18 BRST 2010
+push --all
+Date: Sat Dec 18 09:17:23 BRST 2010
+st
+Date: Sat Dec 18 09:31:48 BRST 2010
+push --all
+Date: Sat Dec 18 09:32:16 BRST 2010
+mv Box.pm Node.pm
+Date: Sat Dec 18 09:40:09 BRST 2010
+mv Box Node
+Date: Sat Dec 18 09:40:17 BRST 2010
+mv ChainBox.pm Chain.pm
+Date: Sat Dec 18 09:40:34 BRST 2010
+mv 40-flow/ 20-flow
+Date: Sat Dec 18 09:46:43 BRST 2010
+st
+Date: Sat Dec 18 10:02:52 BRST 2010
+mv t/20-flow/10-chain-box.t t/20-flow/10-chain.t
+Date: Sat Dec 18 10:04:03 BRST 2010
+mv t/20-flow/01-box.t t/20-flow/01-node.t
+Date: Sat Dec 18 10:04:27 BRST 2010
+st
+Date: Sat Dec 18 10:04:40 BRST 2010
+commit -a
+Date: Sat Dec 18 10:05:38 BRST 2010
+st
+Date: Sat Dec 18 10:07:44 BRST 2010
+push --all
+Date: Sat Dec 18 10:07:53 BRST 2010
+st
+Date: Sat Dec 18 10:50:15 BRST 2010
+st
+Date: Sat Dec 18 10:57:15 BRST 2010
+diff lib/OpenData/Flow/Node.pm
+Date: Sat Dec 18 10:57:21 BRST 2010
+add lib/OpenData/Flow/Node.pm
+Date: Sat Dec 18 10:57:30 BRST 2010
+ci lib/OpenData/Flow/Node.pm -m added method flush()
+Date: Sat Dec 18 10:57:45 BRST 2010
+branch --help
+Date: Sat Dec 18 10:58:06 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Dec 18 10:58:08 BRST 2010
+st
+Date: Sat Dec 18 10:59:33 BRST 2010
+st
+Date: Sat Dec 18 11:08:18 BRST 2010
+st
+Date: Sat Dec 18 11:08:55 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Dec 18 11:08:58 BRST 2010
+diff scripts/
+Date: Sat Dec 18 11:09:00 BRST 2010
+st
+Date: Sat Dec 18 11:09:12 BRST 2010
+add lib/OpenData/Flow/Node/Dumper.pm
+Date: Sat Dec 18 11:09:17 BRST 2010
+add scripts/
+Date: Sat Dec 18 11:09:27 BRST 2010
+ci
+Date: Sat Dec 18 11:10:26 BRST 2010
+st
+Date: Sat Dec 18 11:10:30 BRST 2010
+push --all
+Date: Sat Dec 18 11:10:34 BRST 2010
+st
+Date: Sat Dec 18 11:10:42 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Dec 18 11:10:55 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Dec 18 11:10:56 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Dec 18 11:10:56 BRST 2010
+branch -m workflow dataflow
+Date: Sat Dec 18 11:11:02 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Dec 18 11:11:05 BRST 2010
+br
+Date: Sat Dec 18 11:11:06 BRST 2010
+st
+Date: Sat Dec 18 11:11:17 BRST 2010
+push --all
+Date: Sat Dec 18 11:11:20 BRST 2010
+st
+Date: Sat Dec 18 11:11:26 BRST 2010
+br
+Date: Sat Dec 18 11:11:28 BRST 2010
+push --all
+Date: Sat Dec 18 11:12:00 BRST 2010
+push --all
+Date: Sat Dec 18 11:24:46 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Dec 18 11:25:00 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Dec 18 11:25:01 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Dec 18 11:25:01 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Dec 18 11:25:02 BRST 2010
+sync-origin-upstream
+Date: Sat Dec 18 11:25:17 BRST 2010
+add .
+Date: Sat Dec 18 11:32:47 BRST 2010
+--git-dir=/home/az/tmp/perl/opendata/dataflow/.git config --get-regexp alias\..*
+Date: Sat Dec 18 11:32:49 BRST 2010
+st
+Date: Sat Dec 18 11:33:15 BRST 2010
+--git-dir=/home/az/tmp/perl/opendata/dataflow/.git config --get-regexp alias\..*
+Date: Sat Dec 18 11:33:18 BRST 2010
+unstage .
+Date: Sat Dec 18 11:33:18 BRST 2010
+st
+Date: Sat Dec 18 11:33:20 BRST 2010
+st
+Date: Sat Dec 18 11:33:33 BRST 2010
+st
+Date: Sat Dec 18 11:33:43 BRST 2010
+add doc/
+Date: Sat Dec 18 11:33:47 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Dec 18 11:33:49 BRST 2010
+ci -m diretorio de documentacao, pagina com fontes de dados
+Date: Sat Dec 18 11:34:32 BRST 2010
+st
+Date: Sat Dec 18 11:34:38 BRST 2010
+st
+Date: Sat Dec 18 11:40:59 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Dec 18 11:41:01 BRST 2010
+commit -a -m coisas para fazer
+Date: Sat Dec 18 11:43:57 BRST 2010
+st
+Date: Sat Dec 18 11:44:00 BRST 2010
+--git-dir=.git config --get-regexp remote\..*\.url
+Date: Sat Dec 18 11:44:51 BRST 2010
+pull origin master
+Date: Sat Dec 18 11:44:53 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Dec 18 11:45:04 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Dec 18 11:45:07 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Dec 18 11:45:07 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Dec 18 11:45:07 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Dec 18 11:45:08 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Dec 18 11:45:08 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Dec 18 11:45:10 BRST 2010
+sync-master-upstream
+Date: Sat Dec 18 11:45:13 BRST 2010
+br
+Date: Sat Dec 18 11:45:19 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Dec 18 11:45:24 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Dec 18 11:45:25 BRST 2010
+checkout master
+Date: Sat Dec 18 11:45:27 BRST 2010
+pull origin master
+Date: Sat Dec 18 11:45:32 BRST 2010
+pull origin master
+Date: Sat Dec 18 11:45:37 BRST 2010
+push --all
+Date: Sat Dec 18 11:45:41 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Dec 18 11:46:07 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Dec 18 11:46:08 BRST 2010
+checkout dataflow
+Date: Sat Dec 18 11:46:16 BRST 2010
+br
+Date: Sat Dec 18 11:46:19 BRST 2010

@@ -5714,3 +5714,67 @@ st
 Date: Fri Dec 17 23:13:20 BRST 2010
 log
 Date: Fri Dec 17 23:16:52 BRST 2010
+st
+Date: Sat Dec 18 01:08:52 BRST 2010
+diff
+Date: Sat Dec 18 01:09:51 BRST 2010
+st
+Date: Sat Dec 18 01:11:41 BRST 2010
+diff
+Date: Sat Dec 18 01:15:24 BRST 2010
+ci -a -m script working for CEIS
+Date: Sat Dec 18 01:15:56 BRST 2010
+push
+Date: Sat Dec 18 01:16:06 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Dec 18 01:16:09 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Dec 18 01:16:10 BRST 2010
+sync-master-upstream
+Date: Sat Dec 18 01:16:14 BRST 2010
+push --all
+Date: Sat Dec 18 01:16:21 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Dec 18 01:16:26 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Dec 18 01:16:27 BRST 2010
+checkout master
+Date: Sat Dec 18 01:16:31 BRST 2010
+sync-master-upstream
+Date: Sat Dec 18 01:16:42 BRST 2010
+help -a
+Date: Sat Dec 18 01:17:03 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Dec 18 01:17:03 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Dec 18 01:17:04 BRST 2010
+sync-master-upstream
+Date: Sat Dec 18 01:17:15 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Dec 18 01:17:37 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Dec 18 01:17:38 BRST 2010
+sync-origin-upstream
+Date: Sat Dec 18 01:17:54 BRST 2010
+branch
+Date: Sat Dec 18 01:18:00 BRST 2010
+push --all
+Date: Sat Dec 18 01:18:11 BRST 2010
+branch
+Date: Sat Dec 18 01:26:26 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Dec 18 01:26:29 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Dec 18 01:26:30 BRST 2010
+checkout workflow
+Date: Sat Dec 18 01:26:32 BRST 2010
+st
+Date: Sat Dec 18 01:27:17 BRST 2010
+commit -a -m if I stay it will be double...
+Date: Sat Dec 18 01:27:54 BRST 2010
+push --all
+Date: Sat Dec 18 01:27:57 BRST 2010
+push --all
+Date: Sat Dec 18 01:28:08 BRST 2010
+diff
+Date: Sat Dec 18 01:35:04 BRST 2010

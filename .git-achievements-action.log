@@ -5998,3 +5998,75 @@ cpan-init aliased
 Date: Sat Dec 18 23:14:26 BRST 2010
 --git-dir=.git config --get-regexp alias\..*
 Date: Sat Dec 18 23:14:35 BRST 2010
+st
+Date: Sun Dec 19 14:07:32 BRST 2010
+diff
+Date: Sun Dec 19 14:07:40 BRST 2010
+ci -a -m mais documentação para Node.pm
+Date: Sun Dec 19 14:08:07 BRST 2010
+st
+Date: Sun Dec 19 14:08:10 BRST 2010
+st
+Date: Sun Dec 19 14:24:27 BRST 2010
+checkout bin/opendatabr.pl lib/OpenData/Component.pm lib/OpenData/Get/Curl.pm lib/OpenData/Get/Mechanize.pm lib/OpenData/Identifiable.pm lib/OpenData/Output/CSV.pm
+Date: Sun Dec 19 14:24:45 BRST 2010
+st
+Date: Sun Dec 19 14:24:48 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Dec 19 14:24:57 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Dec 19 14:24:58 BRST 2010
+checkout t/05-component.t t/08-extractor/00-extractor.t t/08-extractor/01-http.t t/10-loader/00-loader.t
+Date: Sun Dec 19 14:25:06 BRST 2010
+st
+Date: Sun Dec 19 14:27:26 BRST 2010
+st
+Date: Sun Dec 19 15:02:06 BRST 2010
+diff lib/OpenData/Flow/Chain.pm
+Date: Sun Dec 19 15:02:18 BRST 2010
+diff --help
+Date: Sun Dec 19 15:02:38 BRST 2010
+diff -b
+Date: Sun Dec 19 15:02:44 BRST 2010
+st
+Date: Sun Dec 19 15:02:48 BRST 2010
+diff -b lib/OpenData/Flow/Chain.pm
+Date: Sun Dec 19 15:02:57 BRST 2010
+diff -b
+Date: Sun Dec 19 15:13:18 BRST 2010
+diff
+Date: Sun Dec 19 15:13:28 BRST 2010
+st
+Date: Sun Dec 19 15:13:32 BRST 2010
+add scripts/tidy
+Date: Sun Dec 19 15:13:39 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Dec 19 15:13:41 BRST 2010
+ci -m improved tidy script
+Date: Sun Dec 19 15:14:00 BRST 2010
+diff t/20-flow/01-node.t
+Date: Sun Dec 19 15:14:13 BRST 2010
+add t/20-flow/01-node.t
+Date: Sun Dec 19 15:14:19 BRST 2010
+st
+Date: Sun Dec 19 15:15:06 BRST 2010
+diff t/20-flow/01-node.t
+Date: Sun Dec 19 15:15:50 BRST 2010
+add t/20-flow/01-node.t
+Date: Sun Dec 19 15:15:56 BRST 2010
+ci -m one more test for flush
+Date: Sun Dec 19 15:16:13 BRST 2010
+st
+Date: Sun Dec 19 15:16:46 BRST 2010
+diff
+Date: Sun Dec 19 15:18:59 BRST 2010
+diff
+Date: Sun Dec 19 15:19:56 BRST 2010
+st
+Date: Sun Dec 19 15:19:59 BRST 2010
+ci -a -m tidy nos arquivos modificados pelo desenvolvimento do dataflow
+Date: Sun Dec 19 15:20:24 BRST 2010
+st
+Date: Sun Dec 19 15:20:30 BRST 2010
+st
+Date: Sun Dec 19 15:20:56 BRST 2010

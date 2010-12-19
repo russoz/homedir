@@ -5974,3 +5974,27 @@ checkout dataflow
 Date: Sat Dec 18 11:46:16 BRST 2010
 br
 Date: Sat Dec 18 11:46:19 BRST 2010
+branch
+Date: Sat Dec 18 22:50:13 BRST 2010
+branch
+Date: Sat Dec 18 22:50:20 BRST 2010
+st
+Date: Sat Dec 18 22:51:48 BRST 2010
+help -a
+Date: Sat Dec 18 23:13:03 BRST 2010
+--git-dir=/home/az/.git config --get-regexp alias\..*
+Date: Sat Dec 18 23:13:03 BRST 2010
+--git-dir=/home/az/.git config --get-regexp alias\..*
+Date: Sat Dec 18 23:13:03 BRST 2010
+--git-dir=/home/az/.git config --get-regexp alias\..*
+Date: Sat Dec 18 23:13:11 BRST 2010
+--git-dir=/home/az/.git config --get-regexp alias\..*
+Date: Sat Dec 18 23:13:11 BRST 2010
+--git-dir=/home/az/.git config --get-regexp alias\..*
+Date: Sat Dec 18 23:14:17 BRST 2010
+--git-dir=/home/az/.git config --get-regexp alias\..*
+Date: Sat Dec 18 23:14:18 BRST 2010
+cpan-init aliased
+Date: Sat Dec 18 23:14:26 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Dec 18 23:14:35 BRST 2010

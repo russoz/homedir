@@ -6086,3 +6086,141 @@ diff
 Date: Mon Dec 20 01:29:43 BRST 2010
 ci -a -m more things to do
 Date: Mon Dec 20 01:30:07 BRST 2010
+st
+Date: Mon Dec 20 08:52:27 BRST 2010
+add test-super.pl
+Date: Mon Dec 20 08:52:32 BRST 2010
+help -a
+Date: Mon Dec 20 08:52:35 BRST 2010
+--git-dir=/home/az/tmp/perl/perltests/.git config --get-regexp alias\..*
+Date: Mon Dec 20 08:52:35 BRST 2010
+commit test-super.pl -m inheritance, super, with Moose. way too silly, but hey, why not
+Date: Mon Dec 20 08:53:02 BRST 2010
+push
+Date: Mon Dec 20 08:53:15 BRST 2010
+st
+Date: Mon Dec 20 08:53:44 BRST 2010
+diff
+Date: Mon Dec 20 08:53:47 BRST 2010
+ci -a -m added dependecy for List::Util
+Date: Mon Dec 20 08:55:42 BRST 2010
+st
+Date: Mon Dec 20 08:56:08 BRST 2010
+log
+Date: Mon Dec 20 08:56:48 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Dec 20 09:04:21 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Dec 20 09:04:21 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Dec 20 09:04:23 BRST 2010
+remote --help
+Date: Mon Dec 20 09:04:34 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Dec 20 09:04:43 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Dec 20 09:04:44 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Dec 20 09:05:22 BRST 2010
+remote add origin git@github.com:russoz/aliased.git
+Date: Mon Dec 20 09:05:29 BRST 2010
+st
+Date: Mon Dec 20 09:05:49 BRST 2010
+diff
+Date: Mon Dec 20 09:05:59 BRST 2010
+st
+Date: Mon Dec 20 09:06:19 BRST 2010
+branch hashrefs
+Date: Mon Dec 20 09:06:53 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Dec 20 09:06:56 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Dec 20 09:06:57 BRST 2010
+checkout hashrefs
+Date: Mon Dec 20 09:06:59 BRST 2010
+st
+Date: Mon Dec 20 09:07:04 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Dec 20 09:07:09 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Dec 20 09:07:09 BRST 2010
+branch
+Date: Mon Dec 20 09:07:13 BRST 2010
+checkout master
+Date: Mon Dec 20 09:07:17 BRST 2010
+checkout .
+Date: Mon Dec 20 09:07:20 BRST 2010
+st
+Date: Mon Dec 20 09:07:25 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Dec 20 09:07:27 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Dec 20 09:07:27 BRST 2010
+clone git@github.com:russoz/aliased.git
+Date: Mon Dec 20 09:09:44 BRST 2010
+branch
+Date: Mon Dec 20 09:10:01 BRST 2010
+branch w_hash
+Date: Mon Dec 20 09:10:21 BRST 2010
+help -a
+Date: Mon Dec 20 09:10:23 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Dec 20 09:10:23 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Dec 20 09:10:24 BRST 2010
+checkout w_hash
+Date: Mon Dec 20 09:10:25 BRST 2010
+st
+Date: Mon Dec 20 09:10:34 BRST 2010
+branch
+Date: Mon Dec 20 09:11:28 BRST 2010
+st
+Date: Mon Dec 20 10:07:47 BRST 2010
+diff
+Date: Mon Dec 20 10:08:57 BRST 2010
+st
+Date: Mon Dec 20 10:09:18 BRST 2010
+checkout lib/
+Date: Mon Dec 20 10:09:24 BRST 2010
+st
+Date: Mon Dec 20 10:09:26 BRST 2010
+st
+Date: Mon Dec 20 10:11:21 BRST 2010
+branch
+Date: Mon Dec 20 10:11:24 BRST 2010
+diff lib/aliased.pm
+Date: Mon Dec 20 10:13:11 BRST 2010
+st
+Date: Mon Dec 20 10:15:50 BRST 2010
+diff Build.PL
+Date: Mon Dec 20 10:15:56 BRST 2010
+add Build.PL
+Date: Mon Dec 20 10:16:04 BRST 2010
+--git-dir=.git config --get alias.ci
+Date: Mon Dec 20 10:16:08 BRST 2010
+st
+Date: Mon Dec 20 10:23:47 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Dec 20 10:23:50 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Dec 20 10:23:56 BRST 2010
+diff Build
+Date: Mon Dec 20 10:23:58 BRST 2010
+diff Build.PL
+Date: Mon Dec 20 10:24:00 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Dec 20 10:24:04 BRST 2010
+checkout Build.PL
+Date: Mon Dec 20 10:24:06 BRST 2010
+diff Build.PL
+Date: Mon Dec 20 10:24:08 BRST 2010
+st
+Date: Mon Dec 20 10:24:10 BRST 2010
+diff
+Date: Mon Dec 20 10:24:32 BRST 2010
+st
+Date: Mon Dec 20 10:25:32 BRST 2010
+st
+Date: Mon Dec 20 10:25:43 BRST 2010
+diff
+Date: Mon Dec 20 10:37:15 BRST 2010

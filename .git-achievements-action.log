@@ -6070,3 +6070,19 @@ st
 Date: Sun Dec 19 15:20:30 BRST 2010
 st
 Date: Sun Dec 19 15:20:56 BRST 2010
+st
+Date: Mon Dec 20 00:01:51 BRST 2010
+add test-sub-params.pl
+Date: Mon Dec 20 00:01:57 BRST 2010
+ci test-sub-params.pl -m simple test for a sub parameters
+Date: Mon Dec 20 00:02:13 BRST 2010
+push
+Date: Mon Dec 20 00:02:26 BRST 2010
+st
+Date: Mon Dec 20 01:29:28 BRST 2010
+diff
+Date: Mon Dec 20 01:29:31 BRST 2010
+diff
+Date: Mon Dec 20 01:29:43 BRST 2010
+ci -a -m more things to do
+Date: Mon Dec 20 01:30:07 BRST 2010

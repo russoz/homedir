@@ -6430,3 +6430,91 @@ push
 Date: Mon Dec 20 18:48:07 BRST 2010
 st
 Date: Mon Dec 20 18:51:30 BRST 2010
+st
+Date: Mon Dec 20 20:57:17 BRST 2010
+st
+Date: Mon Dec 20 20:58:29 BRST 2010
+diff lib/OpenData/Flow/Node.pm
+Date: Mon Dec 20 20:59:24 BRST 2010
+st
+Date: Mon Dec 20 21:54:43 BRST 2010
+st
+Date: Mon Dec 20 21:57:53 BRST 2010
+diff
+Date: Mon Dec 20 21:59:25 BRST 2010
+ci -a
+Date: Mon Dec 20 22:04:32 BRST 2010
+push --al
+Date: Mon Dec 20 22:04:37 BRST 2010
+push --all
+Date: Mon Dec 20 22:04:40 BRST 2010
+diff
+Date: Mon Dec 20 22:04:43 BRST 2010
+st
+Date: Mon Dec 20 22:04:46 BRST 2010
+st
+Date: Mon Dec 20 22:18:48 BRST 2010
+add .
+Date: Mon Dec 20 22:18:54 BRST 2010
+ci -m created a char-encoding conversion node
+Date: Mon Dec 20 22:19:18 BRST 2010
+st
+Date: Mon Dec 20 22:19:23 BRST 2010
+push --all
+Date: Mon Dec 20 22:19:28 BRST 2010
+help -a
+Date: Mon Dec 20 22:29:06 BRST 2010
+--git-dir=/home/az/.git config --get-regexp alias\..*
+Date: Mon Dec 20 22:29:06 BRST 2010
+--git-dir=/home/az/.git config --get-regexp alias\..*
+Date: Mon Dec 20 22:29:08 BRST 2010
+--git-dir=/home/az/.git config --get-regexp alias\..*
+Date: Mon Dec 20 22:30:02 BRST 2010
+--git-dir=/home/az/.git config --get-regexp alias\..*
+Date: Mon Dec 20 22:30:02 BRST 2010
+--git-dir=/home/az/.git config --get-regexp alias\..*
+Date: Mon Dec 20 22:30:04 BRST 2010
+cpan-init Queue::Base
+Date: Mon Dec 20 22:30:10 BRST 2010
+ci -a -m ran through perltidy
+Date: Mon Dec 20 22:32:38 BRST 2010
+st
+Date: Mon Dec 20 23:04:48 BRST 2010
+diff Base.pm
+Date: Mon Dec 20 23:05:04 BRST 2010
+st
+Date: Mon Dec 20 23:06:46 BRST 2010
+add lib/
+Date: Mon Dec 20 23:06:52 BRST 2010
+st
+Date: Mon Dec 20 23:06:54 BRST 2010
+st
+Date: Mon Dec 20 23:07:08 BRST 2010
+st
+Date: Mon Dec 20 23:07:20 BRST 2010
+mv Base.pm lib/Queue/
+Date: Mon Dec 20 23:07:29 BRST 2010
+st
+Date: Mon Dec 20 23:07:31 BRST 2010
+ci -a -m revamped module
+Date: Mon Dec 20 23:08:09 BRST 2010
+st
+Date: Mon Dec 20 23:08:15 BRST 2010
+push
+Date: Mon Dec 20 23:08:49 BRST 2010
+push --all
+Date: Mon Dec 20 23:08:55 BRST 2010
+st
+Date: Mon Dec 20 23:09:33 BRST 2010
+st
+Date: Mon Dec 20 23:10:19 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Dec 20 23:10:22 BRST 2010
+diff lib/
+Date: Mon Dec 20 23:10:23 BRST 2010
+ci -a -m bumped version to 1.2
+Date: Mon Dec 20 23:10:36 BRST 2010
+st
+Date: Mon Dec 20 23:17:58 BRST 2010
+st
+Date: Mon Dec 20 23:18:09 BRST 2010

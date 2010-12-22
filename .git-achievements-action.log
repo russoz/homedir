@@ -6518,3 +6518,13 @@ st
 Date: Mon Dec 20 23:17:58 BRST 2010
 st
 Date: Mon Dec 20 23:18:09 BRST 2010
+st
+Date: Wed Dec 22 19:26:55 BRST 2010
+help -a
+Date: Wed Dec 22 19:27:14 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Dec 22 19:27:14 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Dec 22 19:27:16 BRST 2010
+sync-master-upstream
+Date: Wed Dec 22 19:27:26 BRST 2010

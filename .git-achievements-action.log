@@ -6542,3 +6542,47 @@ Date: Wed Dec 22 22:35:43 BRST 2010
 Date: Wed Dec 22 22:35:49 BRST 2010
 push origin w_hash
 Date: Wed Dec 22 22:35:56 BRST 2010
+st
+Date: Thu Dec 23 12:12:12 BRST 2010
+diff
+Date: Thu Dec 23 12:12:14 BRST 2010
+ci -a -m fixing some comments
+Date: Thu Dec 23 12:12:40 BRST 2010
+st
+Date: Thu Dec 23 12:16:52 BRST 2010
+ci -a -m improved the test with extended interface
+Date: Thu Dec 23 12:17:18 BRST 2010
+help -a
+Date: Thu Dec 23 12:27:34 BRST 2010
+--git-dir=/home/az/.git config --get-regexp alias\..*
+Date: Thu Dec 23 12:27:34 BRST 2010
+--git-dir=/home/az/.git config --get-regexp alias\..*
+Date: Thu Dec 23 12:27:34 BRST 2010
+--git-dir=/home/az/.git config --get-regexp alias\..*
+Date: Thu Dec 23 12:27:34 BRST 2010
+--git-dir=/home/az/.git config --get-regexp alias\..*
+Date: Thu Dec 23 12:27:39 BRST 2010
+cpan-init Queue::Base
+Date: Thu Dec 23 12:28:22 BRST 2010
+st
+Date: Thu Dec 23 12:37:37 BRST 2010
+st
+Date: Thu Dec 23 12:38:00 BRST 2010
+st
+Date: Thu Dec 23 12:38:39 BRST 2010
+ci -a -m added more build files to .gitignore
+Date: Thu Dec 23 12:38:55 BRST 2010
+st
+Date: Thu Dec 23 12:38:59 BRST 2010
+st
+Date: Thu Dec 23 12:47:53 BRST 2010
+add MANIFEST
+Date: Thu Dec 23 12:48:05 BRST 2010
+--git-dir=.git config --get alias.ci
+Date: Thu Dec 23 12:48:12 BRST 2010
+ci MANIFEST -m reflecting the move from Base.pm to lib/Queue/Base.pm
+Date: Thu Dec 23 12:48:38 BRST 2010
+st
+Date: Thu Dec 23 12:48:41 BRST 2010
+diff Makefile
+Date: Thu Dec 23 12:48:45 BRST 2010

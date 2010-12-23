@@ -6528,3 +6528,17 @@ Date: Wed Dec 22 19:27:14 BRST 2010
 Date: Wed Dec 22 19:27:16 BRST 2010
 sync-master-upstream
 Date: Wed Dec 22 19:27:26 BRST 2010
+diff
+Date: Wed Dec 22 22:35:00 BRST 2010
+ci -a -m added documentation, fixed a minor bug
+Date: Wed Dec 22 22:35:23 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Dec 22 22:35:27 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Dec 22 22:35:28 BRST 2010
+sync-origin-upstream
+Date: Wed Dec 22 22:35:43 BRST 2010
+--git-dir=.git config --get-regexp remote\..*\.url
+Date: Wed Dec 22 22:35:49 BRST 2010
+push origin w_hash
+Date: Wed Dec 22 22:35:56 BRST 2010

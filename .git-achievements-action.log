@@ -6586,3 +6586,33 @@ st
 Date: Thu Dec 23 12:48:41 BRST 2010
 diff Makefile
 Date: Thu Dec 23 12:48:45 BRST 2010
+st
+Date: Fri Dec 24 12:12:00 BRST 2010
+st
+Date: Fri Dec 24 12:12:29 BRST 2010
+st
+Date: Fri Dec 24 15:03:40 BRST 2010
+diff
+Date: Fri Dec 24 15:06:33 BRST 2010
+ci -a -m multiple changes - new function _alias_from_hash(), expects a hash (or hashref) with named parameters for the alias creation - import() will always use _alias_from_hash() - removed some debug and other useless comments - rewrote the param handling code for _make_alias and _load_alias
+Date: Fri Dec 24 15:09:25 BRST 2010
+st
+Date: Fri Dec 24 15:09:27 BRST 2010
+help -a
+Date: Fri Dec 24 15:09:30 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec 24 15:09:30 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec 24 15:09:33 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Dec 24 15:09:34 BRST 2010
+sync-master-upstream
+Date: Fri Dec 24 15:09:44 BRST 2010
+--git-dir=.git config --get-regexp remote\..*\.url
+Date: Fri Dec 24 15:09:51 BRST 2010
+--git-dir=.git config --get-regexp remote\..*\.url
+Date: Fri Dec 24 15:09:51 BRST 2010
+--git-dir=.git config --get-regexp remote\..*\.url
+Date: Fri Dec 24 15:09:53 BRST 2010
+push origin w_hash
+Date: Fri Dec 24 15:10:00 BRST 2010

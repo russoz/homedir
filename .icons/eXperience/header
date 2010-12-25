@@ -1,0 +1,9 @@
+# eXperience Crystal
+# author: David Christian Berg
+# The use of the Crystal icons has been permitted by Everaldo, www.everaldo.com
+# eXperience Crystal: The Crystal SVG For Gnome Theme - which this theme is based on - has been converted by Tehmiller, Panic_69 (Infernux), Exdaix, and Chromakode, all members of www.LinuxCult.com.
+
+[Icon Theme]
+Name=eXperience
+Inherits=Crystal-SVG, CfG-Crystal-SVG-1.2.0, ICON-Crystal-SVG-1.1.0
+Comment=The eXperience icon theme.

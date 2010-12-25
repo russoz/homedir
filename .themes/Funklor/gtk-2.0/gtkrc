@@ -1,0 +1,35 @@
+style "default"
+{
+   fg[NORMAL]        = "#000000"
+   fg[ACTIVE]        = "#00306b"
+   fg[INSENSITIVE]   = "#acacac"
+   fg[PRELIGHT]      = "#00306b"
+   fg[SELECTED]      = "#ffffff"
+        
+   bg[ACTIVE]        = "#c6c6c6"
+   bg[NORMAL]        = "#eaeaea"
+   bg[INSENSITIVE]   = "#eaeaea"
+   bg[PRELIGHT]      = "#f7f7f7"
+   bg[SELECTED]      = "#517eb4"
+
+   base[NORMAL]      = "#ffffff"
+   base[ACTIVE]      = "#95afce"
+   base[INSENSITIVE] = "#ffffff"
+   base[PRELIGHT]    = "#eaeaea"
+   base[SELECTED]    = "#517eb4"
+        
+   text[NORMAL]      = "#000000"
+   text[ACTIVE]      = "#000000"
+   text[PRELIGHT]    = "#000000"
+   text[SELECTED]    = "#ffffff"
+   text[INSENSITIVE] = "#000000"
+
+   engine "thinice"
+   {
+     mark_type1 = DOT
+     mark_type2 = ARROW 
+     rect_scrollbar = TRUE
+   }
+}
+
+class "GtkWidget" style "default"

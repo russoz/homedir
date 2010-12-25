@@ -1,0 +1,39 @@
+#! /bin/sh
+
+if [ "$1" != "" ]; then
+	while [ "$1" != "" ]; do
+		file="$1"
+		
+		cat "$1" >/tmp/asdf.svg
+		
+		result="$( rsvg /tmp/asdf.svg /tmp/asdf.png 2>&1 )"
+		
+		if [ "$result" != "" ]; then
+			echo \"$file\" is broken:
+			echo "$result"
+			echo '------------'
+		fi
+		rm -f /tmp/asdf.svg
+		rm -f /tmp/asdf.png
+		
+		shift
+	done
+	
+	exit 0
+fi
+
+tmp_file=$(mktemp)
+
+(
+find ./ -type f -name \*.svg -print0 | xargs -0 "$0"
+) | tee $tmp_file | zenity --progress --pulsate
+ 
+
+if [ "$(cat $tmp_file)" = "" ]; then
+	zenity --info --text "No errors found."
+else
+	cat $tmp_file | zenity --text-info
+fi
+
+rm -f $tmp_file
+

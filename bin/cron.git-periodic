@@ -1,0 +1,7 @@
+#!/bin/bash
+
+FILES="${HOME}/.workrave ${HOME}/.git-achievements*"
+
+git add ${FILES}
+git commit -m "automatic $(date +%Y.%m.%d-%H.%M)" $FILES
+

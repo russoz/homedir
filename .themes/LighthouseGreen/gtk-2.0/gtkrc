@@ -1,0 +1,128 @@
+# LighthouseBlue Theme
+# with colors from flippy gtk theme
+
+style "default"
+{
+  GtkWidget::interior_focus = 1
+  GtkButton::default_border = { 0, 0, 0, 0 }
+  GtkButton::default_outside_border = { 0, 0, 0, 0 }
+  GtkRange::trough_border = 0
+
+  GtkWidget::focus_padding = 1
+
+  GtkPaned::handle_size = 6
+  
+  GtkRange::slider_width = 15
+  GtkRange::stepper_size = 15
+  GtkScrollbar::arrow_displacement_x = 1
+  GtkScrollbar::arrow_displacement_y = 1
+  GtkScrollbar::min_slider_length = 14
+  GtkCheckButton::indicator_size = 10
+  GtkRadioButton::indicator_size = 11
+  GtkMenuBar::internal_padding = 0
+
+#text colors
+  fg[NORMAL]       = "#343434"
+  fg[ACTIVE]       = "#343434"
+  fg[PRELIGHT]     = "#ffffff"
+  fg[SELECTED]     = "#efefef"
+  fg[INSENSITIVE]  = "#9ab189"
+
+#toolbar buttons
+  bg[NORMAL]       = "#b4d0a1"
+  bg[ACTIVE]       = "#9bbe84" 
+  bg[PRELIGHT]     = "#b4d0a1"
+  bg[SELECTED]     = "#81ad62" 
+  bg[INSENSITIVE]  = "#a0b88f"
+
+  base[NORMAL]     = "#efefef"
+  base[ACTIVE]     = "#81ad62"
+  base[PRELIGHT]   = "#81ad62"
+  base[SELECTED]   = "#81ad62"
+  base[INSENSITIVE]= "#81ad62"
+
+  text[NORMAL]     = "#343434"
+  text[ACTIVE]     = "#efefef"
+  text[PRELIGHT]   = "#efefef"
+  text[SELECTED]   = "#efefef"
+  text[INSENSITIVE]= "#efefef"
+
+  engine "lighthouseblue"
+  {
+    has_notebook_patch = FALSE
+    make_tab_labels_bold = TRUE
+    make_frame_labels_bold = TRUE
+  }
+}
+
+style "notebook" = "default"
+{
+  GtkNotebook::tab_offset = 6
+
+  bg[NORMAL]       = "#b4d0a1"
+  bg[ACTIVE]       = "#b4d0a1"
+}
+
+style "frame" = "default"
+{
+  bg[NORMAL]       = "#b4d0a1"
+}
+
+style "button" = "default"
+{
+  bg[NORMAL]       = "#b4d0a1"  
+  bg[PRELIGHT]     = "#b4d0a1"
+  bg[ACTIVE]       = "#9bbe84"
+}
+
+#taskbar
+style "togglebutton" = "default"
+{
+  fg[SELECTED] = "#669900"
+  bg[NORMAL] = "#b4d0a1"
+  bg[PRELIGHT] = "#b4d0a1"
+  bg[ACTIVE] = "#81ad62"
+}
+
+style "menuitem" = "default"
+{
+  bg[PRELIGHT]     = "#669900"
+  fg[PRELIGHT]     = "#ffffff"
+}
+
+style "metacity-frame"
+{
+    # Normal base color
+    bg[NORMAL]     = "#b4d0a1"
+    # Unfocused title background color
+    bg[INSENSITIVE]        = "#b4d0a1"
+    # Unfocused title text color
+    fg[INSENSITIVE]        = "#8ca27e"
+    # Focused icon color
+    fg[NORMAL]     = { 0.2, 0.2, 0.2 }
+    # Focused title background color
+    bg[SELECTED]   = "#669900"
+    # Focused title text color
+#    fg[SELECTED]   = "#00000"
+}
+
+class "GtkWidget" style "default"
+class "GtkNotebook" style "notebook"
+#class "GtkButton" style "button"
+#class "GtkFrame" style "frame"
+class "GtkMenuItem" style "menuitem"
+class "GtkToggleButton" style "togglebutton"
+
+class "MetaFrames" style "metacity-frame"
+
+#widget_class "*.GtkButton.*" style "button"
+widget_class "*.GtkMenuItem.*" style "menuitem"
+widget_class "*.GtkAccelMenuItem.*" style "menuitem"
+widget_class "*.GtkRadioMenuItem.*" style "menuitem"
+widget_class "*.GtkCheckMenuItem.*" style "menuitem"
+widget_class "*.GtkImageMenuItem.*" style "menuitem"
+widget_class "*.GtkSeparatorMenuItem.*" style "menuitem"
+
+# This is for the xfwm4 window manager see www.xfce.org for details
+widget "xfwm" style "metacity-frame"
+

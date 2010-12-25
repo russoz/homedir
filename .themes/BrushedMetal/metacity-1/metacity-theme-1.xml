@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<metacity_theme>
+<info>
+  <name>Brushed Metal</name>
+  <author>Andrew Bradford &lt;ajbradford@comcast.net&gt;</author>
+  <copyright>&#194; Andrew Bradford, 2002 Licensed under GPL</copyright>
+  <date>November 2, 2002</date>
+  <description>Port of Brushed Metal to Metacity</description>
+</info>
+
+<frame_geometry name="normal">
+  <distance name="left_width" value="4"/>
+  <distance name="right_width" value="4"/>
+  <distance name="bottom_height" value="4"/>
+  <distance name="left_titlebar_edge" value="5"/>
+  <distance name="right_titlebar_edge" value="5"/>
+  <distance name="button_width" value="14"/>
+  <distance name="button_height" value="15"/>
+  <distance name="title_vertical_pad" value="0"/>
+  <border name="title_border" left="0" right="4" top="2" bottom="2"/>
+  <border name="button_border" left="0" right="0" top="5" bottom="4"/>
+</frame_geometry>
+
+<frame_geometry name="border" parent="normal" has_title="false">
+  <distance name="button_width" value="0"/>
+  <distance name="button_height" value="4"/>
+  <border name="title_border" left="0" right="0" top="0" bottom="0"/>
+  <border name="button_border" left="0" right="0" top="0" bottom="0"/>
+</frame_geometry>
+
+<draw_ops name="title_text">
+  <clip x="20" y="0" width="width" height="height"/>
+  <title color="black" x="20" y="(height - title_height) / 2"/>
+</draw_ops>
+
+<draw_ops name="blank">
+</draw_ops>
+
+<draw_ops name="title">
+  <image filename="title_left.png" x="0" y="0" width="object_width" height="height"/>
+  <image filename="title_mid.png" x="34" y="0" width="width - 63" height="height"/>
+  <image filename="title_right.png" x="width - object_width" y="0" width="object_width" height="height"/>
+</draw_ops>
+
+<draw_ops name="title_off">
+  <image filename="title_left_off.png" x="0" y="0" width="object_width" height="height"/>
+  <image filename="title_mid_off.png" x="34" y="0" width="width - 63" height="height"/>
+  <image filename="title_right_off.png" x="width - object_width" y="0" width="object_width" height="height"/>
+</draw_ops>
+
+<draw_ops name="title_shade">
+  <image filename="title_left_shade.png" x="0" y="0" width="object_width" height="height"/>
+  <image filename="title_mid_shade.png" x="34" y="0" width="width - 63" height="height"/>
+  <image filename="title_right_shade.png" x="width - object_width" y="0" width="object_width" height="height"/>
+</draw_ops>
+
+<draw_ops name="title_shade_off">
+  <image filename="title_left_shade_off.png" x="0" y="0" width="object_width" height="height"/>
+  <image filename="title_mid_shade_off.png" x="34" y="0" width="width - 63" height="height"/>
+  <image filename="title_right_shade_off.png" x="width - object_width" y="0" width="object_width" height="height"/>
+</draw_ops>
+
+<draw_ops name="utility_title">
+  <image filename="title_left.png" x="0" y="0" width="object_width" height="height"/>
+  <image filename="title_mid.png" x="34" y="0" width="width - 37" height="height"/>
+  <image filename="utility_title_right.png" x="width - object_width" y="0" width="object_width" height="height"/>
+</draw_ops>
+
+<draw_ops name="utility_title_off">
+  <image filename="title_left_off.png" x="0" y="0" width="object_width" height="height"/>
+  <image filename="title_mid_off.png" x="34" y="0" width="width - 37" height="height"/>
+  <image filename="utility_title_right_off.png" x="width - object_width" y="0" width="object_width" height="height"/>
+</draw_ops>
+
+<draw_ops name="utility_title_shade">
+  <image filename="title_left_shade.png" x="0" y="0" width="object_width" height="height"/>
+  <image filename="title_mid_shade.png" x="34" y="0" width="width - 37" height="height"/>
+  <image filename="utility_title_right_shade.png" x="width - object_width" y="0" width="object_width" height="height"/>
+</draw_ops>
+
+<draw_ops name="utility_title_shade_off">
+  <image filename="title_left_shade_off.png" x="0" y="0" width="object_width" height="height"/>
+  <image filename="title_mid_shade_off.png" x="34" y="0" width="width - 37" height="height"/>
+  <image filename="utility_title_right_shade_off.png" x="width - object_width" y="0" width="object_width" height="height"/>
+</draw_ops>
+
+<draw_ops name="border_top">
+  <image filename="border_topleft.png" x="0" y="0" width="object_width" height="height"/>
+  <image filename="border_top.png" x="4" y="0" width="width-8" height="height"/>
+  <image filename="border_topright.png" x="width - object_width" y="0" width="object_width" height="height"/>
+</draw_ops>
+
+<draw_ops name="border_top_off">
+  <image filename="border_topleft_off.png" x="0" y="0" width="object_width" height="height"/>
+  <image filename="border_top_off.png" x="4" y="0" width="width-8" height="height"/>
+  <image filename="border_topright_off.png" x="width - object_width" y="0" width="object_width" height="height"/>
+</draw_ops>
+
+<draw_ops name="border_shade">
+  <image filename="border_topleft_shade.png" x="0" y="0" width="object_width" height="height"/>
+  <image filename="border_top_shade.png" x="8" y="0" width="width - 17" height="height"/>
+  <image filename="border_topright_shade.png" x="width - object_width" y="0" width="object_width" height="height"/>
+</draw_ops>
+
+<draw_ops name="border_shade_off">
+  <image filename="border_topleft_shade_off.png" x="0" y="0" width="object_width" height="height"/>
+  <image filename="border_top_shade_off.png" x="8" y="0" width="width - 17" height="height"/>
+  <image filename="border_topright_shade_off.png" x="width - object_width" y="0" width="object_width" height="height"/>
+</draw_ops>
+
+<draw_ops name="border_left">
+  <image filename="border_left.png" x="0" y="0" width="width" height="height"/>
+</draw_ops>
+
+<draw_ops name="border_left_off">
+  <image filename="border_left_off.png" x="0" y="0" width="width" height="height"/>
+</draw_ops>
+
+<draw_ops name="border_right">
+  <image filename="border_right.png" x="0" y="0" width="width" height="height"/>
+</draw_ops>
+
+<draw_ops name="border_right_off">
+  <image filename="border_right_off.png" x="0" y="0" width="width" height="height"/>
+</draw_ops>
+
+<draw_ops name="border_bottom">
+  <image filename="border_bottomleft.png" x="0" y="0" width="object_width" height="object_height"/>
+  <image filename="border_bottom.png" x="4" y="0" width="width - 6" height="object_height"/>
+  <image filename="border_bottomright.png" x="width - object_width" y="0" width="object_width" height="object_height"/>
+</draw_ops>
+
+<draw_ops name="border_bottom_off">
+  <image filename="border_bottomleft_off.png" x="0" y="0" width="object_width" height="object_height"/>
+  <image filename="border_bottom_off.png" x="4" y="0" width="width - 6" height="object_height"/>
+  <image filename="border_bottomright_off.png" x="width - object_width" y="0" width="object_width" height="object_height"/>
+</draw_ops>
+
+<draw_ops name="button_close">
+  <image filename="button_close.png" x="0" y="0" width="width" height="height"/>
+</draw_ops>
+
+<draw_ops name="button_close_off">
+  <image filename="button_close_off.png" x="0" y="0" width="width" height="height"/>
+</draw_ops>
+
+<draw_ops name="button_close_in">
+  <image filename="button_close_in.png" x="0" y="0" width="width" height="height"/>
+</draw_ops>
+
+<draw_ops name="button_close_off_in">
+  <image filename="button_close_off_in.png" x="0" y="0" width="width" height="height"/>
+</draw_ops>
+
+<draw_ops name="button_min">
+  <image filename="button_min.png" x="0" y="0" width="width" height="height"/>
+</draw_ops>
+
+<draw_ops name="button_min_off">
+  <image filename="button_min_off.png" x="0" y="0" width="width" height="height"/>
+</draw_ops>
+
+<draw_ops name="button_min_in">
+  <image filename="button_min_in.png" x="0" y="0" width="width" height="height"/>
+</draw_ops>
+
+<draw_ops name="button_min_off_in">
+  <image filename="button_min_off_in.png" x="0" y="0" width="width" height="height"/>
+</draw_ops>
+
+<draw_ops name="button_max">
+  <image filename="button_max.png" x="0" y="0" width="width" height="height"/>
+</draw_ops>
+
+<draw_ops name="button_max_off">
+  <image filename="button_max_off.png" x="0" y="0" width="width" height="height"/>
+</draw_ops>
+
+<draw_ops name="button_max_in">
+  <image filename="button_max_in.png" x="0" y="0" width="width" height="height"/>
+</draw_ops>
+
+<draw_ops name="button_max_off_in">
+  <image filename="button_max_off_in.png" x="0" y="0" width="width" height="height"/>
+</draw_ops>
+
+<draw_ops name="button_menu">
+  <image filename="button_menu.png" x="0" y="0" width="width" height="height"/>
+</draw_ops>
+
+<draw_ops name="button_menu_off">
+  <image filename="button_menu_off.png" x="0" y="0" width="width" height="height"/>
+</draw_ops>
+
+<draw_ops name="button_menu_in">
+  <image filename="button_menu_in.png" x="0" y="0" width="width" height="height"/>
+</draw_ops>
+
+<draw_ops name="button_menu_off_in">
+  <image filename="button_menu_off_in.png" x="0" y="0" width="width" height="height"/>
+</draw_ops>
+
+<frame_style name="normal_focused" geometry="normal">
+  <piece position="titlebar" draw_ops="title"/>
+  <piece position="left_edge" draw_ops="border_left"/>
+  <piece position="right_edge" draw_ops="border_right"/>
+  <piece position="bottom_edge" draw_ops="border_bottom"/>
+  <piece position="title" draw_ops="title_text"/>
+  <button function="close" state="normal" draw_ops="button_close"/>
+  <button function="close" state="pressed" draw_ops="button_close_in"/>
+  <button function="minimize" state="normal" draw_ops="button_min"/>
+  <button function="minimize" state="pressed" draw_ops="button_min_in"/>
+  <button function="maximize" state="normal" draw_ops="button_max"/>
+  <button function="maximize" state="pressed" draw_ops="button_max_in"/>
+  <button function="menu" state="normal" draw_ops="button_menu"/>
+  <button function="menu" state="pressed" draw_ops="button_menu_in"/>
+</frame_style>
+
+<frame_style name="normal_unfocused" geometry="normal">
+  <piece position="titlebar" draw_ops="title_off"/>
+  <piece position="left_edge" draw_ops="border_left_off"/>
+  <piece position="right_edge" draw_ops="border_right_off"/>
+  <piece position="bottom_edge" draw_ops="border_bottom_off"/>
+  <piece position="title" draw_ops="title_text"/>
+  <button function="close" state="normal" draw_ops="button_close_off"/>
+  <button function="close" state="pressed" draw_ops="button_close_off_in"/>
+  <button function="minimize" state="normal" draw_ops="button_min_off"/>
+  <button function="minimize" state="pressed" draw_ops="button_min_off_in"/>
+  <button function="maximize" state="normal" draw_ops="button_max_off"/>
+  <button function="maximize" state="pressed" draw_ops="button_max_off_in"/>
+  <button function="menu" state="normal" draw_ops="button_menu_off"/>
+  <button function="menu" state="pressed" draw_ops="button_menu_off_in"/>
+</frame_style>
+
+<frame_style name="normal_shade_focused" geometry="normal" parent="normal_focused">
+  <piece position="titlebar" draw_ops="title_shade"/>
+</frame_style>
+
+<frame_style name="normal_shade_unfocused" geometry="normal" parent="normal_unfocused">
+  <piece position="titlebar" draw_ops="title_shade_off"/>
+</frame_style>
+
+<frame_style name="utility_focused" geometry="normal" parent="normal_focused">
+  <piece position="titlebar" draw_ops="utility_title"/>
+</frame_style>
+
+<frame_style name="utility_unfocused" geometry="normal" parent="normal_unfocused">
+  <piece position="titlebar" draw_ops="utility_title_off"/>
+</frame_style>
+
+<frame_style name="utility_shade_focused" geometry="normal" parent="utility_focused">
+  <piece position="titlebar" draw_ops="utility_title_shade"/>
+</frame_style>
+
+<frame_style name="utility_shade_unfocused" geometry="normal" parent="utility_unfocused">
+  <piece position="titlebar" draw_ops="utility_title_shade_off"/>
+</frame_style>
+
+<frame_style name="border_focused" geometry="border" parent="normal_focused">
+  <piece position="titlebar" draw_ops="border_top"/>
+  <piece position="title" draw_ops="blank"/>
+</frame_style>
+
+<frame_style name="border_unfocused" geometry="border" parent="normal_unfocused">
+  <piece position="titlebar" draw_ops="border_top_off"/>
+  <piece position="title" draw_ops="blank"/>
+</frame_style>
+
+<frame_style name="border_shade_focused" geometry="border" parent="border_focused">
+  <piece position="titlebar" draw_ops="border_shade"/>
+</frame_style>
+
+<frame_style name="border_shade_unfocused" geometry="border" parent="border_unfocused">
+  <piece position="titlebar" draw_ops="border_shade_off"/>
+</frame_style>
+
+<frame_style_set name="normal">
+  <frame focus="yes" state="normal" resize="both" style="normal_focused"/>
+  <frame focus="no" state="normal" resize="both" style="normal_unfocused"/>
+  <frame focus="yes" state="maximized" style="normal_focused"/>
+  <frame focus="no" state="maximized" style="normal_unfocused"/>
+  <frame focus="yes" state="shaded" style="normal_shade_focused"/>
+  <frame focus="no" state="shaded" style="normal_shade_unfocused"/>
+  <frame focus="yes" state="maximized_and_shaded" style="normal_shade_focused"/>
+  <frame focus="no" state="maximized_and_shaded" style="normal_shade_unfocused"/>
+</frame_style_set>
+
+<frame_style_set name="utility">
+  <frame focus="yes" state="normal" resize="both" style="utility_focused"/>
+  <frame focus="no" state="normal" resize="both" style="utility_unfocused"/>
+  <frame focus="yes" state="maximized" style="utility_focused"/>
+  <frame focus="no" state="maximized" style="utility_unfocused"/>
+  <frame focus="yes" state="shaded" style="utility_shade_focused"/>
+  <frame focus="no" state="shaded" style="utility_shade_unfocused"/>
+  <frame focus="yes" state="maximized_and_shaded" style="utility_shade_focused"/>
+  <frame focus="no" state="maximized_and_shaded" style="utility_shade_unfocused"/>
+</frame_style_set>
+
+<frame_style_set name="border">
+  <frame focus="yes" state="normal" resize="both" style="border_focused"/>
+  <frame focus="no" state="normal" resize="both" style="border_unfocused"/>
+  <frame focus="yes" state="maximized" style="border_focused"/>
+  <frame focus="no" state="maximized" style="border_unfocused"/>
+  <frame focus="yes" state="shaded" style="border_shade_focused"/>
+  <frame focus="no" state="shaded" style="border_shade_unfocused"/>
+  <frame focus="yes" state="maximized_and_shaded" style="border_shade_focused"/>
+  <frame focus="no" state="maximized_and_shaded" style="border_shade_unfocused"/>
+</frame_style_set>
+
+<window type="normal" style_set="normal"/>
+<window type="dialog" style_set="utility"/>
+<window type="modal_dialog" style_set="utility"/>
+<window type="menu" style_set="utility"/>
+<window type="utility" style_set="utility"/>
+<window type="border" style_set="border"/>
+
+<menu_icon function="close" state="normal" draw_ops="button_close"/>
+<menu_icon function="maximize" state="normal" draw_ops="button_max"/>
+<menu_icon function="unmaximize" state="normal" draw_ops="button_max"/>
+<menu_icon function="minimize" state="normal" draw_ops="button_min"/>
+</metacity_theme>

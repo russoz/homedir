@@ -1,0 +1,8 @@
+#!/bin/sh
+
+echo "oh crap, darwin's dead." >&2
+
+pkill -f evolution
+sleep 10
+nohup evolution >/dev/null 2>&1 &
+

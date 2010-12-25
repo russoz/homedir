@@ -4,7 +4,7 @@
 .adobe
 avon
 .broffice.org
-.cache
+.*cache*
 .compiz
 .config
 .cups
@@ -119,5 +119,11 @@ etc/root.crontab
 .openastro.org
 .rnd
 .vim
-
 .azpltw.store
+git
+.lftp
+mirrors
+blueproximity.log
+.ldapsimpleserver
+CV
+.stella

@@ -1,0 +1,260 @@
+<?xml version="1.0"?>
+<metacity_theme>
+<info>
+  <name>SmallPill-Citrus</name>
+  <author>Bastien Nocera &lt;hadess@hadess.net&gt;</author>
+  <copyright>&#194; Ximian ex-Helix Code, 2000</copyright>
+  <date>February 15, 2002</date>
+  <description>A port of the SmallPill-Citrus theme for Sawfish by Tuomas Kuosmanen &lt;tigert@ximian.com&gt;</description>
+</info>
+
+<frame_geometry name="normal" title_scale="medium">
+  <distance name="left_width" value="0"/>
+  <distance name="right_width" value="0"/>
+  <distance name="bottom_height" value="8"/>
+  <distance name="left_titlebar_edge" value="2"/>
+  <distance name="right_titlebar_edge" value="2"/>
+  <distance name="button_width" value="16"/>
+  <distance name="button_height" value="15"/>
+  <distance name="title_vertical_pad" value="0"/>
+  <border name="title_border" left="0" right="0" top="1" bottom="0"/>
+  <border name="button_border" left="0" right="0" top="2" bottom="0"/>
+</frame_geometry>
+
+<frame_geometry name="borderless" parent="normal">
+  <distance name="right_width" value="0"/>
+  <distance name="left_width" value="0"/>
+  <distance name="bottom_height" value="0"/>
+</frame_geometry>
+
+
+<!-- Border and Titlebar -->
+
+<draw_ops name="bg">
+  <image filename="bottomleft.png" x="0" y="height - object_height" width="object_width" height="object_height"/>
+  <image filename="bottom.png" x="28" y="height - object_height" width="width" height="object_height"/>
+  <image filename="bottomright.png" x="width - object_width" y="height - object_height" width="object_width" height="object_height"/>
+</draw_ops>
+
+<draw_ops name="title_tile">
+  <image filename="top.png" x="0" y="0" width="width" height="object_height"/>
+  <image filename="topleft.png" x="0" y="2" width="object_width" height="object_height"/>
+  <image filename="title-f.png" x="2 + 16 + 16" y="2" width="width" height="object_height"/>
+  <image filename="topright.png" x="width - object_width" y="2" width="object_width" height="object_height"/>
+</draw_ops>
+
+<draw_ops name="title_tile_inactive">
+  <image filename="top.png" x="0" y="0" width="width" height="object_height"/>
+  <image filename="topleft.png" x="0" y="2" width="object_width" height="object_height"/>
+  <image filename="title.png" x="2 + 16 + 16" y="2" width="width" height="object_height"/>
+  <image filename="topright.png" x="width - object_width" y="2" width="object_width" height="object_height"/>
+</draw_ops>
+
+<!-- Inactive style -->
+<frame_style name="normal" geometry="normal">
+  <piece position="entire_background">
+    <draw_ops>
+      <include name="bg"/>
+   </draw_ops>
+  </piece>
+
+  <piece position="title">
+    <draw_ops>
+      <image filename="title-left.png" x="0" y="1" width="object_width" height="object_height"/>
+      <image filename="title-right.png" x="width - object_width" y="1" width="object_width" height="object_height"/>
+      <title color="black" x="(width - title_width) / 2" y="(height - title_height) / 2"/>
+    </draw_ops>
+  </piece>
+
+  <piece position="titlebar">
+    <draw_ops>
+      <include name="title_tile_inactive"/>
+    </draw_ops>
+  </piece>
+
+  <button function="close" state="normal">
+    <draw_ops>
+      <image filename="kill.png" x="0" y="0" width="object_width" height="object_height"/>
+    </draw_ops>
+  </button>
+
+  <button function="close" state="pressed">
+    <draw_ops>
+      <image filename="kill.png" x="0" y="0" width="object_width" height="object_height"/>
+    </draw_ops>
+  </button>
+
+  <button function="minimize" state="normal">
+    <draw_ops>
+      <image filename="iconify.png" x="0" y="0" width="object_width" height="object_height"/>
+    </draw_ops>
+  </button>
+
+  <button function="minimize" state="pressed">
+    <draw_ops>
+      <image filename="iconify.png" x="0" y="0" width="object_width" height="object_height"/>
+    </draw_ops>
+  </button>
+
+  <button function="maximize" state="normal">
+    <draw_ops>
+      <image filename="maximize.png" x="0" y="0" width="object_width" height="object_height"/>
+    </draw_ops>
+  </button>
+
+  <button function="maximize" state="pressed">
+    <draw_ops>
+      <image filename="maximize.png" x="0" y="0" width="object_width" height="object_height"/>
+    </draw_ops>
+  </button>
+
+  <button function="menu" state="normal">
+    <draw_ops>
+      <image filename="menu.png" x="0" y="0" width="object_width" height="object_height"/>
+    </draw_ops>
+  </button>
+
+  <button function="menu" state="pressed">
+    <draw_ops>
+      <image filename="menu.png" x="0" y="0" width="object_width" height="object_height"/>
+    </draw_ops>
+  </button>
+
+
+</frame_style>
+
+
+<!-- Active (focused) shaded style -->
+<frame_style name="normal_shaded" geometry="normal" parent="normal">
+
+</frame_style>
+
+<!-- Active (focused) style -->
+<frame_style name="focused" geometry="normal">
+  <piece position="entire_background">
+    <draw_ops>
+      <include name="bg"/>
+   </draw_ops>
+  </piece>
+
+  <piece position="title">
+    <draw_ops>
+      <image filename="title-left-f.png" x="0" y="1" width="object_width" height="object_height"/>
+      <image filename="title-right-f.png" x="width - object_width" y="1" width="object_width" height="object_height"/>
+      <title color="black" x="(width - title_width) / 2" y="(height - title_height) / 2"/>
+    </draw_ops>
+  </piece>
+
+  <piece position="titlebar">
+    <draw_ops>
+      <include name="title_tile"/>
+    </draw_ops>
+  </piece>
+
+  <button function="close" state="normal">
+    <draw_ops>
+      <image filename="kill.png" x="0" y="0" width="object_width" height="object_height"/>
+    </draw_ops>
+  </button>
+
+  <button function="close" state="pressed">
+    <draw_ops>
+      <image filename="kill.png" x="0" y="0" width="object_width" height="object_height"/>
+    </draw_ops>
+  </button>
+
+  <button function="minimize" state="normal">
+    <draw_ops>
+      <image filename="iconify.png" x="0" y="0" width="object_width" height="object_height"/>
+    </draw_ops>
+  </button>
+
+  <button function="minimize" state="pressed">
+    <draw_ops>
+      <image filename="iconify.png" x="0" y="0" width="object_width" height="object_height"/>
+    </draw_ops>
+  </button>
+
+  <button function="maximize" state="normal">
+    <draw_ops>
+      <image filename="maximize.png" x="0" y="0" width="object_width" height="object_height"/>
+    </draw_ops>
+  </button>
+
+  <button function="maximize" state="pressed">
+    <draw_ops>
+      <image filename="maximize.png" x="0" y="0" width="object_width" height="object_height"/>
+    </draw_ops>
+  </button>
+
+  <button function="menu" state="normal">
+    <draw_ops>
+      <image filename="menu.png" x="0" y="0" width="object_width" height="object_height"/>
+    </draw_ops>
+  </button>
+
+  <button function="menu" state="pressed">
+    <draw_ops>
+      <image filename="menu.png" x="0" y="0" width="object_width" height="object_height"/>
+    </draw_ops>
+  </button>
+
+</frame_style>
+
+<!-- Active (focused) shaded style -->
+<frame_style name="focused_shaded" geometry="normal" parent="focused">
+
+</frame_style>
+
+<frame_style_set name="normal">
+<frame focus="yes" state="shaded" style="focused_shaded"/>
+<frame focus="yes" state="normal" resize="both" style="focused"/>
+<frame focus="yes" state="maximized" style="focused"/>
+<frame focus="yes" state="maximized_and_shaded" style="focused_shaded"/>
+<frame focus="no" state="normal" resize="both" style="normal"/>
+<frame focus="no" state="shaded" style="normal_shaded"/>
+<frame focus="no" state="maximized" style="normal"/>
+<frame focus="no" state="maximized_and_shaded" style="normal_shaded"/>
+</frame_style_set>
+
+<window type="normal" style_set="normal"/>
+<window type="dialog" style_set="normal"/>
+<window type="modal_dialog" style_set="normal"/>
+<window type="menu" style_set="normal"/>
+<window type="utility" style_set="normal"/>
+<window type="border" style_set="normal"/>
+
+<menu_icon function="maximize" state="normal">
+  <draw_ops>
+    <image filename="maximize.png" 
+           x="(width - object_width) / 2"
+           y="(height - object_height) / 2"
+           width="object_width" height="object_height"/>
+  </draw_ops>
+</menu_icon>
+
+
+<menu_icon function="close" state="normal">
+  <draw_ops>
+    <image filename="kill.png" 
+           x="(width - object_width) / 2"
+           y="(height - object_height) / 2"
+           width="object_width" height="object_height"/>
+  </draw_ops>
+</menu_icon>
+
+<menu_icon function="minimize" state="normal">
+  <draw_ops>
+    <image filename="iconify.png" 
+           x="(width - object_width) / 2"
+           y="(height - object_height) / 2"
+           width="object_width" height="object_height"/>
+  </draw_ops>
+</menu_icon>
+
+<menu_icon function="unmaximize" state="normal">
+  <draw_ops>
+  </draw_ops>
+</menu_icon>
+
+</metacity_theme>

@@ -1,0 +1,39 @@
+2002-08-16  Bastien Nocera  <hadess@hadess.net>
+
+	* blackpixel.png:
+	* bottom.png:
+	* bottomleft.png:
+	* bottomright.png:
+	* iconify.png:
+	* kill.png:
+	* maximize.png:
+	* menu.png:
+	* metacity-1/blackpixel.png:
+	* metacity-1/bottom.png:
+	* metacity-1/bottomleft.png:
+	* metacity-1/bottomright.png:
+	* metacity-1/iconify.png:
+	* metacity-1/kill.png:
+	* metacity-1/maximize.png:
+	* metacity-1/menu.png:
+	* metacity-1/metacity-theme-1.xml:
+	* metacity-1/title-f.png:
+	* metacity-1/title-left-f.png:
+	* metacity-1/title-left.png:
+	* metacity-1/title-right-f.png:
+	* metacity-1/title-right.png:
+	* metacity-1/title.png:
+	* metacity-1/top.png:
+	* metacity-1/topleft.png:
+	* metacity-1/topright.png:
+	* metacity-theme-1.xml:
+	* title-f.png:
+	* title-left-f.png:
+	* title-left.png:
+	* title-right-f.png:
+	* title-right.png:
+	* title.png:
+	* top.png:
+	* topleft.png:
+	* topright.png: update theme format for metacity 2.4.0
+

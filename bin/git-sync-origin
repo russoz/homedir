@@ -1,0 +1,52 @@
+#!/bin/bash
+#
+# git-sync-origin
+#
+# local $alexei_znamensky, '<', 'russoz [AT] CPAN DOT ORG'
+#
+# This script will automate some steps for a developer working on a forked
+# git repository:
+#
+#     1. Pull (and merge) changes from origin into master
+#     2. Push the master branch (with the changes) into origin
+#
+# There is no dependency on github, but, as of now, the
+# repository names are hard-coded as reasonably as::
+#
+# - origin: your forked repository
+# - master: your local working copy
+#
+#     usage: git-sync-origin
+#
+
+msg() {
+    echo "$@" >&2
+}
+
+die() {
+    msg "$@"
+    exit 1
+}
+
+o=origin
+m=master
+
+##############################################################################
+
+url="$1"; shift
+me=${0##.*/}
+
+msg '=== Checking requisites'
+git remote show | grep -q "$o" || {
+    die "*** FAILED There is no tracked repository named '$o'. Aborting!!!"
+}
+git branch | grep -q " $m\$" || {
+    die "*** FAILED There is no branch named '$m'. Aborting!!!"
+}
+
+msg "=== Pulling changes from remote repository $o into $m"
+git pull "$o" "$m" || die "*** FAILED to pull from $o to $m"
+
+msg "=== Pushing the merged tree into $o"
+git push "$o" "$m" || die "*** FAILED to push changes into $o"
+

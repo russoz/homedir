@@ -6644,3 +6644,87 @@ merge upstream/master
 Date: Sat Dec 25 23:16:21 BRST 2010
 sync-master-upstream
 Date: Sat Dec 25 23:16:30 BRST 2010
+push --all
+Date: Sun Dec 26 10:34:59 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Dec 26 10:35:08 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Dec 26 10:35:08 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Dec 26 10:35:09 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Dec 26 10:35:11 BRST 2010
+sync-origin-upstream
+Date: Sun Dec 26 10:35:24 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Dec 26 10:35:32 BRST 2010
+branch
+Date: Sun Dec 26 10:35:32 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Dec 26 10:35:35 BRST 2010
+checkout master
+Date: Sun Dec 26 10:35:43 BRST 2010
+pull . dataflow
+Date: Sun Dec 26 10:35:49 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Dec 26 10:35:58 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Dec 26 10:35:58 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Dec 26 10:35:59 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Dec 26 10:36:08 BRST 2010
+pull origin
+Date: Sun Dec 26 10:36:28 BRST 2010
+help -a
+Date: Sun Dec 26 10:37:12 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Dec 26 10:37:12 BRST 2010
+branch
+Date: Sun Dec 26 10:37:12 BRST 2010
+pull . dataflow
+Date: Sun Dec 26 10:37:21 BRST 2010
+push
+Date: Sun Dec 26 10:37:25 BRST 2010
+pull
+Date: Sun Dec 26 10:37:36 BRST 2010
+push
+Date: Sun Dec 26 10:37:44 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Dec 26 10:49:15 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Dec 26 10:49:16 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Dec 26 10:49:21 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Dec 26 10:49:22 BRST 2010
+sync-origin-upstream
+Date: Sun Dec 26 10:49:26 BRST 2010
+sync-origin-upstream
+Date: Sun Dec 26 10:49:30 BRST 2010
+sync-origin-upstream
+Date: Sun Dec 26 10:50:01 BRST 2010
+push
+Date: Sun Dec 26 10:50:22 BRST 2010
+push
+Date: Sun Dec 26 10:50:25 BRST 2010
+push --all
+Date: Sun Dec 26 10:50:28 BRST 2010
+push --all
+Date: Sun Dec 26 10:50:35 BRST 2010
+st
+Date: Sun Dec 26 10:55:21 BRST 2010
+st
+Date: Sun Dec 26 11:33:25 BRST 2010
+st
+Date: Sun Dec 26 11:33:28 BRST 2010
+st
+Date: Sun Dec 26 11:55:07 BRST 2010
+ci -a -m improved some of the tests
+Date: Sun Dec 26 11:58:53 BRST 2010
+st
+Date: Sun Dec 26 11:58:55 BRST 2010
+--git-dir=/home/az/tmp/perl/modules/aliased/.git config --get-regexp alias\..*
+Date: Sun Dec 26 11:59:00 BRST 2010
+--git-dir=/home/az/tmp/perl/modules/aliased/.git config --get-regexp alias\..*
+Date: Sun Dec 26 11:59:03 BRST 2010

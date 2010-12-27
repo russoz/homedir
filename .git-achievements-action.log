@@ -6728,3 +6728,9 @@ Date: Sun Dec 26 11:58:55 BRST 2010
 Date: Sun Dec 26 11:59:00 BRST 2010
 --git-dir=/home/az/tmp/perl/modules/aliased/.git config --get-regexp alias\..*
 Date: Sun Dec 26 11:59:03 BRST 2010
+push --all
+Date: Sun Dec 26 12:00:15 BRST 2010
+st
+Date: Sun Dec 26 12:04:40 BRST 2010
+st
+Date: Sun Dec 26 13:54:23 BRST 2010

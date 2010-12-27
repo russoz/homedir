@@ -6810,3 +6810,25 @@ st
 Date: Mon Dec 27 11:27:32 BRST 2010
 diff MANIFEST
 Date: Mon Dec 27 11:27:37 BRST 2010
+st
+Date: Mon Dec 27 13:25:49 BRST 2010
+diff lib/WAS/Script/UpdateEAR.pm
+Date: Mon Dec 27 13:26:01 BRST 2010
+diff
+Date: Mon Dec 27 13:26:12 BRST 2010
+ci -a -m fixed dep name, andUpdateEAR
+Date: Mon Dec 27 13:26:30 BRST 2010
+st
+Date: Mon Dec 27 13:26:32 BRST 2010
+st
+Date: Mon Dec 27 14:38:44 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Dec 27 14:38:48 BRST 2010
+diff
+Date: Mon Dec 27 14:38:49 BRST 2010
+ci -a -m added META.yml to MANIFEST
+Date: Mon Dec 27 14:39:05 BRST 2010
+st
+Date: Mon Dec 27 14:56:37 BRST 2010
+branch
+Date: Mon Dec 27 14:56:41 BRST 2010

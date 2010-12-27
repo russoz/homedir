@@ -6734,3 +6734,79 @@ st
 Date: Sun Dec 26 12:04:40 BRST 2010
 st
 Date: Sun Dec 26 13:54:23 BRST 2010
+st
+Date: Mon Dec 27 08:30:21 BRST 2010
+st
+Date: Mon Dec 27 08:32:15 BRST 2010
+add t/80.expander.load.t t/81.expander.new.t t/82.expander.expand.t t/83.expander.expand-within.t lib/WAS/App/Expander.pm
+Date: Mon Dec 27 08:32:31 BRST 2010
+st
+Date: Mon Dec 27 08:32:36 BRST 2010
+log
+Date: Mon Dec 27 08:33:07 BRST 2010
+ci -m partial commit of Expander and his blue caps
+Date: Mon Dec 27 08:33:29 BRST 2010
+st
+Date: Mon Dec 27 08:33:31 BRST 2010
+st
+Date: Mon Dec 27 08:33:37 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Dec 27 08:33:40 BRST 2010
+diff Build
+Date: Mon Dec 27 08:33:42 BRST 2010
+diff Build.PL
+Date: Mon Dec 27 08:33:45 BRST 2010
+diff
+Date: Mon Dec 27 08:34:17 BRST 2010
+st
+Date: Mon Dec 27 08:38:25 BRST 2010
+diff dev/tidy
+Date: Mon Dec 27 08:38:31 BRST 2010
+ci -a -m partial commit
+Date: Mon Dec 27 08:38:55 BRST 2010
+st
+Date: Mon Dec 27 08:38:57 BRST 2010
+st
+Date: Mon Dec 27 09:05:00 BRST 2010
+st
+Date: Mon Dec 27 09:06:34 BRST 2010
+ci -a -m Classes, not roles
+Date: Mon Dec 27 09:07:12 BRST 2010
+st
+Date: Mon Dec 27 09:07:16 BRST 2010
+rm dev/git-sync dev/git-sync-local dev/git-sync-origin
+Date: Mon Dec 27 09:42:40 BRST 2010
+st
+Date: Mon Dec 27 09:44:26 BRST 2010
+st
+Date: Mon Dec 27 10:03:06 BRST 2010
+st
+Date: Mon Dec 27 10:08:27 BRST 2010
+pull origin master
+Date: Mon Dec 27 10:09:38 BRST 2010
+st
+Date: Mon Dec 27 10:10:01 BRST 2010
+add MANIFEST lib/
+Date: Mon Dec 27 10:10:13 BRST 2010
+ci -m updated MANIFEST, created proto-version of UpdateEAR.pm
+Date: Mon Dec 27 10:10:42 BRST 2010
+st
+Date: Mon Dec 27 10:10:49 BRST 2010
+st
+Date: Mon Dec 27 10:10:58 BRST 2010
+push origin master
+Date: Mon Dec 27 10:11:19 BRST 2010
+st
+Date: Mon Dec 27 10:21:54 BRST 2010
+st
+Date: Mon Dec 27 10:22:28 BRST 2010
+ci -a -m tidy
+Date: Mon Dec 27 10:22:35 BRST 2010
+st
+Date: Mon Dec 27 11:27:06 BRST 2010
+diff Build.PL
+Date: Mon Dec 27 11:27:17 BRST 2010
+st
+Date: Mon Dec 27 11:27:32 BRST 2010
+diff MANIFEST
+Date: Mon Dec 27 11:27:37 BRST 2010

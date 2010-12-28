@@ -6844,3 +6844,41 @@ Date: Mon Dec 27 23:40:02 BRST 2010
 Date: Mon Dec 27 23:40:03 BRST 2010
 sync-origin-upstream
 Date: Mon Dec 27 23:40:25 BRST 2010
+st
+Date: Tue Dec 28 07:52:11 BRST 2010
+help -a
+Date: Tue Dec 28 07:52:30 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Dec 28 07:52:30 BRST 2010
+diff etc/crontab
+Date: Tue Dec 28 07:52:37 BRST 2010
+add etc/crontab
+Date: Tue Dec 28 07:52:55 BRST 2010
+ci etc/crontab -m every 8 hours
+Date: Tue Dec 28 07:53:15 BRST 2010
+st
+Date: Tue Dec 28 07:53:20 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Dec 28 07:53:25 BRST 2010
+diff .profile-avon
+Date: Tue Dec 28 07:53:28 BRST 2010
+add .profile-avon
+Date: Tue Dec 28 07:53:34 BRST 2010
+ci .profile-avon -m added host ryeacodpdbbrc.rye.avon.com
+Date: Tue Dec 28 07:53:46 BRST 2010
+st
+Date: Tue Dec 28 07:53:51 BRST 2010
+diff .mission-control/accounts/accounts.cfg
+Date: Tue Dec 28 07:54:17 BRST 2010
+add .mission-control/accounts/accounts.cfg
+Date: Tue Dec 28 07:54:21 BRST 2010
+ci .mission-control/accounts/accounts.cfg -m ...
+Date: Tue Dec 28 07:54:30 BRST 2010
+st
+Date: Tue Dec 28 07:54:33 BRST 2010
+diff .podbrowserrc
+Date: Tue Dec 28 07:54:54 BRST 2010
+add .podbrowserrc
+Date: Tue Dec 28 07:55:01 BRST 2010
+ci .podbrowserrc -m ...
+Date: Tue Dec 28 07:55:08 BRST 2010

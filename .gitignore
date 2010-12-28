@@ -21,7 +21,6 @@ etc/twitter.conf
 .evolution
 examples.desktop
 .fontconfig
-.freeciv
 .gconf*
 .gegl-0.0/
 .gimp-2.6

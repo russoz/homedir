@@ -7002,3 +7002,19 @@ ci .gitignore -m added .cpanm
 Date: Tue Dec 28 10:05:21 BRST 2010
 st
 Date: Tue Dec 28 10:05:24 BRST 2010
+push
+Date: Tue Dec 28 10:05:37 BRST 2010
+st
+Date: Tue Dec 28 10:05:40 BRST 2010
+help -a
+Date: Tue Dec 28 10:24:53 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Dec 28 10:24:53 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Dec 28 10:24:54 BRST 2010
+sync-master-upstream
+Date: Tue Dec 28 10:25:12 BRST 2010
+st
+Date: Tue Dec 28 15:02:32 BRST 2010
+push
+Date: Tue Dec 28 15:02:50 BRST 2010

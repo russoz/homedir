@@ -6832,3 +6832,15 @@ st
 Date: Mon Dec 27 14:56:37 BRST 2010
 branch
 Date: Mon Dec 27 14:56:41 BRST 2010
+st
+Date: Mon Dec 27 23:33:30 BRST 2010
+ci -a -m sites do congresso nacional
+Date: Mon Dec 27 23:33:41 BRST 2010
+help -a
+Date: Mon Dec 27 23:40:02 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Dec 27 23:40:02 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Dec 27 23:40:03 BRST 2010
+sync-origin-upstream
+Date: Mon Dec 27 23:40:25 BRST 2010

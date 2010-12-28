@@ -6882,3 +6882,11 @@ add .podbrowserrc
 Date: Tue Dec 28 07:55:01 BRST 2010
 ci .podbrowserrc -m ...
 Date: Tue Dec 28 07:55:08 BRST 2010
+st
+Date: Tue Dec 28 07:55:39 BRST 2010
+add bin/cron.git-periodic
+Date: Tue Dec 28 07:55:45 BRST 2010
+ci bin/cron.git-periodic -m also keeping the POD browser rc file
+Date: Tue Dec 28 07:56:06 BRST 2010
+st
+Date: Tue Dec 28 07:56:08 BRST 2010

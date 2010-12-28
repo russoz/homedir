@@ -168,6 +168,7 @@ RYE_AIX_PROD_SERVERS="
 make_foreach_func rye-aix-prod-foreach-server $RYE_AIX_PROD_SERVERS
 make_ssh_aliases                              $RYE_AIX_PROD_SERVERS
 alias ryeaxacpdbbrc="ssh ryeaxacpdbbrc.rye.avon.com"
+alias ryeacodpdbbrc="ssh ryeacodpdbbrc.rye.avon.com"
 
 RYE_AIX_SERVERS="
   $RYE_AIX_DEV_SERVERS $RYE_AIX_QA_SERVERS $RYE_AIX_PROD_SERVERS"

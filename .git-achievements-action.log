@@ -6890,3 +6890,115 @@ ci bin/cron.git-periodic -m also keeping the POD browser rc file
 Date: Tue Dec 28 07:56:06 BRST 2010
 st
 Date: Tue Dec 28 07:56:08 BRST 2010
+st
+Date: Tue Dec 28 08:00:38 BRST 2010
+pull
+Date: Tue Dec 28 08:01:42 BRST 2010
+push
+Date: Tue Dec 28 08:02:19 BRST 2010
+st
+Date: Tue Dec 28 08:02:36 BRST 2010
+st .face
+Date: Tue Dec 28 08:07:05 BRST 2010
+--git-dir=.git config --get alias.st
+Date: Tue Dec 28 08:07:15 BRST 2010
+st .freeciv/
+Date: Tue Dec 28 08:07:16 BRST 2010
+add .gitignore
+Date: Tue Dec 28 08:07:47 BRST 2010
+ci .gitignore -m removed .freeciv from the ignore list
+Date: Tue Dec 28 08:08:05 BRST 2010
+st
+Date: Tue Dec 28 08:08:07 BRST 2010
+add .freeciv/
+Date: Tue Dec 28 08:08:35 BRST 2010
+st
+Date: Tue Dec 28 08:15:32 BRST 2010
+add .freeciv/
+Date: Tue Dec 28 08:15:48 BRST 2010
+--git-dir=.git config --get alias.ci
+Date: Tue Dec 28 08:15:52 BRST 2010
+ci .freeciv/ -m added freeciv dir
+Date: Tue Dec 28 08:15:59 BRST 2010
+push
+Date: Tue Dec 28 08:20:52 BRST 2010
+st
+Date: Tue Dec 28 08:28:03 BRST 2010
+add .dzil/
+Date: Tue Dec 28 08:34:14 BRST 2010
+ci .dzil/ -m added Dist::Zilla configuration
+Date: Tue Dec 28 08:34:28 BRST 2010
+push
+Date: Tue Dec 28 08:34:40 BRST 2010
+pull
+Date: Tue Dec 28 08:37:05 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Dec 28 08:37:46 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Dec 28 08:37:48 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Dec 28 08:37:58 BRST 2010
+config --local -e
+Date: Tue Dec 28 08:38:47 BRST 2010
+st
+Date: Tue Dec 28 09:00:45 BRST 2010
+add lib/Net/LDAP/Filter/SQL.pm
+Date: Tue Dec 28 09:00:59 BRST 2010
+ci -m merged with upstream
+Date: Tue Dec 28 09:01:11 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Dec 28 09:01:14 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Dec 28 09:01:16 BRST 2010
+sync-origin-upstream
+Date: Tue Dec 28 09:01:33 BRST 2010
+st
+Date: Tue Dec 28 09:16:54 BRST 2010
+diff
+Date: Tue Dec 28 09:16:58 BRST 2010
+ci -a -m added some information to POD
+Date: Tue Dec 28 09:17:23 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Dec 28 09:23:07 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Dec 28 09:23:09 BRST 2010
+sync-origin-upstream
+Date: Tue Dec 28 09:23:24 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Dec 28 09:41:45 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Dec 28 09:41:45 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Dec 28 09:41:46 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Dec 28 09:41:46 BRST 2010
+st
+Date: Tue Dec 28 10:02:43 BRST 2010
+diff
+Date: Tue Dec 28 10:02:59 BRST 2010
+diff .dzil/config.ini
+Date: Tue Dec 28 10:03:07 BRST 2010
+add .dzil/config.ini
+Date: Tue Dec 28 10:03:13 BRST 2010
+ci .dzil/config.ini -m removed PAUSE section
+Date: Tue Dec 28 10:03:29 BRST 2010
+st
+Date: Tue Dec 28 10:03:32 BRST 2010
+help -a
+Date: Tue Dec 28 10:03:36 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Dec 28 10:03:36 BRST 2010
+diff .screenrc
+Date: Tue Dec 28 10:03:38 BRST 2010
+add .screenrc
+Date: Tue Dec 28 10:03:45 BRST 2010
+ci .screenrc -m using login shell, suppressing initial message
+Date: Tue Dec 28 10:04:18 BRST 2010
+st
+Date: Tue Dec 28 10:04:35 BRST 2010
+add .gitignore
+Date: Tue Dec 28 10:05:10 BRST 2010
+ci .gitignore -m added .cpanm
+Date: Tue Dec 28 10:05:21 BRST 2010
+st
+Date: Tue Dec 28 10:05:24 BRST 2010

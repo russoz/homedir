@@ -7028,3 +7028,17 @@ Date: Wed Dec 29 17:53:50 BRST 2010
 Date: Wed Dec 29 17:53:51 BRST 2010
 checkout /home/az/.perlcriticrc
 Date: Wed Dec 29 17:54:01 BRST 2010
+st
+Date: Thu Dec 30 06:54:23 BRST 2010
+help -a
+Date: Thu Dec 30 06:54:31 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec 30 06:54:31 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Dec 30 06:54:32 BRST 2010
+push
+Date: Thu Dec 30 06:54:40 BRST 2010
+push
+Date: Thu Dec 30 07:03:43 BRST 2010
+st
+Date: Thu Dec 30 07:03:53 BRST 2010

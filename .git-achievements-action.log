@@ -7022,3 +7022,9 @@ sync-origin-upstream
 Date: Tue Dec 28 16:07:31 BRST 2010
 sync-master-upstream
 Date: Wed Dec 29 06:52:08 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Dec 29 17:53:50 BRST 2010
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Dec 29 17:53:51 BRST 2010
+checkout /home/az/.perlcriticrc
+Date: Wed Dec 29 17:54:01 BRST 2010

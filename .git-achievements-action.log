@@ -7058,3 +7058,53 @@ diff
 Date: Thu Dec 30 13:13:12 BRST 2010
 diff
 Date: Thu Dec 30 13:13:34 BRST 2010
+st
+Date: Sun Jan  2 09:17:32 BRST 2011
+diff
+Date: Sun Jan  2 09:21:58 BRST 2011
+diff
+Date: Sun Jan  2 09:22:29 BRST 2011
+st
+Date: Sun Jan  2 09:31:57 BRST 2011
+diff
+Date: Sun Jan  2 09:32:27 BRST 2011
+add .
+Date: Sun Jan  2 09:32:32 BRST 2011
+st
+Date: Sun Jan  2 09:32:46 BRST 2011
+ci -m using output queue: partial commit
+Date: Sun Jan  2 09:33:09 BRST 2011
+st
+Date: Sun Jan  2 09:40:38 BRST 2011
+diff
+Date: Sun Jan  2 09:40:39 BRST 2011
+st
+Date: Sun Jan  2 10:45:01 BRST 2011
+diff
+Date: Sun Jan  2 10:46:32 BRST 2011
+st
+Date: Sun Jan  2 11:10:29 BRST 2011
+st
+Date: Sun Jan  2 11:22:44 BRST 2011
+branch
+Date: Sun Jan  2 11:22:46 BRST 2011
+help -a
+Date: Sun Jan  2 11:22:50 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Jan  2 11:22:50 BRST 2011
+checkout master
+Date: Sun Jan  2 11:22:51 BRST 2011
+pull . w_hash
+Date: Sun Jan  2 11:22:56 BRST 2011
+pull
+Date: Sun Jan  2 11:23:11 BRST 2011
+push
+Date: Sun Jan  2 11:23:19 BRST 2011
+pull
+Date: Sun Jan  2 12:01:51 BRST 2011
+st
+Date: Sun Jan  2 12:16:19 BRST 2011
+ci -a -m testing for defined-ness
+Date: Sun Jan  2 12:17:23 BRST 2011
+push
+Date: Sun Jan  2 12:17:34 BRST 2011

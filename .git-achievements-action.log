@@ -7310,3 +7310,21 @@ ci -a -m typo in POD
 Date: Tue Jan  4 21:38:39 BRST 2011
 st
 Date: Tue Jan  4 21:38:41 BRST 2011
+st
+Date: Wed Jan  5 13:53:27 BRST 2011
+help -a
+Date: Wed Jan  5 13:53:38 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Jan  5 13:53:38 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Jan  5 13:53:39 BRST 2011
+sync-master-upstream
+Date: Wed Jan  5 13:53:58 BRST 2011
+add README
+Date: Wed Jan  5 13:54:31 BRST 2011
+--git-dir=.git config --get alias.ci
+Date: Wed Jan  5 13:54:35 BRST 2011
+ci README -m added Eden as a developer
+Date: Wed Jan  5 13:54:50 BRST 2011
+st
+Date: Wed Jan  5 14:50:30 BRST 2011

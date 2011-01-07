@@ -7330,3 +7330,7 @@ st
 Date: Wed Jan  5 14:50:30 BRST 2011
 log
 Date: Thu Jan  6 06:42:10 BRST 2011
+st
+Date: Thu Jan  6 14:32:53 BRST 2011
+ci -a -m corrigida mensagem no script df-portaltransparencia.pl
+Date: Thu Jan  6 14:33:56 BRST 2011

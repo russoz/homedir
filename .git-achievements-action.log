@@ -7334,3 +7334,47 @@ st
 Date: Thu Jan  6 14:32:53 BRST 2011
 ci -a -m corrigida mensagem no script df-portaltransparencia.pl
 Date: Thu Jan  6 14:33:56 BRST 2011
+st
+Date: Fri Jan  7 17:02:48 BRST 2011
+diff
+Date: Fri Jan  7 17:02:58 BRST 2011
+clone https://github.com/blabos/IPC-Test.git
+Date: Fri Jan  7 20:16:55 BRST 2011
+mv wraper.pl wrapper.pl
+Date: Fri Jan  7 20:40:49 BRST 2011
+diff
+Date: Fri Jan  7 23:51:35 BRST 2011
+pull
+Date: Sun Jan  9 20:43:43 BRST 2011
+help -a
+Date: Sun Jan  9 20:44:02 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Jan  9 20:44:02 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Jan  9 20:44:03 BRST 2011
+sync-master-upstream
+Date: Sun Jan  9 20:44:13 BRST 2011
+st
+Date: Sun Jan  9 20:44:27 BRST 2011
+diff
+Date: Sun Jan  9 20:45:08 BRST 2011
+st
+Date: Sun Jan  9 20:45:24 BRST 2011
+help -a
+Date: Sun Jan  9 20:49:37 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Jan  9 20:49:37 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Jan  9 20:49:37 BRST 2011
+sync-master-upstream
+Date: Sun Jan  9 20:49:44 BRST 2011
+st
+Date: Sun Jan  9 20:54:46 BRST 2011
+log
+Date: Sun Jan  9 20:55:35 BRST 2011
+st
+Date: Sun Jan  9 21:29:28 BRST 2011
+diff lib/OpenData/Flow/Node/HTMLFilter.pm
+Date: Sun Jan  9 22:57:06 BRST 2011
+diff lib/OpenData/Flow/Node.pm
+Date: Sun Jan  9 23:50:29 BRST 2011

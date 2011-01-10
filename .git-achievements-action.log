@@ -7378,3 +7378,99 @@ diff lib/OpenData/Flow/Node/HTMLFilter.pm
 Date: Sun Jan  9 22:57:06 BRST 2011
 diff lib/OpenData/Flow/Node.pm
 Date: Sun Jan  9 23:50:29 BRST 2011
+st
+Date: Mon Jan 10 00:30:20 BRST 2011
+add t/20-flow/60-multipageurlgenerator.t t/20-flow/62-urlretriever.t t/20-flow/64-htmlfilter.t
+Date: Mon Jan 10 00:30:39 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Jan 10 00:30:46 BRST 2011
+diff
+Date: Mon Jan 10 00:30:53 BRST 2011
+diff
+Date: Mon Jan 10 00:31:20 BRST 2011
+st
+Date: Mon Jan 10 00:31:22 BRST 2011
+st
+Date: Mon Jan 10 00:31:27 BRST 2011
+st
+Date: Mon Jan 10 00:35:39 BRST 2011
+ci -m tests for MultiPageURLGenerator, URLRetriever and HTMLFilter
+Date: Mon Jan 10 00:36:17 BRST 2011
+st
+Date: Mon Jan 10 00:36:19 BRST 2011
+add t/20-flow/50-chain.t
+Date: Mon Jan 10 00:36:29 BRST 2011
+ci -m testing for empty link list
+Date: Mon Jan 10 00:36:43 BRST 2011
+st
+Date: Mon Jan 10 00:36:46 BRST 2011
+add t
+Date: Mon Jan 10 00:36:58 BRST 2011
+ci -m tidy
+Date: Mon Jan 10 00:37:06 BRST 2011
+st
+Date: Mon Jan 10 00:37:09 BRST 2011
+diff
+Date: Mon Jan 10 00:37:12 BRST 2011
+st
+Date: Mon Jan 10 00:37:15 BRST 2011
+add lib/OpenData/Flow/Node/MultiPageURLGenerator.pm lib/OpenData/Flow/Node/HTMLFilter.pm
+Date: Mon Jan 10 00:38:05 BRST 2011
+ci -m return array instead of arrayref
+Date: Mon Jan 10 00:38:15 BRST 2011
+diff
+Date: Mon Jan 10 00:38:19 BRST 2011
+st
+Date: Mon Jan 10 00:38:24 BRST 2011
+add lib/OpenData/Flow/Node/URLRetriever.pm
+Date: Mon Jan 10 00:38:52 BRST 2011
+ci -m fixed a bug in process_item
+Date: Mon Jan 10 00:39:10 BRST 2011
+st
+Date: Mon Jan 10 00:39:14 BRST 2011
+diff
+Date: Mon Jan 10 00:40:23 BRST 2011
+diff
+Date: Mon Jan 10 00:41:43 BRST 2011
+add lib/OpenData/Flow/Node.pm
+Date: Mon Jan 10 00:41:59 BRST 2011
+ci -m Node.pm - refactored method _handle_item() into _handle_list - renamed handlers to _handle_<type>_ref - added attribute data to provdie initial data to the node
+Date: Mon Jan 10 00:44:05 BRST 2011
+st
+Date: Mon Jan 10 00:44:11 BRST 2011
+diff
+Date: Mon Jan 10 00:44:14 BRST 2011
+diff
+Date: Mon Jan 10 00:44:54 BRST 2011
+st
+Date: Mon Jan 10 00:51:49 BRST 2011
+log
+Date: Mon Jan 10 00:52:44 BRST 2011
+st
+Date: Mon Jan 10 00:52:47 BRST 2011
+ci -a -m Chain.pm - removed overridden input() and output() - implemented process_item - df-portaltransparencia.pl now using attr "data"
+Date: Mon Jan 10 00:54:14 BRST 2011
+st
+Date: Mon Jan 10 00:54:17 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Jan 10 00:54:25 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Jan 10 00:54:26 BRST 2011
+sync-master-upstream
+Date: Mon Jan 10 00:54:35 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Jan 10 00:54:39 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Jan 10 00:54:40 BRST 2011
+sync-origin-upstream
+Date: Mon Jan 10 00:54:55 BRST 2011
+st
+Date: Mon Jan 10 00:56:35 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Jan 10 00:56:41 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Jan 10 00:56:43 BRST 2011
+sync-master-upstream
+Date: Mon Jan 10 00:56:52 BRST 2011
+st
+Date: Mon Jan 10 11:29:13 BRST 2011

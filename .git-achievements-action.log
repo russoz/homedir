@@ -7476,3 +7476,15 @@ st
 Date: Mon Jan 10 11:29:13 BRST 2011
 st
 Date: Tue Jan 11 21:59:23 BRST 2011
+help -a
+Date: Wed Jan 12 00:02:17 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Jan 12 00:02:18 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Jan 12 00:02:30 BRST 2011
+checkout fake-cgi.pl
+Date: Wed Jan 12 00:02:33 BRST 2011
+pull
+Date: Wed Jan 12 00:02:37 BRST 2011
+st
+Date: Wed Jan 12 07:25:17 BRST 2011

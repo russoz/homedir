@@ -7490,3 +7490,19 @@ st
 Date: Wed Jan 12 07:25:17 BRST 2011
 st
 Date: Wed Jan 12 12:51:13 BRST 2011
+st
+Date: Fri Jan 14 09:07:34 BRST 2011
+st
+Date: Fri Jan 14 09:07:43 BRST 2011
+help -a
+Date: Fri Jan 14 09:07:45 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Jan 14 09:07:46 BRST 2011
+diff
+Date: Fri Jan 14 09:08:09 BRST 2011
+add Makefile
+Date: Fri Jan 14 09:08:17 BRST 2011
+ci -m added html file conversion
+Date: Fri Jan 14 09:08:32 BRST 2011
+st
+Date: Fri Jan 14 09:08:37 BRST 2011

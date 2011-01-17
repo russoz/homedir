@@ -7510,3 +7510,25 @@ st
 Date: Sat Jan 15 10:53:49 BRST 2011
 st
 Date: Sun Jan 16 00:06:19 BRST 2011
+pull
+Date: Sun Jan 16 00:06:43 BRST 2011
+push
+Date: Sun Jan 16 00:06:59 BRST 2011
+st
+Date: Sun Jan 16 00:07:26 BRST 2011
+status
+Date: Sun Jan 16 00:16:20 BRST 2011
+--git-dir=.git config --get-regexp remote\..*\.url
+Date: Sun Jan 16 00:16:58 BRST 2011
+ls-remote origin
+Date: Sun Jan 16 00:17:04 BRST 2011
+ls-remote origin
+Date: Sun Jan 16 00:17:08 BRST 2011
+ls-remote origin
+Date: Sun Jan 16 00:17:13 BRST 2011
+pull origin master
+Date: Sun Jan 16 00:17:25 BRST 2011
+--git-dir=.git config --get-regexp remote\..*\.url
+Date: Sun Jan 16 00:17:36 BRST 2011
+push origin master
+Date: Sun Jan 16 00:17:42 BRST 2011

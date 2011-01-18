@@ -7570,3 +7570,9 @@ Date: Mon Jan 17 22:53:02 BRST 2011
 Date: Mon Jan 17 22:53:08 BRST 2011
 diff scripts/
 Date: Mon Jan 17 22:53:10 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Jan 18 06:41:55 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Jan 18 06:41:56 BRST 2011
+sync-master-upstream
+Date: Tue Jan 18 06:42:43 BRST 2011

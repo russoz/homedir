@@ -7532,3 +7532,41 @@ Date: Sun Jan 16 00:17:25 BRST 2011
 Date: Sun Jan 16 00:17:36 BRST 2011
 push origin master
 Date: Sun Jan 16 00:17:42 BRST 2011
+help -a
+Date: Mon Jan 17 14:18:05 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Jan 17 14:18:05 BRST 2011
+pull
+Date: Mon Jan 17 14:18:18 BRST 2011
+pull
+Date: Mon Jan 17 22:49:01 BRST 2011
+pull
+Date: Mon Jan 17 22:49:08 BRST 2011
+help -a
+Date: Mon Jan 17 22:49:11 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Jan 17 22:49:11 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Jan 17 22:49:11 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Jan 17 22:49:11 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Jan 17 22:49:12 BRST 2011
+sync-master-upstream
+Date: Mon Jan 17 22:49:19 BRST 2011
+sync-master-upstream
+Date: Mon Jan 17 22:49:39 BRST 2011
+st
+Date: Mon Jan 17 22:50:57 BRST 2011
+st
+Date: Mon Jan 17 22:51:03 BRST 2011
+st
+Date: Mon Jan 17 22:52:50 BRST 2011
+diff
+Date: Mon Jan 17 22:53:00 BRST 2011
+st
+Date: Mon Jan 17 22:53:02 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Jan 17 22:53:08 BRST 2011
+diff scripts/
+Date: Mon Jan 17 22:53:10 BRST 2011

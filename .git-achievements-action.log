@@ -7690,3 +7690,19 @@ br
 Date: Tue Jan 18 19:22:37 BRST 2011
 st
 Date: Tue Jan 18 20:03:11 BRST 2011
+help -a
+Date: Fri Jan 21 13:03:12 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Jan 21 13:03:12 BRST 2011
+pull
+Date: Fri Jan 21 13:03:24 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Jan 21 15:12:24 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Jan 21 15:12:25 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Jan 21 15:12:26 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Jan 21 15:12:26 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Jan 21 15:12:29 BRST 2011

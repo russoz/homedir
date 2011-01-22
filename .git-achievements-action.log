@@ -7706,3 +7706,15 @@ Date: Fri Jan 21 15:12:26 BRST 2011
 Date: Fri Jan 21 15:12:26 BRST 2011
 --git-dir=.git config --get-regexp alias\..*
 Date: Fri Jan 21 15:12:29 BRST 2011
+st
+Date: Sat Jan 22 15:22:57 BRST 2011
+st
+Date: Sat Jan 22 15:23:27 BRST 2011
+add scripts/df-portaltransparencia.pl
+Date: Sat Jan 22 15:23:37 BRST 2011
+add scripts/df-portaltransparencia.pl
+Date: Sat Jan 22 15:24:53 BRST 2011
+ci -m solved conflict in df-portaltransparencia.pl
+Date: Sat Jan 22 15:25:51 BRST 2011
+sync-origin-upstream
+Date: Sat Jan 22 15:26:10 BRST 2011

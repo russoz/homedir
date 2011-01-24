@@ -7720,3 +7720,21 @@ sync-origin-upstream
 Date: Sat Jan 22 15:26:10 BRST 2011
 st
 Date: Sun Jan 23 08:55:35 BRST 2011
+st
+Date: Sun Jan 23 22:07:43 BRST 2011
+--git-dir=/home/az/tmp/perl/opendata/master/.git config --get-regexp alias\..*
+Date: Sun Jan 23 22:07:51 BRST 2011
+--git-dir=/home/az/tmp/perl/opendata/master/.git config --get-regexp alias\..*
+Date: Sun Jan 23 22:07:53 BRST 2011
+--git-dir=/home/az/tmp/perl/opendata/master/.git config --get-regexp alias\..*
+Date: Sun Jan 23 22:07:55 BRST 2011
+--git-dir=/home/az/tmp/perl/opendata/master/.git config --get-regexp alias\..*
+Date: Sun Jan 23 22:07:56 BRST 2011
+--git-dir=/home/az/tmp/perl/opendata/master/.git config --get-regexp alias\..*
+Date: Sun Jan 23 22:07:56 BRST 2011
+--git-dir=/home/az/tmp/perl/opendata/master/.git config --get-regexp alias\..*
+Date: Sun Jan 23 22:07:58 BRST 2011
+sync-origin-upstream
+Date: Sun Jan 23 22:08:21 BRST 2011
+sync-origin-upstream
+Date: Sun Jan 23 23:23:37 BRST 2011

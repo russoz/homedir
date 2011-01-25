@@ -7770,3 +7770,19 @@ add .freeciv-client-rc-2.2
 Date: Mon Jan 24 23:03:01 BRST 2011
 ci -m freeciv rc file
 Date: Mon Jan 24 23:03:08 BRST 2011
+help -a
+Date: Mon Jan 24 23:03:16 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Jan 24 23:03:16 BRST 2011
+push
+Date: Mon Jan 24 23:03:25 BRST 2011
+st
+Date: Mon Jan 24 23:10:32 BRST 2011
+add t/perlcritic.t
+Date: Mon Jan 24 23:12:02 BRST 2011
+ci t/perlcritic.t -m added perlcritic test
+Date: Mon Jan 24 23:12:14 BRST 2011
+st
+Date: Mon Jan 24 23:12:28 BRST 2011
+st
+Date: Tue Jan 25 15:28:08 BRST 2011

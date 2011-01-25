@@ -7738,3 +7738,35 @@ sync-origin-upstream
 Date: Sun Jan 23 22:08:21 BRST 2011
 sync-origin-upstream
 Date: Sun Jan 23 23:23:37 BRST 2011
+help -a
+Date: Mon Jan 24 22:59:03 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Jan 24 22:59:03 BRST 2011
+pull
+Date: Mon Jan 24 22:59:10 BRST 2011
+push
+Date: Mon Jan 24 22:59:22 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Jan 24 22:59:28 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Jan 24 22:59:30 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Jan 24 22:59:30 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Jan 24 22:59:31 BRST 2011
+st
+Date: Mon Jan 24 22:59:41 BRST 2011
+sync-origin
+Date: Mon Jan 24 22:59:53 BRST 2011
+st
+Date: Mon Jan 24 23:01:10 BRST 2011
+add .gitignore
+Date: Mon Jan 24 23:02:39 BRST 2011
+ci -m no freeciv saves here
+Date: Mon Jan 24 23:02:50 BRST 2011
+st
+Date: Mon Jan 24 23:02:53 BRST 2011
+add .freeciv-client-rc-2.2
+Date: Mon Jan 24 23:03:01 BRST 2011
+ci -m freeciv rc file
+Date: Mon Jan 24 23:03:08 BRST 2011

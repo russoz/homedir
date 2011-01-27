@@ -7786,3 +7786,163 @@ st
 Date: Mon Jan 24 23:12:28 BRST 2011
 st
 Date: Tue Jan 25 15:28:08 BRST 2011
+branch
+Date: Tue Jan 25 16:26:49 BRST 2011
+branch smart_process_item
+Date: Tue Jan 25 16:27:03 BRST 2011
+--git-dir=/home/az/tmp/perl/opendata/master/.git config --get-regexp alias\..*
+Date: Tue Jan 25 16:27:05 BRST 2011
+checkout smart_process_item
+Date: Tue Jan 25 16:27:07 BRST 2011
+st
+Date: Tue Jan 25 17:17:43 BRST 2011
+add test-sub-param-trick.pl
+Date: Tue Jan 25 17:17:54 BRST 2011
+ci test-sub-param-trick.pl -m testing a little trick with parameters
+Date: Tue Jan 25 17:18:49 BRST 2011
+help -a
+Date: Tue Jan 25 17:18:52 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Jan 25 17:18:52 BRST 2011
+pull
+Date: Tue Jan 25 17:19:00 BRST 2011
+push
+Date: Tue Jan 25 17:19:19 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Jan 25 17:29:04 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Jan 25 17:29:05 BRST 2011
+checkout scripts/df-portaltransparencia.pl
+Date: Tue Jan 25 17:29:08 BRST 2011
+st
+Date: Tue Jan 25 17:29:12 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Jan 25 17:30:08 BRST 2011
+checkout lib/OpenData/Flow/Node.pm
+Date: Tue Jan 25 17:30:11 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Jan 25 17:48:18 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Jan 25 17:48:27 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Jan 25 17:48:29 BRST 2011
+branch
+Date: Tue Jan 25 17:48:29 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Jan 25 17:48:33 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Jan 25 17:48:33 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Jan 25 17:48:34 BRST 2011
+--git-dir=.git config --get alias.co
+Date: Tue Jan 25 17:48:43 BRST 2011
+co master
+Date: Tue Jan 25 17:48:43 BRST 2011
+st
+Date: Tue Jan 25 17:48:49 BRST 2011
+br
+Date: Tue Jan 25 17:48:57 BRST 2011
+co
+Date: Tue Jan 25 17:49:03 BRST 2011
+st
+Date: Tue Jan 25 17:49:05 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Jan 25 17:49:10 BRST 2011
+checkout lib/OpenData/Flow/Node.pm
+Date: Tue Jan 25 17:49:22 BRST 2011
+st
+Date: Tue Jan 25 17:49:25 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Jan 25 17:49:31 BRST 2011
+checkout t/20-flow/01-node.t
+Date: Tue Jan 25 17:49:35 BRST 2011
+st
+Date: Tue Jan 25 17:49:37 BRST 2011
+br
+Date: Tue Jan 25 19:45:21 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Jan 25 19:45:24 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Jan 25 19:45:24 BRST 2011
+checkout smart_process_item
+Date: Tue Jan 25 19:45:27 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Jan 25 19:50:32 BRST 2011
+checkout master
+Date: Tue Jan 25 19:50:34 BRST 2011
+st
+Date: Tue Jan 25 19:51:22 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Jan 25 19:51:58 BRST 2011
+checkout smart_process_item
+Date: Tue Jan 25 19:52:01 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Jan 25 19:53:31 BRST 2011
+--git-dir=.git config --get alias.br
+Date: Tue Jan 25 19:53:34 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Jan 25 19:53:39 BRST 2011
+checkout smart_process_item
+Date: Tue Jan 25 19:53:40 BRST 2011
+br
+Date: Tue Jan 25 19:53:47 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Jan 25 19:53:51 BRST 2011
+checkout master
+Date: Tue Jan 25 19:53:53 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Jan 25 19:53:59 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Jan 25 19:54:00 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Jan 25 19:54:00 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Jan 25 19:54:01 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Jan 25 19:54:03 BRST 2011
+sync-master-upstream
+Date: Tue Jan 25 19:54:14 BRST 2011
+st
+Date: Tue Jan 25 19:55:51 BRST 2011
+br
+Date: Tue Jan 25 19:55:54 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Jan 25 20:16:19 BRST 2011
+checkout t/20-flow/01-node.t
+Date: Tue Jan 25 20:16:25 BRST 2011
+st
+Date: Tue Jan 25 21:40:49 BRST 2011
+st
+Date: Wed Jan 26 09:10:44 BRST 2011
+pull origin master
+Date: Wed Jan 26 10:04:05 BRST 2011
+push origin master
+Date: Wed Jan 26 10:04:24 BRST 2011
+pull origin master
+Date: Wed Jan 26 10:05:08 BRST 2011
+push origin master
+Date: Wed Jan 26 10:05:36 BRST 2011
+help -a
+Date: Wed Jan 26 10:07:21 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Jan 26 10:07:22 BRST 2011
+add 2011/
+Date: Wed Jan 26 10:07:26 BRST 2011
+ci -m placeholder para artigo do equinocio de 2011
+Date: Wed Jan 26 10:07:44 BRST 2011
+st
+Date: Wed Jan 26 10:33:59 BRST 2011
+st
+Date: Wed Jan 26 10:38:30 BRST 2011
+st
+Date: Wed Jan 26 11:26:42 BRST 2011
+ci -a -m primeiro draft do artigo
+Date: Wed Jan 26 11:27:09 BRST 2011
+st
+Date: Wed Jan 26 11:27:13 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Jan 26 11:27:17 BRST 2011
+push
+Date: Wed Jan 26 11:27:45 BRST 2011
+st
+Date: Wed Jan 26 12:58:47 BRST 2011

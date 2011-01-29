@@ -7946,3 +7946,31 @@ push
 Date: Wed Jan 26 11:27:45 BRST 2011
 st
 Date: Wed Jan 26 12:58:47 BRST 2011
+st
+Date: Sat Jan 29 21:47:40 BRST 2011
+status
+Date: Sat Jan 29 21:47:43 BRST 2011
+help -a
+Date: Sat Jan 29 21:47:46 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Jan 29 21:47:46 BRST 2011
+diff .profile-avon
+Date: Sat Jan 29 21:47:50 BRST 2011
+help
+Date: Sat Jan 29 21:48:37 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Jan 29 21:48:44 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Jan 29 21:48:44 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Jan 29 21:48:55 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Jan 29 21:48:56 BRST 2011
+add .profile-avon
+Date: Sat Jan 29 21:49:07 BRST 2011
+st
+Date: Sat Jan 29 21:51:00 BRST 2011
+ci -m added alias for sirp
+Date: Sat Jan 29 21:51:12 BRST 2011
+st
+Date: Sat Jan 29 21:51:36 BRST 2011

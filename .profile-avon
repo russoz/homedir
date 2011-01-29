@@ -58,6 +58,7 @@ BR_AIX_PROD_SERVERS="
   spoaxor6.brazil.avon.com"
 make_foreach_func br-aix-prod-foreach-server $BR_AIX_PROD_SERVERS
 make_ssh_aliases                             $BR_AIX_PROD_SERVERS
+alias sirp="spoaxclor1"
 
 br-aix-prod-install-rpm() {
   br-aix-prod-foreach-server -t -- sudo rpm -Uvh "$@"

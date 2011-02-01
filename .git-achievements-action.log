@@ -7976,3 +7976,11 @@ st
 Date: Sat Jan 29 21:51:36 BRST 2011
 push
 Date: Sat Jan 29 21:52:15 BRST 2011
+st
+Date: Tue Feb  1 11:51:40 BRST 2011
+help -a
+Date: Tue Feb  1 11:52:05 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Feb  1 11:52:05 BRST 2011
+clone --help
+Date: Tue Feb  1 11:58:29 BRST 2011

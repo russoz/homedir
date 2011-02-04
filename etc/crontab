@@ -4,6 +4,6 @@
 
 # m   h   dom  mon  dow  command
 #0/10 *   *    *    *    ${HOME}/bin/ibm-mydyn.pl >${HOME}/tmp/ibm-mydyn.log 2>&1
-00    */4 *    *    *    ${HOME}/bin/cron.git-periodic >/dev/null 2>&1
+00    */8 *    *    *    ${HOME}/bin/cron.git-periodic >/dev/null 2>&1
 00    23  *    *    *    ${HOME}/perl5/bin/minicpan >${HOME}/tmp/minicpan.out 2>${HOME}/tmp/minicpan.err
 00    14  *    *    6    ${HOME}/perl5/bin/minicpan >${HOME}/tmp/minicpan.out 2>${HOME}/tmp/minicpan.err

@@ -7984,3 +7984,61 @@ Date: Tue Feb  1 11:52:05 BRST 2011
 Date: Tue Feb  1 11:52:05 BRST 2011
 clone --help
 Date: Tue Feb  1 11:58:29 BRST 2011
+help -a
+Date: Sun Feb  6 13:57:35 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Feb  6 13:57:36 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Feb  6 13:57:36 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Feb  6 13:57:37 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Feb  6 13:57:37 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Feb  6 13:57:38 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Feb  6 13:57:38 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Feb  6 13:57:41 BRST 2011
+sync-master-upstream
+Date: Sun Feb  6 13:57:48 BRST 2011
+sync-master-upstream
+Date: Sun Feb  6 13:58:31 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Feb  6 14:00:47 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Feb  6 14:00:47 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Feb  6 14:00:49 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Feb  6 14:00:51 BRST 2011
+sync-origin-upstream
+Date: Sun Feb  6 14:01:17 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Feb  6 14:02:13 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Feb  6 14:02:14 BRST 2011
+br
+Date: Sun Feb  6 14:02:14 BRST 2011
+st
+Date: Sun Feb  6 14:12:07 BRST 2011
+ci -a -m removed the default value for table, and ran perltidy
+Date: Sun Feb  6 14:12:31 BRST 2011
+st
+Date: Sun Feb  6 14:16:18 BRST 2011
+ci -a -m updated TODO list
+Date: Sun Feb  6 14:16:26 BRST 2011
+rm git-sync-local git-sync-origin
+Date: Sun Feb  6 14:22:06 BRST 2011
+st
+Date: Sun Feb  6 14:23:03 BRST 2011
+rm portaltransparencia.pl
+Date: Sun Feb  6 14:23:28 BRST 2011
+st
+Date: Sun Feb  6 14:26:49 BRST 2011
+st
+Date: Sun Feb  6 15:03:55 BRST 2011
+add lib/OpenData/Item.pm lib/OpenData/Meta.pm
+Date: Sun Feb  6 15:04:16 BRST 2011
+st
+Date: Sun Feb  6 15:06:41 BRST 2011

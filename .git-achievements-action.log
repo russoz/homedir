@@ -8180,3 +8180,61 @@ st
 Date: Mon Feb  7 01:37:33 BRST 2011
 log
 Date: Mon Feb  7 01:42:58 BRST 2011
+pull
+Date: Mon Feb  7 12:27:48 BRST 2011
+st
+Date: Mon Feb  7 12:27:53 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Feb  7 12:28:14 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Feb  7 12:28:15 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Feb  7 12:28:15 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Feb  7 12:28:17 BRST 2011
+sync-master-upstream
+Date: Mon Feb  7 12:28:27 BRST 2011
+diff
+Date: Mon Feb  7 12:29:17 BRST 2011
+st
+Date: Mon Feb  7 12:29:20 BRST 2011
+st
+Date: Mon Feb  7 12:30:01 BRST 2011
+stash --help
+Date: Mon Feb  7 12:32:03 BRST 2011
+reset --hard
+Date: Mon Feb  7 12:32:07 BRST 2011
+st
+Date: Mon Feb  7 12:32:10 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Feb  7 12:32:23 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Feb  7 12:32:35 BRST 2011
+status --help
+Date: Mon Feb  7 12:32:55 BRST 2011
+status -b
+Date: Mon Feb  7 12:32:58 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Feb  7 12:33:02 BRST 2011
+show
+Date: Mon Feb  7 12:33:03 BRST 2011
+show --help
+Date: Mon Feb  7 12:33:39 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Feb  7 12:33:41 BRST 2011
+stash list
+Date: Mon Feb  7 12:33:43 BRST 2011
+stash --help
+Date: Mon Feb  7 12:34:00 BRST 2011
+stash pop
+Date: Mon Feb  7 12:34:03 BRST 2011
+st
+Date: Mon Feb  7 12:34:09 BRST 2011
+diff
+Date: Mon Feb  7 12:35:28 BRST 2011
+st
+Date: Mon Feb  7 13:35:09 BRST 2011
+diff
+Date: Mon Feb  7 13:49:07 BRST 2011
+diff
+Date: Mon Feb  7 13:49:40 BRST 2011

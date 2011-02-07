@@ -8042,3 +8042,91 @@ add lib/OpenData/Item.pm lib/OpenData/Meta.pm
 Date: Sun Feb  6 15:04:16 BRST 2011
 st
 Date: Sun Feb  6 15:06:41 BRST 2011
+mv 50-chain.t 10-chain.t
+Date: Sun Feb  6 16:29:48 BRST 2011
+mv 10-literaldata.t 20-literaldata.t
+Date: Sun Feb  6 16:29:59 BRST 2011
+help -a
+Date: Sun Feb  6 16:30:19 BRST 2011
+--git-dir=/home/az/tmp/perl/opendata/master/.git config --get-regexp alias\..*
+Date: Sun Feb  6 16:30:19 BRST 2011
+--git-dir=/home/az/tmp/perl/opendata/master/.git config --get-regexp alias\..*
+Date: Sun Feb  6 16:30:19 BRST 2011
+--git-dir=/home/az/tmp/perl/opendata/master/.git config --get-regexp alias\..*
+Date: Sun Feb  6 16:30:19 BRST 2011
+branch initial_data
+Date: Sun Feb  6 16:51:30 BRST 2011
+help -a
+Date: Sun Feb  6 16:51:36 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Feb  6 16:51:36 BRST 2011
+checkout initial_data
+Date: Sun Feb  6 16:51:38 BRST 2011
+br
+Date: Sun Feb  6 16:52:19 BRST 2011
+st
+Date: Sun Feb  6 17:13:37 BRST 2011
+ci -a -m changed the attribute name to initial_data
+Date: Sun Feb  6 17:13:58 BRST 2011
+pull origin master
+Date: Sun Feb  6 17:14:26 BRST 2011
+pull origin master
+Date: Sun Feb  6 17:14:44 BRST 2011
+push origin master
+Date: Sun Feb  6 17:16:07 BRST 2011
+st
+Date: Sun Feb  6 17:17:24 BRST 2011
+br
+Date: Sun Feb  6 17:17:28 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Feb  6 17:17:32 BRST 2011
+checkout master
+Date: Sun Feb  6 17:17:34 BRST 2011
+push origin initial_data
+Date: Sun Feb  6 17:17:47 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Feb  6 17:17:52 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Feb  6 17:17:53 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Feb  6 17:17:53 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Feb  6 17:17:55 BRST 2011
+mergetool
+Date: Sun Feb  6 17:17:56 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Feb  6 17:18:11 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Feb  6 17:18:12 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Feb  6 17:18:13 BRST 2011
+pull . initial_data
+Date: Sun Feb  6 17:18:15 BRST 2011
+pull
+Date: Sun Feb  6 17:18:44 BRST 2011
+push
+Date: Sun Feb  6 17:19:05 BRST 2011
+br
+Date: Sun Feb  6 19:40:34 BRST 2011
+br
+Date: Sun Feb  6 19:40:43 BRST 2011
+st
+Date: Sun Feb  6 21:07:06 BRST 2011
+ci -m added Item & Meta.pm - some cleanup on some old scripts
+Date: Sun Feb  6 22:54:45 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Feb  6 23:45:16 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Feb  6 23:45:17 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Feb  6 23:45:17 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Feb  6 23:45:19 BRST 2011
+sync-master-upstream
+Date: Sun Feb  6 23:45:28 BRST 2011
+st
+Date: Sun Feb  6 23:49:29 BRST 2011
+add examples/filedata.test lib/OpenData/Flow/Node/FileData.pm t/20-flow/21-filedata.t
+Date: Sun Feb  6 23:49:41 BRST 2011
+ci -m first version of FileData, a file-consuming node
+Date: Sun Feb  6 23:50:51 BRST 2011

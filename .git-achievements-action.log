@@ -8130,3 +8130,53 @@ add examples/filedata.test lib/OpenData/Flow/Node/FileData.pm t/20-flow/21-filed
 Date: Sun Feb  6 23:49:41 BRST 2011
 ci -m first version of FileData, a file-consuming node
 Date: Sun Feb  6 23:50:51 BRST 2011
+diff
+Date: Mon Feb  7 00:54:50 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Feb  7 01:27:02 BRST 2011
+diff
+Date: Mon Feb  7 01:27:06 BRST 2011
+st
+Date: Mon Feb  7 01:32:21 BRST 2011
+diff
+Date: Mon Feb  7 01:32:36 BRST 2011
+add Makefile.PL
+Date: Mon Feb  7 01:32:53 BRST 2011
+commit --help
+Date: Mon Feb  7 01:33:52 BRST 2011
+ci -C HEAD
+Date: Mon Feb  7 01:34:06 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Feb  7 01:34:20 BRST 2011
+st
+Date: Mon Feb  7 01:34:54 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Feb  7 01:35:02 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Feb  7 01:35:03 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Feb  7 01:35:05 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Feb  7 01:35:06 BRST 2011
+stash --help
+Date: Mon Feb  7 01:36:10 BRST 2011
+st
+Date: Mon Feb  7 01:36:12 BRST 2011
+stash
+Date: Mon Feb  7 01:36:21 BRST 2011
+st
+Date: Mon Feb  7 01:36:29 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Feb  7 01:36:33 BRST 2011
+rebase -i HEAD~3
+Date: Mon Feb  7 01:37:17 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Feb  7 01:37:21 BRST 2011
+log
+Date: Mon Feb  7 01:37:25 BRST 2011
+reset --hard
+Date: Mon Feb  7 01:37:30 BRST 2011
+st
+Date: Mon Feb  7 01:37:33 BRST 2011
+log
+Date: Mon Feb  7 01:42:58 BRST 2011

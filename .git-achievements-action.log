@@ -8238,3 +8238,23 @@ diff
 Date: Mon Feb  7 13:49:07 BRST 2011
 diff
 Date: Mon Feb  7 13:49:40 BRST 2011
+st
+Date: Tue Feb  8 14:57:31 BRST 2011
+diff
+Date: Tue Feb  8 14:57:44 BRST 2011
+st
+Date: Tue Feb  8 14:57:50 BRST 2011
+add lib/OpenData/Flow/Node/FileData.pm t/20-flow/21-filedata.t
+Date: Tue Feb  8 14:57:56 BRST 2011
+help -a
+Date: Tue Feb  8 14:58:06 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Feb  8 14:58:06 BRST 2011
+--help
+Date: Tue Feb  8 14:58:29 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Feb  8 14:58:54 BRST 2011
+commit -s -m added slurp option to FileData
+Date: Tue Feb  8 14:59:09 BRST 2011
+pull
+Date: Tue Feb  8 14:59:37 BRST 2011

@@ -8258,3 +8258,91 @@ commit -s -m added slurp option to FileData
 Date: Tue Feb  8 14:59:09 BRST 2011
 pull
 Date: Tue Feb  8 14:59:37 BRST 2011
+st
+Date: Wed Feb  9 09:59:03 BRST 2011
+help -a
+Date: Wed Feb  9 09:59:09 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Feb  9 09:59:09 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Feb  9 09:59:09 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Feb  9 09:59:09 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Feb  9 09:59:11 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Feb  9 09:59:19 BRST 2011
+sync-origin-upstream
+Date: Wed Feb  9 09:59:53 BRST 2011
+st
+Date: Wed Feb  9 10:55:56 BRST 2011
+clone https://github.com/gitpan/Queue-Base.git
+Date: Wed Feb  9 10:58:00 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Feb  9 11:00:52 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Feb  9 11:00:53 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Feb  9 11:00:54 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Feb  9 11:00:54 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Feb  9 11:00:56 BRST 2011
+remote --help
+Date: Wed Feb  9 11:01:05 BRST 2011
+remote add origin git@github.com:russoz/Queue-Base.git
+Date: Wed Feb  9 11:01:28 BRST 2011
+pull
+Date: Wed Feb  9 11:01:42 BRST 2011
+st
+Date: Wed Feb  9 11:02:12 BRST 2011
+push
+Date: Wed Feb  9 11:02:55 BRST 2011
+pull
+Date: Wed Feb  9 11:02:59 BRST 2011
+clone https://russoz@github.com/russoz/Queue-Base.git
+Date: Wed Feb  9 11:04:43 BRST 2011
+st
+Date: Wed Feb  9 12:13:34 BRST 2011
+st
+Date: Wed Feb  9 12:15:18 BRST 2011
+rm Base.pm
+Date: Wed Feb  9 14:31:41 BRST 2011
+st
+Date: Wed Feb  9 14:31:45 BRST 2011
+add lib/ t/ Makefile.PL MANIFEST
+Date: Wed Feb  9 14:32:05 BRST 2011
+st
+Date: Wed Feb  9 14:32:09 BRST 2011
+ci -m added first modified version
+Date: Wed Feb  9 14:32:23 BRST 2011
+pull
+Date: Wed Feb  9 14:32:36 BRST 2011
+push
+Date: Wed Feb  9 14:32:53 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Feb  9 14:35:47 BRST 2011
+st
+Date: Wed Feb  9 14:35:47 BRST 2011
+st
+Date: Wed Feb  9 14:58:41 BRST 2011
+st
+Date: Wed Feb  9 22:35:54 BRST 2011
+diff
+Date: Wed Feb  9 22:36:22 BRST 2011
+st
+Date: Wed Feb  9 22:40:34 BRST 2011
+st
+Date: Wed Feb  9 22:45:02 BRST 2011
+add TODO
+Date: Wed Feb  9 22:45:06 BRST 2011
+ci -a -m some changes to documentation
+Date: Wed Feb  9 22:45:32 BRST 2011
+st
+Date: Wed Feb  9 22:45:36 BRST 2011
+pull
+Date: Wed Feb  9 22:46:47 BRST 2011
+push
+Date: Wed Feb  9 22:47:03 BRST 2011
+st
+Date: Wed Feb  9 22:47:14 BRST 2011

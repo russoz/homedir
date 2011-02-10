@@ -8346,3 +8346,27 @@ push
 Date: Wed Feb  9 22:47:03 BRST 2011
 st
 Date: Wed Feb  9 22:47:14 BRST 2011
+st
+Date: Thu Feb 10 09:09:32 BRST 2011
+rm t/TestLib.pm
+Date: Thu Feb 10 09:10:10 BRST 2011
+st
+Date: Thu Feb 10 09:10:13 BRST 2011
+ci -a -m improved the test suite
+Date: Thu Feb 10 09:10:27 BRST 2011
+push
+Date: Thu Feb 10 09:10:39 BRST 2011
+st
+Date: Thu Feb 10 15:40:54 BRST 2011
+diff lib/Queue/Base.pm
+Date: Thu Feb 10 15:41:01 BRST 2011
+st
+Date: Thu Feb 10 15:42:11 BRST 2011
+st
+Date: Thu Feb 10 15:44:46 BRST 2011
+add t/00.load.t t/pod-coverage.t t/pod.t inc/ ignore.txt Changes
+Date: Thu Feb 10 15:45:17 BRST 2011
+st
+Date: Thu Feb 10 15:45:21 BRST 2011
+diff MANIFEST
+Date: Thu Feb 10 15:45:42 BRST 2011

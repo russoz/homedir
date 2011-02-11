@@ -8454,3 +8454,33 @@ pull
 Date: Thu Feb 10 18:07:38 BRST 2011
 push
 Date: Thu Feb 10 18:07:48 BRST 2011
+clone https://russoz@github.com/russoz/OpenData-BR.git
+Date: Fri Feb 11 08:20:25 BRST 2011
+rm Changes
+Date: Fri Feb 11 08:41:22 BRST 2011
+mv ChangeLog Changes
+Date: Fri Feb 11 08:41:27 BRST 2011
+st
+Date: Fri Feb 11 10:35:55 BRST 2011
+diff Changes
+Date: Fri Feb 11 10:36:03 BRST 2011
+add Changes
+Date: Fri Feb 11 10:36:57 BRST 2011
+ci Changes -m i'm going through change-e-e-es
+Date: Fri Feb 11 10:36:58 BRST 2011
+st
+Date: Fri Feb 11 10:37:01 BRST 2011
+diff
+Date: Fri Feb 11 10:37:07 BRST 2011
+ci -a -m clearer authoring statement
+Date: Fri Feb 11 10:37:35 BRST 2011
+st
+Date: Fri Feb 11 10:37:37 BRST 2011
+st
+Date: Fri Feb 11 11:31:32 BRST 2011
+push
+Date: Fri Feb 11 11:32:03 BRST 2011
+st
+Date: Fri Feb 11 11:33:11 BRST 2011
+ci -a -m bumped the version up
+Date: Fri Feb 11 11:33:29 BRST 2011

@@ -8370,3 +8370,87 @@ st
 Date: Thu Feb 10 15:45:21 BRST 2011
 diff MANIFEST
 Date: Thu Feb 10 15:45:42 BRST 2011
+st
+Date: Thu Feb 10 17:03:36 BRST 2011
+add MANIFEST Makefile.PL TODO lib/Queue/Base.pm t/perlcritic.t t/test.t
+Date: Thu Feb 10 17:03:51 BRST 2011
+st
+Date: Thu Feb 10 17:03:55 BRST 2011
+st
+Date: Thu Feb 10 17:15:36 BRST 2011
+st
+Date: Thu Feb 10 17:16:51 BRST 2011
+add MANIFEST Makefile.PL lib/Queue/Base.pm
+Date: Thu Feb 10 17:17:07 BRST 2011
+st
+Date: Thu Feb 10 17:17:26 BRST 2011
+ci -m moved to Module::Install
+Date: Thu Feb 10 17:17:51 BRST 2011
+help -a
+Date: Thu Feb 10 17:17:56 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Feb 10 17:17:57 BRST 2011
+push
+Date: Thu Feb 10 17:18:05 BRST 2011
+st
+Date: Thu Feb 10 17:18:43 BRST 2011
+diff test-sub-param-trick.pl
+Date: Thu Feb 10 17:19:06 BRST 2011
+add test-sub-param-trick.pl
+Date: Thu Feb 10 17:19:08 BRST 2011
+ci -m added more tricks
+Date: Thu Feb 10 17:19:18 BRST 2011
+st
+Date: Thu Feb 10 17:19:20 BRST 2011
+add test-sub-param-trick-in-reduce.pl
+Date: Thu Feb 10 17:20:54 BRST 2011
+ci -m checking for $a and $b params in sort and in reduce
+Date: Thu Feb 10 17:21:14 BRST 2011
+st
+Date: Thu Feb 10 17:21:17 BRST 2011
+add test-version.pl
+Date: Thu Feb 10 17:21:37 BRST 2011
+ci -m checking for some verion magic
+Date: Thu Feb 10 17:21:51 BRST 2011
+help -a
+Date: Thu Feb 10 17:21:57 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Feb 10 17:21:57 BRST 2011
+push
+Date: Thu Feb 10 17:22:14 BRST 2011
+st
+Date: Thu Feb 10 17:28:14 BRST 2011
+st
+Date: Thu Feb 10 17:45:02 BRST 2011
+diff
+Date: Thu Feb 10 17:45:09 BRST 2011
+ci -a -m adjusted version to sane value
+Date: Thu Feb 10 17:45:25 BRST 2011
+st
+Date: Thu Feb 10 18:00:27 BRST 2011
+st
+Date: Thu Feb 10 18:01:59 BRST 2011
+st
+Date: Thu Feb 10 18:05:56 BRST 2011
+ci -a -m improved the version tester
+Date: Thu Feb 10 18:06:10 BRST 2011
+help -a
+Date: Thu Feb 10 18:06:13 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Feb 10 18:06:13 BRST 2011
+pull
+Date: Thu Feb 10 18:06:21 BRST 2011
+st
+Date: Thu Feb 10 18:06:30 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Feb 10 18:06:39 BRST 2011
+pull
+Date: Thu Feb 10 18:06:49 BRST 2011
+st
+Date: Thu Feb 10 18:07:26 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Feb 10 18:07:33 BRST 2011
+pull
+Date: Thu Feb 10 18:07:38 BRST 2011
+push
+Date: Thu Feb 10 18:07:48 BRST 2011

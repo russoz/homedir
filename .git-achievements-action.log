@@ -8526,3 +8526,59 @@ pull
 Date: Sun Feb 13 13:42:41 BRST 2011
 st
 Date: Sun Feb 13 13:48:24 BRST 2011
+st
+Date: Sun Feb 13 13:48:32 BRST 2011
+push
+Date: Sun Feb 13 13:48:42 BRST 2011
+help -a
+Date: Sun Feb 13 13:52:58 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Feb 13 13:52:58 BRST 2011
+help -a
+Date: Sun Feb 13 13:59:19 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Feb 13 13:59:19 BRST 2011
+filter-branch --help
+Date: Sun Feb 13 14:00:32 BRST 2011
+rm -r bin/ doc/ etc/
+Date: Sun Feb 13 14:00:52 BRST 2011
+rm -r EGov/
+Date: Sun Feb 13 14:01:09 BRST 2011
+rm OpenData.pm
+Date: Sun Feb 13 14:01:16 BRST 2011
+rm -r OpenData/App OpenData/Array.pm OpenData/Component.pm OpenData/Config.pm OpenData/Extractor OpenData/Extractor.pm OpenData/Get OpenData/Get.pm OpenData/Glue.pm OpenData/Identifiable.pm OpenData/Item.pm OpenData/Loader.pm OpenData/Log.pm OpenData/Meta.pm OpenData/Output OpenData/Output.pm OpenData/Provider OpenData/Provider.pm OpenData/Simple.pm OpenData/Transformer OpenData/Transformer.pm OpenData/Utils.pm
+Date: Sun Feb 13 14:01:42 BRST 2011
+rm -r simple/
+Date: Sun Feb 13 14:02:37 BRST 2011
+st
+Date: Sun Feb 13 14:04:52 BRST 2011
+ci -m deleted files not related to Flow
+Date: Sun Feb 13 14:05:13 BRST 2011
+st
+Date: Sun Feb 13 14:05:15 BRST 2011
+st
+Date: Sun Feb 13 14:29:57 BRST 2011
+pull
+Date: Sun Feb 13 14:30:08 BRST 2011
+st
+Date: Sun Feb 13 14:35:17 BRST 2011
+diff
+Date: Sun Feb 13 14:35:24 BRST 2011
+st
+Date: Sun Feb 13 14:37:08 BRST 2011
+remote add origin git@github.com:russoz/Flow-Data-Flow.git
+Date: Sun Feb 13 14:42:14 BRST 2011
+push origin master
+Date: Sun Feb 13 14:43:00 BRST 2011
+pull origin master
+Date: Sun Feb 13 14:43:18 BRST 2011
+mv ../OpenData/ Data
+Date: Sun Feb 13 14:44:10 BRST 2011
+pull
+Date: Sun Feb 13 15:33:58 BRST 2011
+st
+Date: Sun Feb 13 15:34:05 BRST 2011
+st
+Date: Sun Feb 13 15:34:11 BRST 2011
+mv Flow/Data/Flow DataFlow
+Date: Sun Feb 13 15:34:29 BRST 2011

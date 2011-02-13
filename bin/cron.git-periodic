@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FILES="${HOME}/.workrave ${HOME}/.git-achievements* ${HOME}/.podbrowserrc"
+FILES="${HOME}/.workrave ${HOME}/.git-achievements* ${HOME}/.podbrowserrc ${HOME}/.freeciv-client-rc-2.2"
 
 git add ${FILES}
 git commit -m "automatic $(date +%Y.%m.%d-%H.%M)" $FILES

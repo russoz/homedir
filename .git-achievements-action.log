@@ -8772,3 +8772,63 @@ ci -a -m update 2011-02-13 22:00
 Date: Sun Feb 13 21:59:21 BRST 2011
 push
 Date: Sun Feb 13 21:59:34 BRST 2011
+mv 12-get/curl.t 12-get-curl.t
+Date: Mon Feb 14 10:34:30 BRST 2011
+mv 12-get/mechanize.t 12-get-mechanize.t
+Date: Mon Feb 14 10:34:48 BRST 2011
+st
+Date: Mon Feb 14 10:34:51 BRST 2011
+diff ../TODO
+Date: Mon Feb 14 10:35:11 BRST 2011
+mv 12-get.t 11-get.t
+Date: Mon Feb 14 10:36:17 BRST 2011
+mv 20-flow/01-node.t 20-flow/02-nop.t 20-flow/03-null.t 20-flow/05-deref.t 20-flow/06-process-into.t 20-flow/10-chain.t 20-flow/20-literaldata.t 20-flow/21-filedata.t 20-flow/60-multipageurlgenerator.t 20-flow/62-urlretriever.t 20-flow/64-htmlfilter.t .
+Date: Mon Feb 14 10:36:30 BRST 2011
+st
+Date: Mon Feb 14 10:36:53 BRST 2011
+add t
+Date: Mon Feb 14 10:37:01 BRST 2011
+ci -m reorganized test directory
+Date: Mon Feb 14 10:37:16 BRST 2011
+st
+Date: Mon Feb 14 10:37:31 BRST 2011
+diff
+Date: Mon Feb 14 10:37:47 BRST 2011
+add Makefile.PL
+Date: Mon Feb 14 10:37:51 BRST 2011
+ci -m added SQL::Abstract
+Date: Mon Feb 14 10:38:01 BRST 2011
+st
+Date: Mon Feb 14 10:38:07 BRST 2011
+ci -a -m added item to-do
+Date: Mon Feb 14 10:38:18 BRST 2011
+st
+Date: Mon Feb 14 10:38:21 BRST 2011
+st
+Date: Mon Feb 14 10:40:42 BRST 2011
+ci -a -m bumped version
+Date: Mon Feb 14 10:47:47 BRST 2011
+pull
+Date: Mon Feb 14 10:48:38 BRST 2011
+push
+Date: Mon Feb 14 10:49:01 BRST 2011
+mv Chain.pm ..
+Date: Mon Feb 14 10:51:10 BRST 2011
+st
+Date: Mon Feb 14 12:07:22 BRST 2011
+help -a
+Date: Mon Feb 14 12:07:27 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Feb 14 12:07:27 BRST 2011
+diff
+Date: Mon Feb 14 12:07:30 BRST 2011
+ci -a -m refactor> DataFlow::Node::Chain -> DataFlow::Chain
+Date: Mon Feb 14 12:07:49 BRST 2011
+add ./test-refs-pop.pl
+Date: Mon Feb 14 14:12:24 BRST 2011
+ci -m testing popping up elements from array which is copied from ref
+Date: Mon Feb 14 14:13:17 BRST 2011
+push
+Date: Mon Feb 14 14:13:34 BRST 2011
+st
+Date: Tue Feb 15 07:14:00 BRST 2011

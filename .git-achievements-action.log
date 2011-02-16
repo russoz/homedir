@@ -8832,3 +8832,213 @@ push
 Date: Mon Feb 14 14:13:34 BRST 2011
 st
 Date: Tue Feb 15 07:14:00 BRST 2011
+st
+Date: Tue Feb 15 17:19:07 BRST 2011
+st
+Date: Tue Feb 15 20:32:47 BRST 2011
+help -a
+Date: Tue Feb 15 20:32:50 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Feb 15 20:32:50 BRST 2011
+diff TODO
+Date: Tue Feb 15 20:32:53 BRST 2011
+add TODO
+Date: Tue Feb 15 20:33:03 BRST 2011
+--git-dir=.git config --get alias.ci
+Date: Tue Feb 15 20:33:06 BRST 2011
+ci TODO -m output() with parameters
+Date: Tue Feb 15 20:33:29 BRST 2011
+diff lib/DataFlow/Item.pm
+Date: Tue Feb 15 20:33:37 BRST 2011
+add lib/DataFlow/Item.pm
+Date: Tue Feb 15 20:33:44 BRST 2011
+ci lib/DataFlow/Item.pm -m cannot have an attribute named 'meta' with Moose - it defines one already
+Date: Tue Feb 15 20:34:35 BRST 2011
+st
+Date: Tue Feb 15 20:34:43 BRST 2011
+diff t/10-chain.t
+Date: Tue Feb 15 20:34:49 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Feb 15 20:34:54 BRST 2011
+checkout t/10-chain.t
+Date: Tue Feb 15 20:34:56 BRST 2011
+st
+Date: Tue Feb 15 20:34:58 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Feb 15 20:35:01 BRST 2011
+diff
+Date: Tue Feb 15 20:35:40 BRST 2011
+diff
+Date: Tue Feb 15 20:41:19 BRST 2011
+diff TODO
+Date: Tue Feb 15 20:43:39 BRST 2011
+add TODO
+Date: Tue Feb 15 20:43:47 BRST 2011
+--git-dir=.git config --get alias.ci
+Date: Tue Feb 15 20:43:50 BRST 2011
+ci TODO -m idea: DataFlow::Maker
+Date: Tue Feb 15 20:44:25 BRST 2011
+diff
+Date: Tue Feb 15 20:48:15 BRST 2011
+st
+Date: Tue Feb 15 20:50:52 BRST 2011
+diff
+Date: Tue Feb 15 20:50:59 BRST 2011
+diff
+Date: Tue Feb 15 20:53:40 BRST 2011
+diff
+Date: Tue Feb 15 20:57:58 BRST 2011
+diff
+Date: Tue Feb 15 20:59:36 BRST 2011
+st
+Date: Tue Feb 15 20:59:37 BRST 2011
+diff lib/DataFlow/Node/CSV.pm
+Date: Tue Feb 15 20:59:46 BRST 2011
+st
+Date: Tue Feb 15 20:59:53 BRST 2011
+diff lib/DataFlow/Node/Debug.pm
+Date: Tue Feb 15 21:00:06 BRST 2011
+diff lib/DataFlow/Node/URLRetriever/Get lib/DataFlow/Node/URLRetriever/Get.pm
+Date: Tue Feb 15 21:01:01 BRST 2011
+st
+Date: Tue Feb 15 21:01:33 BRST 2011
+add lib/DataFlow/Node/CSV.pm lib/DataFlow/Node/Debug.pm lib/DataFlow/Node/URLRetriever/Get lib/DataFlow/Node/URLRetriever/Get.pm lib/DataFlow/Node/FileData.pm
+Date: Tue Feb 15 21:02:09 BRST 2011
+ci -m perltidy
+Date: Tue Feb 15 21:02:18 BRST 2011
+diff lib/DataFlow/Node/FileData.pm
+Date: Tue Feb 15 21:02:22 BRST 2011
+st
+Date: Tue Feb 15 21:02:23 BRST 2011
+st
+Date: Tue Feb 15 21:02:58 BRST 2011
+diff lib/DataFlow/Node/HTMLFilter.pm
+Date: Tue Feb 15 21:03:08 BRST 2011
+add lib/DataFlow/Node/HTMLFilter.pm
+Date: Tue Feb 15 21:03:36 BRST 2011
+ci -C HEAD
+Date: Tue Feb 15 21:03:41 BRST 2011
+st
+Date: Tue Feb 15 21:03:50 BRST 2011
+diff lib/DataFlow/Node/MultiPageURLGenerator.pm
+Date: Tue Feb 15 21:04:01 BRST 2011
+add lib/DataFlow/Node/MultiPageURLGenerator.pm
+Date: Tue Feb 15 21:04:15 BRST 2011
+ci lib/DataFlow/Node/MultiPageURLGenerator.pm -m MultiPageURLGenerator now returns arrayref instead of array
+Date: Tue Feb 15 21:04:54 BRST 2011
+st
+Date: Tue Feb 15 21:04:58 BRST 2011
+diff lib/DataFlow/Chain.pm
+Date: Tue Feb 15 21:05:16 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Feb 15 21:05:18 BRST 2011
+diff lib/DataFlow/Node.pm
+Date: Tue Feb 15 21:06:34 BRST 2011
+st
+Date: Tue Feb 15 21:06:37 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Feb 15 21:06:40 BRST 2011
+diff scripts/
+Date: Tue Feb 15 21:06:56 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Feb 15 21:08:48 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Feb 15 21:09:03 BRST 2011
+blame lib/DataFlow/Node/HTMLFilter.pm
+Date: Tue Feb 15 21:10:16 BRST 2011
+blame lib/DataFlow/Node/HTMLFilter.pm
+Date: Tue Feb 15 21:10:38 BRST 2011
+st
+Date: Tue Feb 15 21:14:04 BRST 2011
+diff scripts/
+Date: Tue Feb 15 21:14:14 BRST 2011
+diff scripts/
+Date: Tue Feb 15 21:14:38 BRST 2011
+diff scripts/
+Date: Tue Feb 15 21:15:26 BRST 2011
+diff
+Date: Tue Feb 15 21:17:15 BRST 2011
+stash --help
+Date: Tue Feb 15 21:18:09 BRST 2011
+diff
+Date: Tue Feb 15 21:18:18 BRST 2011
+st
+Date: Tue Feb 15 21:18:19 BRST 2011
+add lib/DataFlow/Chain.pm
+Date: Tue Feb 15 21:18:52 BRST 2011
+ci
+Date: Tue Feb 15 21:23:37 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Feb 15 21:23:53 BRST 2011
+achievements
+Date: Tue Feb 15 21:23:53 BRST 2011
+diff lib/
+Date: Tue Feb 15 21:25:34 BRST 2011
+diff scripts/
+Date: Tue Feb 15 21:26:36 BRST 2011
+diff scripts/
+Date: Tue Feb 15 21:27:13 BRST 2011
+diff scripts/
+Date: Tue Feb 15 21:28:25 BRST 2011
+add scripts/df-portaltransparencia.pl
+Date: Tue Feb 15 21:28:33 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Feb 15 21:28:35 BRST 2011
+ci
+Date: Tue Feb 15 21:31:18 BRST 2011
+diff scripts/
+Date: Tue Feb 15 21:31:21 BRST 2011
+diff
+Date: Tue Feb 15 21:31:29 BRST 2011
+st
+Date: Tue Feb 15 21:31:30 BRST 2011
+ci -a
+Date: Tue Feb 15 21:49:56 BRST 2011
+st
+Date: Tue Feb 15 21:50:42 BRST 2011
+ci -a -m todo: require Queue::Base 2.0
+Date: Tue Feb 15 21:50:57 BRST 2011
+st
+Date: Tue Feb 15 21:51:02 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Feb 15 21:51:04 BRST 2011
+rebase --interactive HEAD~15
+Date: Tue Feb 15 21:53:29 BRST 2011
+diff
+Date: Tue Feb 15 21:53:41 BRST 2011
+st
+Date: Tue Feb 15 21:57:00 BRST 2011
+ci -a -m todo: make classes immutable
+Date: Tue Feb 15 21:57:15 BRST 2011
+st
+Date: Tue Feb 15 22:13:42 BRST 2011
+branch
+Date: Tue Feb 15 22:13:55 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Feb 15 22:14:41 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Feb 15 22:14:41 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Feb 15 22:14:41 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Feb 15 22:14:43 BRST 2011
+mergetool
+Date: Tue Feb 15 22:16:03 BRST 2011
+ci -m merge with origin
+Date: Tue Feb 15 22:16:49 BRST 2011
+pull
+Date: Tue Feb 15 22:16:59 BRST 2011
+pull
+Date: Tue Feb 15 22:17:20 BRST 2011
+push
+Date: Tue Feb 15 22:17:28 BRST 2011
+ci -a -m removed a to-do item
+Date: Tue Feb 15 22:18:55 BRST 2011
+diff lib/DataFlow/Chain.pm
+Date: Tue Feb 15 22:20:16 BRST 2011
+st
+Date: Wed Feb 16 07:47:28 BRST 2011
+st
+Date: Wed Feb 16 07:48:02 BRST 2011
+ci -a -m perltidy
+Date: Wed Feb 16 07:48:13 BRST 2011

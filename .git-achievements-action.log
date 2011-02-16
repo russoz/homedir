@@ -9042,3 +9042,121 @@ st
 Date: Wed Feb 16 07:48:02 BRST 2011
 ci -a -m perltidy
 Date: Wed Feb 16 07:48:13 BRST 2011
+st
+Date: Wed Feb 16 08:00:19 BRST 2011
+mv t/test.t 01.queue.t
+Date: Wed Feb 16 08:00:57 BRST 2011
+mv 01.queue.t t/
+Date: Wed Feb 16 08:01:57 BRST 2011
+st
+Date: Wed Feb 16 08:02:00 BRST 2011
+diff
+Date: Wed Feb 16 08:02:28 BRST 2011
+st
+Date: Wed Feb 16 08:02:51 BRST 2011
+ci -a -m renamed test file, fixed manifest
+Date: Wed Feb 16 08:03:11 BRST 2011
+st
+Date: Wed Feb 16 08:03:48 BRST 2011
+ci -a -m bumped to version 2.0.1
+Date: Wed Feb 16 08:04:01 BRST 2011
+pull
+Date: Wed Feb 16 08:04:23 BRST 2011
+push
+Date: Wed Feb 16 08:04:38 BRST 2011
+st
+Date: Wed Feb 16 08:06:35 BRST 2011
+help -a
+Date: Wed Feb 16 08:06:40 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Feb 16 08:06:40 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Feb 16 08:06:41 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Feb 16 08:06:42 BRST 2011
+clean -f
+Date: Wed Feb 16 08:06:46 BRST 2011
+clean -fd
+Date: Wed Feb 16 08:06:49 BRST 2011
+st
+Date: Wed Feb 16 09:27:49 BRST 2011
+diff
+Date: Wed Feb 16 09:28:20 BRST 2011
+st
+Date: Wed Feb 16 09:38:22 BRST 2011
+diff Makefile.PL
+Date: Wed Feb 16 09:38:28 BRST 2011
+ci Makefile.PL -m Queue::Base minimal version is 2.0
+Date: Wed Feb 16 09:38:46 BRST 2011
+diff lib/DataFlow/Node.pm
+Date: Wed Feb 16 09:38:56 BRST 2011
+ci lib/DataFlow/Node.pm -m Queue::Base minimal version is 2.0
+Date: Wed Feb 16 09:39:26 BRST 2011
+diff
+Date: Wed Feb 16 09:39:38 BRST 2011
+ci -a -m made all Moose metaclasses immutable
+Date: Wed Feb 16 09:39:58 BRST 2011
+st
+Date: Wed Feb 16 09:40:46 BRST 2011
+ci -a -m quick fix
+Date: Wed Feb 16 09:40:59 BRST 2011
+help -a
+Date: Wed Feb 16 09:41:02 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Feb 16 09:41:02 BRST 2011
+rebase --interactive HEAD
+Date: Wed Feb 16 09:41:09 BRST 2011
+rebase --interactive HEAD~4
+Date: Wed Feb 16 09:41:25 BRST 2011
+st
+Date: Wed Feb 16 09:42:56 BRST 2011
+ci -a -m quick fix
+Date: Wed Feb 16 09:43:00 BRST 2011
+rebase --interactive HEAD~4
+Date: Wed Feb 16 09:43:10 BRST 2011
+st
+Date: Wed Feb 16 09:43:12 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Feb 16 09:43:55 BRST 2011
+rebase --abort
+Date: Wed Feb 16 09:43:59 BRST 2011
+rebase --interactive HEAD~3
+Date: Wed Feb 16 09:44:08 BRST 2011
+--git-dir=.git config --get alias.ci
+Date: Wed Feb 16 09:45:12 BRST 2011
+ci TODO -m items done
+Date: Wed Feb 16 09:45:23 BRST 2011
+st
+Date: Wed Feb 16 09:45:34 BRST 2011
+push
+Date: Wed Feb 16 09:46:13 BRST 2011
+st
+Date: Wed Feb 16 09:46:44 BRST 2011
+rm --cached -r -f .dzil
+Date: Wed Feb 16 09:47:41 BRST 2011
+st
+Date: Wed Feb 16 09:47:45 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Feb 16 09:47:59 BRST 2011
+checkout .minicpanrc
+Date: Wed Feb 16 09:48:03 BRST 2011
+diff .profile-avon
+Date: Wed Feb 16 09:48:14 BRST 2011
+--git-dir=.git config --get alias.ci
+Date: Wed Feb 16 09:48:24 BRST 2011
+--git-dir=.git config --get alias.ci
+Date: Wed Feb 16 09:48:25 BRST 2011
+ci .profile-avon -m no access to spolxlgto any longer
+Date: Wed Feb 16 09:48:38 BRST 2011
+--git-dir=.git config --get alias.ci
+Date: Wed Feb 16 09:48:49 BRST 2011
+--git-dir=.git config --get alias.ci
+Date: Wed Feb 16 09:48:50 BRST 2011
+--git-dir=.git config --get alias.ci
+Date: Wed Feb 16 09:48:50 BRST 2011
+--git-dir=.git config --get alias.ci
+Date: Wed Feb 16 09:48:52 BRST 2011
+ci .gitignore -m removed .dzil from git
+Date: Wed Feb 16 09:50:18 BRST 2011
+st
+Date: Wed Feb 16 09:50:22 BRST 2011

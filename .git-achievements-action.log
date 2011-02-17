@@ -9184,3 +9184,91 @@ st
 Date: Wed Feb 16 15:55:00 BRST 2011
 diff lib/Queue/Base.pm
 Date: Wed Feb 16 15:55:39 BRST 2011
+stash
+Date: Wed Feb 16 20:01:07 BRST 2011
+stash --help
+Date: Wed Feb 16 20:01:30 BRST 2011
+stash drop
+Date: Wed Feb 16 20:01:33 BRST 2011
+branch
+Date: Wed Feb 16 20:01:41 BRST 2011
+checkout master
+Date: Wed Feb 16 20:01:52 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Feb 16 20:01:57 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Feb 16 20:01:58 BRST 2011
+stash list
+Date: Wed Feb 16 20:01:59 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Feb 16 20:02:03 BRST 2011
+branch --help
+Date: Wed Feb 16 20:02:30 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Feb 16 20:02:31 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Feb 16 20:02:32 BRST 2011
+branch -d move-to-dzil
+Date: Wed Feb 16 20:02:38 BRST 2011
+stash
+Date: Wed Feb 16 20:02:45 BRST 2011
+st
+Date: Wed Feb 16 20:02:49 BRST 2011
+help -a
+Date: Wed Feb 16 20:02:56 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Feb 16 20:02:56 BRST 2011
+stash branch move-to-dzil
+Date: Wed Feb 16 20:03:07 BRST 2011
+add dist.ini
+Date: Wed Feb 16 20:03:21 BRST 2011
+st
+Date: Wed Feb 16 20:03:35 BRST 2011
+ci -a -m move to Dist::Zilla
+Date: Wed Feb 16 20:03:54 BRST 2011
+st
+Date: Wed Feb 16 20:03:58 BRST 2011
+log
+Date: Wed Feb 16 20:08:35 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Feb 16 20:08:41 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Feb 16 20:08:42 BRST 2011
+st
+Date: Wed Feb 16 20:11:59 BRST 2011
+ci -a -m added settings for @Git
+Date: Wed Feb 16 20:12:21 BRST 2011
+st
+Date: Wed Feb 16 20:26:55 BRST 2011
+diff lib/
+Date: Wed Feb 16 21:07:14 BRST 2011
+br
+Date: Wed Feb 16 21:08:21 BRST 2011
+st
+Date: Wed Feb 16 21:10:01 BRST 2011
+ci -a -m added more plugins to Dist::Zilla
+Date: Wed Feb 16 21:10:59 BRST 2011
+st
+Date: Wed Feb 16 21:11:21 BRST 2011
+br
+Date: Wed Feb 16 21:12:38 BRST 2011
+st
+Date: Wed Feb 16 21:13:01 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Feb 16 21:42:32 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Feb 16 21:42:33 BRST 2011
+diff dist.ini
+Date: Wed Feb 16 21:42:35 BRST 2011
+br
+Date: Wed Feb 16 21:58:43 BRST 2011
+rm INSTALL
+Date: Wed Feb 16 21:58:48 BRST 2011
+st
+Date: Wed Feb 16 22:02:42 BRST 2011
+diff
+Date: Wed Feb 16 22:02:46 BRST 2011
+st
+Date: Wed Feb 16 22:14:29 BRST 2011
+ci -a -m releasing version 2.1, based on Dist::Zilla
+Date: Wed Feb 16 22:14:51 BRST 2011

@@ -9290,3 +9290,37 @@ Date: Thu Feb 17 07:47:23 BRST 2011
 Date: Thu Feb 17 07:47:23 BRST 2011
 push --all
 Date: Thu Feb 17 07:47:35 BRST 2011
+st
+Date: Thu Feb 17 08:35:26 BRST 2011
+st
+Date: Thu Feb 17 08:36:13 BRST 2011
+st
+Date: Thu Feb 17 08:49:02 BRST 2011
+help -a
+Date: Thu Feb 17 15:27:21 BRST 2011
+--git-dir=/home/az/.git config --get-regexp alias\..*
+Date: Thu Feb 17 15:27:21 BRST 2011
+clone --help
+Date: Thu Feb 17 15:27:48 BRST 2011
+help -a
+Date: Thu Feb 17 15:29:03 BRST 2011
+--git-dir=/home/az/.git config --get-regexp alias\..*
+Date: Thu Feb 17 15:29:03 BRST 2011
+clone --no-hardlinks master/ move-to-dzil/
+Date: Thu Feb 17 15:29:18 BRST 2011
+st
+Date: Thu Feb 17 15:29:26 BRST 2011
+br
+Date: Thu Feb 17 15:29:29 BRST 2011
+branch move-to-dzil
+Date: Thu Feb 17 15:29:36 BRST 2011
+br
+Date: Thu Feb 17 15:29:39 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Feb 17 15:29:41 BRST 2011
+checkout move-to-dzil
+Date: Thu Feb 17 15:29:43 BRST 2011
+clone --help
+Date: Thu Feb 17 15:29:46 BRST 2011
+st
+Date: Thu Feb 17 15:31:08 BRST 2011

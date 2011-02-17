@@ -9324,3 +9324,27 @@ clone --help
 Date: Thu Feb 17 15:29:46 BRST 2011
 st
 Date: Thu Feb 17 15:31:08 BRST 2011
+st
+Date: Thu Feb 17 19:40:18 BRST 2011
+diff
+Date: Thu Feb 17 19:40:22 BRST 2011
+st
+Date: Thu Feb 17 19:40:49 BRST 2011
+diff
+Date: Thu Feb 17 19:40:54 BRST 2011
+diff
+Date: Thu Feb 17 19:46:39 BRST 2011
+diff .dzil/
+Date: Thu Feb 17 19:46:41 BRST 2011
+add .dzil/
+Date: Thu Feb 17 19:46:53 BRST 2011
+st
+Date: Thu Feb 17 19:46:55 BRST 2011
+diff .gitignore
+Date: Thu Feb 17 19:47:11 BRST 2011
+--git-dir=.git config --get alias.ci
+Date: Thu Feb 17 19:47:19 BRST 2011
+ci .gitignore .dzil -m added .dzil back to repo
+Date: Thu Feb 17 19:47:37 BRST 2011
+st
+Date: Thu Feb 17 19:47:50 BRST 2011

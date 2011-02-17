@@ -9272,3 +9272,21 @@ st
 Date: Wed Feb 16 22:14:29 BRST 2011
 ci -a -m releasing version 2.1, based on Dist::Zilla
 Date: Wed Feb 16 22:14:51 BRST 2011
+mv ignore.txt .gitignore
+Date: Thu Feb 17 07:36:18 BRST 2011
+st
+Date: Thu Feb 17 07:38:14 BRST 2011
+st
+Date: Thu Feb 17 07:44:53 BRST 2011
+ci -a -m renamed ignore.txt to .gitignore, added t to dist.ini
+Date: Thu Feb 17 07:45:25 BRST 2011
+--git-dir=.git config --get-regexp remote\..*\.url
+Date: Thu Feb 17 07:47:23 BRST 2011
+--git-dir=.git config --get-regexp remote\..*\.url
+Date: Thu Feb 17 07:47:23 BRST 2011
+--git-dir=.git config --get-regexp remote\..*\.url
+Date: Thu Feb 17 07:47:23 BRST 2011
+--git-dir=.git config --get-regexp remote\..*\.url
+Date: Thu Feb 17 07:47:23 BRST 2011
+push --all
+Date: Thu Feb 17 07:47:35 BRST 2011

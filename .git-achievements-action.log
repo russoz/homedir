@@ -9352,3 +9352,115 @@ push
 Date: Thu Feb 17 21:19:10 BRST 2011
 br
 Date: Fri Feb 18 00:13:31 BRST 2011
+br
+Date: Fri Feb 18 16:34:51 BRST 2011
+st
+Date: Fri Feb 18 16:38:15 BRST 2011
+add dist.ini
+Date: Fri Feb 18 16:38:26 BRST 2011
+ci -a -m moved to Dist::Zilla
+Date: Fri Feb 18 16:38:48 BRST 2011
+help -a
+Date: Fri Feb 18 16:40:36 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Feb 18 16:40:36 BRST 2011
+remote add origin git@github.com:russoz/DataFlow.git
+Date: Fri Feb 18 16:40:42 BRST 2011
+st
+Date: Fri Feb 18 20:49:58 BRST 2011
+diff
+Date: Fri Feb 18 20:51:11 BRST 2011
+--git-dir=.git config --get alias.ci
+Date: Fri Feb 18 20:51:17 BRST 2011
+--git-dir=.git config --get alias.ci
+Date: Fri Feb 18 20:51:17 BRST 2011
+--git-dir=.git config --get alias.ci
+Date: Fri Feb 18 20:51:17 BRST 2011
+--git-dir=.git config --get alias.ci
+Date: Fri Feb 18 20:51:18 BRST 2011
+--git-dir=.git config --get alias.ci
+Date: Fri Feb 18 20:51:20 BRST 2011
+ci lib/DataFlow/Node/CSV.pm -m rewrote the CSV module
+Date: Fri Feb 18 20:51:39 BRST 2011
+--git-dir=.git config --get alias.ci
+Date: Fri Feb 18 20:51:55 BRST 2011
+ci dist.ini -m not doing pod coverage and critics for now
+Date: Fri Feb 18 20:52:12 BRST 2011
+st
+Date: Fri Feb 18 20:52:19 BRST 2011
+ci -a -m tidy
+Date: Fri Feb 18 20:52:27 BRST 2011
+ci -a -m added .build .gitignore
+Date: Fri Feb 18 20:53:25 BRST 2011
+push --all
+Date: Fri Feb 18 20:55:04 BRST 2011
+st
+Date: Fri Feb 18 21:15:24 BRST 2011
+ci -a -m bumped to 0.91.01
+Date: Fri Feb 18 21:15:34 BRST 2011
+log
+Date: Fri Feb 18 21:22:21 BRST 2011
+st
+Date: Fri Feb 18 21:22:25 BRST 2011
+diff
+Date: Fri Feb 18 21:22:28 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Feb 18 21:22:57 BRST 2011
+checkout lib/Queue/Base.pm
+Date: Fri Feb 18 21:23:09 BRST 2011
+br
+Date: Fri Feb 18 21:24:47 BRST 2011
+st
+Date: Fri Feb 18 21:24:52 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Feb 18 21:24:55 BRST 2011
+diff
+Date: Fri Feb 18 21:24:56 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Feb 18 21:25:07 BRST 2011
+checkout dist.ini
+Date: Fri Feb 18 21:25:14 BRST 2011
+st
+Date: Fri Feb 18 21:25:24 BRST 2011
+diff
+Date: Fri Feb 18 21:25:27 BRST 2011
+ci -a -m added .build* to .gitignore
+Date: Fri Feb 18 21:25:37 BRST 2011
+st
+Date: Fri Feb 18 21:26:00 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Feb 18 21:26:09 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Feb 18 21:26:11 BRST 2011
+stash list
+Date: Fri Feb 18 21:26:14 BRST 2011
+stash list
+Date: Fri Feb 18 21:26:18 BRST 2011
+status
+Date: Fri Feb 18 21:26:47 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Feb 18 21:26:50 BRST 2011
+checkout master
+Date: Fri Feb 18 21:26:52 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Feb 18 21:26:56 BRST 2011
+branch
+Date: Fri Feb 18 21:26:56 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Feb 18 21:26:58 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Feb 18 21:26:59 BRST 2011
+pull . move-to-dzil
+Date: Fri Feb 18 21:27:03 BRST 2011
+st
+Date: Fri Feb 18 21:27:29 BRST 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Feb 18 21:27:36 BRST 2011
+log
+Date: Fri Feb 18 21:27:55 BRST 2011
+pull
+Date: Fri Feb 18 21:28:13 BRST 2011
+push
+Date: Fri Feb 18 21:28:28 BRST 2011
+branch
+Date: Fri Feb 18 21:29:01 BRST 2011

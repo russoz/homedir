@@ -9478,3 +9478,73 @@ st
 Date: Sat Feb 19 23:30:23 BRT 2011
 diff
 Date: Sat Feb 19 23:37:49 BRT 2011
+st
+Date: Sun Feb 20 10:54:51 BRT 2011
+add Changes
+Date: Sun Feb 20 10:54:59 BRT 2011
+add dist.ini
+Date: Sun Feb 20 10:55:07 BRT 2011
+ci -m missing dependencies
+Date: Sun Feb 20 10:55:25 BRT 2011
+st
+Date: Sun Feb 20 11:17:36 BRT 2011
+br
+Date: Sun Feb 20 11:17:43 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Feb 20 11:18:01 BRT 2011
+tag
+Date: Sun Feb 20 11:18:02 BRT 2011
+st
+Date: Sun Feb 20 12:24:50 BRT 2011
+help -a
+Date: Sun Feb 20 12:24:54 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Feb 20 12:24:54 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Feb 20 12:24:55 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Feb 20 12:24:56 BRT 2011
+diff lib/
+Date: Sun Feb 20 12:24:57 BRT 2011
+--git-dir=.git config --get alias.ci
+Date: Sun Feb 20 12:25:07 BRT 2011
+ci lib/ -m fixes to make perlcritic happy
+Date: Sun Feb 20 12:25:20 BRT 2011
+diff dist.ini
+Date: Sun Feb 20 12:25:29 BRT 2011
+st
+Date: Sun Feb 20 12:25:35 BRT 2011
+ci -a -m changes for Dist::Zilla - added more tests - Changes now generated from git log - dumped PkgVersion for OurPkgVersion
+Date: Sun Feb 20 12:26:52 BRT 2011
+st
+Date: Sun Feb 20 12:26:54 BRT 2011
+log
+Date: Sun Feb 20 12:28:35 BRT 2011
+pull
+Date: Sun Feb 20 15:09:03 BRT 2011
+st
+Date: Sun Feb 20 15:15:05 BRT 2011
+diff
+Date: Sun Feb 20 15:15:32 BRT 2011
+ci -a -C HEAD
+Date: Sun Feb 20 15:15:51 BRT 2011
+help -a
+Date: Sun Feb 20 15:15:54 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Feb 20 15:15:54 BRT 2011
+rebase --interactive HEAD~2
+Date: Sun Feb 20 15:16:42 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Feb 20 15:16:50 BRT 2011
+commit --amend
+Date: Sun Feb 20 15:17:36 BRT 2011
+st
+Date: Sun Feb 20 15:17:41 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Feb 20 15:17:46 BRT 2011
+rebase --continue
+Date: Sun Feb 20 15:17:57 BRT 2011
+st
+Date: Sun Feb 20 15:18:01 BRT 2011
+log
+Date: Sun Feb 20 15:18:31 BRT 2011

@@ -9648,3 +9648,55 @@ diff dist.ini
 Date: Tue Feb 22 15:58:29 BRT 2011
 diff v2.1_02
 Date: Tue Feb 22 16:01:22 BRT 2011
+st
+Date: Wed Feb 23 21:55:07 BRT 2011
+diff
+Date: Wed Feb 23 21:55:27 BRT 2011
+st
+Date: Wed Feb 23 21:57:43 BRT 2011
+add weaver.ini
+Date: Wed Feb 23 21:57:49 BRT 2011
+ci -m added weaver.ini for Pod::Weaver
+Date: Wed Feb 23 21:58:01 BRT 2011
+diff
+Date: Wed Feb 23 21:58:31 BRT 2011
+st
+Date: Wed Feb 23 21:58:35 BRT 2011
+help -a
+Date: Wed Feb 23 21:58:43 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Feb 23 21:58:43 BRT 2011
+diff dist.ini
+Date: Wed Feb 23 21:58:54 BRT 2011
+log
+Date: Wed Feb 23 22:36:56 BRT 2011
+st
+Date: Wed Feb 23 22:38:00 BRT 2011
+ci -a
+Date: Wed Feb 23 22:42:00 BRT 2011
+st
+Date: Wed Feb 23 22:42:03 BRT 2011
+diff
+Date: Wed Feb 23 22:44:09 BRT 2011
+add lib/DataFlow/DataFlow.pm
+Date: Wed Feb 23 22:52:48 BRT 2011
+ci lib/DataFlow/DataFlow.pm -m added a DataFlow.pm, mostly for documentation
+Date: Wed Feb 23 22:53:02 BRT 2011
+mv lib/DataFlow/DataFlow.pm lib/
+Date: Wed Feb 23 22:54:00 BRT 2011
+st
+Date: Wed Feb 23 22:54:07 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Feb 23 23:04:29 BRT 2011
+checkout .dzil
+Date: Wed Feb 23 23:04:31 BRT 2011
+st
+Date: Wed Feb 23 23:15:39 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Feb 23 23:15:42 BRT 2011
+diff dist.ini
+Date: Wed Feb 23 23:15:44 BRT 2011
+ci -a -m added DataFlow.pm, abstract to all modules
+Date: Wed Feb 23 23:16:27 BRT 2011
+tag
+Date: Wed Feb 23 23:17:49 BRT 2011

@@ -9700,3 +9700,27 @@ ci -a -m added DataFlow.pm, abstract to all modules
 Date: Wed Feb 23 23:16:27 BRT 2011
 tag
 Date: Wed Feb 23 23:17:49 BRT 2011
+st
+Date: Thu Feb 24 19:28:52 BRT 2011
+status
+Date: Thu Feb 24 19:29:21 BRT 2011
+diff .profile-perl
+Date: Thu Feb 24 19:29:28 BRT 2011
+add .profile-perl
+Date: Thu Feb 24 19:29:34 BRT 2011
+ci .profile-perl -m added MANPATH
+Date: Thu Feb 24 19:29:53 BRT 2011
+status
+Date: Thu Feb 24 19:29:57 BRT 2011
+--git-dir=.git config --get alias.ci
+Date: Thu Feb 24 19:30:10 BRT 2011
+ci .perlcriticrc -m bumped severity to 4
+Date: Thu Feb 24 19:30:20 BRT 2011
+st
+Date: Thu Feb 24 19:30:34 BRT 2011
+diff .minicpanrc
+Date: Thu Feb 24 19:30:40 BRT 2011
+st
+Date: Thu Feb 24 19:35:43 BRT 2011
+push
+Date: Thu Feb 24 19:36:03 BRT 2011

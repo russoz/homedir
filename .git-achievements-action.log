@@ -9724,3 +9724,183 @@ st
 Date: Thu Feb 24 19:35:43 BRT 2011
 push
 Date: Thu Feb 24 19:36:03 BRT 2011
+st
+Date: Sat Feb 26 09:45:18 BRT 2011
+ci -a -m removed Readonly from the dependencies list
+Date: Sat Feb 26 09:45:36 BRT 2011
+tag
+Date: Sat Feb 26 09:46:02 BRT 2011
+help -a
+Date: Sat Feb 26 11:27:18 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Feb 26 11:27:18 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Feb 26 11:27:19 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Feb 26 11:27:19 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Feb 26 11:27:23 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Feb 26 11:27:23 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Feb 26 11:27:24 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Feb 26 11:27:24 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Feb 26 11:27:25 BRT 2011
+sync-origin-upstream
+Date: Sat Feb 26 11:27:52 BRT 2011
+st
+Date: Sat Feb 26 11:27:56 BRT 2011
+br
+Date: Sat Feb 26 11:28:02 BRT 2011
+branch equinox032011
+Date: Sat Feb 26 11:28:28 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Feb 26 11:28:30 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Feb 26 11:28:32 BRT 2011
+checkout equinox032011
+Date: Sat Feb 26 11:28:34 BRT 2011
+st
+Date: Sat Feb 26 11:49:59 BRT 2011
+diff lib/DataFlow/Node.pm
+Date: Sat Feb 26 13:09:17 BRT 2011
+help -a
+Date: Sat Feb 26 13:09:22 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Feb 26 13:09:22 BRT 2011
+checkout lib/DataFlow/Node.pm
+Date: Sat Feb 26 13:09:25 BRT 2011
+st
+Date: Sat Feb 26 13:43:49 BRT 2011
+add 2011/03-sppm-equinocio/fig1-porco-salsicha.png
+Date: Sat Feb 26 13:44:03 BRT 2011
+st
+Date: Sat Feb 26 13:44:24 BRT 2011
+ci -a -m partial commit 2011-02-26 13:44
+Date: Sat Feb 26 13:44:41 BRT 2011
+push
+Date: Sat Feb 26 13:45:03 BRT 2011
+st
+Date: Sat Feb 26 13:48:51 BRT 2011
+ci -a -m partial commit 2011-02-26 13:49
+Date: Sat Feb 26 13:49:03 BRT 2011
+push
+Date: Sat Feb 26 13:49:12 BRT 2011
+st
+Date: Sat Feb 26 14:09:42 BRT 2011
+add 2011/03-sppm-equinocio/
+Date: Sat Feb 26 14:09:50 BRT 2011
+st
+Date: Sat Feb 26 14:09:55 BRT 2011
+ci -a -m partial commit 2011-02-26 14:10
+Date: Sat Feb 26 14:10:06 BRT 2011
+push
+Date: Sat Feb 26 14:10:30 BRT 2011
+st
+Date: Sat Feb 26 14:30:09 BRT 2011
+diff
+Date: Sat Feb 26 14:30:17 BRT 2011
+diff
+Date: Sat Feb 26 14:32:15 BRT 2011
+diff
+Date: Sat Feb 26 14:37:06 BRT 2011
+st
+Date: Sat Feb 26 14:37:08 BRT 2011
+ci -a -m versao final
+Date: Sat Feb 26 14:37:16 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Feb 26 14:37:18 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Feb 26 14:37:18 BRT 2011
+push
+Date: Sat Feb 26 14:37:24 BRT 2011
+help -a
+Date: Sat Feb 26 14:43:33 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Feb 26 14:43:33 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Feb 26 14:43:34 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Feb 26 14:43:34 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Feb 26 14:43:37 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Feb 26 14:43:38 BRT 2011
+sync-origin-upstream
+Date: Sat Feb 26 14:43:59 BRT 2011
+rm -rf Flow/
+Date: Sat Feb 26 14:44:34 BRT 2011
+rm -rf 20-flow/
+Date: Sat Feb 26 14:44:47 BRT 2011
+rm df-portaltransparencia.pl
+Date: Sat Feb 26 14:44:55 BRT 2011
+st
+Date: Sat Feb 26 14:48:48 BRT 2011
+st
+Date: Sat Feb 26 14:50:17 BRT 2011
+ci -a -m removed Flow, rantidy
+Date: Sat Feb 26 14:50:39 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Feb 26 14:51:22 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Feb 26 14:51:22 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Feb 26 14:51:22 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Feb 26 14:51:24 BRT 2011
+sync-origin
+Date: Sat Feb 26 14:51:37 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Feb 26 14:52:07 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Feb 26 14:52:07 BRT 2011
+clean -df
+Date: Sat Feb 26 14:52:09 BRT 2011
+st
+Date: Sat Feb 26 14:54:30 BRT 2011
+ci -a -m removed trailing space
+Date: Sat Feb 26 14:54:42 BRT 2011
+st
+Date: Sat Feb 26 15:01:36 BRT 2011
+ci -a -m removed unused dependencies
+Date: Sat Feb 26 15:01:46 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Feb 26 15:01:51 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Feb 26 15:01:52 BRT 2011
+sync-origin
+Date: Sat Feb 26 15:02:05 BRT 2011
+st
+Date: Sat Feb 26 15:06:19 BRT 2011
+st
+Date: Sat Feb 26 15:06:59 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Feb 26 15:07:01 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Feb 26 15:07:02 BRT 2011
+sync-origin
+Date: Sat Feb 26 15:07:18 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Feb 26 15:07:27 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Feb 26 15:07:27 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Feb 26 15:07:27 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Feb 26 15:07:30 BRT 2011
+st
+Date: Sat Feb 26 15:07:50 BRT 2011
+branch
+Date: Sat Feb 26 15:08:01 BRT 2011
+pull
+Date: Sat Feb 26 15:08:26 BRT 2011
+st
+Date: Sat Feb 26 15:08:33 BRT 2011
+push
+Date: Sat Feb 26 15:09:22 BRT 2011
+st
+Date: Sat Feb 26 15:09:27 BRT 2011
+pull
+Date: Sat Feb 26 15:09:34 BRT 2011

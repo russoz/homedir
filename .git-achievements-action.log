@@ -9904,3 +9904,117 @@ st
 Date: Sat Feb 26 15:09:27 BRT 2011
 pull
 Date: Sat Feb 26 15:09:34 BRT 2011
+st
+Date: Sat Feb 26 17:41:38 BRT 2011
+diff
+Date: Sat Feb 26 17:41:56 BRT 2011
+diff dist.ini
+Date: Sat Feb 26 19:13:12 BRT 2011
+diff dist.ini
+Date: Sat Feb 26 19:13:20 BRT 2011
+st
+Date: Sat Feb 26 19:13:23 BRT 2011
+st
+Date: Sat Feb 26 19:13:45 BRT 2011
+diff
+Date: Sat Feb 26 19:14:41 BRT 2011
+log
+Date: Sat Feb 26 19:14:50 BRT 2011
+ci -a -m versao final II
+Date: Sat Feb 26 19:15:05 BRT 2011
+push
+Date: Sat Feb 26 19:15:15 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Feb 26 19:15:27 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Feb 26 19:15:27 BRT 2011
+gc
+Date: Sat Feb 26 19:15:34 BRT 2011
+gc
+Date: Sat Feb 26 19:15:43 BRT 2011
+notes
+Date: Sat Feb 26 19:15:56 BRT 2011
+notes --help
+Date: Sat Feb 26 19:16:16 BRT 2011
+diff
+Date: Sat Feb 26 20:05:35 BRT 2011
+push
+Date: Sat Feb 26 20:05:47 BRT 2011
+gc
+Date: Sat Feb 26 20:05:52 BRT 2011
+gc
+Date: Sat Feb 26 20:05:53 BRT 2011
+gc
+Date: Sat Feb 26 20:05:58 BRT 2011
+gc
+Date: Sat Feb 26 20:05:59 BRT 2011
+gc
+Date: Sat Feb 26 20:06:05 BRT 2011
+push
+Date: Sat Feb 26 20:58:54 BRT 2011
+st
+Date: Sat Feb 26 22:13:38 BRT 2011
+diff
+Date: Sat Feb 26 22:14:09 BRT 2011
+ci -a -m final III, O Retorno de Zanghor
+Date: Sat Feb 26 22:14:32 BRT 2011
+push
+Date: Sat Feb 26 22:14:41 BRT 2011
+st
+Date: Sat Feb 26 22:18:34 BRT 2011
+diff
+Date: Sat Feb 26 22:19:17 BRT 2011
+ci -a -m fixed small bug
+Date: Sat Feb 26 22:21:58 BRT 2011
+pull origin master
+Date: Sat Feb 26 22:22:34 BRT 2011
+push origin master
+Date: Sat Feb 26 22:22:54 BRT 2011
+st
+Date: Sat Feb 26 22:23:23 BRT 2011
+branch
+Date: Sat Feb 26 22:23:31 BRT 2011
+push --all
+Date: Sat Feb 26 22:23:53 BRT 2011
+pull origin master
+Date: Sat Feb 26 22:24:24 BRT 2011
+st
+Date: Sun Feb 27 09:26:06 BRT 2011
+st
+Date: Sun Feb 27 09:28:05 BRT 2011
+diff dist.ini
+Date: Sun Feb 27 09:28:14 BRT 2011
+--git-dir=.git config --get alias.ci
+Date: Sun Feb 27 09:28:18 BRT 2011
+ci dist.ini -m using @Basic, bumped version to 0.91.05
+Date: Sun Feb 27 09:28:36 BRT 2011
+st
+Date: Sun Feb 27 09:28:39 BRT 2011
+help -a
+Date: Sun Feb 27 09:28:41 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Feb 27 09:28:41 BRT 2011
+diff lib/DataFlow/Chain.pm
+Date: Sun Feb 27 09:28:47 BRT 2011
+diff
+Date: Sun Feb 27 09:29:01 BRT 2011
+ci -a -m removed unnecessary POD sections - these sections are now generated automagically by Pod::Weaver
+Date: Sun Feb 27 09:29:34 BRT 2011
+st
+Date: Sun Feb 27 09:29:36 BRT 2011
+status
+Date: Sun Feb 27 09:29:48 BRT 2011
+st
+Date: Sun Feb 27 09:33:54 BRT 2011
+tag
+Date: Sun Feb 27 09:33:56 BRT 2011
+st
+Date: Sun Feb 27 10:23:08 BRT 2011
+ci -a -m removed some debugging comments
+Date: Sun Feb 27 10:24:07 BRT 2011
+push
+Date: Sun Feb 27 10:24:31 BRT 2011
+st
+Date: Sun Feb 27 10:37:37 BRT 2011
+diff
+Date: Sun Feb 27 10:37:46 BRT 2011

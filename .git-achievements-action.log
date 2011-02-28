@@ -10220,3 +10220,17 @@ Date: Sun Feb 27 19:22:34 BRT 2011
 Date: Sun Feb 27 19:22:36 BRT 2011
 sync-origin
 Date: Sun Feb 27 19:22:53 BRT 2011
+diff
+Date: Mon Feb 28 08:18:13 BRT 2011
+st
+Date: Mon Feb 28 08:18:18 BRT 2011
+log
+Date: Mon Feb 28 08:18:41 BRT 2011
+ci -a -m ajustes de formatação, exemplo de saída do script
+Date: Mon Feb 28 08:19:17 BRT 2011
+log
+Date: Mon Feb 28 08:19:35 BRT 2011
+push
+Date: Mon Feb 28 08:20:13 BRT 2011
+st
+Date: Mon Feb 28 08:26:36 BRT 2011

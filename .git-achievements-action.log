@@ -10234,3 +10234,67 @@ push
 Date: Mon Feb 28 08:20:13 BRT 2011
 st
 Date: Mon Feb 28 08:26:36 BRT 2011
+st
+Date: Thu Mar  3 21:08:36 BRT 2011
+st
+Date: Thu Mar  3 21:17:55 BRT 2011
+ci -a -m revisão do blabos
+Date: Thu Mar  3 21:18:12 BRT 2011
+push
+Date: Thu Mar  3 21:18:29 BRT 2011
+st
+Date: Thu Mar  3 21:29:51 BRT 2011
+add fig3-node.png fig4-chain.png
+Date: Thu Mar  3 21:30:00 BRT 2011
+ci -m adicionadas figuras
+Date: Thu Mar  3 21:30:09 BRT 2011
+push
+Date: Thu Mar  3 21:30:18 BRT 2011
+st
+Date: Thu Mar  3 21:32:04 BRT 2011
+st
+Date: Thu Mar  3 21:33:30 BRT 2011
+st
+Date: Thu Mar  3 21:35:49 BRT 2011
+ci -a -m things to-do update
+Date: Thu Mar  3 21:36:01 BRT 2011
+pull
+Date: Thu Mar  3 21:36:11 BRT 2011
+push
+Date: Thu Mar  3 21:36:27 BRT 2011
+st
+Date: Thu Mar  3 21:36:54 BRT 2011
+diff
+Date: Thu Mar  3 21:37:26 BRT 2011
+ci -a -m adicionadas as duas figuras de node e chain
+Date: Thu Mar  3 21:38:35 BRT 2011
+st
+Date: Thu Mar  3 21:38:53 BRT 2011
+push
+Date: Thu Mar  3 21:39:01 BRT 2011
+diff
+Date: Thu Mar  3 21:48:06 BRT 2011
+diff
+Date: Thu Mar  3 21:48:20 BRT 2011
+ci -a -m agradecimentos
+Date: Thu Mar  3 21:48:30 BRT 2011
+push
+Date: Thu Mar  3 21:48:37 BRT 2011
+ci -a -m small fix
+Date: Thu Mar  3 21:50:12 BRT 2011
+push
+Date: Thu Mar  3 21:50:21 BRT 2011
+push
+Date: Thu Mar  3 21:51:47 BRT 2011
+ci -a -C HEAD
+Date: Thu Mar  3 21:51:57 BRT 2011
+push
+Date: Thu Mar  3 21:52:05 BRT 2011
+add node-chain.odg
+Date: Thu Mar  3 22:01:30 BRT 2011
+ci -m desenho original
+Date: Thu Mar  3 22:01:41 BRT 2011
+push
+Date: Thu Mar  3 22:01:53 BRT 2011
+st
+Date: Thu Mar  3 22:02:29 BRT 2011

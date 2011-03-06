@@ -10378,3 +10378,47 @@ flow feature start default_process_into
 Date: Sun Mar  6 00:11:09 BRT 2011
 br
 Date: Sun Mar  6 00:12:13 BRT 2011
+checkout weaver.ini
+Date: Sun Mar  6 09:50:12 BRT 2011
+st
+Date: Sun Mar  6 09:50:17 BRT 2011
+diff lib/DataFlow/Node.pm
+Date: Sun Mar  6 09:50:24 BRT 2011
+br
+Date: Sun Mar  6 09:50:32 BRT 2011
+checkout lib/DataFlow/Node.pm
+Date: Sun Mar  6 09:50:42 BRT 2011
+st
+Date: Sun Mar  6 09:50:44 BRT 2011
+st
+Date: Sun Mar  6 09:51:44 BRT 2011
+diff
+Date: Sun Mar  6 09:51:53 BRT 2011
+br
+Date: Sun Mar  6 10:14:19 BRT 2011
+br
+Date: Sun Mar  6 10:15:49 BRT 2011
+st
+Date: Sun Mar  6 10:18:52 BRT 2011
+ci -a -m process_into is now enabled by default
+Date: Sun Mar  6 10:19:10 BRT 2011
+flow feature
+Date: Sun Mar  6 10:19:14 BRT 2011
+flow feature finish default_process_into
+Date: Sun Mar  6 10:19:36 BRT 2011
+st
+Date: Sun Mar  6 10:19:46 BRT 2011
+br
+Date: Sun Mar  6 10:19:48 BRT 2011
+push
+Date: Sun Mar  6 10:19:57 BRT 2011
+br
+Date: Sun Mar  6 10:57:59 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Mar  6 10:58:05 BRT 2011
+checkout feature/internal_dumper
+Date: Sun Mar  6 10:58:09 BRT 2011
+st
+Date: Sun Mar  6 10:58:12 BRT 2011
+br
+Date: Sun Mar  6 12:52:52 BRT 2011

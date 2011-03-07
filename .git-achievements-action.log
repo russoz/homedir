@@ -10578,3 +10578,83 @@ push origin master
 Date: Sun Mar  6 23:53:21 BRT 2011
 push origin develop
 Date: Sun Mar  6 23:53:30 BRT 2011
+br
+Date: Mon Mar  7 08:32:12 BRT 2011
+br
+Date: Mon Mar  7 08:37:33 BRT 2011
+st
+Date: Mon Mar  7 08:37:35 BRT 2011
+flow feature start podweaver_sections
+Date: Mon Mar  7 08:39:08 BRT 2011
+br
+Date: Mon Mar  7 09:10:15 BRT 2011
+st
+Date: Mon Mar  7 09:34:42 BRT 2011
+ci -a -m added SourceGitHub and BugsAndLimitations to weaver.ini removed these sections from all the files
+Date: Mon Mar  7 09:35:56 BRT 2011
+st
+Date: Mon Mar  7 09:35:59 BRT 2011
+st
+Date: Mon Mar  7 09:39:59 BRT 2011
+ci -a -m added t to weaver.ini
+Date: Mon Mar  7 09:40:16 BRT 2011
+st
+Date: Mon Mar  7 09:55:19 BRT 2011
+diff
+Date: Mon Mar  7 09:55:29 BRT 2011
+ci -a -m added [Support], and shuffled sections order in weaver.ini
+Date: Mon Mar  7 09:56:08 BRT 2011
+st
+Date: Mon Mar  7 10:07:51 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Mar  7 10:07:54 BRT 2011
+diff
+Date: Mon Mar  7 10:07:55 BRT 2011
+ci -a -m replaced SourceGitHub with Availability, some Support options too
+Date: Mon Mar  7 10:08:31 BRT 2011
+st
+Date: Mon Mar  7 10:46:25 BRT 2011
+br
+Date: Mon Mar  7 10:50:07 BRT 2011
+st
+Date: Mon Mar  7 12:44:31 BRT 2011
+diff .bashrc
+Date: Mon Mar  7 12:44:46 BRT 2011
+--git-dir=.git config --get alias.ci
+Date: Mon Mar  7 12:45:20 BRT 2011
+--git-dir=.git config --get alias.ci
+Date: Mon Mar  7 12:45:21 BRT 2011
+--git-dir=.git config --get alias.ci
+Date: Mon Mar  7 12:45:22 BRT 2011
+--git-dir=.git config --get alias.ci
+Date: Mon Mar  7 12:45:24 BRT 2011
+--git-dir=.git config --get alias.ci
+Date: Mon Mar  7 12:45:25 BRT 2011
+add .profile-git
+Date: Mon Mar  7 12:45:55 BRT 2011
+ci .bashrc .profile-git -m refactored git-related stuff to .profile-git
+Date: Mon Mar  7 12:45:56 BRT 2011
+st
+Date: Mon Mar  7 12:45:59 BRT 2011
+add bin/mk-git-achievements bin/mk-git-cv
+Date: Mon Mar  7 13:13:15 BRT 2011
+add bin/mk-git-flow
+Date: Mon Mar  7 13:19:35 BRT 2011
+st
+Date: Mon Mar  7 13:19:39 BRT 2011
+--git-dir=.git config --get alias.ci
+Date: Mon Mar  7 13:19:46 BRT 2011
+--git-dir=.git config --get alias.ci
+Date: Mon Mar  7 13:19:48 BRT 2011
+--git-dir=.git config --get alias.ci
+Date: Mon Mar  7 13:19:49 BRT 2011
+ci bin/mk-git-achievements bin/mk-git-cv bin/mk-git-flow
+Date: Mon Mar  7 13:20:26 BRT 2011
+st
+Date: Mon Mar  7 13:20:30 BRT 2011
+--git-dir=.git config --get alias.ci
+Date: Mon Mar  7 13:20:47 BRT 2011
+--git-dir=.git config --get alias.ci
+Date: Mon Mar  7 13:20:48 BRT 2011
+ci .minicpanrc -m switched to cpan.org site
+Date: Mon Mar  7 13:20:59 BRT 2011

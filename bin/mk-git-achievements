@@ -1,0 +1,8 @@
+#!/bin/bash
+
+GITDIR=${HOME}/git
+GITREPO='git@github.com:russoz/git-achievements.git'
+
+mkdir -p $GITDIR
+cd $GITDIR
+git clone $GITREPO

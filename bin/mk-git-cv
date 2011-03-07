@@ -1,0 +1,6 @@
+#!/bin/bash
+
+GITREPO='git@github.com:russoz/CV.git'
+
+cd
+git clone $GITREPO

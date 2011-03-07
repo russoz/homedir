@@ -100,20 +100,16 @@ fi
 
 export MANPAGER="/usr/bin/most -s"
 
+[ -f ${HOME}/perl5/perlbrew/etc/bashrc ] \
+  && source ${HOME}/perl5/perlbrew/etc/bashrc
+
 if [ -f ${HOME}/.profile-perl ]; then
     source ${HOME}/.profile-perl
 else
     eval $(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib)
 fi
 
-[ -f ${HOME}/perl5/perlbrew/etc/bashrc ] \
-  && source ${HOME}/perl5/perlbrew/etc/bashrc
-
 . ${HOME}/.nb/load
 . ${HOME}/.profile-avon
-
-[ -d ${HOME}/git/git-achievements ] && {
-    export PATH="${PATH}:${HOME}/git/git-achievements"
-    alias git="git-achievements"
-}
+. ${HOME}/.profile-git
 

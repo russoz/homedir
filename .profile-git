@@ -1,0 +1,9 @@
+
+[ -d ${HOME}/git/git-achievements ] && {
+    export PATH="${PATH}:${HOME}/git/git-achievements"
+    alias git="git-achievements"
+}
+
+[ -d ${HOME}/git/gitflow ] && {
+	export PATH="${PATH}:${HOME}/git/gitflow"
+}

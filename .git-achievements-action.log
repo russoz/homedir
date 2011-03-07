@@ -10422,3 +10422,159 @@ st
 Date: Sun Mar  6 10:58:12 BRT 2011
 br
 Date: Sun Mar  6 12:52:52 BRT 2011
+br
+Date: Sun Mar  6 19:25:44 BRT 2011
+st
+Date: Sun Mar  6 21:06:50 BRT 2011
+diff
+Date: Sun Mar  6 21:07:30 BRT 2011
+st
+Date: Sun Mar  6 21:09:39 BRT 2011
+ci -a -m added internal dumper feature dist.ini examples lib scripts t TODO weaver.ini maybe should do that with Traits? dist.ini examples lib scripts t TODO weaver.ini ran perltidy against the whole codebase dist.ini examples lib scripts t TODO weaver.ini added laziness to some of the Node attributes
+Date: Sun Mar  6 21:11:17 BRT 2011
+help -a
+Date: Sun Mar  6 21:11:21 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Mar  6 21:11:21 BRT 2011
+flow feature
+Date: Sun Mar  6 21:11:27 BRT 2011
+flow feature list
+Date: Sun Mar  6 21:11:30 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Mar  6 21:11:36 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Mar  6 21:12:24 BRT 2011
+mergetool
+Date: Sun Mar  6 21:13:38 BRT 2011
+commit
+Date: Sun Mar  6 21:14:04 BRT 2011
+flow feature finish internal_dumper
+Date: Sun Mar  6 21:14:19 BRT 2011
+push
+Date: Sun Mar  6 21:14:42 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Mar  6 21:15:53 BRT 2011
+flow release start 0.91.06
+Date: Sun Mar  6 21:16:17 BRT 2011
+br
+Date: Sun Mar  6 21:16:27 BRT 2011
+br
+Date: Sun Mar  6 21:28:10 BRT 2011
+st
+Date: Sun Mar  6 21:32:17 BRT 2011
+br
+Date: Sun Mar  6 21:35:30 BRT 2011
+br
+Date: Sun Mar  6 21:38:20 BRT 2011
+br
+Date: Sun Mar  6 21:39:40 BRT 2011
+flow release
+Date: Sun Mar  6 21:39:50 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Mar  6 21:40:50 BRT 2011
+flow release
+Date: Sun Mar  6 21:40:54 BRT 2011
+st
+Date: Sun Mar  6 21:41:04 BRT 2011
+ci -a -m release 0.91.06
+Date: Sun Mar  6 21:41:39 BRT 2011
+flow release finish 0.91.06
+Date: Sun Mar  6 21:41:55 BRT 2011
+br
+Date: Sun Mar  6 21:42:03 BRT 2011
+--git-dir=.git config --get alias.br
+Date: Sun Mar  6 21:42:07 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Mar  6 21:42:11 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Mar  6 21:42:12 BRT 2011
+checkout master
+Date: Sun Mar  6 21:42:14 BRT 2011
+st
+Date: Sun Mar  6 21:42:19 BRT 2011
+br
+Date: Sun Mar  6 22:51:13 BRT 2011
+help -a
+Date: Sun Mar  6 22:51:28 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Mar  6 22:51:28 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Mar  6 22:51:29 BRT 2011
+checkout feature/classmopper_pod_weaver
+Date: Sun Mar  6 22:51:31 BRT 2011
+pull . develop
+Date: Sun Mar  6 22:51:39 BRT 2011
+br
+Date: Sun Mar  6 22:51:43 BRT 2011
+show
+Date: Sun Mar  6 22:51:47 BRT 2011
+clone git@github.com:russoz/ClassMopper.git
+Date: Sun Mar  6 22:54:56 BRT 2011
+st
+Date: Sun Mar  6 22:58:47 BRT 2011
+stash
+Date: Sun Mar  6 22:58:51 BRT 2011
+st
+Date: Sun Mar  6 22:58:54 BRT 2011
+stash --help
+Date: Sun Mar  6 23:03:22 BRT 2011
+stash pop
+Date: Sun Mar  6 23:03:25 BRT 2011
+st
+Date: Sun Mar  6 23:36:30 BRT 2011
+diff
+Date: Sun Mar  6 23:36:44 BRT 2011
+br
+Date: Sun Mar  6 23:38:42 BRT 2011
+st
+Date: Sun Mar  6 23:38:45 BRT 2011
+ci -a -m added ClassMopper to weaver.ini
+Date: Sun Mar  6 23:38:56 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Mar  6 23:39:03 BRT 2011
+flow feature
+Date: Sun Mar  6 23:39:06 BRT 2011
+flow feature help
+Date: Sun Mar  6 23:39:08 BRT 2011
+flow feature start filedata_refactor
+Date: Sun Mar  6 23:41:16 BRT 2011
+br
+Date: Sun Mar  6 23:41:20 BRT 2011
+mv lib/DataFlow/Node/FileData.pm lib/DataFlow/Node/FileInput.pm
+Date: Sun Mar  6 23:48:26 BRT 2011
+mv t/21-filedata.t t/21-fileinput.t
+Date: Sun Mar  6 23:48:57 BRT 2011
+mv examples/filedata.test examples/file.test
+Date: Sun Mar  6 23:49:36 BRT 2011
+br
+Date: Sun Mar  6 23:50:59 BRT 2011
+st
+Date: Sun Mar  6 23:51:01 BRT 2011
+add lib/DataFlow/Role/
+Date: Sun Mar  6 23:51:11 BRT 2011
+add lib/DataFlow/Node/FileInput.pm t/21-fileinput.t
+Date: Sun Mar  6 23:51:20 BRT 2011
+st
+Date: Sun Mar  6 23:51:22 BRT 2011
+ci -m refactored FileData dist.ini examples lib scripts t TODO weaver.ini file/io handle attributes and stuff refactored out to DataFlow::Role::File dist.ini examples lib scripts t TODO weaver.ini renamed FileData to FileInput
+Date: Sun Mar  6 23:52:28 BRT 2011
+st
+Date: Sun Mar  6 23:52:33 BRT 2011
+br
+Date: Sun Mar  6 23:52:35 BRT 2011
+help -a
+Date: Sun Mar  6 23:52:37 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Mar  6 23:52:37 BRT 2011
+flow feature
+Date: Sun Mar  6 23:52:42 BRT 2011
+flow feature finish filedata_refactor
+Date: Sun Mar  6 23:52:51 BRT 2011
+br
+Date: Sun Mar  6 23:53:00 BRT 2011
+--git-dir=.git config --get-regexp remote\..*\.url
+Date: Sun Mar  6 23:53:11 BRT 2011
+push origin master
+Date: Sun Mar  6 23:53:21 BRT 2011
+push origin develop
+Date: Sun Mar  6 23:53:30 BRT 2011

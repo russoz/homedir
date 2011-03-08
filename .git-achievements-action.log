@@ -10814,3 +10814,185 @@ flow release finish -n 0.91.07
 Date: Mon Mar  7 22:02:11 BRT 2011
 tag
 Date: Mon Mar  7 22:03:27 BRT 2011
+br
+Date: Tue Mar  8 09:32:30 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Mar  8 09:32:41 BRT 2011
+checkout feature/output_param
+Date: Tue Mar  8 09:32:44 BRT 2011
+pull . develop
+Date: Tue Mar  8 09:33:01 BRT 2011
+br
+Date: Tue Mar  8 09:33:41 BRT 2011
+br
+Date: Tue Mar  8 09:39:25 BRT 2011
+st
+Date: Tue Mar  8 10:39:16 BRT 2011
+diff
+Date: Tue Mar  8 10:39:20 BRT 2011
+shortlog
+Date: Tue Mar  8 11:19:46 BRT 2011
+rev-parse --git-dir
+Date: Tue Mar  8 11:20:01 BRT 2011
+log --oneline
+Date: Tue Mar  8 11:20:08 BRT 2011
+help -a
+Date: Tue Mar  8 11:20:12 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Mar  8 11:20:12 BRT 2011
+st
+Date: Tue Mar  8 11:20:23 BRT 2011
+diff
+Date: Tue Mar  8 11:20:32 BRT 2011
+st
+Date: Tue Mar  8 11:20:47 BRT 2011
+diff
+Date: Tue Mar  8 11:23:22 BRT 2011
+st
+Date: Tue Mar  8 11:26:39 BRT 2011
+ci -a -m added logic and tests for parameterized output - plus a run of perltidy
+Date: Tue Mar  8 11:27:14 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Mar  8 11:29:06 BRT 2011
+ci -a
+Date: Tue Mar  8 11:29:24 BRT 2011
+st
+Date: Tue Mar  8 11:29:34 BRT 2011
+st
+Date: Tue Mar  8 11:30:15 BRT 2011
+add lib/DataFlow/Node.pm
+Date: Tue Mar  8 11:30:21 BRT 2011
+st
+Date: Tue Mar  8 11:30:23 BRT 2011
+ci -a -m merged
+Date: Tue Mar  8 11:30:33 BRT 2011
+rebase --continue
+Date: Tue Mar  8 11:30:37 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Mar  8 11:31:02 BRT 2011
+flow feature
+Date: Tue Mar  8 11:31:05 BRT 2011
+st
+Date: Tue Mar  8 11:36:07 BRT 2011
+add lib/
+Date: Tue Mar  8 11:36:20 BRT 2011
+st
+Date: Tue Mar  8 11:36:23 BRT 2011
+commit
+Date: Tue Mar  8 11:36:38 BRT 2011
+br
+Date: Tue Mar  8 11:37:12 BRT 2011
+flow feature finish output_param
+Date: Tue Mar  8 11:37:33 BRT 2011
+push
+Date: Tue Mar  8 11:38:09 BRT 2011
+br
+Date: Tue Mar  8 11:53:07 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Mar  8 11:53:18 BRT 2011
+checkout feature/fileoutput
+Date: Tue Mar  8 11:53:22 BRT 2011
+br
+Date: Tue Mar  8 11:54:19 BRT 2011
+st
+Date: Tue Mar  8 11:55:15 BRT 2011
+help -a
+Date: Tue Mar  8 11:55:17 BRT 2011
+--git-dir=/home/az/tmp/perl/dataflow/.git config --get-regexp alias\..*
+Date: Tue Mar  8 11:55:17 BRT 2011
+--git-dir=/home/az/tmp/perl/dataflow/.git config --get-regexp alias\..*
+Date: Tue Mar  8 11:57:26 BRT 2011
+checkout develop
+Date: Tue Mar  8 11:57:29 BRT 2011
+br
+Date: Tue Mar  8 12:03:30 BRT 2011
+ci -a -m written down some ideas TODO
+Date: Tue Mar  8 12:03:48 BRT 2011
+st
+Date: Tue Mar  8 12:12:12 BRT 2011
+br
+Date: Tue Mar  8 12:15:36 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Mar  8 12:15:39 BRT 2011
+flow feature start nomoose
+Date: Tue Mar  8 12:15:50 BRT 2011
+st
+Date: Tue Mar  8 12:23:33 BRT 2011
+ci -a -m added 'no Moose' to classes
+Date: Tue Mar  8 12:24:00 BRT 2011
+st
+Date: Tue Mar  8 12:24:19 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Mar  8 12:24:27 BRT 2011
+flow feature
+Date: Tue Mar  8 12:24:33 BRT 2011
+flow feature finish nomoose
+Date: Tue Mar  8 12:24:41 BRT 2011
+flow feature
+Date: Tue Mar  8 12:25:10 BRT 2011
+flow feature help
+Date: Tue Mar  8 12:25:25 BRT 2011
+flow feature list -v
+Date: Tue Mar  8 12:25:42 BRT 2011
+flow feature list
+Date: Tue Mar  8 12:25:47 BRT 2011
+flow feature help
+Date: Tue Mar  8 12:26:03 BRT 2011
+br
+Date: Tue Mar  8 12:31:25 BRT 2011
+br
+Date: Tue Mar  8 13:14:06 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Mar  8 13:14:13 BRT 2011
+checkout feature/fileoutput
+Date: Tue Mar  8 13:14:18 BRT 2011
+st
+Date: Tue Mar  8 13:26:55 BRT 2011
+br
+Date: Tue Mar  8 13:26:58 BRT 2011
+mv lib/DataFlow/Node/FileOutput.pm lib/DataFlow/Node/SimpleFileOutput.pm
+Date: Tue Mar  8 13:27:14 BRT 2011
+st
+Date: Tue Mar  8 13:27:20 BRT 2011
+mv lib/DataFlow/Node/FileInput.pm lib/DataFlow/Node/SimpleFileInput.pm
+Date: Tue Mar  8 13:28:12 BRT 2011
+mv t/21-fileinput.t t/21-simplefileinput.t
+Date: Tue Mar  8 13:28:48 BRT 2011
+br
+Date: Tue Mar  8 14:25:58 BRT 2011
+st
+Date: Tue Mar  8 14:33:00 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Mar  8 14:33:28 BRT 2011
+flow feature
+Date: Tue Mar  8 14:33:30 BRT 2011
+flow feature help
+Date: Tue Mar  8 14:33:33 BRT 2011
+push
+Date: Tue Mar  8 14:33:57 BRT 2011
+push
+Date: Tue Mar  8 14:34:04 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Mar  8 14:46:14 BRT 2011
+flow feature
+Date: Tue Mar  8 14:46:19 BRT 2011
+st
+Date: Tue Mar  8 14:46:28 BRT 2011
+ci -a -m revamp of file handling a more definitive solution should be pursued in the future, but for now this can handle some simple and immediate needs
+Date: Tue Mar  8 14:47:43 BRT 2011
+st
+Date: Tue Mar  8 14:47:50 BRT 2011
+st
+Date: Tue Mar  8 14:49:07 BRT 2011
+add lib/DataFlow/Role/
+Date: Tue Mar  8 14:49:20 BRT 2011
+commit
+Date: Tue Mar  8 14:49:28 BRT 2011
+flow feature finish file
+Date: Tue Mar  8 14:49:38 BRT 2011
+push
+Date: Tue Mar  8 14:49:46 BRT 2011
+br
+Date: Tue Mar  8 14:52:28 BRT 2011
+br
+Date: Tue Mar  8 14:57:52 BRT 2011

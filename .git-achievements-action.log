@@ -10658,3 +10658,159 @@ Date: Mon Mar  7 13:20:47 BRT 2011
 Date: Mon Mar  7 13:20:48 BRT 2011
 ci .minicpanrc -m switched to cpan.org site
 Date: Mon Mar  7 13:20:59 BRT 2011
+ci -a -m removed unnecessary files
+Date: Mon Mar  7 13:21:30 BRT 2011
+st
+Date: Mon Mar  7 13:21:36 BRT 2011
+help -a
+Date: Mon Mar  7 13:21:41 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Mar  7 13:21:41 BRT 2011
+push
+Date: Mon Mar  7 13:21:50 BRT 2011
+--version
+Date: Mon Mar  7 13:25:42 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Mar  7 13:35:03 BRT 2011
+flow release help
+Date: Mon Mar  7 13:35:18 BRT 2011
+br
+Date: Mon Mar  7 13:46:18 BRT 2011
+st
+Date: Mon Mar  7 13:46:20 BRT 2011
+br
+Date: Mon Mar  7 13:48:29 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Mar  7 13:48:31 BRT 2011
+flow feature help
+Date: Mon Mar  7 13:48:42 BRT 2011
+flow feature finish pod
+Date: Mon Mar  7 13:48:48 BRT 2011
+push
+Date: Mon Mar  7 13:49:07 BRT 2011
+br
+Date: Mon Mar  7 13:50:29 BRT 2011
+checkout feature/classmopper_pod_weaver
+Date: Mon Mar  7 13:50:44 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Mar  7 14:11:14 BRT 2011
+flow version
+Date: Mon Mar  7 14:11:19 BRT 2011
+flow version help
+Date: Mon Mar  7 14:11:28 BRT 2011
+flow feature help
+Date: Mon Mar  7 14:11:49 BRT 2011
+br
+Date: Mon Mar  7 14:12:38 BRT 2011
+st
+Date: Mon Mar  7 14:12:42 BRT 2011
+ci -a
+Date: Mon Mar  7 14:13:09 BRT 2011
+st
+Date: Mon Mar  7 14:13:15 BRT 2011
+st
+Date: Mon Mar  7 14:14:29 BRT 2011
+br
+Date: Mon Mar  7 14:14:30 BRT 2011
+st
+Date: Mon Mar  7 14:14:49 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Mar  7 14:15:55 BRT 2011
+flow feature start output_param
+Date: Mon Mar  7 14:16:05 BRT 2011
+st
+Date: Mon Mar  7 15:11:52 BRT 2011
+br
+Date: Mon Mar  7 15:26:18 BRT 2011
+diff
+Date: Mon Mar  7 15:37:40 BRT 2011
+mv fig1-porco-salsicha.png fig2-porco-salsicha.png fig3-node.png fig4-chain.png flow.pod node-chain.odg flow
+Date: Mon Mar  7 16:51:57 BRT 2011
+st
+Date: Mon Mar  7 16:52:04 BRT 2011
+ci -a -m subdir para artigo do flow
+Date: Mon Mar  7 16:52:37 BRT 2011
+br
+Date: Mon Mar  7 17:47:44 BRT 2011
+st
+Date: Mon Mar  7 17:48:12 BRT 2011
+ci -a -m NOT WORKING YET: parameter logic is in, first draft
+Date: Mon Mar  7 17:49:00 BRT 2011
+st
+Date: Mon Mar  7 17:49:03 BRT 2011
+help -a
+Date: Mon Mar  7 17:49:06 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Mar  7 17:49:06 BRT 2011
+flow feature start fileoutput
+Date: Mon Mar  7 17:49:17 BRT 2011
+br
+Date: Mon Mar  7 17:49:20 BRT 2011
+br
+Date: Mon Mar  7 18:23:28 BRT 2011
+st
+Date: Mon Mar  7 18:23:33 BRT 2011
+add lib/DataFlow/Node/FileOutput.pm
+Date: Mon Mar  7 18:24:10 BRT 2011
+ci -m fileoutput sketch copied from fileinput
+Date: Mon Mar  7 18:24:14 BRT 2011
+help -a
+Date: Mon Mar  7 18:24:19 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Mar  7 18:24:19 BRT 2011
+flow feature start quote_moose
+Date: Mon Mar  7 18:24:33 BRT 2011
+br
+Date: Mon Mar  7 21:02:40 BRT 2011
+st
+Date: Mon Mar  7 21:02:43 BRT 2011
+ci -a -m added quotes around every hash key/attr name/etc
+Date: Mon Mar  7 21:03:16 BRT 2011
+st
+Date: Mon Mar  7 21:03:22 BRT 2011
+br
+Date: Mon Mar  7 21:03:26 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Mar  7 21:03:28 BRT 2011
+flow feature
+Date: Mon Mar  7 21:03:31 BRT 2011
+flow feature finish quote_moose
+Date: Mon Mar  7 21:03:47 BRT 2011
+br
+Date: Mon Mar  7 21:03:58 BRT 2011
+push
+Date: Mon Mar  7 21:14:00 BRT 2011
+st
+Date: Mon Mar  7 21:55:32 BRT 2011
+br
+Date: Mon Mar  7 21:55:34 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Mar  7 21:55:42 BRT 2011
+tag
+Date: Mon Mar  7 21:55:45 BRT 2011
+flow release start 0.91.07
+Date: Mon Mar  7 21:56:02 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Mar  7 22:00:37 BRT 2011
+st
+Date: Mon Mar  7 22:00:54 BRT 2011
+--git-dir=.git config --get alias.ci
+Date: Mon Mar  7 22:01:15 BRT 2011
+--git-dir=.git config --get alias.ci
+Date: Mon Mar  7 22:01:16 BRT 2011
+add lib/DataFlow.pm
+Date: Mon Mar  7 22:01:43 BRT 2011
+ci -m updated the documentation
+Date: Mon Mar  7 22:01:48 BRT 2011
+st
+Date: Mon Mar  7 22:01:50 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Mar  7 22:01:52 BRT 2011
+diff
+Date: Mon Mar  7 22:01:53 BRT 2011
+ci -a -m version 0.91.07
+Date: Mon Mar  7 22:02:03 BRT 2011
+flow release finish -n 0.91.07
+Date: Mon Mar  7 22:02:11 BRT 2011
+tag
+Date: Mon Mar  7 22:03:27 BRT 2011

@@ -10996,3 +10996,279 @@ br
 Date: Tue Mar  8 14:52:28 BRT 2011
 br
 Date: Tue Mar  8 14:57:52 BRT 2011
+st
+Date: Tue Mar  8 16:32:44 BRT 2011
+st
+Date: Tue Mar  8 17:54:34 BRT 2011
+diff
+Date: Tue Mar  8 17:54:39 BRT 2011
+diff
+Date: Tue Mar  8 17:55:27 BRT 2011
+help -a
+Date: Tue Mar  8 17:55:29 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Mar  8 17:55:29 BRT 2011
+checkout lib/
+Date: Tue Mar  8 17:55:34 BRT 2011
+st
+Date: Tue Mar  8 18:02:23 BRT 2011
+diff
+Date: Tue Mar  8 18:07:33 BRT 2011
+add TODO
+Date: Tue Mar  8 18:07:37 BRT 2011
+st
+Date: Tue Mar  8 18:07:43 BRT 2011
+ci -m update on things to-do
+Date: Tue Mar  8 18:08:04 BRT 2011
+diff
+Date: Tue Mar  8 18:09:23 BRT 2011
+ci -a -m improved CSV node now it can convert from CSV and to CSV
+Date: Tue Mar  8 18:10:51 BRT 2011
+br
+Date: Tue Mar  8 18:10:54 BRT 2011
+push
+Date: Tue Mar  8 18:11:12 BRT 2011
+st
+Date: Tue Mar  8 18:22:42 BRT 2011
+br
+Date: Tue Mar  8 18:22:44 BRT 2011
+st
+Date: Tue Mar  8 18:41:49 BRT 2011
+st
+Date: Tue Mar  8 18:41:58 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Mar  8 18:42:02 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Mar  8 18:42:03 BRT 2011
+checkout
+Date: Tue Mar  8 18:42:03 BRT 2011
+st
+Date: Tue Mar  8 18:42:06 BRT 2011
+checkout lib/
+Date: Tue Mar  8 18:42:09 BRT 2011
+clone git@github.com:russoz/Queue-Base.git
+Date: Tue Mar  8 18:48:09 BRT 2011
+st
+Date: Tue Mar  8 18:52:53 BRT 2011
+diff
+Date: Tue Mar  8 18:53:04 BRT 2011
+diff
+Date: Tue Mar  8 18:53:16 BRT 2011
+st
+Date: Tue Mar  8 19:06:00 BRT 2011
+diff
+Date: Tue Mar  8 19:06:13 BRT 2011
+st
+Date: Tue Mar  8 19:06:32 BRT 2011
+diff
+Date: Tue Mar  8 19:07:07 BRT 2011
+br
+Date: Tue Mar  8 19:08:12 BRT 2011
+st
+Date: Tue Mar  8 19:15:40 BRT 2011
+diff TODO
+Date: Tue Mar  8 19:15:47 BRT 2011
+add TODO
+Date: Tue Mar  8 19:15:51 BRT 2011
+ci -m more ideas TODO
+Date: Tue Mar  8 19:15:58 BRT 2011
+diff
+Date: Tue Mar  8 19:16:03 BRT 2011
+ci -a -m added [Encoding] in weaver.ini added commetn lines with "# ENCODING" to every file
+Date: Tue Mar  8 19:16:48 BRT 2011
+rev-parse --git-dir
+Date: Tue Mar  8 19:16:58 BRT 2011
+log --oneline
+Date: Tue Mar  8 19:17:25 BRT 2011
+st
+Date: Tue Mar  8 19:17:30 BRT 2011
+gc
+Date: Tue Mar  8 19:17:33 BRT 2011
+st
+Date: Tue Mar  8 19:18:03 BRT 2011
+push
+Date: Tue Mar  8 19:18:17 BRT 2011
+br
+Date: Tue Mar  8 19:18:42 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Mar  8 19:18:45 BRT 2011
+flow release start 0.91.08
+Date: Tue Mar  8 19:19:08 BRT 2011
+br
+Date: Tue Mar  8 19:19:13 BRT 2011
+st
+Date: Tue Mar  8 19:19:34 BRT 2011
+ci -a -m perltidy
+Date: Tue Mar  8 19:19:51 BRT 2011
+st
+Date: Tue Mar  8 19:20:58 BRT 2011
+st
+Date: Tue Mar  8 19:22:41 BRT 2011
+ci -a -m version 0.91.09
+Date: Tue Mar  8 19:23:39 BRT 2011
+st
+Date: Tue Mar  8 19:23:43 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Mar  8 19:24:03 BRT 2011
+flow release
+Date: Tue Mar  8 19:24:09 BRT 2011
+flow release help
+Date: Tue Mar  8 19:24:11 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Mar  8 19:24:22 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Mar  8 19:25:26 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Mar  8 19:25:26 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Mar  8 19:25:32 BRT 2011
+--git-dir=.git config --get alias.unstage
+Date: Tue Mar  8 19:25:33 BRT 2011
+unstage dist.ini
+Date: Tue Mar  8 19:25:34 BRT 2011
+st
+Date: Tue Mar  8 19:25:37 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Mar  8 19:26:47 BRT 2011
+rebase --interactive HEAD
+Date: Tue Mar  8 19:26:53 BRT 2011
+rebase --interactive HEAD~1
+Date: Tue Mar  8 19:27:03 BRT 2011
+rebase --interactive HEAD~3
+Date: Tue Mar  8 19:27:13 BRT 2011
+st
+Date: Tue Mar  8 19:27:18 BRT 2011
+ci -a -m version 0.91.08
+Date: Tue Mar  8 19:27:40 BRT 2011
+st
+Date: Tue Mar  8 19:27:47 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Mar  8 19:27:53 BRT 2011
+flow release
+Date: Tue Mar  8 19:27:59 BRT 2011
+flow release help
+Date: Tue Mar  8 19:29:28 BRT 2011
+flow release finish -n 0.91.08
+Date: Tue Mar  8 19:29:43 BRT 2011
+br
+Date: Tue Mar  8 19:32:39 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Mar  8 19:32:43 BRT 2011
+push
+Date: Tue Mar  8 19:32:48 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Mar  8 19:33:37 BRT 2011
+achievements
+Date: Tue Mar  8 19:33:37 BRT 2011
+st
+Date: Tue Mar  8 19:40:32 BRT 2011
+br
+Date: Tue Mar  8 19:40:35 BRT 2011
+st
+Date: Tue Mar  8 20:39:38 BRT 2011
+diff
+Date: Tue Mar  8 20:39:53 BRT 2011
+st
+Date: Tue Mar  8 20:40:48 BRT 2011
+diff
+Date: Tue Mar  8 20:41:19 BRT 2011
+ci -a -m version 2.1.10 - use encoding in pod weaver - discarded t in dist.ini for now
+Date: Tue Mar  8 20:42:16 BRT 2011
+st
+Date: Tue Mar  8 20:42:19 BRT 2011
+push
+Date: Tue Mar  8 20:44:09 BRT 2011
+st
+Date: Tue Mar  8 20:44:19 BRT 2011
+clone git@github.com:russoz/Queue-Base.git
+Date: Tue Mar  8 20:45:31 BRT 2011
+help -a
+Date: Tue Mar  8 20:47:07 BRT 2011
+--git-dir=/home/az/.git config --get-regexp alias\..*
+Date: Tue Mar  8 20:47:07 BRT 2011
+clone git@github.com:russoz/perltests.git
+Date: Tue Mar  8 20:47:17 BRT 2011
+st
+Date: Tue Mar  8 20:48:30 BRT 2011
+ci -a -m no deal. bumping version to 2.200
+Date: Tue Mar  8 20:48:49 BRT 2011
+st
+Date: Tue Mar  8 20:52:20 BRT 2011
+push
+Date: Tue Mar  8 20:52:28 BRT 2011
+br
+Date: Tue Mar  8 20:53:00 BRT 2011
+checkout feature/classmopper_pod_weaver
+Date: Tue Mar  8 20:53:09 BRT 2011
+st
+Date: Tue Mar  8 20:53:12 BRT 2011
+st
+Date: Tue Mar  8 20:56:38 BRT 2011
+help -a
+Date: Tue Mar  8 20:56:40 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Mar  8 20:56:40 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Mar  8 20:56:41 BRT 2011
+checkout lib/
+Date: Tue Mar  8 20:56:43 BRT 2011
+checkout lib/
+Date: Tue Mar  8 20:57:40 BRT 2011
+st
+Date: Tue Mar  8 21:55:05 BRT 2011
+st
+Date: Tue Mar  8 22:03:23 BRT 2011
+diff
+Date: Tue Mar  8 22:03:37 BRT 2011
+st
+Date: Tue Mar  8 22:24:06 BRT 2011
+log
+Date: Tue Mar  8 22:24:14 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Mar  8 22:24:22 BRT 2011
+diff
+Date: Tue Mar  8 22:24:34 BRT 2011
+ci -a -m Skip Moose::Role's
+Date: Tue Mar  8 22:26:33 BRT 2011
+st
+Date: Tue Mar  8 22:26:36 BRT 2011
+br
+Date: Tue Mar  8 22:32:05 BRT 2011
+st
+Date: Tue Mar  8 22:32:33 BRT 2011
+log
+Date: Tue Mar  8 22:33:44 BRT 2011
+st
+Date: Tue Mar  8 22:34:12 BRT 2011
+ci -a -m added .build/ to .gitignore
+Date: Tue Mar  8 22:34:41 BRT 2011
+st
+Date: Tue Mar  8 22:34:49 BRT 2011
+st
+Date: Tue Mar  8 22:35:25 BRT 2011
+ci -a -m added Pod-Weaver-Section-ClassMopper-1.110680 Pod-Weaver-Section-ClassMopper-1.110680.tar.gz to .gitignore
+Date: Tue Mar  8 22:35:54 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Mar  8 22:35:57 BRT 2011
+rebase --interactive HEAD~3
+Date: Tue Mar  8 22:37:11 BRT 2011
+log
+Date: Tue Mar  8 22:37:37 BRT 2011
+st
+Date: Tue Mar  8 22:37:38 BRT 2011
+push
+Date: Tue Mar  8 22:37:46 BRT 2011
+--git-dir=.git config --get alias.br
+Date: Tue Mar  8 22:42:49 BRT 2011
+help -a
+Date: Tue Mar  8 22:42:53 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Mar  8 22:42:53 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Mar  8 22:42:54 BRT 2011
+checkout develop
+Date: Tue Mar  8 22:42:56 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Tue Mar  8 22:43:07 BRT 2011
+clean -fd
+Date: Tue Mar  8 22:43:09 BRT 2011

@@ -11272,3 +11272,69 @@ Date: Tue Mar  8 22:42:56 BRT 2011
 Date: Tue Mar  8 22:43:07 BRT 2011
 clean -fd
 Date: Tue Mar  8 22:43:09 BRT 2011
+st
+Date: Wed Mar  9 08:31:09 BRT 2011
+help -a
+Date: Wed Mar  9 08:44:59 BRT 2011
+--git-dir=/home/az/tmp/perl/dataflow/.git config --get-regexp alias\..*
+Date: Wed Mar  9 08:44:59 BRT 2011
+--git-dir=/home/az/tmp/perl/dataflow/.git config --get-regexp alias\..*
+Date: Wed Mar  9 08:44:59 BRT 2011
+mv df-portaltransparencia.pl portaltransparencia/ceis.pl
+Date: Wed Mar  9 08:45:44 BRT 2011
+st
+Date: Wed Mar  9 12:05:39 BRT 2011
+st
+Date: Wed Mar  9 15:28:58 BRT 2011
+diff
+Date: Wed Mar  9 15:29:15 BRT 2011
+diff
+Date: Wed Mar  9 15:30:59 BRT 2011
+st
+Date: Wed Mar  9 15:41:19 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Mar  9 15:41:22 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Mar  9 15:41:25 BRT 2011
+diff lib/
+Date: Wed Mar  9 15:42:07 BRT 2011
+br
+Date: Wed Mar  9 15:42:10 BRT 2011
+add lib/
+Date: Wed Mar  9 15:42:26 BRT 2011
+ci -m many fixes on CSV generation
+Date: Wed Mar  9 15:42:46 BRT 2011
+st
+Date: Wed Mar  9 15:42:58 BRT 2011
+diff
+Date: Wed Mar  9 15:45:01 BRT 2011
+st
+Date: Wed Mar  9 15:45:10 BRT 2011
+ci -a -m added CSV and SimpleFileOutput to CEIS script
+Date: Wed Mar  9 15:45:42 BRT 2011
+st
+Date: Wed Mar  9 15:45:47 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Mar  9 15:46:00 BRT 2011
+rebase --interactive HEAD~3
+Date: Wed Mar  9 15:46:32 BRT 2011
+log
+Date: Wed Mar  9 15:46:55 BRT 2011
+br
+Date: Wed Mar  9 15:52:12 BRT 2011
+st
+Date: Wed Mar  9 15:52:14 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Mar  9 15:53:20 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Mar  9 15:55:02 BRT 2011
+flow release start 0.91.09
+Date: Wed Mar  9 15:55:20 BRT 2011
+br
+Date: Wed Mar  9 15:55:25 BRT 2011
+st
+Date: Wed Mar  9 15:55:54 BRT 2011
+st
+Date: Wed Mar  9 15:59:27 BRT 2011
+st
+Date: Wed Mar  9 15:59:53 BRT 2011

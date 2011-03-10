@@ -11338,3 +11338,59 @@ st
 Date: Wed Mar  9 15:59:27 BRT 2011
 st
 Date: Wed Mar  9 15:59:53 BRT 2011
+ci -a -m version 0.91.09
+Date: Wed Mar  9 16:00:13 BRT 2011
+st
+Date: Wed Mar  9 16:00:16 BRT 2011
+flow release finish -n 0.91.09
+Date: Wed Mar  9 16:00:21 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Mar  9 16:00:43 BRT 2011
+pull origin develop
+Date: Wed Mar  9 16:01:30 BRT 2011
+push
+Date: Wed Mar  9 16:01:42 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Mar  9 16:04:22 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Mar  9 16:04:22 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Mar  9 16:04:22 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Mar  9 16:04:24 BRT 2011
+sync-origin
+Date: Wed Mar  9 16:04:32 BRT 2011
+pull origin develop
+Date: Wed Mar  9 16:04:55 BRT 2011
+push origin develop
+Date: Wed Mar  9 16:05:03 BRT 2011
+push origin develop
+Date: Wed Mar  9 16:05:23 BRT 2011
+pull origin develop
+Date: Wed Mar  9 16:05:29 BRT 2011
+push origin develop
+Date: Wed Mar  9 16:05:34 BRT 2011
+br
+Date: Wed Mar  9 16:25:02 BRT 2011
+br --help
+Date: Wed Mar  9 16:25:07 BRT 2011
+branch --help
+Date: Wed Mar  9 16:25:36 BRT 2011
+branch --help
+Date: Wed Mar  9 16:25:57 BRT 2011
+branch --no-color
+Date: Wed Mar  9 16:26:01 BRT 2011
+branch --no-color
+Date: Wed Mar  9 16:27:32 BRT 2011
+branch --no-color
+Date: Wed Mar  9 16:27:51 BRT 2011
+branch --no-color
+Date: Wed Mar  9 16:28:03 BRT 2011
+branch --no-color
+Date: Wed Mar  9 16:28:19 BRT 2011
+branch --no-color
+Date: Wed Mar  9 16:28:41 BRT 2011
+branch --no-color
+Date: Wed Mar  9 16:28:49 BRT 2011
+branch --no-color
+Date: Wed Mar  9 16:29:12 BRT 2011

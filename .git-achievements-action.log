@@ -11598,3 +11598,31 @@ st
 Date: Sun Mar 13 01:20:49 BRT 2011
 st
 Date: Sun Mar 13 02:01:10 BRT 2011
+mv lib/DataFlow/Node/SimpleFileInput.pm lib/DataFlow/Proc/SimpleFileInput.pm
+Date: Sun Mar 13 10:07:32 BRT 2011
+st
+Date: Sun Mar 13 11:45:21 BRT 2011
+add lib/DataFlow/Proc.pm lib/DataFlow/Role/Dumper.pm t/01-proc.t
+Date: Sun Mar 13 11:45:43 BRT 2011
+st
+Date: Sun Mar 13 11:45:44 BRT 2011
+ci -a -m implementing processors - transformed all the former Nodes into Procs
+Date: Sun Mar 13 11:46:32 BRT 2011
+st
+Date: Sun Mar 13 11:46:35 BRT 2011
+br
+Date: Sun Mar 13 11:46:38 BRT 2011
+mv lib/DataFlow/Node/URLRetriever/Get.pm lib/DataFlow/Util/HTTPGet.pm
+Date: Sun Mar 13 11:48:00 BRT 2011
+mv lib/DataFlow/Node/URLRetriever/Get/Curl.pm lib/DataFlow/Node/URLRetriever/Get/Mechanize.pm lib/DataFlow/Util/HTTPGet/
+Date: Sun Mar 13 11:48:16 BRT 2011
+st
+Date: Sun Mar 13 11:48:19 BRT 2011
+st
+Date: Sun Mar 13 11:53:10 BRT 2011
+ci -a -m renamed DataFlow/Node/URLRetriever/Get* to lib/DataFlow/Util/HTTPGet lib/DataFlow/Util/HTTPGet.pm
+Date: Sun Mar 13 11:53:49 BRT 2011
+st
+Date: Sun Mar 13 11:53:57 BRT 2011
+st
+Date: Sun Mar 13 11:55:09 BRT 2011

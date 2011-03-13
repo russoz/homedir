@@ -11486,3 +11486,37 @@ Date: Sat Mar 12 00:27:33 BRT 2011
 Date: Sat Mar 12 00:27:38 BRT 2011
 flow feature start processors
 Date: Sat Mar 12 00:28:02 BRT 2011
+clone git@github.com:russoz/gitignore.git
+Date: Sat Mar 12 22:27:52 BRT 2011
+add perl.gitignore
+Date: Sat Mar 12 22:33:03 BRT 2011
+ci -a -m gitignore for perl
+Date: Sat Mar 12 22:33:16 BRT 2011
+help -a
+Date: Sat Mar 12 22:33:18 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Mar 12 22:33:18 BRT 2011
+push
+Date: Sat Mar 12 22:33:23 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Mar 12 22:40:05 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Mar 12 22:40:06 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Mar 12 22:40:06 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Mar 12 22:40:08 BRT 2011
+clone git@github.com:russoz/gitignore.git
+Date: Sat Mar 12 22:42:05 BRT 2011
+ci -a -m added .build - used by Dist::Zilla
+Date: Sat Mar 12 22:44:09 BRT 2011
+push
+Date: Sat Mar 12 22:44:16 BRT 2011
+gc
+Date: Sat Mar 12 22:49:39 BRT 2011
+gc
+Date: Sat Mar 12 22:49:43 BRT 2011
+gc
+Date: Sat Mar 12 22:49:49 BRT 2011
+gc
+Date: Sat Mar 12 22:50:01 BRT 2011

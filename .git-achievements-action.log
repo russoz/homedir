@@ -11626,3 +11626,149 @@ st
 Date: Sun Mar 13 11:53:57 BRT 2011
 st
 Date: Sun Mar 13 11:55:09 BRT 2011
+st
+Date: Sun Mar 13 16:32:01 BRT 2011
+init
+Date: Sun Mar 13 17:54:31 BRT 2011
+add daemons.pl
+Date: Sun Mar 13 17:54:35 BRT 2011
+ci -m mantovani
+Date: Sun Mar 13 17:54:47 BRT 2011
+diff
+Date: Sun Mar 13 17:55:09 BRT 2011
+add daemons.pl
+Date: Sun Mar 13 17:55:13 BRT 2011
+help -a
+Date: Sun Mar 13 17:55:24 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Mar 13 17:55:25 BRT 2011
+--git-dir=.git config --get alias.unstage
+Date: Sun Mar 13 17:55:26 BRT 2011
+mv daemons.pl daemons.pl.pod
+Date: Sun Mar 13 18:02:01 BRT 2011
+mv daemons.pl.pod daemons.pod
+Date: Sun Mar 13 18:02:14 BRT 2011
+br gg
+Date: Sun Mar 13 18:03:47 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Mar 13 18:03:49 BRT 2011
+st
+Date: Sun Mar 13 18:03:55 BRT 2011
+ci -a -m alexei
+Date: Sun Mar 13 18:04:08 BRT 2011
+log
+Date: Sun Mar 13 18:04:12 BRT 2011
+st
+Date: Sun Mar 13 18:04:19 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Mar 13 18:04:29 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Mar 13 18:04:30 BRT 2011
+checkout gg
+Date: Sun Mar 13 18:04:49 BRT 2011
+br
+Date: Sun Mar 13 18:04:51 BRT 2011
+st
+Date: Sun Mar 13 18:05:04 BRT 2011
+add daemons.pod
+Date: Sun Mar 13 18:05:19 BRT 2011
+ci -m mantovani
+Date: Sun Mar 13 18:05:25 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Mar 13 18:05:31 BRT 2011
+checkout master
+Date: Sun Mar 13 18:05:32 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Mar 13 18:05:34 BRT 2011
+st
+Date: Sun Mar 13 18:05:46 BRT 2011
+st
+Date: Sun Mar 13 18:17:41 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Mar 13 18:17:55 BRT 2011
+checkout gg
+Date: Sun Mar 13 18:17:56 BRT 2011
+st
+Date: Sun Mar 13 18:17:58 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Mar 13 18:18:21 BRT 2011
+checkout master
+Date: Sun Mar 13 18:18:23 BRT 2011
+st
+Date: Sun Mar 13 18:19:15 BRT 2011
+st
+Date: Sun Mar 13 18:19:42 BRT 2011
+init
+Date: Sun Mar 13 18:22:43 BRT 2011
+add daemons.pod
+Date: Sun Mar 13 18:22:47 BRT 2011
+init
+Date: Sun Mar 13 18:23:28 BRT 2011
+add daemons.pod
+Date: Sun Mar 13 18:23:33 BRT 2011
+ci -m russoz review
+Date: Sun Mar 13 18:23:42 BRT 2011
+st
+Date: Sun Mar 13 18:23:45 BRT 2011
+br mm
+Date: Sun Mar 13 18:23:52 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Mar 13 18:23:54 BRT 2011
+checkout mm
+Date: Sun Mar 13 18:23:55 BRT 2011
+st
+Date: Sun Mar 13 18:23:57 BRT 2011
+log
+Date: Sun Mar 13 18:23:58 BRT 2011
+ci -a -m mantovani
+Date: Sun Mar 13 18:24:20 BRT 2011
+st
+Date: Sun Mar 13 18:24:22 BRT 2011
+log
+Date: Sun Mar 13 18:24:25 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Mar 13 18:24:27 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Mar 13 18:24:28 BRT 2011
+checkout master
+Date: Sun Mar 13 18:24:30 BRT 2011
+log
+Date: Sun Mar 13 18:24:31 BRT 2011
+br
+Date: Sun Mar 13 18:24:43 BRT 2011
+pull . mm
+Date: Sun Mar 13 18:24:48 BRT 2011
+ci -a -m russoz 2
+Date: Sun Mar 13 18:30:40 BRT 2011
+--git-dir=.git config --get alias.ci
+Date: Sun Mar 13 18:44:44 BRT 2011
+ci -a -m msg de umask
+Date: Sun Mar 13 18:44:48 BRT 2011
+st
+Date: Sun Mar 13 20:04:26 BRT 2011
+add distzilla/
+Date: Sun Mar 13 20:04:31 BRT 2011
+ci -m partial coomit 2011.03.13 - 20:05:00
+Date: Sun Mar 13 20:04:59 BRT 2011
+st
+Date: Sun Mar 13 20:05:19 BRT 2011
+log
+Date: Sun Mar 13 20:06:13 BRT 2011
+ci -a -m partial coomit 2011.03.13 - 22:48:00
+Date: Sun Mar 13 22:47:53 BRT 2011
+st
+Date: Sun Mar 13 22:47:59 BRT 2011
+push
+Date: Sun Mar 13 22:48:08 BRT 2011
+ci -a -m partial coomit 2011.03.13 - 23:33
+Date: Sun Mar 13 23:33:07 BRT 2011
+push
+Date: Sun Mar 13 23:33:14 BRT 2011
+ci -a -m partial coomit 2011.03.13 - 23:34
+Date: Sun Mar 13 23:34:26 BRT 2011
+push
+Date: Sun Mar 13 23:34:32 BRT 2011
+ci -a -m CHECKPOINT partial coomit 2011.03.13 - 23:40 distzilla flow DESISTI DE FALAR DE POD::WEAVER E GIT FLOW NESTE ARTIGO distzilla flow Esses tópicos serão abordados em outros artigos
+Date: Sun Mar 13 23:40:36 BRT 2011
+push
+Date: Sun Mar 13 23:40:44 BRT 2011

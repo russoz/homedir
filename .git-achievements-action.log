@@ -11772,3 +11772,53 @@ ci -a -m CHECKPOINT partial coomit 2011.03.13 - 23:40 distzilla flow DESISTI DE 
 Date: Sun Mar 13 23:40:36 BRT 2011
 push
 Date: Sun Mar 13 23:40:44 BRT 2011
+ci -a -m partial coomit 2011.03.14 - 00:14
+Date: Mon Mar 14 00:13:41 BRT 2011
+push
+Date: Mon Mar 14 00:13:48 BRT 2011
+st
+Date: Mon Mar 14 09:19:35 BRT 2011
+add fig1-porco-salsicha.png fig2-porco-salsicha.png fig3-node.png fig4-chain.png
+Date: Mon Mar 14 09:19:58 BRT 2011
+ci -m added links to the images
+Date: Mon Mar 14 09:20:03 BRT 2011
+push
+Date: Mon Mar 14 09:21:23 BRT 2011
+br
+Date: Mon Mar 14 09:21:33 BRT 2011
+push --progress
+Date: Mon Mar 14 09:23:14 BRT 2011
+ci -a -m removed links
+Date: Mon Mar 14 09:23:37 BRT 2011
+push --progress
+Date: Mon Mar 14 09:24:03 BRT 2011
+mv flow/fig1-porco-salsicha.png flow/fig2-porco-salsicha.png flow/fig3-node.png flow/fig4-chain.png .
+Date: Mon Mar 14 09:24:11 BRT 2011
+ci -a -m moved drawings back to original directory
+Date: Mon Mar 14 09:24:48 BRT 2011
+push --progress
+Date: Mon Mar 14 09:25:09 BRT 2011
+log
+Date: Mon Mar 14 19:56:52 BRT 2011
+st
+Date: Mon Mar 14 19:56:57 BRT 2011
+ci -a -m partial commit 2011.03.14 - 19:57
+Date: Mon Mar 14 19:57:20 BRT 2011
+push
+Date: Mon Mar 14 19:57:43 BRT 2011
+ci -a -m partial commit 2011.03.14 - 20:02
+Date: Mon Mar 14 20:02:00 BRT 2011
+push
+Date: Mon Mar 14 20:02:07 BRT 2011
+ci -a -m partial commit 2011.03.14 - 20:23
+Date: Mon Mar 14 20:23:23 BRT 2011
+push
+Date: Mon Mar 14 20:23:30 BRT 2011
+ci -a -m RC 1
+Date: Mon Mar 14 22:19:22 BRT 2011
+br
+Date: Mon Mar 14 22:19:29 BRT 2011
+st
+Date: Mon Mar 14 22:19:33 BRT 2011
+push
+Date: Mon Mar 14 22:19:39 BRT 2011

@@ -11822,3 +11822,39 @@ st
 Date: Mon Mar 14 22:19:33 BRT 2011
 push
 Date: Mon Mar 14 22:19:39 BRT 2011
+st
+Date: Tue Mar 15 11:03:13 BRT 2011
+st
+Date: Tue Mar 15 11:03:21 BRT 2011
+diff
+Date: Tue Mar 15 11:04:16 BRT 2011
+ci -a -m RC 2 (Revisão do Blabos)
+Date: Tue Mar 15 11:04:36 BRT 2011
+push
+Date: Tue Mar 15 11:11:55 BRT 2011
+diff
+Date: Tue Mar 15 11:52:08 BRT 2011
+ci -a -m RC 3 - Alexei review
+Date: Tue Mar 15 11:52:23 BRT 2011
+push
+Date: Tue Mar 15 11:52:29 BRT 2011
+diff
+Date: Tue Mar 15 12:45:46 BRT 2011
+rev-parse --git-dir
+Date: Tue Mar 15 12:45:56 BRT 2011
+log --oneline
+Date: Tue Mar 15 12:46:14 BRT 2011
+diff
+Date: Tue Mar 15 13:24:00 BRT 2011
+ci -a -m Artigo distzilla - FINAL
+Date: Tue Mar 15 13:33:54 BRT 2011
+push
+Date: Tue Mar 15 13:34:00 BRT 2011
+st
+Date: Tue Mar 15 13:58:24 BRT 2011
+st
+Date: Tue Mar 15 13:58:43 BRT 2011
+diff etc/gitignore.global
+Date: Tue Mar 15 13:58:54 BRT 2011
+add etc/gitignore.global
+Date: Tue Mar 15 13:58:58 BRT 2011

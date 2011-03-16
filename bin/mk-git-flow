@@ -4,4 +4,4 @@ GITREPO='git@github.com:russoz/gitflow.git'
 
 mkdir -p ${HOME}/git
 cd ${HOME}/git
-git clone $GITREPO
+git clone --recursive $GITREPO

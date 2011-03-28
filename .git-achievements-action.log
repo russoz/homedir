@@ -12468,3 +12468,33 @@ ci -a -m revisao do artigo de flow para cartilha - update DataFlow
 Date: Sun Mar 27 21:55:27 BRT 2011
 st
 Date: Sun Mar 27 22:17:57 BRT 2011
+st
+Date: Mon Mar 28 07:38:17 BRT 2011
+ci -a -m parcial 2011.03.28 07:39
+Date: Mon Mar 28 07:39:11 BRT 2011
+pull
+Date: Mon Mar 28 07:39:20 BRT 2011
+push
+Date: Mon Mar 28 07:39:29 BRT 2011
+st
+Date: Mon Mar 28 15:51:09 BRT 2011
+diff lib/DataFlow/Proc.pm
+Date: Mon Mar 28 15:51:34 BRT 2011
+add lib/DataFlow/Proc.pm
+Date: Mon Mar 28 15:51:48 BRT 2011
+ci -m cosmetic changes
+Date: Mon Mar 28 15:52:16 BRT 2011
+st
+Date: Mon Mar 28 15:54:11 BRT 2011
+help -a
+Date: Mon Mar 28 15:54:14 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Mar 28 15:54:14 BRT 2011
+diff scripts/
+Date: Mon Mar 28 15:54:18 BRT 2011
+add scripts/portaltransparencia/ceis.pl
+Date: Mon Mar 28 15:58:03 BRT 2011
+ci -m removed some debug comments
+Date: Mon Mar 28 15:58:19 BRT 2011
+st
+Date: Mon Mar 28 15:58:24 BRT 2011

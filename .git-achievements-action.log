@@ -11934,3 +11934,537 @@ st
 Date: Wed Mar 16 00:01:03 BRT 2011
 pull
 Date: Wed Mar 16 00:01:16 BRT 2011
+clone git@github.com:russoz/DataFlow.git
+Date: Thu Mar 24 08:28:54 BRT 2011
+br
+Date: Thu Mar 24 08:29:12 BRT 2011
+help -a
+Date: Thu Mar 24 08:29:19 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Mar 24 08:29:19 BRT 2011
+fetch
+Date: Thu Mar 24 08:29:35 BRT 2011
+fetch --all
+Date: Thu Mar 24 08:29:53 BRT 2011
+br
+Date: Thu Mar 24 08:30:02 BRT 2011
+fetch --help
+Date: Thu Mar 24 08:30:43 BRT 2011
+fetch --all -v
+Date: Thu Mar 24 08:30:50 BRT 2011
+fetch origin feature/processors
+Date: Thu Mar 24 08:31:19 BRT 2011
+clone --help
+Date: Thu Mar 24 08:32:59 BRT 2011
+clone git@github.com:russoz/DataFlow.git
+Date: Thu Mar 24 08:33:10 BRT 2011
+fetch --help
+Date: Thu Mar 24 08:35:19 BRT 2011
+fetch --all
+Date: Thu Mar 24 08:35:28 BRT 2011
+br
+Date: Thu Mar 24 08:35:42 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Mar 24 08:35:52 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Mar 24 08:35:52 BRT 2011
+push --help
+Date: Thu Mar 24 08:36:35 BRT 2011
+push --dry-run --all
+Date: Thu Mar 24 08:36:47 BRT 2011
+push --dry-run --all -v
+Date: Thu Mar 24 08:36:56 BRT 2011
+pull --dry-run --all -v
+Date: Thu Mar 24 08:37:07 BRT 2011
+pull --all -v
+Date: Thu Mar 24 08:37:22 BRT 2011
+br
+Date: Thu Mar 24 08:37:28 BRT 2011
+checkout feature/processors
+Date: Thu Mar 24 08:37:40 BRT 2011
+pull
+Date: Thu Mar 24 08:37:54 BRT 2011
+st
+Date: Thu Mar 24 08:38:00 BRT 2011
+br
+Date: Thu Mar 24 08:38:02 BRT 2011
+checkout --help
+Date: Thu Mar 24 08:38:57 BRT 2011
+checkout
+Date: Thu Mar 24 08:39:27 BRT 2011
+checkout develop
+Date: Thu Mar 24 08:39:31 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Mar 24 08:39:38 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Mar 24 08:39:38 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Mar 24 08:39:38 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Mar 24 08:39:39 BRT 2011
+show
+Date: Thu Mar 24 08:39:40 BRT 2011
+st
+Date: Thu Mar 24 10:31:49 BRT 2011
+st
+Date: Thu Mar 24 10:32:08 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Mar 24 10:32:22 BRT 2011
+checkout .cpan/CPAN/MyConfig.pm
+Date: Thu Mar 24 10:32:27 BRT 2011
+pull
+Date: Thu Mar 24 10:34:53 BRT 2011
+br
+Date: Thu Mar 24 23:05:21 BRT 2011
+help -a
+Date: Thu Mar 24 23:05:26 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Mar 24 23:05:26 BRT 2011
+checkout feature/processors
+Date: Thu Mar 24 23:05:30 BRT 2011
+flow version
+Date: Thu Mar 24 23:05:50 BRT 2011
+flow init
+Date: Thu Mar 24 23:06:28 BRT 2011
+st
+Date: Fri Mar 25 20:17:28 BRT 2011
+help -a
+Date: Fri Mar 25 20:17:34 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Mar 25 20:17:34 BRT 2011
+checkout t/release-notabs.t
+Date: Fri Mar 25 20:17:39 BRT 2011
+add t/20-nop.t
+Date: Fri Mar 25 20:17:57 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Mar 25 20:18:00 BRT 2011
+--git-dir=.git config --get alias.ci
+Date: Fri Mar 25 20:18:02 BRT 2011
+--git-dir=.git config --get alias.ci
+Date: Fri Mar 25 20:18:02 BRT 2011
+--git-dir=.git config --get alias.ci
+Date: Fri Mar 25 20:18:04 BRT 2011
+ci t/20-nop.t
+Date: Fri Mar 25 20:18:53 BRT 2011
+st
+Date: Fri Mar 25 20:19:00 BRT 2011
+diff lib/DataFlow/Proc
+Date: Fri Mar 25 20:19:12 BRT 2011
+add lib/DataFlow/Proc/CSV.pm
+Date: Fri Mar 25 20:19:26 BRT 2011
+ci lib/DataFlow/Proc/CSV.pm
+Date: Fri Mar 25 20:20:43 BRT 2011
+st
+Date: Fri Mar 25 20:20:47 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Mar 25 20:20:51 BRT 2011
+diff lib/DataFlow.pm
+Date: Fri Mar 25 20:21:15 BRT 2011
+st
+Date: Fri Mar 25 21:23:32 BRT 2011
+rm lib/DataFlow/Proc/LiteralData.pm
+Date: Fri Mar 25 21:23:41 BRT 2011
+st
+Date: Fri Mar 25 21:27:43 BRT 2011
+ci -m removed LiteralData processor
+Date: Fri Mar 25 21:28:14 BRT 2011
+rm t/20-literaldata.t
+Date: Fri Mar 25 21:28:38 BRT 2011
+ci -m removed LiteralData processor
+Date: Fri Mar 25 21:28:45 BRT 2011
+st
+Date: Fri Mar 25 21:29:20 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Mar 25 21:29:26 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Mar 25 21:29:27 BRT 2011
+diff lib/
+Date: Fri Mar 25 21:30:31 BRT 2011
+diff lib/
+Date: Fri Mar 25 21:32:26 BRT 2011
+diff lib/
+Date: Fri Mar 25 21:33:29 BRT 2011
+st
+Date: Fri Mar 25 21:35:29 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Mar 25 21:35:38 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Mar 25 21:35:39 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Mar 25 21:35:39 BRT 2011
+stash --help
+Date: Fri Mar 25 21:35:48 BRT 2011
+stash list
+Date: Fri Mar 25 21:35:51 BRT 2011
+br
+Date: Fri Mar 25 21:36:54 BRT 2011
+flow feature
+Date: Fri Mar 25 21:37:28 BRT 2011
+flow feature help
+Date: Fri Mar 25 21:37:38 BRT 2011
+st
+Date: Fri Mar 25 21:38:12 BRT 2011
+diff scripts/portaltransparencia/
+Date: Fri Mar 25 21:39:01 BRT 2011
+st
+Date: Fri Mar 25 21:39:03 BRT 2011
+add scripts/portaltransparencia/ceis.pl
+Date: Fri Mar 25 21:39:10 BRT 2011
+ci -m scripts/portaltransparencia/ceis.pl
+Date: Fri Mar 25 21:39:16 BRT 2011
+st
+Date: Fri Mar 25 21:39:42 BRT 2011
+add scripts/simple-deref.pl scripts/simple.pl
+Date: Fri Mar 25 21:39:49 BRT 2011
+st
+Date: Fri Mar 25 21:39:52 BRT 2011
+ci -m some simple scripts
+Date: Fri Mar 25 21:40:02 BRT 2011
+st
+Date: Fri Mar 25 21:40:34 BRT 2011
+diff
+Date: Fri Mar 25 21:42:12 BRT 2011
+diff
+Date: Fri Mar 25 21:43:32 BRT 2011
+st
+Date: Fri Mar 25 21:48:12 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Mar 25 21:49:35 BRT 2011
+diff
+Date: Fri Mar 25 21:49:45 BRT 2011
+diff
+Date: Fri Mar 25 21:49:49 BRT 2011
+ci -a -m DataFlow: multiple changes - removed subtype Processor - coercing ProcessorChain from a DataFlow::Proc and from a CodeRef - renamed _queues_have_data() to _count_queued_items() - _lastq is now a separate queue - smarter _make_queues() and _reduce() - new method clone() - simplified process() by cloning $self - some fixes in POD
+Date: Fri Mar 25 21:54:36 BRT 2011
+st
+Date: Fri Mar 25 21:54:38 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Mar 25 21:54:40 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Mar 25 21:54:43 BRT 2011
+st
+Date: Fri Mar 25 21:55:06 BRT 2011
+rebase -i HEAD~7
+Date: Fri Mar 25 21:59:15 BRT 2011
+st
+Date: Fri Mar 25 21:59:32 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Mar 25 22:36:07 BRT 2011
+flow feature
+Date: Fri Mar 25 22:36:11 BRT 2011
+flow feature help
+Date: Fri Mar 25 22:36:14 BRT 2011
+flow feature finish processors
+Date: Fri Mar 25 22:36:27 BRT 2011
+push
+Date: Fri Mar 25 22:37:20 BRT 2011
+br
+Date: Fri Mar 25 22:38:35 BRT 2011
+branch -D feature/processors
+Date: Fri Mar 25 22:38:49 BRT 2011
+pull
+Date: Fri Mar 25 22:38:57 BRT 2011
+br
+Date: Fri Mar 25 22:43:03 BRT 2011
+st
+Date: Fri Mar 25 22:46:00 BRT 2011
+diff
+Date: Fri Mar 25 22:46:03 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Mar 25 22:46:07 BRT 2011
+checkout
+Date: Fri Mar 25 22:46:09 BRT 2011
+checkout dist.ini
+Date: Fri Mar 25 22:46:12 BRT 2011
+br
+Date: Fri Mar 25 22:47:35 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Mar 25 22:47:40 BRT 2011
+flow release help
+Date: Fri Mar 25 22:47:43 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Mar 25 23:10:25 BRT 2011
+clone git@github.com:russoz/perltests.git
+Date: Fri Mar 25 23:11:38 BRT 2011
+flow release start 0.950000
+Date: Fri Mar 25 23:19:18 BRT 2011
+st
+Date: Fri Mar 25 23:20:01 BRT 2011
+diff lib/DataFlow/Proc/SimpleFileOutput.pm
+Date: Fri Mar 25 23:20:21 BRT 2011
+st
+Date: Fri Mar 25 23:24:25 BRT 2011
+ci -a -m release version 0.950000
+Date: Fri Mar 25 23:25:02 BRT 2011
+flow release finish -n 0.950000
+Date: Fri Mar 25 23:25:19 BRT 2011
+st
+Date: Fri Mar 25 23:25:43 BRT 2011
+br
+Date: Fri Mar 25 23:25:47 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Mar 25 23:26:07 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Mar 25 23:26:08 BRT 2011
+checkout master
+Date: Fri Mar 25 23:26:09 BRT 2011
+br
+Date: Fri Mar 25 23:37:05 BRT 2011
+push --all
+Date: Fri Mar 25 23:37:14 BRT 2011
+st
+Date: Fri Mar 25 23:37:23 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Mar 25 23:37:30 BRT 2011
+checkout develop
+Date: Fri Mar 25 23:37:32 BRT 2011
+st
+Date: Fri Mar 25 23:37:34 BRT 2011
+br
+Date: Fri Mar 25 23:42:00 BRT 2011
+br
+Date: Sat Mar 26 00:03:53 BRT 2011
+rm -f TODO
+Date: Sat Mar 26 00:04:02 BRT 2011
+st
+Date: Sat Mar 26 00:04:05 BRT 2011
+ci -a -m removed TODO: opened issues in github instead
+Date: Sat Mar 26 00:04:30 BRT 2011
+st
+Date: Sat Mar 26 09:32:19 BRT 2011
+diff
+Date: Sat Mar 26 09:32:24 BRT 2011
+st
+Date: Sat Mar 26 09:48:08 BRT 2011
+diff
+Date: Sat Mar 26 09:48:14 BRT 2011
+st
+Date: Sat Mar 26 09:48:28 BRT 2011
+diff
+Date: Sat Mar 26 09:48:37 BRT 2011
+st
+Date: Sat Mar 26 10:09:22 BRT 2011
+diff
+Date: Sat Mar 26 10:09:30 BRT 2011
+ci -a -m updated documentation - removed references to old DataFlow::Node and Chain - some POD sections indentations were wrong
+Date: Sat Mar 26 10:11:04 BRT 2011
+st
+Date: Sat Mar 26 10:11:13 BRT 2011
+mv 21-simplefileinput.t 30-simplefileinput.t
+Date: Sat Mar 26 12:36:48 BRT 2011
+st
+Date: Sat Mar 26 12:38:21 BRT 2011
+add test-inherited-writer.pl
+Date: Sat Mar 26 13:15:11 BRT 2011
+st
+Date: Sat Mar 26 13:15:20 BRT 2011
+ci -m messing with writer in sub-classes
+Date: Sat Mar 26 13:15:53 BRT 2011
+pull
+Date: Sat Mar 26 13:16:05 BRT 2011
+st
+Date: Sat Mar 26 13:19:35 BRT 2011
+add t/25-dumper.t
+Date: Sat Mar 26 13:19:50 BRT 2011
+diff
+Date: Sat Mar 26 13:20:02 BRT 2011
+diff
+Date: Sat Mar 26 13:20:15 BRT 2011
+diff
+Date: Sat Mar 26 13:20:21 BRT 2011
+st
+Date: Sat Mar 26 13:20:41 BRT 2011
+ci -a -m issue #17: prevent users from modifying 'process_into' in DataFlow::Proc::Null
+Date: Sat Mar 26 13:21:30 BRT 2011
+st
+Date: Sat Mar 26 13:21:34 BRT 2011
+show
+Date: Sat Mar 26 18:21:37 BRT 2011
+br
+Date: Sat Mar 26 18:22:53 BRT 2011
+status
+Date: Sat Mar 26 18:23:25 BRT 2011
+diff .profile-perl
+Date: Sat Mar 26 18:26:51 BRT 2011
+add .profile-perl
+Date: Sat Mar 26 18:27:05 BRT 2011
+ci -m added export to MANPATH and added PERL_MM_USE_DEFAULT
+Date: Sat Mar 26 18:27:37 BRT 2011
+st
+Date: Sat Mar 26 18:27:57 BRT 2011
+st
+Date: Sat Mar 26 18:28:35 BRT 2011
+st
+Date: Sat Mar 26 18:29:30 BRT 2011
+st
+Date: Sat Mar 26 18:49:48 BRT 2011
+mv t/01-proc.t t/03-proc.t
+Date: Sat Mar 26 18:52:43 BRT 2011
+mv t/01-dataflow-many.t t/02-dataflow-many.t
+Date: Sat Mar 26 18:53:07 BRT 2011
+mv t/30-simplefileinput.t t/50-simplefileinput.t
+Date: Sat Mar 26 18:54:30 BRT 2011
+st
+Date: Sat Mar 26 19:03:03 BRT 2011
+diff lib/DataFlow.pm
+Date: Sat Mar 26 21:37:44 BRT 2011
+diff lib/DataFlow.pm
+Date: Sat Mar 26 21:40:02 BRT 2011
+st
+Date: Sat Mar 26 21:56:05 BRT 2011
+st
+Date: Sat Mar 26 22:07:26 BRT 2011
+diff
+Date: Sat Mar 26 22:17:27 BRT 2011
+st
+Date: Sat Mar 26 22:26:43 BRT 2011
+add t/02-dataflow-init.t t/02-dataflow-many.t t/04-proc-init.t
+Date: Sat Mar 26 22:27:02 BRT 2011
+st
+Date: Sat Mar 26 22:27:04 BRT 2011
+ci -m issues #2 and #16 #2: accept init arg on DataFlow #16: coerce DataFlow objects into DataFlow::Proc objs ...
+Date: Sat Mar 26 22:29:52 BRT 2011
+st
+Date: Sat Mar 26 22:29:55 BRT 2011
+ci -a -m issues #2 and #16 #2: accept init arg on DataFlow #16: coerce DataFlow objects into DataFlow::Proc objs ...
+Date: Sat Mar 26 22:30:07 BRT 2011
+st
+Date: Sat Mar 26 22:30:10 BRT 2011
+st
+Date: Sat Mar 26 22:30:15 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Mar 26 22:32:19 BRT 2011
+rebase -i HEAD~5
+Date: Sat Mar 26 22:34:14 BRT 2011
+st
+Date: Sat Mar 26 22:35:34 BRT 2011
+st
+Date: Sat Mar 26 22:37:46 BRT 2011
+add t/
+Date: Sat Mar 26 22:37:55 BRT 2011
+ci -m simple test for DataFlow::Proc::SimpleFileOutput
+Date: Sat Mar 26 22:38:12 BRT 2011
+st
+Date: Sat Mar 26 22:38:15 BRT 2011
+br
+Date: Sat Mar 26 22:38:23 BRT 2011
+st
+Date: Sat Mar 26 22:42:27 BRT 2011
+diff
+Date: Sat Mar 26 22:52:38 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Mar 26 22:56:28 BRT 2011
+flow release
+Date: Sat Mar 26 22:56:34 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Mar 26 22:57:08 BRT 2011
+st
+Date: Sat Mar 26 22:57:42 BRT 2011
+diff
+Date: Sat Mar 26 22:57:58 BRT 2011
+ci -a -m autoversion and twitter upon releasing
+Date: Sat Mar 26 22:58:25 BRT 2011
+flow release start 1.110860
+Date: Sat Mar 26 22:58:30 BRT 2011
+st
+Date: Sat Mar 26 22:59:36 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Mar 26 23:00:56 BRT 2011
+ci -a -m ran through perltidy
+Date: Sat Mar 26 23:01:27 BRT 2011
+flow release finish -n 1.110860
+Date: Sat Mar 26 23:01:32 BRT 2011
+st
+Date: Sat Mar 26 23:02:42 BRT 2011
+br
+Date: Sat Mar 26 23:02:53 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sat Mar 26 23:02:56 BRT 2011
+checkout master
+Date: Sat Mar 26 23:02:57 BRT 2011
+st
+Date: Sat Mar 26 23:13:02 BRT 2011
+ci -a -m changed tweet url upon releasing
+Date: Sat Mar 26 23:13:17 BRT 2011
+st
+Date: Sun Mar 27 19:51:37 BRT 2011
+st
+Date: Sun Mar 27 19:58:57 BRT 2011
+br
+Date: Sun Mar 27 19:59:15 BRT 2011
+reset --help
+Date: Sun Mar 27 19:59:59 BRT 2011
+--git-dir=.git config --get alias.unstage
+Date: Sun Mar 27 20:00:34 BRT 2011
+unstage dist.ini
+Date: Sun Mar 27 20:00:36 BRT 2011
+reset
+Date: Sun Mar 27 20:00:48 BRT 2011
+reset --help
+Date: Sun Mar 27 20:02:39 BRT 2011
+reset --hard HEAD^
+Date: Sun Mar 27 20:02:48 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Mar 27 20:02:59 BRT 2011
+checkout develop
+Date: Sun Mar 27 20:03:01 BRT 2011
+br
+Date: Sun Mar 27 20:03:03 BRT 2011
+st
+Date: Sun Mar 27 20:03:32 BRT 2011
+st
+Date: Sun Mar 27 20:03:50 BRT 2011
+ci -a -m changed tweet url upon releasing
+Date: Sun Mar 27 20:04:32 BRT 2011
+st
+Date: Sun Mar 27 20:04:35 BRT 2011
+br
+Date: Sun Mar 27 20:04:39 BRT 2011
+br
+Date: Sun Mar 27 20:19:29 BRT 2011
+diff
+Date: Sun Mar 27 20:19:48 BRT 2011
+diff
+Date: Sun Mar 27 20:23:24 BRT 2011
+st
+Date: Sun Mar 27 20:24:21 BRT 2011
+ci -a
+Date: Sun Mar 27 20:27:54 BRT 2011
+st
+Date: Sun Mar 27 20:40:39 BRT 2011
+clone git@github.com:russoz/artigos.git
+Date: Sun Mar 27 20:58:40 BRT 2011
+st
+Date: Sun Mar 27 21:02:12 BRT 2011
+st
+Date: Sun Mar 27 21:02:17 BRT 2011
+add flow/
+Date: Sun Mar 27 21:02:20 BRT 2011
+st
+Date: Sun Mar 27 21:14:07 BRT 2011
+diff
+Date: Sun Mar 27 21:14:14 BRT 2011
+ci -a -m moved HISTORY section down the lane
+Date: Sun Mar 27 21:14:30 BRT 2011
+diff
+Date: Sun Mar 27 21:14:57 BRT 2011
+st
+Date: Sun Mar 27 21:15:00 BRT 2011
+st
+Date: Sun Mar 27 21:25:55 BRT 2011
+st
+Date: Sun Mar 27 21:54:54 BRT 2011
+help -a
+Date: Sun Mar 27 21:55:03 BRT 2011
+--git-dir=/home/az/tmp/perl/artigos/.git config --get-regexp alias\..*
+Date: Sun Mar 27 21:55:03 BRT 2011
+unstage flow
+Date: Sun Mar 27 21:55:05 BRT 2011
+st
+Date: Sun Mar 27 21:55:07 BRT 2011
+add flow-revisao-cartilha/
+Date: Sun Mar 27 21:55:12 BRT 2011
+ci -a -m revisao do artigo de flow para cartilha - update DataFlow
+Date: Sun Mar 27 21:55:27 BRT 2011
+st
+Date: Sun Mar 27 22:17:57 BRT 2011

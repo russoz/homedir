@@ -12556,3 +12556,29 @@ add .bashrc
 Date: Mon Mar 28 23:18:53 BRT 2011
 ci -m not using .profile-avon anymore
 Date: Mon Mar 28 23:19:18 BRT 2011
+st
+Date: Mon Mar 28 23:19:58 BRT 2011
+diff .gitignore
+Date: Mon Mar 28 23:20:05 BRT 2011
+add .gitignore
+Date: Mon Mar 28 23:20:10 BRT 2011
+ci -m added files from IBM installation
+Date: Mon Mar 28 23:20:22 BRT 2011
+st
+Date: Mon Mar 28 23:20:25 BRT 2011
+add .gitignore
+Date: Mon Mar 28 23:20:58 BRT 2011
+ci -m ignoring CPAN metabase config file
+Date: Mon Mar 28 23:21:22 BRT 2011
+st
+Date: Mon Mar 28 23:21:25 BRT 2011
+pull
+Date: Mon Mar 28 23:21:33 BRT 2011
+help -a
+Date: Mon Mar 28 23:21:36 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Mar 28 23:21:36 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Mon Mar 28 23:21:37 BRT 2011
+push
+Date: Mon Mar 28 23:23:42 BRT 2011

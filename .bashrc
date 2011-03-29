@@ -110,6 +110,5 @@ else
 fi
 
 . ${HOME}/.nb/load
-. ${HOME}/.profile-avon
 . ${HOME}/.profile-git
 

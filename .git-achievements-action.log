@@ -12582,3 +12582,35 @@ Date: Mon Mar 28 23:21:36 BRT 2011
 Date: Mon Mar 28 23:21:37 BRT 2011
 push
 Date: Mon Mar 28 23:23:42 BRT 2011
+st
+Date: Tue Mar 29 17:43:22 BRT 2011
+st
+Date: Tue Mar 29 18:58:07 BRT 2011
+mv vendetta_07.jpg melao.jpg fotos/
+Date: Wed Mar 30 08:41:03 BRT 2011
+st
+Date: Wed Mar 30 08:54:36 BRT 2011
+add fotos/
+Date: Wed Mar 30 08:54:53 BRT 2011
+ci -m fotos
+Date: Wed Mar 30 08:55:06 BRT 2011
+st
+Date: Wed Mar 30 08:55:11 BRT 2011
+help -a
+Date: Wed Mar 30 08:55:21 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Mar 30 08:55:21 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Mar 30 08:55:23 BRT 2011
+add etc/2011-ibm-signature.html signature.html
+Date: Wed Mar 30 08:55:33 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Wed Mar 30 08:55:50 BRT 2011
+--git-dir=.git config --get alias.unstage
+Date: Wed Mar 30 08:55:52 BRT 2011
+st
+Date: Wed Mar 30 08:55:57 BRT 2011
+ci -m arquivo de signature ibm-swg-2011
+Date: Wed Mar 30 08:56:12 BRT 2011
+st
+Date: Wed Mar 30 09:07:38 BRT 2011

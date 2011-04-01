@@ -12640,3 +12640,25 @@ st
 Date: Thu Mar 31 23:49:49 BRT 2011
 st
 Date: Thu Mar 31 23:56:08 BRT 2011
+st
+Date: Fri Apr  1 00:00:44 BRT 2011
+diff .gitignore
+Date: Fri Apr  1 00:00:59 BRT 2011
+st
+Date: Fri Apr  1 00:01:03 BRT 2011
+add .gitignore
+Date: Fri Apr  1 00:01:10 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Fri Apr  1 00:01:34 BRT 2011
+--git-dir=.git config --get alias.unstage
+Date: Fri Apr  1 00:01:36 BRT 2011
+--git-dir=.git config --get alias.unstage
+Date: Fri Apr  1 00:01:37 BRT 2011
+add .gitignore
+Date: Fri Apr  1 00:01:56 BRT 2011
+ci -m added lotus and SametimeMeetings to ignore lit
+Date: Fri Apr  1 00:02:10 BRT 2011
+st
+Date: Fri Apr  1 00:04:21 BRT 2011
+diff .dzil
+Date: Fri Apr  1 00:05:39 BRT 2011

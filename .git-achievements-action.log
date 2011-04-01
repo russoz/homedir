@@ -12614,3 +12614,29 @@ ci -m arquivo de signature ibm-swg-2011
 Date: Wed Mar 30 08:56:12 BRT 2011
 st
 Date: Wed Mar 30 09:07:38 BRT 2011
+st
+Date: Thu Mar 31 23:34:09 BRT 2011
+st
+Date: Thu Mar 31 23:34:38 BRT 2011
+help -a
+Date: Thu Mar 31 23:39:33 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Mar 31 23:39:33 BRT 2011
+st
+Date: Thu Mar 31 23:44:39 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Mar 31 23:45:15 BRT 2011
+st
+Date: Thu Mar 31 23:45:56 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Mar 31 23:46:43 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Thu Mar 31 23:46:44 BRT 2011
+st
+Date: Thu Mar 31 23:47:15 BRT 2011
+st
+Date: Thu Mar 31 23:48:38 BRT 2011
+st
+Date: Thu Mar 31 23:49:49 BRT 2011
+st
+Date: Thu Mar 31 23:56:08 BRT 2011

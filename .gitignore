@@ -140,3 +140,7 @@ Presentation_Central
 dlmgr_.pro
 .netrc
 .cpantesters
+*log
+*.log
+.*.log
+.git-achievements-action.log

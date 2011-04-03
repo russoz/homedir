@@ -12556,6 +12556,7 @@ add .bashrc
 Date: Mon Mar 28 23:18:53 BRT 2011
 ci -m not using .profile-avon anymore
 Date: Mon Mar 28 23:19:18 BRT 2011
+<<<<<<< HEAD
 add .git-achievements-action.log
 Date: Sun Apr  3 19:14:03 BRT 2011
 st
@@ -12564,3 +12565,37 @@ co
 Date: Sun Apr  3 19:14:28 BRT 2011
 add .cpan
 Date: Sun Apr  3 19:15:00 BRT 2011
+=======
+>>>>>>> 9be19674b52e500cd8f827ff419d268ea6edb89e
+rm --cached .git-achievements-action.log
+Date: Sun Apr  3 19:20:06 BRT 2011
+help -a
+Date: Sun Apr  3 19:20:11 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Apr  3 19:20:11 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Apr  3 19:20:29 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Apr  3 19:20:31 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Apr  3 19:20:32 BRT 2011
+checkout .gitignore
+Date: Sun Apr  3 19:20:36 BRT 2011
+st
+Date: Sun Apr  3 19:20:46 BRT 2011
+--git-dir=.git config --get-regexp alias\..*
+Date: Sun Apr  3 19:20:49 BRT 2011
+--git-dir=.git config --get alias.unstage
+Date: Sun Apr  3 19:20:51 BRT 2011
+--git-dir=.git config --get alias.unstage
+Date: Sun Apr  3 19:20:52 BRT 2011
+st
+Date: Sun Apr  3 19:20:58 BRT 2011
+st
+Date: Sun Apr  3 19:21:15 BRT 2011
+st
+Date: Sun Apr  3 19:21:27 BRT 2011
+st
+Date: Sun Apr  3 19:21:34 BRT 2011
+st
+Date: Sun Apr  3 19:21:56 BRT 2011

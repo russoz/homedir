@@ -1,0 +1,33 @@
+2002-08-16  Bastien Nocera  <hadess@hadess.net>
+
+	* button-active.png:
+	* button-close.png:
+	* button-inactive.png:
+	* button-max.png:
+	* button-min.png:
+	* left-side.png:
+	* metacity-1/button-active.png:
+	* metacity-1/button-close.png:
+	* metacity-1/button-inactive.png:
+	* metacity-1/button-max.png:
+	* metacity-1/button-min.png:
+	* metacity-1/left-side.png:
+	* metacity-1/metacity-theme-1.xml:
+	* metacity-1/right-side.png:
+	* metacity-1/title-bar.png:
+	* metacity-theme-1.xml:
+	* right-side.png:
+	* title-bar.png: moved the files to metacity-1/ for metacity 2.4.0
+
+2002-07-12  Bastien Nocera  <hadess@hadess.net>
+
+	* button-active.png:
+	* button-close.png:
+	* button-inactive.png:
+	* button-max.png:
+	* button-min.png:
+	* metacity-theme-1.xml:
+	* title-bar.png: updated by Sebastien Delestaing
+	<sebastien.delestaing@wanadoo.fr>, to be scalable
+	and updated to newest metacity
+

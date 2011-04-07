@@ -1,0 +1,10 @@
+#!/bin/bash
+
+get_version() {
+	M="$1"
+	perl -M"$M" -E "say \$${M}::VERSION"
+}
+
+for i in "$@"; do
+	printf '%-50s %s\n' $i $(get_version "$i")
+done

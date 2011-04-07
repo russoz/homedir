@@ -1,10 +1,16 @@
-#!/bin/bash
+#!/usr/bin/perl
 
-get_version() {
-	M="$1"
-	perl -M"$M" -E "say \$${M}::VERSION"
+sub get_version {
+	my $m = shift;
+
+	eval "require $m";
+	return $@ if $@;
+
+	return eval '$'.$m.'::VERSION';
 }
 
-for i in "$@"; do
-	printf '%-50s %s\n' $i $(get_version "$i")
-done
+printf("%-60s %s\n", 'Module', 'Version');
+printf("%-60s %s\n", '=' x 60, '=' x 10 );
+foreach (@ARGV) {
+	printf("%-60s %s\n", $_, get_version($_));
+}

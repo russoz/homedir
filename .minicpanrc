@@ -1,3 +1,4 @@
 local:	/home/az/mirrors/minicpan
 #remote:	http://ftp.pucpr.br/CPAN/
 remote:	http://www.cpan.org/
+#remote: http://linorg.usp.br/CPAN/

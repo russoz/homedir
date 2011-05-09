@@ -4,3 +4,6 @@ GITREPO='git@github.com:russoz/CV.git'
 
 cd
 git clone $GITREPO
+
+sudo apt-get install unoconv
+

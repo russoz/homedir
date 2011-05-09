@@ -100,15 +100,17 @@ fi
 
 export MANPAGER="/usr/bin/most -s"
 
-[ -f ${HOME}/perl5/perlbrew/etc/bashrc ] \
-  && source ${HOME}/perl5/perlbrew/etc/bashrc
-
 if [ -f ${HOME}/.profile-perl ]; then
     source ${HOME}/.profile-perl
 else
     eval $(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib)
 fi
 
+[ -f ${HOME}/perl5/perlbrew/etc/bashrc ] \
+  && source ${HOME}/perl5/perlbrew/etc/bashrc
+
 . ${HOME}/.nb/load
 . ${HOME}/.profile-git
+
+PATH=${HOME}/local/bin:${PATH}
 

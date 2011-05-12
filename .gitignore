@@ -149,5 +149,10 @@ isoimages
 .~*
 .IBMERS
 Clientes
-.dvd*
+.dvdrip*
 .git-achievements*
+local
+ibm
+.libquicktime_codecs
+dvdrip*
+.BOINC*

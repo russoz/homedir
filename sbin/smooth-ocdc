@@ -211,7 +211,7 @@ fix_file() {
 }
 
 fix_hosts_allow() {
-  fix_file ${HOSTS_ALLOW} "localhost" "ALL: localhost"
+  fix_file ${HOSTS_ALLOW} "localhost" "ALL: localhost, localhost.localdomain"
   fix_file ${HOSTS_ALLOW} "^sshd" "sshd: 9."
 }
 

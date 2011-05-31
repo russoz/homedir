@@ -111,5 +111,3 @@ fi
 
 PATH=${HOME}/local/bin:${PATH}
 
-source ~/perl5/perlbrew/etc/bashrc
-

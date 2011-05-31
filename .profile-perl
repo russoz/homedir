@@ -1,2 +1,6 @@
 eval $(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib)
 export PERL_MM_USE_DEFAULT=1
+export HARNESS_OPTIONS='j5:c'
+
+[ -f ${HOME}/perl5/perlbrew/etc/bashrc ] && \
+  source ${HOME}/perl5/perlbrew/etc/bashrc

@@ -9,7 +9,7 @@ updateprop() {
   file="$1"
   prop="$2"
   value="$3"
-  perl -i.$(timestamp) -le \
+  perl -i -le \
     '$p = shift; $v = shift;
      while(<>) { chomp; $found=1 if s/^\s*$p(\s*=\s*).*$/$p$1$v/; print }
      print "\n" . $p . "=" . $v . "\n" if ! $found' ${prop} ${value} ${file}

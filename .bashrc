@@ -111,3 +111,5 @@ fi
 
 PATH=${HOME}/local/bin:${PATH}
 
+export GPGKEY='71CA9F3C'
+

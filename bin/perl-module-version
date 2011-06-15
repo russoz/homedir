@@ -1,13 +1,6 @@
 #!/usr/bin/perl
 
-sub get_version {
-	my $m = shift;
-
-	eval "require $m";
-	return $@ if $@;
-
-	return eval '$'.$m.'::VERSION';
-}
+use Module::Version 'get_version';
 
 printf("%-60s %s\n", 'Module', 'Version');
 printf("%-60s %s\n", '=' x 60, '=' x 10 );

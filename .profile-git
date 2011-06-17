@@ -1,4 +1,8 @@
 
+[ -x ${HOME}/git/git/bin/git ] && {
+	export PATH="${HOME}/git/git/bin:${PATH}"
+}
+
 [ -d ${HOME}/git/git-achievements ] && {
     export PATH="${PATH}:${HOME}/git/git-achievements"
     alias git="git-achievements"
@@ -7,3 +11,8 @@
 [ -d ${HOME}/git/gitflow ] && {
 	export PATH="${PATH}:${HOME}/git/gitflow"
 }
+
+[ -f ${HOME}/git/git-flow-completion/git-flow-completion.bash ] && {
+	source ${HOME}/git/git-flow-completion/git-flow-completion.bash
+}
+

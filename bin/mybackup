@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# $Id: mybackup,v 1.3 2007/11/28 19:21:25 az Exp az $
+# mybackup
 #
 
 DATE=$(date +"%Y.%m.%d")

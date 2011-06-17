@@ -1,0 +1,19 @@
+#!/bin/bash
+
+[ -d /media/Terao/documents/ ] || {
+	echo 'Terao not mounted' >&2
+	exit 1
+}
+
+msg() {
+	echo "$@" >&2
+}
+
+msg "Sync'ing from HD to Terao"
+rsync -zavP ~/Documents/IBM/documents/ /media/Terao/documents/ || {
+	msg '*** ERROR! Sync Aborted'
+	exit 1
+}
+
+msg "Sync'ing from Terao to HD"
+rsync -zavP /media/Terao/documents/ ~/Documents/IBM/documents/

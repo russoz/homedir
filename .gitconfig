@@ -15,3 +15,9 @@
 	excludesfile = /home/az/etc/gitignore.global
 [achievement]
 	upload = true
+[giggle]
+	main-window-maximized = true
+	main-window-geometry = 1340x777+15+48
+	file-view-vpane-position = 532
+	main-window-view = FileView
+	history-view-vpane-position = 638

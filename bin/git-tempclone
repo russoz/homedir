@@ -1,0 +1,18 @@
+#!/bin/bash
+
+GITTMP=${HOME}/tmp/git
+
+msg() {
+	echo "$@" >&2
+}
+
+R="$1"
+[ -z "$R" ] && {
+	msg 'git-tempclone: must pass a parameter!'
+	exit 1
+}
+
+mkdir -p ${GITTMP} &&
+cd ${GITTMP} &&
+git clone "$R"
+

@@ -8,4 +8,4 @@ export HARNESS_OPTIONS='j5:c'
 [ -f ${HOME}/perl5/perlbrew/etc/bashrc ] && \
   source ${HOME}/perl5/perlbrew/etc/bashrc
 
-alias sppm='ssh sao-paulo.pm.org'
+ssh-make-alias sao-paulo.pm.org sppm

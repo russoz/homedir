@@ -98,7 +98,7 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-export MANPAGER="/usr/bin/most -s"
+. ${HOME}/.nb/load
 
 if [ -f ${HOME}/.profile-perl ]; then
     source ${HOME}/.profile-perl
@@ -106,7 +106,6 @@ else
     eval $(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib)
 fi
 
-. ${HOME}/.nb/load
 . ${HOME}/.profile-git
 
 PATH=${HOME}/local/bin:${PATH}

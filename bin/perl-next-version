@@ -1,0 +1,9 @@
+#!/usr/bin/perl
+
+use Version::Next 'next_version';
+
+printf("%-15s %s\n", 'Version', 'Next');
+printf("%s %s\n", '=' x 15, '=' x 15 );
+foreach (@ARGV) {
+	printf("%-15s %s\n", $_, next_version($_));
+}

@@ -17,5 +17,11 @@ __END__
 
 =head1 DESCRIPTION
 
+=attr
+
+=method
+
+=func
+
 =cut
 

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+NAUTILUS_PKGS="nautilus-actions nautilus-pastebin nautilus-filename-repairer nautilus-image-converter nautilus-wallpaper nautilus-share nautilus-gksu"
+
+sudo apt-get install $NAUTILUS_PKGS
+
+# pdf action
+sudo apt-get install unoconv
+
+/usr/bin/gconftool-2 --load ${HOME}/etc/nautilus-action-convert-to-pdf.xml
+

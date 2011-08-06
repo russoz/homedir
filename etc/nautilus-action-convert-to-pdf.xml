@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gconfentryfile>
+  <entrylist base="/apps/nautilus-actions/configurations/c9089261-0d1b-4c28-b55b-72faa365307a">
+    <entry>
+      <key>type</key>
+      <value>
+        <string>Action</string>
+      </value>
+    </entry>
+    <entry>
+      <key>items</key>
+      <value>
+        <list type="string">
+          <value>
+            <string>profile-zero</string>
+          </value>
+        </list>
+      </value>
+    </entry>
+    <entry>
+      <key>label</key>
+      <value>
+        <string>Convert to PDF</string>
+      </value>
+    </entry>
+    <entry>
+      <key>tooltip</key>
+      <value>
+        <string>Converts document to PDF using unoconv</string>
+      </value>
+    </entry>
+    <entry>
+      <key>toolbar-label</key>
+      <value>
+        <string>Convert to PDF</string>
+      </value>
+    </entry>
+    <entry>
+      <key>profile-zero/desc-name</key>
+      <value>
+        <string>Convert To PDF</string>
+      </value>
+    </entry>
+    <entry>
+      <key>profile-zero/path</key>
+      <value>
+        <string>/usr/bin/unoconv -v</string>
+      </value>
+    </entry>
+    <entry>
+      <key>profile-zero/parameters</key>
+      <value>
+        <string>%M</string>
+      </value>
+    </entry>
+    <entry>
+      <key>profile-zero/basenames</key>
+      <value>
+        <list type="string">
+          <value>
+            <string>*.doc</string>
+            <string>*.odt</string>
+            <string>*.xls</string>
+            <string>*.ods</string>
+            <string>*.ppt</string>
+            <string>*.odp</string>
+          </value>
+        </list>
+      </value>
+    </entry>
+  </entrylist>
+</gconfentryfile>

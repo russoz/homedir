@@ -159,3 +159,6 @@ dvdrip*
 .perlbrew
 .*eclipse*
 VirtualMachines
+.smbc
+.thunderbird
+Sametime*

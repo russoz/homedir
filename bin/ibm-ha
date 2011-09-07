@@ -4,8 +4,8 @@
 #
 
 export LIBXCB_ALLOW_SLOPPY_LOCK=1
-#export JAVA_HOME="/usr/lib/j2sdk1.6-ibm/"
-export JAVA_HOME="/usr/lib/jvm/java-6-sun" 
+export JAVA_HOME="/usr/lib/j2sdk1.6-ibm/"
+#export JAVA_HOME="/usr/lib/jvm/java-6-sun" 
 #export JAVA_HOME="/usr/lib/jvm/java-1.5.0-sun"
 export PATH=${JAVA_HOME}/bin:${PATH}
 JAR="${HOME}/ii/HeapAnalyzer/ha*.jar"

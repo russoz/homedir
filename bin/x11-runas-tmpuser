@@ -1,0 +1,29 @@
+#!/usr/bin/sudo /bin/bash
+
+msg() {
+	echo "$@" >&2
+}
+
+die() {
+	msg "$@"
+	exit 1
+}
+
+num=$$
+tmpuser="u${num}"
+
+msg "Creating user:" $tmpuser
+useradd -m -G az,audio,pulse,video,pulse-access $tmpuser
+
+msg "Authorizing user:" $tmpuser
+xauth extract - $DISPLAY | {
+	unset XAUTHORITY
+	sudo su - $tmpuser -c 'xauth merge -'
+
+	msg "Running as user:" $tmpuser
+	su - $tmpuser -c "$@"
+}
+
+msg "Removing user:" $tmpuser
+sudo userdel -r $tmpuser
+

@@ -1,19 +1,50 @@
 #!/bin/bash
 
-[ -d /media/Terao/documents/ ] || {
-	echo 'Terao not mounted' >&2
-	exit 1
-}
-
 msg() {
 	echo "$@" >&2
 }
 
-msg "Sync'ing from HD to Terao"
-rsync -zavP ~/Documents/IBM/documents/ /media/Terao/documents/ || {
-	msg '*** ERROR! Sync Aborted'
+die() {
+	msg "$@"
 	exit 1
 }
 
+usage() {
+	cat >&2 <<EOUSAGE
+usage: terao-sync-docs [-e] [-i]
+
+  -e From external HD
+     Refreshes the local copy with the contents of the external HD
+
+  -i From internal HD
+     Refreshes the external copy with the contents of the local HD
+
+  -h Shows this message
+
+EOUSAGE
+	exit 1
+}
+
+[[ -d /media/Terao/documents/ ]] || die 'Terao not mounted'
+
+while getopts "ei" opt; do
+	case "$opt" in
+		e) from_ext=1; shift ;;
+		i) from_int=1; shift ;;
+		h|?) usage;;
+	esac
+done
+
+INT_OPTS=""
+[[ "$from_int" -eq 1 ]] && INT_OPTS="--delete"
+
+[[ "$from_ext" -ne 1 ]] && {
+  msg "Sync'ing from HD to Terao"
+  rsync -zavP $INT_OPTS ~/Documents/IBM/documents/ /media/Terao/documents/ ||
+	die '*** ERROR! Sync from internal aborted'
+}
+
 msg "Sync'ing from Terao to HD"
-rsync -zavP /media/Terao/documents/ ~/Documents/IBM/documents/
+rsync -zavP --delete /media/Terao/documents/ ~/Documents/IBM/documents/ ||
+  die '*** ERROR! Sync from external aborted'
+

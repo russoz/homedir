@@ -1,0 +1,7 @@
+#!/bin/bash
+
+minicpan
+(
+  export HARNESS_OPTIONS=c
+  cpan -r
+)

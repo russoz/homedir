@@ -13,16 +13,22 @@ num=$$
 tmpuser="u${num}"
 
 msg "Creating user:" $tmpuser
-useradd -m -G az,audio,pulse,video,pulse-access $tmpuser
+useradd -m -G audio,pulse,video,pulse-access $tmpuser
 
 msg "Authorizing user:" $tmpuser
 xauth extract - $DISPLAY | {
 	unset XAUTHORITY
-	sudo su - $tmpuser -c 'xauth merge -'
+	su - $tmpuser -c 'xauth merge -'
 
 	msg "Running as user:" $tmpuser
-	su - $tmpuser -c "$@"
+	if [[ -n "$1" ]]; then
+		su - $tmpuser -c "$@"
+	else
+		su - $tmpuser
+	fi
 }
+
+sleep 5
 
 msg "Removing user:" $tmpuser
 sudo userdel -r $tmpuser

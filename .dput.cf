@@ -1,0 +1,6 @@
+[ocdc]
+fqdn = ocdc.hursley.ibm.com
+method = scp
+login = alexeiz
+incoming = /incoming/
+allow_unsigned_uploads = 1

@@ -1,18 +1,38 @@
 #!/bin/sh
+#
+# As in
+#   http://ibmforums.ibm.com/forums/message.jspa?messageID=2043019#2043019
+#
 
 # disable wireless via NetworkManager
-dbus-send --system --type=method_call --dest=org.freedesktop.NetworkManager /org/freedesktop/NetworkManager org.freedesktop.DBus.Properties.Set string:org.freedesktop.NetworkManager string:WirelessEnabled variant:boolean:false
+dbus-send \
+  --system --type=method_call --dest=org.freedesktop.NetworkManager \
+  /org/freedesktop/NetworkManager \
+  org.freedesktop.DBus.Properties.Set string:org.freedesktop.NetworkManager \
+  string:WirelessEnabled variant:boolean:false
+
 # wait
 sleep 5
+
 # remove wireless modules
 sudo modprobe -r iwlagn iwlcore mac80211 cfg80211
+
 # wait some more
 sleep 5
+
 # put the wireless modules back in
 sudo modprobe iwlagn
+
 # wait some more
 sleep 5
+
 # get rid of sudo authorization
 sudo -k
+
 # enable wireless via NetworkManager
-dbus-send --system --type=method_call --dest=org.freedesktop.NetworkManager /org/freedesktop/NetworkManager org.freedesktop.DBus.Properties.Set string:org.freedesktop.NetworkManager string:WirelessEnabled variant:boolean:true
+dbus-send \
+  --system --type=method_call --dest=org.freedesktop.NetworkManager \
+  /org/freedesktop/NetworkManager \
+  org.freedesktop.DBus.Properties.Set string:org.freedesktop.NetworkManager \
+  string:WirelessEnabled variant:boolean:true
+

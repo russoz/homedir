@@ -1,6 +1,6 @@
-#!/bin/sh
+#!/bin/bash
 #
-# $Id: listBlueGroups,v 1.1 2006/04/26 16:56:37 az Exp az $
+# ibm-list-user-ldap
 #
 # This script requires ldapsearch from openldap package and perl.
 #
@@ -8,14 +8,64 @@
 # with minor modifications.
 #
 
+prog=${0##*/}
 
-IBMEMAIL=$1
-[ -z "$IBMEMAIL" ] && {
-  echo "usage: ${0##*/} <intranet id>" >&2
+msg() {
+  echo "$@" >&2
+}
+
+usage() {
+  cat >&2 <<EOM
+usage: ${prog} [search-option]
+
+where search-option can be:
+
+    -u <user>   User to search for
+
+    -s <serial> Serial Number to search for
+
+EOM
   exit 1
 }
 
-ldapsearch -x -LL -h bluepages.ibm.com -b ou=bluepages,o=ibm.com "(mail=$IBMEMAIL)" 
-# automate b64 decoding with 'base64 -d' ?
-# colorize? hehe
+make_filter() {
+	stype="$1"; shift
+    sparm="$1"; shift
+
+    case ${stype} in
+        user) sretr="(&(objectClass=person)(mail=${sparm}))" ;;
+        sern) sretr="(&(objectClass=person)(ibmSerialNumber=${sparm}))" ;;
+        #name) sretr="(&(objectClass=person)(displayName=${sparm}))" ;;
+    esac
+
+	echo "${sretr}"
+}
+
+while getopts ":hu:s:b" opt; do
+	case "$opt" in
+		b) basic_results="1"; ;;
+		u) search_type="user"; search_param="$OPTARG"; ;;
+		s) search_type="sern"; search_param="$OPTARG"; ;;
+		h|?) usage ;;
+	esac
+done
+shift $((OPTIND - 1))
+
+[ -z "${search_type}" ] && usage
+
+host='bluepages.ibm.com'
+base='ou=bluepages,o=ibm.com'
+filter=$(make_filter ${search_type} ${search_param})
+[ -z "${filter}" ] && exit 1
+
+attrs=""
+[ -n "$basic_results" ] &&
+    attrs="dn cn ibmSerialNumber mail notesId notesMailServer managerSerialNumber"
+[ -n "$1" ] && attrs="dn $@"
+
+
+ldapsearch -a always -x -LLL \
+	-h "${host}" -b "${base}" \
+	"${filter}" ${attrs}
+
 

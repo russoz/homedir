@@ -1,0 +1,8 @@
+#!/bin/bash
+
+sudo -v
+sudo service agnclientd stop
+sleep 2
+sudo service agnLogd restart
+sleep 2
+sudo service agnclientd start

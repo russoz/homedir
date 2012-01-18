@@ -29,7 +29,7 @@ EOM
 }
 
 make_filter() {
-	stype="$1"; shift
+    stype="$1"; shift
     sparm="$1"; shift
 
     case ${stype} in
@@ -38,16 +38,16 @@ make_filter() {
         #name) sretr="(&(objectClass=person)(displayName=${sparm}))" ;;
     esac
 
-	echo "${sretr}"
+    echo "${sretr}"
 }
 
 while getopts ":hu:s:b" opt; do
-	case "$opt" in
-		b) basic_results="1"; ;;
-		u) search_type="user"; search_param="$OPTARG"; ;;
-		s) search_type="sern"; search_param="$OPTARG"; ;;
-		h|?) usage ;;
-	esac
+    case "$opt" in
+        b) basic_results="1"; ;;
+        u) search_type="user"; search_param="$OPTARG"; ;;
+        s) search_type="sern"; search_param="$OPTARG"; ;;
+        h|?) usage ;;
+    esac
 done
 shift $((OPTIND - 1))
 
@@ -65,7 +65,7 @@ attrs=""
 
 
 ldapsearch -a always -x -LLL \
-	-h "${host}" -b "${base}" \
-	"${filter}" ${attrs}
+    -h "${host}" -b "${base}" \
+    "${filter}" ${attrs}
 
 

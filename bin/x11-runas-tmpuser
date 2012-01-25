@@ -28,7 +28,8 @@ xauth extract - $DISPLAY | {
 	fi
 }
 
-sleep 5
+pkill -9 -U $tmpuser
+sleep 15
 
 msg "Removing user:" $tmpuser
 sudo userdel -r $tmpuser

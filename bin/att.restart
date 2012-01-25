@@ -6,3 +6,4 @@ sleep 2
 sudo service agnLogd restart
 sleep 2
 sudo service agnclientd start
+/opt/agns/bin/agnclient

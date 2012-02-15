@@ -1,0 +1,7 @@
+#!/bin/sh
+
+if [ -n "$1" ]; then
+  du -ks "$@" | sort -rn | head
+else
+  du -ks * | sort -rn | head
+fi

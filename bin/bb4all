@@ -1,0 +1,8 @@
+#!/bin/bash
+
+BERRY4ALL_DIR=/home/az/bbtether
+BERRY4ALL=berry4all.sh
+
+cd $BERRY4ALL_DIR
+exec su-to-root -X -c ./$BERRY4ALL
+

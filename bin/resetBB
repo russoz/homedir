@@ -1,0 +1,12 @@
+#!/bin/bash
+
+sudo -v
+
+sudo pkill -TERM -f bbgui
+
+sleep 5
+
+sudo pkill -f pppd
+
+sleep 5
+

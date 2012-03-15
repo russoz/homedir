@@ -81,6 +81,7 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+alias sl='sort | less'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
@@ -112,4 +113,4 @@ PATH=${HOME}/local/bin:${PATH}
 
 export GPGKEY='71CA9F3C'
 export MANPAGER="/usr/bin/most -s"
-
+export BROWSER='/usr/bin/firefox'

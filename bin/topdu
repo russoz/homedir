@@ -3,5 +3,5 @@
 if [ -n "$1" ]; then
   du -ks "$@" | sort -rn | head
 else
-  du -ks * | sort -rn | head
+  du -ks * .[A-Za-z0-9]* | sort -rn | head
 fi

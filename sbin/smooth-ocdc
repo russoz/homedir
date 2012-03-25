@@ -336,14 +336,24 @@ confirm "Fixing /bin/sh link from dash to bash" && {
 }
 
 installpkg lsb-release
-installpkg nautilus-image-converter
+confirm "Install Nautilus extensions" && {
+  info -n "  nautilus-gksu"              && __installpkg nautilus-gksu
+  info -n "  nautilus-pastebin"          && __installpkg nautilus-pastebin
+  info -n "  nautilus-wallpaper"         && __installpkg nautilus-wallpaper
+  info -n "  nautilus-open-terminal"     && __installpkg nautilus-open-terminal
+  info -n "  nautilus-image-converter"   && __installpkg nautilus-image-converter
+  info -n "  nautilus-image-manipulator" && __installpkg nautilus-image-manipulator
+  info -n "  nautilus-filename-repairer" && __installpkg nautilus-filename-repairer
+}
+
 installpkg msttcorefonts
-installpkg tpb
+#installpkg tpb
 installpkg tofrodos
 installpkg galternatives
+installpkg gconf-editor
 
-confirm "Adding Medibuntu package repositories to the system" \
-  && install_medibuntu
+#confirm "Adding Medibuntu package repositories to the system" \
+  #&& install_medibuntu
 
 confirm "Installing & Configuring prelink" && {
   msg -n "  "
@@ -352,10 +362,10 @@ confirm "Installing & Configuring prelink" && {
       || warn "**Cannot configure prelink"
 }
 
-confirm "Enabling concurrency at boot" && {
-  updateprop /etc/init.d/rc CONCURRENCY shell \
-    || warn "**Cannot set boot concurrency"
-}
+#confirm "Enabling concurrency at boot" && {
+#  updateprop /etc/init.d/rc CONCURRENCY shell \
+#    || warn "**Cannot set boot concurrency"
+#}
 
 confirm "Configuring clock synchronization" && {
   msg -n "  "
@@ -387,16 +397,16 @@ confirm "Configuring to notify of updates as soon as they appear" && {
 # As seen in the OCDC Forum, posted by Mark A. Moore
 # http://ibmforums.ibm.com/forums/message.jspa?messageID=1656134#1656134
 #
-confirm "Enabling plugin customization in Notes 8.5 UI" && {
-  f='/opt/ibm/lotus/notes/framework/rcp/plugin_customization.ini' \
-    && updateprop ${f} com.ibm.notes.branding/enable.update.ui true \
-      || warn "**Cannot enable plugin customization in Notes"
-}
+#confirm "Enabling plugin customization in Notes 8.5 UI" && {
+#  f='/opt/ibm/lotus/notes/framework/rcp/plugin_customization.ini' \
+#    && updateprop ${f} com.ibm.notes.branding/enable.update.ui true \
+#      || warn "**Cannot enable plugin customization in Notes"
+#}
 
-confirm "Fixing playsound.sh script in Notes installation in background" && {
-  ( find /opt/ibm/lotus/notes -name '*.sh' -print | xargs dos2unix ) &
-  warn "  Started background job"
-}
+#confirm "Fixing playsound.sh script in Notes installation in background" && {
+#  ( find /opt/ibm/lotus/notes -name '*.sh' -print | xargs dos2unix ) &
+#  warn "  Started background job"
+#}
 
 confirm "Fixing tcp_syncookies setting in /etc/sysctl.conf" && {
   updateprop /etc/sysctl.conf net.ipv4.tcp_syncookies 1 \
@@ -425,7 +435,7 @@ confirm "Install UAG recommended fonts" && {
 #
 # UAG, Section 2.6.1.3, page 58
 # 
-confirm "Configuring font rendering" && fix_font_user
+#confirm "Configuring font rendering" && fix_font_user
 
 #
 # UAG, Section 4.2.3, page 155
@@ -441,7 +451,7 @@ confirm "Install some basic low-level Linux doc" && {
   info -n "  manpages-dev" && __installpkg manpages-dev
   info -n "  linux-doc"    && __installpkg linux-doc
 }
-installpkg libmotif3
+#installpkg libmotif3
 installpkg fusion-icon
 confirm "Extra office clipart" && {
   info -n "  openclient-symphony-templates" \
@@ -452,7 +462,7 @@ confirm "Extra office clipart" && {
 
 confirm "Configuring fancy, colorful man-pages" && install_color_man
 
-confirm "Fixing 'send host-name' in dhclient.conf" && fix_dhclient_conf
+#confirm "Fixing 'send host-name' in dhclient.conf" && fix_dhclient_conf
 confirm "Disabling networked login for root" && fix_root_access
 
 confirm "Enhancing repository updating performance" && config_apt_http
@@ -463,10 +473,10 @@ confirm "Disabling GNOME Terminal confirmation" && {
     -s /apps/gnome-terminal/global/confirm_window_close false
 }
 
-confirm "Disable IPv6 (karmic)" && {
-  updateprop /etc/default/grub \
-    GRUB_CMDLINE_LINUX_DEFAULT \"quiet splash ipv6.disable=1\"
-}
+#confirm "Disable IPv6 (karmic)" && {
+#  updateprop /etc/default/grub \
+#    GRUB_CMDLINE_LINUX_DEFAULT \"quiet splash ipv6.disable=1\"
+#}
 
 msg ""
 item "Waiting for background jobs to complete"
@@ -479,6 +489,6 @@ msg ""
 warn "Although not strictly necessary, a reboot is advisable at this point"
 msg ""
 
-#colour_clear
+colour_clear
 
 

@@ -1,0 +1,20 @@
+#!/usr/bin/env perl
+
+use MIME::Base64;
+
+my $orig = $ARGV[0];
+
+if ( $orig =~ s/{xor}(.*)/$1/ ) {
+    my $xor = decode_base64($orig);
+    my @chars = unpack( 'C*', $xor );
+    map { $_ ^= 0x5f } @chars;
+
+    print pack( 'C*', @chars ) . "\n";
+}
+else {
+    my @chars = unpack( 'C*', $orig );
+    map { $_ ^= 0x5f } @chars;
+    my $res = pack( 'C*', @chars );
+
+    print '{xor}' . encode_base64( $res, '' ) . "\n";
+}

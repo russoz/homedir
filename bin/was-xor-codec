@@ -2,19 +2,27 @@
 
 use MIME::Base64;
 
-my $orig = $ARGV[0];
-
-if ( $orig =~ s/{xor}(.*)/$1/ ) {
-    my $xor = decode_base64($orig);
-    my @chars = unpack( 'C*', $xor );
-    map { $_ ^= 0x5f } @chars;
-
-    print pack( 'C*', @chars ) . "\n";
-}
-else {
-    my @chars = unpack( 'C*', $orig );
+sub encode {
+    my @chars = unpack( 'C*', shift );
     map { $_ ^= 0x5f } @chars;
     my $res = pack( 'C*', @chars );
 
-    print '{xor}' . encode_base64( $res, '' ) . "\n";
+    return '{xor}' . encode_base64( $res, '' );
+}
+
+sub decode {
+    my $xor = decode_base64(shift);
+    my @chars = unpack( 'C*', $xor );
+    map { $_ ^= 0x5f } @chars;
+
+    return pack( 'C*', @chars );
+}
+
+my $orig = $ARGV[0];
+
+if ( $orig =~ s/{xor}(.*)/$1/ ) {
+    print decode($orig) . "\n";
+}
+else {
+    print encode( $orig ) . "\n";
 }

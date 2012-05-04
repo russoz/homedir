@@ -5,7 +5,7 @@
 avon
 .broffice.org
 .*cache*
-.compiz
+.compiz*
 .config
 .cups
 .dbus
@@ -170,4 +170,3 @@ download
 .byobu*
 .byobu/*
 .tmp
-.compiz

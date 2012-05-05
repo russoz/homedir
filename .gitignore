@@ -170,3 +170,6 @@ download
 .byobu*
 .byobu/*
 .tmp
+.goutputstream*
+rational
+*p12

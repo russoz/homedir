@@ -5,16 +5,12 @@ PREFIX=${GITDIR}/git
 BUILDDIR=${GITDIR}/build
 GITREPO='http://git.kernel.org/pub/scm/git/git.git'
 
-msg() {
-	echo "$@" >&2
-}
+msg() { echo "$@" >&2; }
+die() { msg "$@"; exit 1; }
 
 inst() {
 	for pkg in "$@"; do
-		sudo apt-get -y install $pkg || {
-			msg '*** Cannot install:' $pkg
-			exit 1
-		}
+		sudo apt-get -y install $pkg || die '*** Cannot install:' $pkg
 	done
 }
 
@@ -31,24 +27,18 @@ cd $BUILDDIR
 if [ -d $BUILDDIR/git ]; then
 	cd git
 	#make clean
-	git pull
+	git clean
+	git pull || die '*** Cannot pull files'
+
 else
-	git clone $GITREPO || {
-		msg '*** Cannot clone git repo'
-		exit 1
-	}
+	git clone $GITREPO || die '*** Cannot clone git repo'
 	cd git
 fi
 
-make prefix=$PREFIX all doc info || {
-	msg '*** Cannot build git'
-	exit 1
-}
+make prefix=$PREFIX all doc info || die '*** Cannot build git'
 
-make prefix=$PREFIX install install-doc install-html install-info || {
-	msg '*** Cannot install git'
-	exit 1
-}
+make prefix=$PREFIX install install-doc install-html install-info \
+  || die '*** Cannot install git'
 
 rm -rf $BUILDDIR
 

@@ -27,9 +27,11 @@ xauth extract - $DISPLAY | {
 		su - $tmpuser
 	fi
 }
+msg "Execution ended. Killing processes..."
 
 pkill -9 -U $tmpuser
 sleep 15
+pkill -9 -U $tmpuser
 
 msg "Removing user:" $tmpuser
 sudo userdel -r $tmpuser

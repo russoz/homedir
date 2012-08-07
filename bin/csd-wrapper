@@ -1,0 +1,8 @@
+#!/bin/bash
+
+OUTPUT=$TMPDIR/csd-wrapper.out
+
+for i in "$@"; do
+	echo "$i" >> $OUTPUT
+done
+

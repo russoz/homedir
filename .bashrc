@@ -108,6 +108,7 @@ else
 fi
 
 . ${HOME}/.profile-git
+. ${HOME}/.profile-bb
 
 PATH=${HOME}/local/bin:${PATH}
 

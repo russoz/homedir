@@ -1,0 +1,9 @@
+#!/bin/sh
+#
+#  From:
+#  http://pic.dhe.ibm.com/infocenter/aix/v6r1/index.jsp?topic=%2Fcom.ibm.aix.prftungd%2Fdoc%2Fprftungd%2Fmem_use_processes.htm
+#
+#
+
+svmon -Pt15 | perl -e 'while(<>){print if($.==2||$&&&!$s++);$.=0 if(/^-+$/)}'
+

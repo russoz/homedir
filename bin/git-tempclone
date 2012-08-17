@@ -2,13 +2,9 @@
 
 GITTMP=${HOME}/tmp/git
 
-msg() {
-	echo "$@" >&2
-}
-
 R="$1"
 [ -z "$R" ] && {
-	msg 'git-tempclone: must pass a parameter!'
+	echo 'git-tempclone: must pass a parameter!' >&2
 	exit 1
 }
 

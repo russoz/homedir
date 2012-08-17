@@ -3,6 +3,10 @@
 	export PATH="${HOME}/git/git/bin:${PATH}"
 }
 
+[ -x ${HOME}/git/git-sh/bin/git-sh ] && {
+	export PATH="${HOME}/git/git-sh/bin:${PATH}"
+}
+
 [ -d ${HOME}/git/git-achievements ] && {
     export PATH="${PATH}:${HOME}/git/git-achievements"
     alias git="git-achievements"

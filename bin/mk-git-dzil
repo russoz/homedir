@@ -1,8 +1,0 @@
-#!/bin/bash
-
-GITDIR=${HOME}/git
-GITREPO='https://github.com/rjbs/dist-zilla.git'
-
-mkdir -p $GITDIR
-cd $GITDIR
-git clone $GITREPO

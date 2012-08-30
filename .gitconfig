@@ -2,6 +2,7 @@
 	name = Alexei Znamensky
 	email = russoz@cpan.org
 [alias]
+	sh = !git-sh
     co = checkout
     br = branch
     ci = commit -s

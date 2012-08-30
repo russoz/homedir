@@ -1,0 +1,32 @@
+#!/bin/bash
+
+GITPRJ='git-sh'
+GITDIR="${HOME}/git"
+PREFIX="${GITDIR}/${GITPRJ}"
+BUILDDIR="${GITDIR}/build"
+GITREPO='git://github.com/rtomayko/git-sh.git'
+
+msg() { echo "$@" >&2; }
+die() { msg "$@"; exit 1; }
+
+mkdir -p $BUILDDIR
+cd $BUILDDIR
+if [ -d "${GITPRJ}" ]; then
+	cd ${GITPRJ}
+	#make clean
+	git clean
+	git pull || die '*** Cannot pull files'
+
+else
+	git clone $GITREPO || die '*** Cannot clone' "${GITPRJ}"
+	cd ${GITPRJ}
+fi
+
+make PREFIX=$PREFIX         || die '*** Cannot build' "${GITPRJ}"
+make PREFIX=$PREFIX install || die '*** Cannot install' "${GITPRJ}"
+
+rm -rf $BUILDDIR
+
+cd
+git config --global color.sh auto
+

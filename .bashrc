@@ -101,14 +101,9 @@ fi
 
 . ${HOME}/.nb/load
 
-if [ -f ${HOME}/.profile-perl ]; then
-    source ${HOME}/.profile-perl
-else
-    eval $(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib)
-fi
-
-. ${HOME}/.profile-git
-. ${HOME}/.profile-bb
+load_if_exists ${HOME}/.profile-perl
+load_if_exists ${HOME}/.profile-git
+load_if_exists ${HOME}/.profile-movile
 
 PATH=${HOME}/local/bin:${PATH}
 

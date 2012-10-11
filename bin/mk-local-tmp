@@ -1,0 +1,33 @@
+#!/bin/bash
+
+#
+# POORLY TESTED!!
+#
+
+msg() {
+  echo "$@" >&2
+}
+
+die() {
+  msg "$@"
+  exit 1
+}
+
+DIR="${HOME}/.tmp"
+
+sudo -v
+msg "Creating dir ${DIR}"
+mkdir "${DIR}"
+
+grep -q '.tmp' /etc/fstab \
+&& die "There is a .tmp mount point in /etc/fstab. Aborting."
+
+grep -q TMPDIR ${HOME}/.pam_environment \
+&& die "There is a TMPDIR variable set in ${HOME}/.pam_environment. Aborting."
+
+msg 'Adding line to fstab...'
+echo "tmpfs                                     ${DIR}        tmpfs   nosuid,nofail,noatime,nodev,nodiratime,noexec,uid=1000,gid=1000 0 0" \
+| sudo tee -a /etc/fstab >/dev/null
+
+echo "TMPDIR=${DIR}" >> ${HOME}/.pam_environment
+

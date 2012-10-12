@@ -9,6 +9,11 @@ die() {
 	exit 1
 }
 
+install_module() {
+	msg "=== Installing $1..."
+	cpan "$1"
+}
+
 sudo -v
 
 msg "=== Trying to install Perlbrew..."
@@ -26,6 +31,7 @@ source ${HOME}/perl5/perlbrew/etc/bashrc
 msg "=== Installing cpanm..."
 perlbrew install-cpanm
 
-msg "=== Installing mini-cpan..."
-cpan CPAN::Mini
+install_module CPAN::Mini
+install_module Bundle::CPAN
+install_module Task::Kensho
 

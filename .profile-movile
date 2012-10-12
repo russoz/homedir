@@ -1,0 +1,14 @@
+#!/bin/bash -e 'echo Do not run this >&2; exit 1'
+#
+
+MOVILE_DIR=${HOME}/etc/movile
+
+alias alog142='ssh 200.219.220.149'
+alias vendetta='ssh 200.189.182.235'
+alias movile235='vendetta'
+alias diveo149='ssh 200.189.163.149'
+
+alias vpn="sudo openvpn --config $MOVILE_DIR/client.ovpn"
+
+alias jira="${HOME}/lib/jiraclient-3_0_2/bin/jiraclient.sh"
+

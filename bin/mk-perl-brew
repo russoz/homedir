@@ -1,0 +1,31 @@
+#!/bin/bash
+
+msg() {
+	echo "$@" >&2
+}
+
+die() {
+	msg "$@"
+	exit 1
+}
+
+sudo -v
+
+msg "=== Trying to install Perlbrew..."
+sudo cpan App::perlbrew
+
+msg "=== Initializing perlbrew..."
+perlbrew init
+
+msg "=== Installing Perl 5.14.2..."
+perlbrew install perl-5.14.2
+
+msg "=== Using perlbrew..."
+source ${HOME}/perl5/perlbrew/etc/bashrc
+
+msg "=== Installing cpanm..."
+perlbrew install-cpanm
+
+msg "=== Installing mini-cpan..."
+cpan CPAN::Mini
+

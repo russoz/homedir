@@ -1,0 +1,43 @@
+#!/bin/bash
+
+msg() {
+	echo "$@" >&2
+}
+
+die() {
+	msg "$@"
+	exit 1
+}
+
+remove_dir() {
+	msg "===== Removing File/Directory" "$1"
+	rm -rf "$1"
+}
+
+remove_subdirs() {
+	msg "===== Removing Sub-Directories of" "$1"
+	rm -rf "$1"/*
+}
+
+msg "=== Works in HOME directory"
+cd ${HOME}
+pwd
+
+msg "=== Cleaning cpan build directories"
+remove_subdirs .cpan/build
+remove_subdirs .local/share/.cpan/build
+
+msg "=== Cleaning mini-cpan mirror"
+remove_dir mirrors/minicpan
+
+msg "=== Cleaning Mozilla caches"
+remove_subdirs .mozilla/firefox/*.default/Cache
+remove_subdirs .mozilla/seamonkey/*.default/Cache
+remove_subdirs .mozilla/eclipse/Cache
+
+msg "=== Cleaning Thunderbird caches"
+remove_subdirs .thunderbird/*.default/Cache
+
+msg "=== Cleaning varied caches"
+remove_subdirs .cache
+

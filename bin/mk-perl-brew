@@ -22,16 +22,24 @@ sudo cpan App::perlbrew
 msg "=== Initializing perlbrew..."
 perlbrew init
 
-msg "=== Installing Perl 5.14.2..."
-perlbrew install perl-5.14.2
-
 msg "=== Using perlbrew..."
 source ${HOME}/perl5/perlbrew/etc/bashrc
+
+msg "=== Installing Perl 5.14.2..."
+perlbrew install perl-5.14.2
 
 msg "=== Installing cpanm..."
 perlbrew install-cpanm
 
 install_module CPAN::Mini
 install_module Bundle::CPAN
+
+install_module Crypt::SSLeay
+install_module Test::Reporter::Transport::Metabase
+install_module CPAN::Reporter
 install_module Task::Kensho
+install_module Dist::Zilla
+install_module Dist::Zilla::PluginBundle::Author::RUSSOZ
+
+
 

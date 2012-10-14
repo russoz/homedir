@@ -9,7 +9,7 @@ die() {
 	exit 1
 }
 
-remove_dir() {
+remove_file() {
 	msg "===== Removing File/Directory" "$1"
 	rm -rf "$1"
 }
@@ -17,6 +17,11 @@ remove_dir() {
 remove_subdirs() {
 	msg "===== Removing Sub-Directories of" "$1"
 	rm -rf "$1"/*
+}
+
+remove_filespec() {
+	msg "===== Removing files with " "$@"
+	find . "$@" -print -exec rm -rf {} \; >&2
 }
 
 msg "=== Works in HOME directory"
@@ -28,7 +33,7 @@ remove_subdirs .cpan/build
 remove_subdirs .local/share/.cpan/build
 
 msg "=== Cleaning mini-cpan mirror"
-remove_dir mirrors/minicpan
+remove_file mirrors/minicpan
 
 msg "=== Cleaning Mozilla caches"
 remove_subdirs .mozilla/firefox/*.default/Cache
@@ -40,4 +45,10 @@ remove_subdirs .thunderbird/*.default/Cache
 
 msg "=== Cleaning varied caches"
 remove_subdirs .cache
+
+msg "=== Cleaning backup files"
+remove_filespec -name '*~'
+remove_filespec -name '*.bak'
+
+
 

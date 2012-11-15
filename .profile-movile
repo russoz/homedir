@@ -3,10 +3,28 @@
 
 MOVILE_DIR=${HOME}/etc/movile
 
+alias nagios='ssh 200.189.163.155'
 alias alog142='ssh 200.219.220.149'
+alias alog158='ssh 200.219.220.158'
+alias alog178='ssh 200.219.220.178'
+alias alog181='ssh 200.219.220.181'
+alias dwarf4='alog178'
 alias vendetta='ssh 200.189.182.235'
 alias movile235='vendetta'
+alias publisher='diveo148'
+alias petras='diveo148'
 alias diveo149='ssh 200.189.163.149'
+alias diveo28='ssh 200.189.169.28'
+alias diveo13='ssh 200.189.169.13'
+alias diveo46='ssh 200.189.169.46'
+alias diveo148='ssh 200.189.163.148'
+alias movile13='diveo13'
+alias backoffice='diveo149'
+
+alias amazon-ip-10-60-39-60='ssh 174.129.253.114'
+alias domU-12-31-39-10-49-7F='ssh 23.23.194.84'
+alias hermes02='domU-12-31-39-10-49-7F'
+alias mozcapag='amazon-ip-10-60-39-60'
 
 alias vpn="sudo openvpn --config $MOVILE_DIR/client.ovpn"
 

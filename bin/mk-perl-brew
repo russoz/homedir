@@ -41,5 +41,6 @@ install_module Task::Kensho
 install_module Dist::Zilla
 install_module Dist::Zilla::PluginBundle::Author::RUSSOZ
 
+install_module Module::Version
 
 

@@ -3,6 +3,10 @@
 
 MOVILE_DIR=${HOME}/etc/movile
 
+alias amazon_hermes01='ssh 107.21.100.89'
+alias hermes01='amazon_hermes01'
+alias amazon_hermes02='ssh 23.23.194.84'
+alias hermes02='amazon_hermes02'
 alias nagios='ssh 200.189.163.155'
 alias alog142='ssh 200.219.220.149'
 alias alog158='ssh 200.219.220.158'

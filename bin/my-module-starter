@@ -1,3 +1,0 @@
-[ -z "$1" ] && echo "usage: my-module-starter Module::Name" >&2 && exit 1
-
-module-starter --mi --module="$1"

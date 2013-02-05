@@ -1,0 +1,13 @@
+#!/usr/bin/env perl
+
+use DateTime;
+
+my $time = shift || time;
+my $dt = DateTime->from_epoch( epoch => $time );
+
+print "\n";
+printf "%8s %s\n", 'Epoch', $time;
+printf "%8s %s\n", 'UTC', $dt->datetime;
+printf "%8s %s\n", 'Brazil', $dt->set_time_zone('America/Sao_Paulo')->datetime;
+print "\n";
+

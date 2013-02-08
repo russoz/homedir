@@ -111,3 +111,5 @@ export GPGKEY='71CA9F3C'
 export MANPAGER="/usr/bin/most -s"
 export BROWSER='/usr/bin/firefox'
 export CDPATH='.:~'
+export PYTHONPATH="${HOME}/python/lib"
+

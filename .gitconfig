@@ -1,6 +1,7 @@
 [user]
 	name = Alexei Znamensky
-	email = russoz@cpan.org
+	#email = russoz@cpan.org
+	email = alexei.znamensky@movile.com
 [alias]
 	sh = !git-sh
     co = checkout
@@ -25,3 +26,5 @@
 	history-view-vpane-position = 638
 [push]
 	default = matching
+[reviewboard]
+	url = http://reviewboard.movile.com/

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+BASE=/home/az/movile/repos
+
+cd $BASE
+
+for i in *; do
+	echo "======= $i" >&2
+	( cd "$i"; git pull --all)
+done
+

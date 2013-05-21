@@ -1,7 +1,5 @@
 #!/bin/bash
 
 export GDK_NATIVE_WINDOWS=1
-export JAVA_HOME=/usr/lib/j2sdk1.6-ibm
-export PATH=${JAVA_HOME}/bin:${PATH}
 
 exec /home/az/eclipse/eclipse "$@"

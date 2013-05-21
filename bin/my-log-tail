@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd /var/log
+exec tail -F syslog kern.log dmesg auth.log
+

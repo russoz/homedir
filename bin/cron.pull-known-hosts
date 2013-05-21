@@ -1,0 +1,15 @@
+#!/bin/bash
+
+KDHIR=$(mktemp)
+
+mkdir -v -p ${KHDIR}
+cd ${KHDIR}
+
+wget --no-check-certificate -c https://mordor.datac.movile.com/shared/ssh_known_hosts
+
+sudo cp ssh_known_hosts /etc/ssh
+
+sudo chown root:root /etc/ssh/ssh_known_hosts
+sudo chmod 600 /etc/ssh/ssh_known_hosts
+
+

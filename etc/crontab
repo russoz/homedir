@@ -9,6 +9,6 @@
 #00    14  *    *    6    ${HOME}/perl5/bin/minicpan >${HOME}/tmp/minicpan.out 2>${HOME}/tmp/minicpan.err
 
 
-00    14  *    *    *    ${HOME}/bin/movile-update-git >/dev/null 2>&1
+00    14  *    *    *    ${HOME}/bin/movile-git-pull-all >/dev/null 2>&1
 00    3   *    *    *    ${HOME}/bin/cron.pull-known-hosts >/dev/null 2>&1
 

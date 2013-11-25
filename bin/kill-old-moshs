@@ -1,0 +1,14 @@
+#!/bin/bash
+
+ps -e -o "user time pid comm" \
+| grep mosh-server \
+| grep "^$(uid -u)" \
+| sort -n \
+| {
+    read newest
+    while read MOSHUSER MOSHTIME MOSHPID MOSHMOSH; do
+      echo "Killing old mosh (PID: $MOSHPID)" >&2
+      kill -TERM $MOSHPID
+    done
+  }
+

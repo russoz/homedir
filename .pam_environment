@@ -1,1 +1,2 @@
 TMPDIR=/home/az/.tmp
+BROWSER=/usr/bin/google-chrome

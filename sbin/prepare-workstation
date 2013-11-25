@@ -1,0 +1,34 @@
+#!/usr/bin/sudo /bin/bash
+
+MF_SRC="${HOME}/etc/puppet/manifests"
+
+CLIENT_DEF=/etc/default/puppet
+CONFIGDIR=/etc/puppet
+MANIFESTS="${CONFIGDIR}/manifests"
+CLASSES="${MANIFESTS}/manifests/classes"
+
+CP='/bin/cp --preserve=mode,ownership,timestamps'
+
+# Installation
+
+apt-get update
+apt-get -y install puppetmaster rdoc puppet
+
+perl -i -ple 's/START=no/START=yes/' $CLIENT_DEF
+/usr/sbin/service puppet restart
+
+perl -i -nle '
+    if( /^127\.0\.0\.1.*localhost/ ) {
+        print $_ . q( puppet)
+    }
+    else {
+        print
+    }
+' /etc/hosts
+
+# Setup
+
+mkdir -p $CLASSES
+
+$CP ${MF_SRC}/site.pp        ${MANIFESTS}
+$CP ${MF_SRC}/pkg_install.pp ${MANIFESTS}

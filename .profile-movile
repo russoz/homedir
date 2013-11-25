@@ -3,79 +3,21 @@
 
 MOVILE_DIR=${HOME}/etc/movile
 
-alias amazon_hermes01='ssh 107.21.100.89'
-alias hermes01='amazon_hermes01'
-alias amazon_hermes02='ssh 23.23.194.84'
-alias hermes02='amazon_hermes02'
-alias nagios='ssh 200.189.163.155'
-
-alias alog99='ssh 200.219.220.99'
-alias alog142='ssh 200.219.220.149'
-alias alog152='ssh 200.219.220.152'
-alias alog158='ssh 200.219.220.158'
-alias alog159='ssh 200.219.220.159'
-alias alog171='ssh 200.219.220.171'
-alias alog173='ssh 200.219.220.173'
-alias alog178='ssh 200.219.220.178'
-alias alog181='ssh 200.219.220.181'
-alias alog186='ssh 200.219.220.186'
-alias alog187='ssh 200.219.220.187'
-alias alog208='ssh 200.219.220.208'
-
-alias vendetta='ssh 200.189.182.235'
-
-alias diveo10='ssh 200.189.169.10'
-alias diveo11='ssh 200.189.169.11'
-alias diveo12='ssh 200.189.169.12'
-alias diveo13='ssh 200.189.169.13'
-alias diveo14='ssh 200.189.169.14'
-alias diveo15='ssh 200.189.169.15'
-alias diveo16='ssh 200.189.169.16'
-alias diveo19='ssh 200.189.169.19'
-alias diveo28='ssh 200.189.169.28'
-alias diveo41='ssh 200.189.169.41'
-alias diveo46='ssh 200.189.169.46'
-
-alias diveo148='ssh 200.189.163.148'
-alias diveo149='ssh 200.189.163.149'
-alias diveo156='ssh 200.189.163.156'
-alias diveo157='ssh 200.189.163.157'
-alias diveo227='ssh 200.189.182.227'
-alias diveo229='ssh 200.189.182.229'
-alias diveo237='ssh 200.189.182.237'
-alias diveo243='ssh 200.189.182.243'
-alias diveo244='ssh 200.189.182.244'
-alias diveo245='ssh 200.189.182.245'
-alias diveo246='ssh 200.189.182.246'
-alias diveo249='ssh 200.189.182.249'
-
-alias diveo48='ssh 172.29.29.48'
-alias diveo82='ssh 172.29.29.82'
-alias diveo82='ssh 172.29.29.82'
-alias diveo83='ssh 172.29.29.83'
-alias diveo89='ssh 172.29.29.89'
-alias diveo90='ssh 172.29.29.90'
-alias diveo91='ssh 172.29.29.91'
-alias diveo97='ssh 172.29.29.97'
-alias diveo98='ssh 172.29.29.98'
-alias diveo100='ssh 172.29.29.100'
-alias diveo107='ssh 172.29.29.107'
-alias diveo108='ssh 172.29.29.108'
-alias diveo109='ssh 172.29.29.109'
-alias diveo111='ssh 172.29.29.111'
-
-############# DWARFS
-alias dwarf4='alog178'
-alias dwarf13b='diveo111'
 
 alias backoffice='diveo149'
 
 alias mozcapag='ssh 174.129.253.114'
 alias mozca-db-time='mozcapag "tail -F /movile/mozca_system_log/*.log" | grep " Delay" | grep VERIFY --color'
 
+mozca-busca-log-check-billing() {
+	local d=$(/bin/mktemp -d "mozca.$(date +%Y%m%H).XXXXX" )
+
+	cd $d
+	rsync -avzP 174.129.253.114:/tmp/check_billing_micropgto .
+}
+
 alias vpn="sudo openvpn --config $MOVILE_DIR/client.ovpn"
 
-alias jira="${HOME}/lib/jiraclient-3_0_2/bin/jiraclient.sh"
 
 ############# PETRAS
 alias publisher='diveo148'

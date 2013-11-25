@@ -10,7 +10,6 @@ syntax on
 
 " From http://jmcpherson.org/vimrc.html
 set incsearch
-set ruler
 set showmatch
 set autoindent
 set smartindent
@@ -18,8 +17,10 @@ set smartindent
 " From http://people.smu.edu/jrobinet/howto/customize-vim.asp
 set nocompatible
 " show ruler and commands
-" set ruler
+set ruler
 set showcmd
 " use spaces instead of tabs
-set sw=4 sts=4 ts=4
-
+set sw=4
+set sts=4
+set ts=4
+set et

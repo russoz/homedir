@@ -1,0 +1,3 @@
+#!/bin/bash
+
+exec sudo /usr/sbin/openvpn --config /home/az/etc/movile/client.ovpn

@@ -6,6 +6,6 @@ cd $BASE
 
 for i in *; do
 	echo "======= $i" >&2
-	( cd "$i"; git pull --all)
+    [[ -d $i/.git ]] && ( cd "$i"; git pull --all )
 done
 
